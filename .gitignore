@@ -1,0 +1,9 @@
+node_modules/
+.env
+.env.local
+data/processed/
+runtime/
+*.log
+.DS_Store
+__pycache__/
+evidence/audio/*.wav

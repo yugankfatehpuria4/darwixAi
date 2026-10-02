@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Calls Dashboard</title>
+  <link rel="stylesheet" href="/app.css">
+</head>
+<body>
+<header class="top">
+  <h1>Darwix voice AI</h1>
+  <nav><a href="/call.html">Web call</a><a href="/dashboard.html" class="on">Calls &amp; KB</a><a href="/live.html">Live nudges</a></nav>
+</header>
+<main class="stack">
+  <section class="panel">
+    <h2>Knowledge base search</h2>
+    <form class="controls" id="searchForm">
+      <select id="market">
+        <option value="in_health">in_health</option>
+        <option value="ph_life">ph_life</option>
+        <option value="id_finance">id_finance</option>
+      </select>
+      <input type="text" id="query" placeholder="Ask what a caller would ask, e.g. is cosmetic surgery covered">
+      <button class="primary">Search</button>
+    </form>
+    <div id="searchResult" class="muted" style="margin-top:10px"></div>
+  </section>
+  <div class="grid">
+    <section class="panel">
+      <h2>Calls (newest first)</h2>
+      <table><thead><tr><th>Call</th><th>Market</th><th>Outcome</th><th>Escalated</th></tr></thead><tbody id="calls"></tbody></table>
+    </section>
+    <section class="panel stack">
+      <h2>Call detail</h2>
+      <div id="detail" class="muted">Pick a call.</div>
+    </section>
+  </div>
+</main>
+<script>
+const $ = (id) => document.getElementById(id);
+const headers = () => { const token = sessionStorage.getItem("demoToken"); return token ? { authorization: `Bearer ${token}` } : {}; };
+const escapeHtml = (value) => String(value ?? "").replace(/[&<>"]/g, (character) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[character]);
+
+async function get(path) { const response = await fetch(path, { headers: headers() }); return response.json(); }
+
+$("searchForm").onsubmit = async (event) => {
+  event.preventDefault();
+  const response = await fetch("/api/knowledge/search", { method: "POST", headers: { "content-type": "application/json", ...headers() }, body: JSON.stringify({ query: $("query").value, market: $("market").value }) });
+  const result = await response.json();
+  if (!response.ok) { $("searchResult").textContent = result.error?.message; return; }
+  const verdict = result.answerable ? `<span class="badge">answerable</span>` : `<span class="badge bad">refused: ${escapeHtml(result.reason)}</span>`;
+  $("searchResult").innerHTML = `${verdict} confidence ${result.confidence.toFixed(3)}<br><span class="muted">expanded query: ${escapeHtml(result.expanded_query)}</span>` +
+    `<table><thead><tr><th>#</th><th>Citation</th><th>cosine / bm25</th><th>Content</th></tr></thead><tbody>` +
+    result.hits.map((hit) => `<tr><td>${hit.rank}</td><td>${escapeHtml(hit.citation)}<br><span class="badge">${hit.category}</span> <span class="badge warn">${hit.audience}</span></td><td>${hit.cosine} / ${hit.bm25}</td><td>${escapeHtml(hit.content.slice(0, 280))}</td></tr>`).join("") +
+    `</tbody></table>`;
+};
+
+async function loadCalls() {
+  const { calls } = await get("/api/calls");
+  $("calls").innerHTML = calls.map((call) => `<tr class="clickable" data-id="${call.call_id}"><td>${call.call_id}<br><span class="muted">${call.started_at.slice(0, 19).replace("T", " ")} UTC</span></td><td>${call.market}</td><td>${escapeHtml(call.outcome?.status ?? "in progress")}</td><td>${call.escalated ? "yes" : ""}</td></tr>`).join("");
+  document.querySelectorAll("#calls tr").forEach((row) => (row.onclick = () => showCall(row.dataset.id)));
+}
+
+function percentile(values, p) {
+  const sorted = values.filter((value) => typeof value === "number").sort((a, b) => a - b);
+  if (!sorted.length) return "-";
+  return `${sorted[Math.min(sorted.length - 1, Math.ceil((p / 100) * sorted.length) - 1)]} ms`;
+}
+
+async function showCall(id) {
+  const call = await get(`/api/calls/${id}`);
+  const turns = call.turns.map((turn) => {
+    const retrieval = turn.retrieval;
+    const notes = [turn.intent && `intent ${turn.intent}`, turn.event && `event ${turn.event}`, turn.asr_confidence && `asr ${turn.asr_confidence}`, turn.barged_in && "barged in",
+      retrieval && (retrieval.answerable ? `KB ${retrieval.answer_mode} ${retrieval.chunk_ids.join(", ")} conf ${retrieval.confidence}` : `KB refused (${retrieval.reason})`),
+      retrieval?.llm_error && `LLM fell back: ${retrieval.llm_error}`].filter(Boolean).join(" | ");
+    return `<div class="turn ${turn.speaker}">${escapeHtml(turn.text || `(${turn.event})`)}${notes ? `<div class="meta">${escapeHtml(notes)}</div>` : ""}${retrieval?.answerable ? `<div class="meta">${escapeHtml(retrieval.citations[0])}</div>` : ""}</div>`;
+  }).join("");
+  const latencies = call.latencies || [];
+  const summary = ["asr_ms", "retrieval_ms", "llm_ms", "server_total_ms", "tts_start_ms"].map((key) => `<tr><td>${key}</td><td>${percentile(latencies.map((row) => row[key]), 50)}</td><td>${percentile(latencies.map((row) => row[key]), 95)}</td><td>${latencies.filter((row) => typeof row[key] === "number").length}</td></tr>`).join("");
+  $("detail").innerHTML = `<div class="transcript">${turns}</div>` +
+    `<h2>Outcome</h2><pre>${escapeHtml(JSON.stringify(call.outcome, null, 2))}</pre>` +
+    `<h2>Latency</h2><table><thead><tr><th>Hop</th><th>p50</th><th>p95</th><th>n</th></tr></thead><tbody>${summary}</tbody></table>`;
+}
+
+loadCalls();
+</script>
+</body>
+</html>

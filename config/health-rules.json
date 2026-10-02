@@ -1,0 +1,35 @@
+{
+  "_note": "Deterministic business rules for the Family Shield lead-qualification bot. Every value cites the KB section it comes from; tests/rules.test.ts fails if the KB text and these numbers drift apart. SYNTHETIC: derived from the fictional sample corpus.",
+  "entry_age": {
+    "adult_min": 18,
+    "adult_max": 65,
+    "source": "health/policies/qualification-rules.md#Rule Q1: Entry age"
+  },
+  "children": {
+    "min_days": 91,
+    "max_years": 25,
+    "source": "health/policies/qualification-rules.md#Rule Q2: Children"
+  },
+  "required_fields": {
+    "fields": ["members_to_cover", "eldest_member_age", "city", "pre_existing_disease", "existing_cover"],
+    "optional": ["sum_insured"],
+    "source": "health/policies/qualification-rules.md#Rule Q5: Required fields for a qualified lead"
+  },
+  "sum_insured_options_lakh": {
+    "values": [5, 10, 15, 25],
+    "source": "health/website/family-shield.html#Coverage amount options"
+  },
+  "escalation": {
+    "unanswered_questions_before_transfer": 2,
+    "source": "health/policies/qualification-rules.md#Rule Q6: Human escalation"
+  },
+  "premium_chart": {
+    "path": "health/tables/family-shield-premium-chart.csv",
+    "basis": "individual, per member, annual, indicative",
+    "source": "health/tables/family-shield-premium-chart.csv"
+  },
+  "disclosures": {
+    "recording": "health/scripts/lead-qualification-script.md#Call recording disclosure",
+    "waiting_period_before_quote": "health/scripts/lead-qualification-script.md#Waiting period disclosure"
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "call_id": "call_20261002_f26d9fb5",
+  "market": "ph_life",
+  "started_at": "2026-10-02T06:00:00.000Z",
+  "today": "2026-10-02",
+  "stage": "ended",
+  "register": "taglish",
+  "slots": {
+    "policy_last4": {
+      "value": "4821",
+      "heard": "4821",
+      "turn": 3
+    },
+    "payment_date": {
+      "value": "hardship",
+      "heard": "Nawalan po ako ng trabaho last month, hindi ko po kaya ngayon",
+      "turn": 5
+    }
+  },
+  "skipped": [
+    "payment_channel"
+  ],
+  "pending_conflict": null,
+  "unanswered_questions": 0,
+  "consecutive_silence": 0,
+  "consecutive_unclear": 0,
+  "disclosures_given": [
+    "recording"
+  ],
+  "identity_attempts": 0,
+  "outcome": {
+    "status": "hardship_extension_callback",
+    "next_action": "advisor_callback_premium_extension",
+    "reasons": [
+      "customer reported hardship (job loss, illness or calamity)"
+    ],
+    "rule_sources": [
+      "ph/policies/payment-lapse-reinstatement.md#Hardship assistance"
+    ],
+    "details": {
+      "due_date": "2026-10-07",
+      "grace_end": "2026-11-07"
+    }
+  },
+  "escalated": false,
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "bot",
+      "text": "Magandang hapon po! Si Lia po ito, virtual assistant ng Kalinga Life, partner ng Bayanihan Bank. Para po sa quality at training purposes, naka-record po ang tawag na ito. Si Ma'am [CUSTOMER_NAME] po ba ang kausap ko?",
+      "at": "2026-10-02T06:00:00.000Z",
+      "register": "taglish",
+      "intent": "greeting"
+    },
+    {
+      "index": 1,
+      "speaker": "customer",
+      "text": "Opo",
+      "at": "2026-10-02T06:00:12.000Z",
+      "intent": "consent_yes",
+      "register": "taglish"
+    },
+    {
+      "index": 2,
+      "speaker": "bot",
+      "text": "Salamat po, Ma'am. Para po sa security, pwede ko po bang makuha ang huling apat na digits ng policy number ninyo?",
+      "at": "2026-10-02T09:45:53.169Z",
+      "register": "taglish"
+    },
+    {
+      "index": 3,
+      "speaker": "customer",
+      "text": "4821",
+      "at": "2026-10-02T06:00:24.000Z",
+      "intent": "slot:policy_last4",
+      "register": "taglish"
+    },
+    {
+      "index": 4,
+      "speaker": "bot",
+      "text": "Salamat po, verified na po kayo. Tumatawag po ako para ipaalala na ang quarterly premium ng Kalinga Protect ninyo na 7,350 pesos ay due sa Miyerkules, ika-7 ng Oktubre. Kung sakaling ma-late po, may 31 days po kayong grace period mula sa due date. Kailan po kaya kayo makakapagbayad?",
+      "at": "2026-10-02T09:45:53.170Z",
+      "register": "taglish"
+    },
+    {
+      "index": 5,
+      "speaker": "customer",
+      "text": "Nawalan po ako ng trabaho last month, hindi ko po kaya ngayon",
+      "at": "2026-10-02T06:00:36.000Z",
+      "intent": "slot:payment_date",
+      "register": "taglish"
+    },
+    {
+      "index": 6,
+      "speaker": "bot",
+      "text": "Naiintindihan ko po, at pasensya na po sa pinagdadaanan ninyo. Ise-schedule ko po kayo ng callback sa isang Kalinga Life advisor para sa premium payment extension, hanggang 60 days, isang beses kada policy year. Ang advisor po ang mag-a-approve, kaya hindi ko po ito maipapangako. Salamat po, ingat po kayo.",
+      "at": "2026-10-02T09:45:53.171Z",
+      "register": "taglish"
+    }
+  ],
+  "latencies": [
+    {
+      "turn": 1,
+      "understand_ms": 0.2,
+      "server_total_ms": 0.2
+    },
+    {
+      "turn": 3,
+      "understand_ms": 0.2,
+      "server_total_ms": 0.2
+    },
+    {
+      "turn": 5,
+      "understand_ms": 0.3,
+      "server_total_ms": 0.3
+    }
+  ],
+  "known_pii": []
+}

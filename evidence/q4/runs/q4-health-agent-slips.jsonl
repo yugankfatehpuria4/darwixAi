@@ -1,0 +1,258 @@
+{"type":"started","call":"q4-health-agent-slips","market":"in_health","asr":"simulated (timeline replay)","asr_measured":false,"duration_ms":62642,"client_received_at":1790933527473}
+{"type":"partial","index":0,"speaker":"agent","text":"Hi,","client_received_at":1790933527722}
+{"type":"partial","index":0,"speaker":"agent","text":"Hi, am","client_received_at":1790933528221}
+{"type":"partial","index":0,"speaker":"agent","text":"Hi, am I","client_received_at":1790933528471}
+{"type":"audio","position_ms":1000,"client_received_at":1790933528471}
+{"type":"partial","index":0,"speaker":"agent","text":"Hi, am I speaking","client_received_at":1790933528971}
+{"type":"partial","index":0,"speaker":"agent","text":"Hi, am I speaking with","client_received_at":1790933529221}
+{"type":"partial","index":0,"speaker":"agent","text":"Hi, am I speaking with Mr","client_received_at":1790933529471}
+{"type":"audio","position_ms":2000,"client_received_at":1790933529471}
+{"type":"partial","index":0,"speaker":"agent","text":"Hi, am I speaking with Mr Rohan?","client_received_at":1790933529723}
+{"type":"partial","index":0,"speaker":"agent","text":"Hi, am I speaking with Mr Rohan? This","client_received_at":1790933530221}
+{"type":"partial","index":0,"speaker":"agent","text":"Hi, am I speaking with Mr Rohan? This is","client_received_at":1790933530471}
+{"type":"audio","position_ms":3000,"client_received_at":1790933530471}
+{"type":"partial","index":0,"speaker":"agent","text":"Hi, am I speaking with Mr Rohan? This is Vikram","client_received_at":1790933530720}
+{"type":"partial","index":0,"speaker":"agent","text":"Hi, am I speaking with Mr Rohan? This is Vikram from","client_received_at":1790933531220}
+{"type":"partial","index":0,"speaker":"agent","text":"Hi, am I speaking with Mr Rohan? This is Vikram from Suraksha","client_received_at":1790933531471}
+{"type":"audio","position_ms":4000,"client_received_at":1790933531471}
+{"type":"partial","index":0,"speaker":"agent","text":"Hi, am I speaking with Mr Rohan? This is Vikram from Suraksha Health.","client_received_at":1790933531721}
+{"type":"partial","index":0,"speaker":"agent","text":"Hi, am I speaking with Mr Rohan? This is Vikram from Suraksha Health. You","client_received_at":1790933531971}
+{"type":"partial","index":0,"speaker":"agent","text":"Hi, am I speaking with Mr Rohan? This is Vikram from Suraksha Health. You filled","client_received_at":1790933532473}
+{"type":"audio","position_ms":5000,"client_received_at":1790933532473}
+{"type":"partial","index":0,"speaker":"agent","text":"Hi, am I speaking with Mr Rohan? This is Vikram from Suraksha Health. You filled in","client_received_at":1790933532721}
+{"type":"partial","index":0,"speaker":"agent","text":"Hi, am I speaking with Mr Rohan? This is Vikram from Suraksha Health. You filled in our","client_received_at":1790933532971}
+{"type":"partial","index":0,"speaker":"agent","text":"Hi, am I speaking with Mr Rohan? This is Vikram from Suraksha Health. You filled in our form","client_received_at":1790933533471}
+{"type":"audio","position_ms":6000,"client_received_at":1790933533471}
+{"type":"partial","index":0,"speaker":"agent","text":"Hi, am I speaking with Mr Rohan? This is Vikram from Suraksha Health. You filled in our form for","client_received_at":1790933533721}
+{"type":"partial","index":0,"speaker":"agent","text":"Hi, am I speaking with Mr Rohan? This is Vikram from Suraksha Health. You filled in our form for health","client_received_at":1790933533971}
+{"type":"transcript","segment":{"index":0,"speaker":"agent","text":"Hi, am I speaking with Mr Rohan? This is Vikram from Suraksha Health. You filled in our form for health insurance.","confidence":0.92,"start_ms":0,"end_ms":6721,"interrupted_previous":false,"t_audio_received":1790933534221,"t_transcribed":1790933534221},"client_received_at":1790933534222}
+{"type":"audio","position_ms":7000,"client_received_at":1790933534473}
+{"type":"partial","index":1,"speaker":"customer","text":"Yes,","client_received_at":1790933534722}
+{"type":"partial","index":1,"speaker":"customer","text":"Yes, that's","client_received_at":1790933535471}
+{"type":"audio","position_ms":8000,"client_received_at":1790933535471}
+{"type":"transcript","segment":{"index":1,"speaker":"customer","text":"Yes, that's me.","confidence":0.92,"start_ms":7171,"end_ms":8194,"interrupted_previous":false,"t_audio_received":1790933535720,"t_transcribed":1790933535720},"client_received_at":1790933535726}
+{"type":"insight","kind":"sentiment","segment_index":1,"value":0,"client_received_at":1790933535726}
+{"type":"partial","index":2,"speaker":"agent","text":"Great.","client_received_at":1790933536220}
+{"type":"audio","position_ms":9000,"client_received_at":1790933536471}
+{"type":"partial","index":2,"speaker":"agent","text":"Great. So","client_received_at":1790933536721}
+{"type":"partial","index":2,"speaker":"agent","text":"Great. So who","client_received_at":1790933536971}
+{"type":"partial","index":2,"speaker":"agent","text":"Great. So who do","client_received_at":1790933537221}
+{"type":"partial","index":2,"speaker":"agent","text":"Great. So who do you","client_received_at":1790933537471}
+{"type":"audio","position_ms":10000,"client_received_at":1790933537471}
+{"type":"partial","index":2,"speaker":"agent","text":"Great. So who do you want","client_received_at":1790933537721}
+{"type":"partial","index":2,"speaker":"agent","text":"Great. So who do you want to","client_received_at":1790933537971}
+{"type":"partial","index":2,"speaker":"agent","text":"Great. So who do you want to cover,","client_received_at":1790933538222}
+{"type":"partial","index":2,"speaker":"agent","text":"Great. So who do you want to cover, and","client_received_at":1790933538470}
+{"type":"audio","position_ms":11000,"client_received_at":1790933538470}
+{"type":"partial","index":2,"speaker":"agent","text":"Great. So who do you want to cover, and what","client_received_at":1790933538721}
+{"type":"partial","index":2,"speaker":"agent","text":"Great. So who do you want to cover, and what is","client_received_at":1790933538972}
+{"type":"partial","index":2,"speaker":"agent","text":"Great. So who do you want to cover, and what is your","client_received_at":1790933539471}
+{"type":"audio","position_ms":12000,"client_received_at":1790933539471}
+{"type":"transcript","segment":{"index":2,"speaker":"agent","text":"Great. So who do you want to cover, and what is your age?","confidence":0.92,"start_ms":8644,"end_ms":12018,"interrupted_previous":false,"t_audio_received":1790933539720,"t_transcribed":1790933539720},"client_received_at":1790933539722}
+{"type":"nudge","nudge":{"id":"n1","topic":"compliance:recording_disclosure","priority":"high","text":"Recording notice not given yet. Say it before collecting any more details.","confidence":0.828,"evidence":"Great. So who do you want to cover, and what is your age?","segment_index":2,"citation":{"record_id":"kb_in_health_compliance_c8daf7","citation":"Family Shield Outbound Lead Qualification Script > Call recording disclosure [kb_in_health_compliance_c8daf7] (internal://sales/lead-qualification-script-v3.1, v3.1, effective 2026-04-01)","snippet":"Before collecting any personal details, the agent must say: \"This call is recorded for quality and training purposes.\" If the customer does not agree to recording, the agent must offer a callback from a human advisor and must not continue ..."},"created_at":1790933539721,"expires_at":1790933659721,"timings":{"t_audio_received":1790933539720,"t_transcribed":1790933539720,"t_signal":1790933539721,"kb_ms":0.5,"t_ready":1790933539721},"t_sent":1790933539721},"client_received_at":1790933539722}
+{"type":"partial","index":3,"speaker":"customer","text":"Me","client_received_at":1790933539972}
+{"type":"audio","position_ms":13000,"client_received_at":1790933540471}
+{"type":"partial","index":3,"speaker":"customer","text":"Me and","client_received_at":1790933540721}
+{"type":"partial","index":3,"speaker":"customer","text":"Me and my","client_received_at":1790933540971}
+{"type":"partial","index":3,"speaker":"customer","text":"Me and my wife.","client_received_at":1790933541472}
+{"type":"audio","position_ms":14000,"client_received_at":1790933541472}
+{"type":"partial","index":3,"speaker":"customer","text":"Me and my wife. I'm","client_received_at":1790933541721}
+{"type":"partial","index":3,"speaker":"customer","text":"Me and my wife. I'm 36","client_received_at":1790933542224}
+{"type":"partial","index":3,"speaker":"customer","text":"Me and my wife. I'm 36 and","client_received_at":1790933542471}
+{"type":"audio","position_ms":15000,"client_received_at":1790933542471}
+{"type":"partial","index":3,"speaker":"customer","text":"Me and my wife. I'm 36 and she's","client_received_at":1790933542721}
+{"type":"partial","index":3,"speaker":"customer","text":"Me and my wife. I'm 36 and she's 33.","client_received_at":1790933543220}
+{"type":"partial","index":3,"speaker":"customer","text":"Me and my wife. I'm 36 and she's 33. Actually","client_received_at":1790933543471}
+{"type":"audio","position_ms":16000,"client_received_at":1790933543471}
+{"type":"partial","index":3,"speaker":"customer","text":"Me and my wife. I'm 36 and she's 33. Actually my","client_received_at":1790933543721}
+{"type":"partial","index":3,"speaker":"customer","text":"Me and my wife. I'm 36 and she's 33. Actually my parents","client_received_at":1790933544220}
+{"type":"partial","index":3,"speaker":"customer","text":"Me and my wife. I'm 36 and she's 33. Actually my parents are","client_received_at":1790933544471}
+{"type":"audio","position_ms":17000,"client_received_at":1790933544471}
+{"type":"partial","index":3,"speaker":"customer","text":"Me and my wife. I'm 36 and she's 33. Actually my parents are 61","client_received_at":1790933544971}
+{"type":"partial","index":3,"speaker":"customer","text":"Me and my wife. I'm 36 and she's 33. Actually my parents are 61 and","client_received_at":1790933545221}
+{"type":"partial","index":3,"speaker":"customer","text":"Me and my wife. I'm 36 and she's 33. Actually my parents are 61 and 64","client_received_at":1790933545471}
+{"type":"audio","position_ms":18000,"client_received_at":1790933545471}
+{"type":"partial","index":3,"speaker":"customer","text":"Me and my wife. I'm 36 and she's 33. Actually my parents are 61 and 64 and","client_received_at":1790933545971}
+{"type":"partial","index":3,"speaker":"customer","text":"Me and my wife. I'm 36 and she's 33. Actually my parents are 61 and 64 and they","client_received_at":1790933546220}
+{"type":"partial","index":3,"speaker":"customer","text":"Me and my wife. I'm 36 and she's 33. Actually my parents are 61 and 64 and they don't","client_received_at":1790933546471}
+{"type":"audio","position_ms":19000,"client_received_at":1790933546471}
+{"type":"partial","index":3,"speaker":"customer","text":"Me and my wife. I'm 36 and she's 33. Actually my parents are 61 and 64 and they don't have","client_received_at":1790933546971}
+{"type":"partial","index":3,"speaker":"customer","text":"Me and my wife. I'm 36 and she's 33. Actually my parents are 61 and 64 and they don't have any","client_received_at":1790933547221}
+{"type":"audio","position_ms":20000,"client_received_at":1790933547471}
+{"type":"partial","index":3,"speaker":"customer","text":"Me and my wife. I'm 36 and she's 33. Actually my parents are 61 and 64 and they don't have any health","client_received_at":1790933547720}
+{"type":"partial","index":3,"speaker":"customer","text":"Me and my wife. I'm 36 and she's 33. Actually my parents are 61 and 64 and they don't have any health insurance","client_received_at":1790933547971}
+{"type":"partial","index":3,"speaker":"customer","text":"Me and my wife. I'm 36 and she's 33. Actually my parents are 61 and 64 and they don't have any health insurance at","client_received_at":1790933548222}
+{"type":"audio","position_ms":21000,"client_received_at":1790933548471}
+{"type":"transcript","segment":{"index":3,"speaker":"customer","text":"Me and my wife. I'm 36 and she's 33. Actually my parents are 61 and 64 and they don't have any health insurance at all.","confidence":0.92,"start_ms":12468,"end_ms":21043,"interrupted_previous":false,"t_audio_received":1790933548720,"t_transcribed":1790933548720},"client_received_at":1790933548725}
+{"type":"insight","kind":"sentiment","segment_index":3,"value":0,"client_received_at":1790933548725}
+{"type":"insight","kind":"topic","segment_index":3,"value":"eligibility","client_received_at":1790933548725}
+{"type":"nudge","nudge":{"id":"n2","topic":"opportunity:parents_cover","priority":"low","text":"Customer mentioned parents without cover. Parents up to 65 can be added to Family Shield; above 65 needs the senior plan.","confidence":0.782,"evidence":"Me and my wife. I'm 36 and she's 33. Actually my parents are 61 and 64 and they don't have any health insurance at all.","segment_index":3,"citation":{"record_id":"kb_in_health_eligibility_a2c567","citation":"Family Shield Health Plan > Who can buy Family Shield [kb_in_health_eligibility_a2c567] (https://suraksha-example.in/plans/family-shield, v1.0, effective 2026-04-01)","snippet":"The plan can be bought on an individual basis or as a family floater. A floater policy can cover the proposer, spouse, up to four dependent children and dependent parents or parents-in-law. Minimum entry age for adults is 18 years ..."},"created_at":1790933548722,"expires_at":1790933608722,"timings":{"t_audio_received":1790933548720,"t_transcribed":1790933548720,"t_signal":1790933548722,"kb_ms":1.8,"t_ready":1790933548724},"t_sent":1790933548724},"client_received_at":1790933548725}
+{"type":"partial","index":4,"speaker":"agent","text":"Okay,","client_received_at":1790933548971}
+{"type":"audio","position_ms":22000,"client_received_at":1790933549471}
+{"type":"partial","index":4,"speaker":"agent","text":"Okay, noted.","client_received_at":1790933549721}
+{"type":"partial","index":4,"speaker":"agent","text":"Okay, noted. Which","client_received_at":1790933550222}
+{"type":"partial","index":4,"speaker":"agent","text":"Okay, noted. Which city","client_received_at":1790933550471}
+{"type":"audio","position_ms":23000,"client_received_at":1790933550471}
+{"type":"partial","index":4,"speaker":"agent","text":"Okay, noted. Which city are","client_received_at":1790933550722}
+{"type":"partial","index":4,"speaker":"agent","text":"Okay, noted. Which city are you","client_received_at":1790933551221}
+{"type":"audio","position_ms":24000,"client_received_at":1790933551471}
+{"type":"transcript","segment":{"index":4,"speaker":"agent","text":"Okay, noted. Which city are you in?","confidence":0.92,"start_ms":21493,"end_ms":23891,"interrupted_previous":false,"t_audio_received":1790933551471,"t_transcribed":1790933551471},"client_received_at":1790933551471}
+{"type":"nudge_suppressed","topic":"compliance:recording_disclosure","reason":"duplicate: same topic still on screen","confidence":0.828,"segment_index":4,"client_received_at":1790933551471}
+{"type":"partial","index":5,"speaker":"customer","text":"Pune.","client_received_at":1790933551972}
+{"type":"transcript","segment":{"index":5,"speaker":"customer","text":"Pune.","confidence":0.92,"start_ms":24341,"end_ms":24690,"interrupted_previous":false,"t_audio_received":1790933552221,"t_transcribed":1790933552221},"client_received_at":1790933552222}
+{"type":"insight","kind":"sentiment","segment_index":5,"value":0,"client_received_at":1790933552222}
+{"type":"audio","position_ms":25000,"client_received_at":1790933552471}
+{"type":"partial","index":6,"speaker":"agent","text":"For","client_received_at":1790933552721}
+{"type":"partial","index":6,"speaker":"agent","text":"For you","client_received_at":1790933553221}
+{"type":"partial","index":6,"speaker":"agent","text":"For you and","client_received_at":1790933553470}
+{"type":"audio","position_ms":26000,"client_received_at":1790933553470}
+{"type":"partial","index":6,"speaker":"agent","text":"For you and your","client_received_at":1790933553721}
+{"type":"partial","index":6,"speaker":"agent","text":"For you and your wife,","client_received_at":1790933554221}
+{"type":"partial","index":6,"speaker":"agent","text":"For you and your wife, 10","client_received_at":1790933554471}
+{"type":"audio","position_ms":27000,"client_received_at":1790933554471}
+{"type":"partial","index":6,"speaker":"agent","text":"For you and your wife, 10 lakh","client_received_at":1790933554720}
+{"type":"partial","index":6,"speaker":"agent","text":"For you and your wife, 10 lakh cover","client_received_at":1790933554970}
+{"type":"partial","index":6,"speaker":"agent","text":"For you and your wife, 10 lakh cover would","client_received_at":1790933555221}
+{"type":"partial","index":6,"speaker":"agent","text":"For you and your wife, 10 lakh cover would be","client_received_at":1790933555471}
+{"type":"audio","position_ms":28000,"client_received_at":1790933555471}
+{"type":"partial","index":6,"speaker":"agent","text":"For you and your wife, 10 lakh cover would be around","client_received_at":1790933555720}
+{"type":"partial","index":6,"speaker":"agent","text":"For you and your wife, 10 lakh cover would be around fifteen","client_received_at":1790933555971}
+{"type":"partial","index":6,"speaker":"agent","text":"For you and your wife, 10 lakh cover would be around fifteen thousand","client_received_at":1790933556221}
+{"type":"partial","index":6,"speaker":"agent","text":"For you and your wife, 10 lakh cover would be around fifteen thousand rupees","client_received_at":1790933556472}
+{"type":"audio","position_ms":29000,"client_received_at":1790933556472}
+{"type":"partial","index":6,"speaker":"agent","text":"For you and your wife, 10 lakh cover would be around fifteen thousand rupees a","client_received_at":1790933556971}
+{"type":"transcript","segment":{"index":6,"speaker":"agent","text":"For you and your wife, 10 lakh cover would be around fifteen thousand rupees a year.","confidence":0.92,"start_ms":25140,"end_ms":29550,"interrupted_previous":false,"t_audio_received":1790933557221,"t_transcribed":1790933557221},"client_received_at":1790933557222}
+{"type":"nudge","nudge":{"id":"n3","topic":"compliance:price_before_disclosure","priority":"high","text":"Price given before the waiting-period disclosure. State the waiting periods now.","confidence":0.782,"evidence":"For you and your wife, 10 lakh cover would be around fifteen thousand rupees a year.","segment_index":6,"citation":{"record_id":"kb_in_health_compliance_60e97a","citation":"Family Shield Outbound Lead Qualification Script > Waiting period disclosure [kb_in_health_compliance_60e97a] (internal://sales/lead-qualification-script-v3.1, v3.1, effective 2026-04-01)","snippet":"Before discussing price or sharing a quote, the agent must tell the customer that illnesses are covered after a 30-day initial waiting period and pre-existing diseases after 3 years."},"created_at":1790933557221,"expires_at":1790933647221,"timings":{"t_audio_received":1790933557221,"t_transcribed":1790933557221,"t_signal":1790933557221,"kb_ms":0.5,"t_ready":1790933557222},"t_sent":1790933557222},"client_received_at":1790933557222}
+{"type":"audio","position_ms":30000,"client_received_at":1790933557471}
+{"type":"partial","index":7,"speaker":"customer","text":"Fifteen","client_received_at":1790933557720}
+{"type":"partial","index":7,"speaker":"customer","text":"Fifteen thousand?","client_received_at":1790933558470}
+{"type":"audio","position_ms":31000,"client_received_at":1790933558470}
+{"type":"partial","index":7,"speaker":"customer","text":"Fifteen thousand? That's","client_received_at":1790933558721}
+{"type":"partial","index":7,"speaker":"customer","text":"Fifteen thousand? That's too","client_received_at":1790933559221}
+{"type":"partial","index":7,"speaker":"customer","text":"Fifteen thousand? That's too expensive","client_received_at":1790933559472}
+{"type":"audio","position_ms":32000,"client_received_at":1790933559472}
+{"type":"partial","index":7,"speaker":"customer","text":"Fifteen thousand? That's too expensive for","client_received_at":1790933559970}
+{"type":"audio","position_ms":33000,"client_received_at":1790933560474}
+{"type":"transcript","segment":{"index":7,"speaker":"customer","text":"Fifteen thousand? That's too expensive for us.","confidence":0.92,"start_ms":30000,"end_ms":32782,"interrupted_previous":false,"t_audio_received":1790933560471,"t_transcribed":1790933560471},"client_received_at":1790933560474}
+{"type":"insight","kind":"sentiment","segment_index":7,"value":-1,"client_received_at":1790933560474}
+{"type":"nudge","nudge":{"id":"n4","topic":"objection:price","priority":"medium","text":"Price objection. Use the approved response: cost of one hospital stay, lower cover, floater, 10% family discount, monthly auto-debit.","confidence":0.736,"evidence":"Fifteen thousand? That's too expensive for us.","segment_index":7,"citation":{"record_id":"kb_in_health_objection_b81169","citation":"Family Shield Outbound Lead Qualification Script > Objection: the premium is too expensive [kb_in_health_objection_b81169] (internal://sales/lead-qualification-script-v3.1, v3.1, effective 2026-04-01)","snippet":"I understand, budget matters. One hospital stay can cost several lakh rupees, and your premium stays fixed for the year. We can look at a lower cover amount, a single family floater instead of separate policies, a 10% family discount ..."},"created_at":1790933560472,"expires_at":1790933605472,"timings":{"t_audio_received":1790933560471,"t_transcribed":1790933560471,"t_signal":1790933560472,"kb_ms":1.5,"t_ready":1790933560474},"t_sent":1790933560474},"client_received_at":1790933560474}
+{"type":"partial","index":8,"speaker":"agent","text":"It's","client_received_at":1790933560723}
+{"type":"partial","index":8,"speaker":"agent","text":"It's a","client_received_at":1790933561471}
+{"type":"audio","position_ms":34000,"client_received_at":1790933561471}
+{"type":"partial","index":8,"speaker":"agent","text":"It's a good","client_received_at":1790933561722}
+{"type":"partial","index":8,"speaker":"agent","text":"It's a good plan,","client_received_at":1790933562221}
+{"type":"partial","index":8,"speaker":"agent","text":"It's a good plan, sir.","client_received_at":1790933562472}
+{"type":"audio","position_ms":35000,"client_received_at":1790933562472}
+{"type":"partial","index":8,"speaker":"agent","text":"It's a good plan, sir. Most","client_received_at":1790933562721}
+{"type":"partial","index":8,"speaker":"agent","text":"It's a good plan, sir. Most people","client_received_at":1790933562971}
+{"type":"partial","index":8,"speaker":"agent","text":"It's a good plan, sir. Most people take","client_received_at":1790933563471}
+{"type":"audio","position_ms":36000,"client_received_at":1790933563471}
+{"type":"transcript","segment":{"index":8,"speaker":"agent","text":"It's a good plan, sir. Most people take it.","confidence":0.92,"start_ms":33232,"end_ms":36115,"interrupted_previous":false,"t_audio_received":1790933563721,"t_transcribed":1790933563721},"client_received_at":1790933563722}
+{"type":"partial","index":9,"speaker":"customer","text":"Hmm.","client_received_at":1790933564220}
+{"type":"audio","position_ms":37000,"client_received_at":1790933564471}
+{"type":"partial","index":9,"speaker":"customer","text":"Hmm. And","client_received_at":1790933564722}
+{"type":"partial","index":9,"speaker":"customer","text":"Hmm. And if","client_received_at":1790933565221}
+{"type":"partial","index":9,"speaker":"customer","text":"Hmm. And if my","client_received_at":1790933565472}
+{"type":"audio","position_ms":38000,"client_received_at":1790933565472}
+{"type":"partial","index":9,"speaker":"customer","text":"Hmm. And if my wife","client_received_at":1790933565721}
+{"type":"partial","index":9,"speaker":"customer","text":"Hmm. And if my wife gets","client_received_at":1790933565972}
+{"type":"partial","index":9,"speaker":"customer","text":"Hmm. And if my wife gets hospitalised,","client_received_at":1790933566472}
+{"type":"audio","position_ms":39000,"client_received_at":1790933566472}
+{"type":"partial","index":9,"speaker":"customer","text":"Hmm. And if my wife gets hospitalised, will","client_received_at":1790933566722}
+{"type":"partial","index":9,"speaker":"customer","text":"Hmm. And if my wife gets hospitalised, will the","client_received_at":1790933566970}
+{"type":"partial","index":9,"speaker":"customer","text":"Hmm. And if my wife gets hospitalised, will the claim","client_received_at":1790933567221}
+{"type":"audio","position_ms":40000,"client_received_at":1790933567471}
+{"type":"partial","index":9,"speaker":"customer","text":"Hmm. And if my wife gets hospitalised, will the claim actually","client_received_at":1790933567722}
+{"type":"partial","index":9,"speaker":"customer","text":"Hmm. And if my wife gets hospitalised, will the claim actually be","client_received_at":1790933567972}
+{"type":"transcript","segment":{"index":9,"speaker":"customer","text":"Hmm. And if my wife gets hospitalised, will the claim actually be paid?","confidence":0.92,"start_ms":36565,"end_ms":40676,"interrupted_previous":false,"t_audio_received":1790933568221,"t_transcribed":1790933568221},"client_received_at":1790933568223}
+{"type":"insight","kind":"sentiment","segment_index":9,"value":0,"client_received_at":1790933568223}
+{"type":"audio","position_ms":41000,"client_received_at":1790933568471}
+{"type":"partial","index":10,"speaker":"agent","text":"Don't","client_received_at":1790933568722}
+{"type":"partial","index":10,"speaker":"agent","text":"Don't worry,","client_received_at":1790933569474}
+{"type":"audio","position_ms":42000,"client_received_at":1790933569474}
+{"type":"partial","index":10,"speaker":"agent","text":"Don't worry, your","client_received_at":1790933569721}
+{"type":"partial","index":10,"speaker":"agent","text":"Don't worry, your claim","client_received_at":1790933570221}
+{"type":"partial","index":10,"speaker":"agent","text":"Don't worry, your claim will","client_received_at":1790933570470}
+{"type":"audio","position_ms":43000,"client_received_at":1790933570470}
+{"type":"partial","index":10,"speaker":"agent","text":"Don't worry, your claim will definitely","client_received_at":1790933570720}
+{"type":"partial","index":10,"speaker":"agent","text":"Don't worry, your claim will definitely be","client_received_at":1790933571223}
+{"type":"partial","index":10,"speaker":"agent","text":"Don't worry, your claim will definitely be approved,","client_received_at":1790933571472}
+{"type":"audio","position_ms":44000,"client_received_at":1790933571472}
+{"type":"partial","index":10,"speaker":"agent","text":"Don't worry, your claim will definitely be approved, a","client_received_at":1790933571971}
+{"type":"partial","index":10,"speaker":"agent","text":"Don't worry, your claim will definitely be approved, a hundred","client_received_at":1790933572221}
+{"type":"audio","position_ms":45000,"client_received_at":1790933572473}
+{"type":"transcript","segment":{"index":10,"speaker":"agent","text":"Don't worry, your claim will definitely be approved, a hundred percent.","confidence":0.92,"start_ms":41126,"end_ms":44945,"interrupted_previous":false,"t_audio_received":1790933572471,"t_transcribed":1790933572471},"client_received_at":1790933572473}
+{"type":"nudge","nudge":{"id":"n5","topic":"risk:prohibited_promise","priority":"high","text":"Risky statement: claim approval cannot be promised. Correct it: decisions depend on the policy terms.","confidence":0.828,"evidence":"Don't worry, your claim will definitely be approved, a hundred percent.","segment_index":10,"citation":{"record_id":"kb_in_health_compliance_acc7a4","citation":"Lead Qualification Rules: Family Shield > Rule Q7: Prohibited statements [kb_in_health_compliance_acc7a4] (internal://underwriting/qualification-rules-v2.0, v2.0, effective 2026-04-01)","snippet":"The agent must never guarantee claim approval, never quote a premium without the waiting-period disclosure, never offer a discount that is not in the product documents, and never give tax or legal advice beyond stating that Section 80D benefits may ..."},"created_at":1790933572472,"expires_at":1790933632472,"timings":{"t_audio_received":1790933572471,"t_transcribed":1790933572471,"t_signal":1790933572472,"kb_ms":0.9,"t_ready":1790933572473},"t_sent":1790933572473},"client_received_at":1790933572473}
+{"type":"partial","index":11,"speaker":"customer","text":"Okay,","client_received_at":1790933572971}
+{"type":"audio","position_ms":46000,"client_received_at":1790933573471}
+{"type":"partial","index":11,"speaker":"customer","text":"Okay, that","client_received_at":1790933573720}
+{"type":"partial","index":11,"speaker":"customer","text":"Okay, that sounds","client_received_at":1790933573970}
+{"type":"partial","index":11,"speaker":"customer","text":"Okay, that sounds good.","client_received_at":1790933574220}
+{"type":"partial","index":11,"speaker":"customer","text":"Okay, that sounds good. How","client_received_at":1790933574471}
+{"type":"audio","position_ms":47000,"client_received_at":1790933574471}
+{"type":"partial","index":11,"speaker":"customer","text":"Okay, that sounds good. How do","client_received_at":1790933574721}
+{"type":"partial","index":11,"speaker":"customer","text":"Okay, that sounds good. How do I","client_received_at":1790933575221}
+{"type":"partial","index":11,"speaker":"customer","text":"Okay, that sounds good. How do I sign","client_received_at":1790933575471}
+{"type":"audio","position_ms":48000,"client_received_at":1790933575471}
+{"type":"transcript","segment":{"index":11,"speaker":"customer","text":"Okay, that sounds good. How do I sign up?","confidence":0.92,"start_ms":45395,"end_ms":48172,"interrupted_previous":false,"t_audio_received":1790933575721,"t_transcribed":1790933575721},"client_received_at":1790933575722}
+{"type":"insight","kind":"sentiment","segment_index":11,"value":1,"client_received_at":1790933575722}
+{"type":"nudge","nudge":{"id":"n6","topic":"opportunity:buying_signal","priority":"medium","text":"Buying signal. Confirm the next step now: written quote and advisor follow-up.","confidence":0.736,"evidence":"Okay, that sounds good. How do I sign up?","segment_index":11,"citation":null,"created_at":1790933575722,"expires_at":1790933620722,"timings":{"t_audio_received":1790933575721,"t_transcribed":1790933575721,"t_signal":1790933575722,"kb_ms":0,"t_ready":1790933575722},"t_sent":1790933575722},"client_received_at":1790933575722}
+{"type":"partial","index":12,"speaker":"agent","text":"Also,","client_received_at":1790933576222}
+{"type":"audio","position_ms":49000,"client_received_at":1790933576471}
+{"type":"partial","index":12,"speaker":"agent","text":"Also, this","client_received_at":1790933576971}
+{"type":"partial","index":12,"speaker":"agent","text":"Also, this call","client_received_at":1790933577221}
+{"type":"audio","position_ms":50000,"client_received_at":1790933577471}
+{"type":"partial","index":12,"speaker":"agent","text":"Also, this call is","client_received_at":1790933577721}
+{"type":"partial","index":12,"speaker":"agent","text":"Also, this call is recorded","client_received_at":1790933577971}
+{"type":"partial","index":12,"speaker":"agent","text":"Also, this call is recorded for","client_received_at":1790933578471}
+{"type":"audio","position_ms":51000,"client_received_at":1790933578471}
+{"type":"partial","index":12,"speaker":"agent","text":"Also, this call is recorded for quality","client_received_at":1790933578721}
+{"type":"partial","index":12,"speaker":"agent","text":"Also, this call is recorded for quality and","client_received_at":1790933579223}
+{"type":"partial","index":12,"speaker":"agent","text":"Also, this call is recorded for quality and training","client_received_at":1790933579472}
+{"type":"audio","position_ms":52000,"client_received_at":1790933579472}
+{"type":"transcript","segment":{"index":12,"speaker":"agent","text":"Also, this call is recorded for quality and training purposes.","confidence":0.92,"start_ms":48622,"end_ms":52361,"interrupted_previous":false,"t_audio_received":1790933579970,"t_transcribed":1790933579970},"client_received_at":1790933579970}
+{"type":"nudge_resolved","id":"n1","topic":"compliance:recording_disclosure","segment_index":12,"client_received_at":1790933579970}
+{"type":"partial","index":13,"speaker":"agent","text":"And","client_received_at":1790933580471}
+{"type":"audio","position_ms":53000,"client_received_at":1790933580471}
+{"type":"partial","index":13,"speaker":"agent","text":"And your","client_received_at":1790933580972}
+{"type":"partial","index":13,"speaker":"agent","text":"And your parents","client_received_at":1790933581221}
+{"type":"partial","index":13,"speaker":"agent","text":"And your parents can","client_received_at":1790933581471}
+{"type":"audio","position_ms":54000,"client_received_at":1790933581471}
+{"type":"partial","index":13,"speaker":"agent","text":"And your parents can be","client_received_at":1790933581971}
+{"type":"partial","index":13,"speaker":"agent","text":"And your parents can be added","client_received_at":1790933582221}
+{"type":"partial","index":13,"speaker":"agent","text":"And your parents can be added to","client_received_at":1790933582471}
+{"type":"audio","position_ms":55000,"client_received_at":1790933582471}
+{"type":"partial","index":13,"speaker":"agent","text":"And your parents can be added to Family","client_received_at":1790933582721}
+{"type":"partial","index":13,"speaker":"agent","text":"And your parents can be added to Family Shield","client_received_at":1790933582970}
+{"type":"partial","index":13,"speaker":"agent","text":"And your parents can be added to Family Shield since","client_received_at":1790933583221}
+{"type":"audio","position_ms":56000,"client_received_at":1790933583471}
+{"type":"partial","index":13,"speaker":"agent","text":"And your parents can be added to Family Shield since they","client_received_at":1790933583721}
+{"type":"partial","index":13,"speaker":"agent","text":"And your parents can be added to Family Shield since they are","client_received_at":1790933583971}
+{"type":"partial","index":13,"speaker":"agent","text":"And your parents can be added to Family Shield since they are under","client_received_at":1790933584222}
+{"type":"audio","position_ms":57000,"client_received_at":1790933584471}
+{"type":"transcript","segment":{"index":13,"speaker":"agent","text":"And your parents can be added to Family Shield since they are under 65.","confidence":0.92,"start_ms":52811,"end_ms":56894,"interrupted_previous":false,"t_audio_received":1790933584471,"t_transcribed":1790933584471},"client_received_at":1790933584471}
+{"type":"nudge_resolved","id":"n2","topic":"opportunity:parents_cover","segment_index":13,"client_received_at":1790933584471}
+{"type":"partial","index":14,"speaker":"customer","text":"Great,","client_received_at":1790933584971}
+{"type":"partial","index":14,"speaker":"customer","text":"Great, please","client_received_at":1790933585471}
+{"type":"audio","position_ms":58000,"client_received_at":1790933585471}
+{"type":"partial","index":14,"speaker":"customer","text":"Great, please send","client_received_at":1790933585721}
+{"type":"partial","index":14,"speaker":"customer","text":"Great, please send me","client_received_at":1790933586221}
+{"type":"partial","index":14,"speaker":"customer","text":"Great, please send me the","client_received_at":1790933586472}
+{"type":"audio","position_ms":59000,"client_received_at":1790933586472}
+{"type":"transcript","segment":{"index":14,"speaker":"customer","text":"Great, please send me the quote.","confidence":0.92,"start_ms":57344,"end_ms":59099,"interrupted_previous":false,"t_audio_received":1790933586721,"t_transcribed":1790933586721},"client_received_at":1790933586723}
+{"type":"insight","kind":"sentiment","segment_index":14,"value":1,"client_received_at":1790933586723}
+{"type":"nudge_suppressed","topic":"opportunity:buying_signal","reason":"duplicate: same topic still on screen","confidence":0.736,"segment_index":14,"client_received_at":1790933586723}
+{"type":"partial","index":15,"speaker":"agent","text":"Sure,","client_received_at":1790933587221}
+{"type":"audio","position_ms":60000,"client_received_at":1790933587471}
+{"type":"partial","index":15,"speaker":"agent","text":"Sure, I","client_received_at":1790933587721}
+{"type":"partial","index":15,"speaker":"agent","text":"Sure, I will","client_received_at":1790933587970}
+{"type":"partial","index":15,"speaker":"agent","text":"Sure, I will send","client_received_at":1790933588221}
+{"type":"partial","index":15,"speaker":"agent","text":"Sure, I will send it on","client_received_at":1790933588471}
+{"type":"audio","position_ms":61000,"client_received_at":1790933588471}
+{"type":"partial","index":15,"speaker":"agent","text":"Sure, I will send it on WhatsApp","client_received_at":1790933588720}
+{"type":"partial","index":15,"speaker":"agent","text":"Sure, I will send it on WhatsApp in","client_received_at":1790933588971}
+{"type":"partial","index":15,"speaker":"agent","text":"Sure, I will send it on WhatsApp in a","client_received_at":1790933589221}
+{"type":"partial","index":15,"speaker":"agent","text":"Sure, I will send it on WhatsApp in a few","client_received_at":1790933589471}
+{"type":"audio","position_ms":62000,"client_received_at":1790933589471}
+{"type":"transcript","segment":{"index":15,"speaker":"agent","text":"Sure, I will send it on WhatsApp in a few minutes.","confidence":0.92,"start_ms":59549,"end_ms":62192,"interrupted_previous":false,"t_audio_received":1790933589720,"t_transcribed":1790933589720},"client_received_at":1790933589721}
+{"type":"done","summary":{"segments":16,"delivered":6,"suppressed":2,"resolved":2},"client_received_at":1790933590113}

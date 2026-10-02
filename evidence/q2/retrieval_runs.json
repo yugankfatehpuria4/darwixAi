@@ -1,0 +1,3674 @@
+[
+  {
+    "id": "h01",
+    "market": "in_health",
+    "type": "product",
+    "language": "en",
+    "query": "Can I cover my wife and two kids in one policy?",
+    "expanded_query": "can i cover my wife and two kids in one policy? spouse children",
+    "answerable_expected": true,
+    "answerable_predicted": true,
+    "gate_reason": "ok",
+    "confidence": 0.23,
+    "first_relevant_rank": 2,
+    "verdict": "partially correct",
+    "hits": [
+      {
+        "rank": 1,
+        "record_id": "kb_in_health_eligibility_6485c3",
+        "cosine": 0.23,
+        "bm25": 10.174,
+        "citation": "Family Shield Outbound Lead Qualification Script > Qualification questions [kb_in_health_eligibility_6485c3] (internal://sales/lead-qualification-script-v3.1, v3.1, effective 2026-04-01)"
+      },
+      {
+        "rank": 2,
+        "record_id": "kb_in_health_eligibility_a2c567",
+        "cosine": 0.253,
+        "bm25": 9.613,
+        "citation": "Family Shield Health Plan > Who can buy Family Shield [kb_in_health_eligibility_a2c567] (https://suraksha-example.in/plans/family-shield, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 3,
+        "record_id": "kb_in_health_eligibility_37c477",
+        "cosine": 0.345,
+        "bm25": 6.987,
+        "citation": "Lead Qualification Rules: Family Shield > Rule Q2: Children [kb_in_health_eligibility_37c477] (internal://underwriting/qualification-rules-v2.0, v2.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 4,
+        "record_id": "kb_in_health_form_42e643",
+        "cosine": 0.156,
+        "bm25": 7.852,
+        "citation": "Health Insurance Enquiry Form > Fields [kb_in_health_form_42e643] (https://suraksha-example.in/enquiry, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 5,
+        "record_id": "kb_in_health_cross_sell_5c70c0",
+        "cosine": 0.071,
+        "bm25": 5.776,
+        "citation": "Super Top-Up and Add-ons > Super Top-Up Plan > Multi-member discount [kb_in_health_cross_sell_5c70c0] (https://suraksha-example.in/plans/super-top-up, v1.0, effective 2026-04-01)"
+      }
+    ]
+  },
+  {
+    "id": "h02",
+    "market": "in_health",
+    "type": "product",
+    "language": "en",
+    "query": "What coverage amounts can I choose from?",
+    "expanded_query": "what sum insured can i choose from?",
+    "answerable_expected": true,
+    "answerable_predicted": false,
+    "gate_reason": "top_cosine_0.166_below_0.2",
+    "confidence": 0.166,
+    "first_relevant_rank": 1,
+    "verdict": "partially correct (right chunk, but refused)",
+    "hits": [
+      {
+        "rank": 1,
+        "record_id": "kb_in_health_coverage_9aa6f1",
+        "cosine": 0.166,
+        "bm25": 5.991,
+        "citation": "Family Shield Health Plan > Coverage amount options [kb_in_health_coverage_9aa6f1] (https://suraksha-example.in/plans/family-shield, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 2,
+        "record_id": "kb_in_health_pricing_ae8f45",
+        "cosine": 0.119,
+        "bm25": 5.723,
+        "citation": "Family Shield Indicative Annual Premium Chart (individual, per member) > age band 18-25 [kb_in_health_pricing_ae8f45] (internal://pricing/family-shield-premium-chart.csv, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 3,
+        "record_id": "kb_in_health_pricing_091f5f",
+        "cosine": 0.117,
+        "bm25": 5.723,
+        "citation": "Family Shield Indicative Annual Premium Chart (individual, per member) > age band 36-45 [kb_in_health_pricing_091f5f] (internal://pricing/family-shield-premium-chart.csv, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 4,
+        "record_id": "kb_in_health_pricing_d08f26",
+        "cosine": 0.116,
+        "bm25": 5.723,
+        "citation": "Family Shield Indicative Annual Premium Chart (individual, per member) > age band 26-35 [kb_in_health_pricing_d08f26] (internal://pricing/family-shield-premium-chart.csv, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 5,
+        "record_id": "kb_in_health_pricing_394d2e",
+        "cosine": 0.116,
+        "bm25": 5.723,
+        "citation": "Family Shield Indicative Annual Premium Chart (individual, per member) > age band 56-65 [kb_in_health_pricing_394d2e] (internal://pricing/family-shield-premium-chart.csv, v1.0, effective 2026-04-01)"
+      }
+    ]
+  },
+  {
+    "id": "h03",
+    "market": "in_health",
+    "type": "product",
+    "language": "en",
+    "query": "Does the plan pay for ambulance charges?",
+    "expanded_query": "does the plan pay for ambulance charges?",
+    "answerable_expected": true,
+    "answerable_predicted": true,
+    "gate_reason": "ok",
+    "confidence": 0.217,
+    "first_relevant_rank": 1,
+    "verdict": "correct",
+    "hits": [
+      {
+        "rank": 1,
+        "record_id": "kb_in_health_coverage_313e3d",
+        "cosine": 0.217,
+        "bm25": 7.57,
+        "citation": "Family Shield Health Plan > What is covered [kb_in_health_coverage_313e3d] (https://suraksha-example.in/plans/family-shield, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 2,
+        "record_id": "kb_in_health_claims_13c668",
+        "cosine": 0.11,
+        "bm25": 3.399,
+        "citation": "Claims > How to make a claim > Reimbursement claims [kb_in_health_claims_13c668] (https://suraksha-example.in/claims, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 3,
+        "record_id": "kb_in_health_faq_563f11",
+        "cosine": 0.045,
+        "bm25": 5.047,
+        "citation": "Frequently Asked Questions > Can I pay the premium monthly? [kb_in_health_faq_563f11] (https://suraksha-example.in/faq, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 4,
+        "record_id": "kb_in_health_product_9065da",
+        "cosine": 0.063,
+        "bm25": 3.515,
+        "citation": "Family Shield Health Plan [kb_in_health_product_9065da] (https://suraksha-example.in/plans/family-shield, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 5,
+        "record_id": "kb_in_health_eligibility_60e194",
+        "cosine": 0.04,
+        "bm25": 3.056,
+        "citation": "Super Top-Up and Add-ons > Super Top-Up Plan > Parents cover [kb_in_health_eligibility_60e194] (https://suraksha-example.in/plans/super-top-up, v1.0, effective 2026-04-01)"
+      }
+    ]
+  },
+  {
+    "id": "h04",
+    "market": "in_health",
+    "type": "product",
+    "language": "en",
+    "query": "Is there a limit on hospital room rent?",
+    "expanded_query": "is there a limit on hospital room rent?",
+    "answerable_expected": true,
+    "answerable_predicted": true,
+    "gate_reason": "ok",
+    "confidence": 0.399,
+    "first_relevant_rank": 1,
+    "verdict": "correct",
+    "hits": [
+      {
+        "rank": 1,
+        "record_id": "kb_in_health_coverage_313e3d",
+        "cosine": 0.399,
+        "bm25": 11.884,
+        "citation": "Family Shield Health Plan > What is covered [kb_in_health_coverage_313e3d] (https://suraksha-example.in/plans/family-shield, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 2,
+        "record_id": "kb_in_health_product_9065da",
+        "cosine": 0.211,
+        "bm25": 3.506,
+        "citation": "Family Shield Health Plan [kb_in_health_product_9065da] (https://suraksha-example.in/plans/family-shield, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 3,
+        "record_id": "kb_in_health_claims_132443",
+        "cosine": 0.128,
+        "bm25": 3.379,
+        "citation": "Claims > How to make a claim > Cashless claims [kb_in_health_claims_132443] (https://suraksha-example.in/claims, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 4,
+        "record_id": "kb_in_health_eligibility_d33d1e",
+        "cosine": 0.083,
+        "bm25": 2.899,
+        "citation": "Lead Qualification Rules: Family Shield > Rule Q4: Serviceable location [kb_in_health_eligibility_d33d1e] (internal://underwriting/qualification-rules-v2.0, v2.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 5,
+        "record_id": "kb_in_health_objection_0cd00e",
+        "cosine": 0.093,
+        "bm25": 2.076,
+        "citation": "Family Shield Outbound Lead Qualification Script > Objection: insurance companies reject claims [kb_in_health_objection_0cd00e] (internal://sales/lead-qualification-script-v3.1, v3.1, effective 2026-04-01)"
+      }
+    ]
+  },
+  {
+    "id": "h05",
+    "market": "in_health",
+    "type": "product",
+    "language": "en",
+    "query": "What is a super top-up and when does it pay?",
+    "expanded_query": "what is a super top-up and when does it pay?",
+    "answerable_expected": true,
+    "answerable_predicted": true,
+    "gate_reason": "ok",
+    "confidence": 0.394,
+    "first_relevant_rank": 1,
+    "verdict": "correct",
+    "hits": [
+      {
+        "rank": 1,
+        "record_id": "kb_in_health_cross_sell_b83b7e",
+        "cosine": 0.394,
+        "bm25": 8.673,
+        "citation": "Super Top-Up and Add-ons > Super Top-Up Plan [kb_in_health_cross_sell_b83b7e] (https://suraksha-example.in/plans/super-top-up, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 2,
+        "record_id": "kb_in_health_cross_sell_73c526",
+        "cosine": 0.365,
+        "bm25": 8.763,
+        "citation": "Super Top-Up and Add-ons > Super Top-Up Plan > Optional add-ons > OPD add-on [kb_in_health_cross_sell_73c526] (https://suraksha-example.in/plans/super-top-up, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 3,
+        "record_id": "kb_in_health_eligibility_60e194",
+        "cosine": 0.38,
+        "bm25": 8.406,
+        "citation": "Super Top-Up and Add-ons > Super Top-Up Plan > Parents cover [kb_in_health_eligibility_60e194] (https://suraksha-example.in/plans/super-top-up, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 4,
+        "record_id": "kb_in_health_cross_sell_5c70c0",
+        "cosine": 0.368,
+        "bm25": 8.475,
+        "citation": "Super Top-Up and Add-ons > Super Top-Up Plan > Multi-member discount [kb_in_health_cross_sell_5c70c0] (https://suraksha-example.in/plans/super-top-up, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 5,
+        "record_id": "kb_in_health_cross_sell_5f1417",
+        "cosine": 0.296,
+        "bm25": 7.436,
+        "citation": "Super Top-Up and Add-ons > Super Top-Up Plan > Optional add-ons > Maternity cover add-on [kb_in_health_cross_sell_5f1417] (https://suraksha-example.in/plans/super-top-up, v1.0, effective 2026-04-01)"
+      }
+    ]
+  },
+  {
+    "id": "h06",
+    "market": "in_health",
+    "type": "product",
+    "language": "en",
+    "query": "Do you cover delivery expenses if my wife gets pregnant?",
+    "expanded_query": "do you cover delivery expenses if my wife gets pregnant? spouse",
+    "answerable_expected": true,
+    "answerable_predicted": true,
+    "gate_reason": "ok",
+    "confidence": 0.254,
+    "first_relevant_rank": 1,
+    "verdict": "correct",
+    "hits": [
+      {
+        "rank": 1,
+        "record_id": "kb_in_health_cross_sell_5f1417",
+        "cosine": 0.254,
+        "bm25": 10.62,
+        "citation": "Super Top-Up and Add-ons > Super Top-Up Plan > Optional add-ons > Maternity cover add-on [kb_in_health_cross_sell_5f1417] (https://suraksha-example.in/plans/super-top-up, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 2,
+        "record_id": "kb_in_health_eligibility_6485c3",
+        "cosine": 0.088,
+        "bm25": 5.908,
+        "citation": "Family Shield Outbound Lead Qualification Script > Qualification questions [kb_in_health_eligibility_6485c3] (internal://sales/lead-qualification-script-v3.1, v3.1, effective 2026-04-01)"
+      },
+      {
+        "rank": 3,
+        "record_id": "kb_in_health_operations_9bc32b",
+        "cosine": 0.143,
+        "bm25": 4.756,
+        "citation": "Sales Desk Operating Notes > Quote delivery [kb_in_health_operations_9bc32b] (internal://sales-ops/desk-notes, v1.0, effective 2026-05-10)"
+      },
+      {
+        "rank": 4,
+        "record_id": "kb_in_health_exclusions_a11bcc",
+        "cosine": 0.119,
+        "bm25": 3.978,
+        "citation": "Family Shield Policy Wordings > Permanent Exclusions [kb_in_health_exclusions_a11bcc] (https://suraksha-example.in/docs/family-shield-policy-wordings.pdf, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 5,
+        "record_id": "kb_in_health_eligibility_a2c567",
+        "cosine": 0.08,
+        "bm25": 5.43,
+        "citation": "Family Shield Health Plan > Who can buy Family Shield [kb_in_health_eligibility_a2c567] (https://suraksha-example.in/plans/family-shield, v1.0, effective 2026-04-01)"
+      }
+    ]
+  },
+  {
+    "id": "h07",
+    "market": "in_health",
+    "type": "product",
+    "language": "en",
+    "query": "Will you pay for my doctor consultations and medicines outside the hospital?",
+    "expanded_query": "will you pay for my doctor consultations and medicines outside the hospital?",
+    "answerable_expected": true,
+    "answerable_predicted": true,
+    "gate_reason": "ok",
+    "confidence": 0.241,
+    "first_relevant_rank": 1,
+    "verdict": "correct",
+    "hits": [
+      {
+        "rank": 1,
+        "record_id": "kb_in_health_cross_sell_73c526",
+        "cosine": 0.241,
+        "bm25": 9.354,
+        "citation": "Super Top-Up and Add-ons > Super Top-Up Plan > Optional add-ons > OPD add-on [kb_in_health_cross_sell_73c526] (https://suraksha-example.in/plans/super-top-up, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 2,
+        "record_id": "kb_in_health_coverage_313e3d",
+        "cosine": 0.212,
+        "bm25": 5.739,
+        "citation": "Family Shield Health Plan > What is covered [kb_in_health_coverage_313e3d] (https://suraksha-example.in/plans/family-shield, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 3,
+        "record_id": "kb_in_health_operations_a92353",
+        "cosine": 0.136,
+        "bm25": 4.502,
+        "citation": "Sales Desk Operating Notes > Escalation desk [kb_in_health_operations_a92353] (internal://sales-ops/desk-notes, v1.0, effective 2026-05-10)"
+      },
+      {
+        "rank": 4,
+        "record_id": "kb_in_health_product_9065da",
+        "cosine": 0.135,
+        "bm25": 3.506,
+        "citation": "Family Shield Health Plan [kb_in_health_product_9065da] (https://suraksha-example.in/plans/family-shield, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 5,
+        "record_id": "kb_in_health_claims_13c668",
+        "cosine": 0.06,
+        "bm25": 5.95,
+        "citation": "Claims > How to make a claim > Reimbursement claims [kb_in_health_claims_13c668] (https://suraksha-example.in/claims, v1.0, effective 2026-04-01)"
+      }
+    ]
+  },
+  {
+    "id": "h08",
+    "market": "in_health",
+    "type": "product",
+    "language": "en",
+    "query": "Do I get any bonus if I don't make a claim this year?",
+    "expanded_query": "do i get any bonus if i don't make a claim this year?",
+    "answerable_expected": true,
+    "answerable_predicted": true,
+    "gate_reason": "ok",
+    "confidence": 0.413,
+    "first_relevant_rank": 1,
+    "verdict": "correct",
+    "hits": [
+      {
+        "rank": 1,
+        "record_id": "kb_in_health_coverage_add76c",
+        "cosine": 0.413,
+        "bm25": 12.691,
+        "citation": "Family Shield Health Plan > No-claim bonus [kb_in_health_coverage_add76c] (https://suraksha-example.in/plans/family-shield, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 2,
+        "record_id": "kb_in_health_claims_8ffb69",
+        "cosine": 0.242,
+        "bm25": 11.659,
+        "citation": "Claims > How to make a claim > Claim settlement record [kb_in_health_claims_8ffb69] (https://suraksha-example.in/claims, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 3,
+        "record_id": "kb_in_health_claims_13c668",
+        "cosine": 0.129,
+        "bm25": 6.905,
+        "citation": "Claims > How to make a claim > Reimbursement claims [kb_in_health_claims_13c668] (https://suraksha-example.in/claims, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 4,
+        "record_id": "kb_in_health_claims_132443",
+        "cosine": 0.097,
+        "bm25": 5.186,
+        "citation": "Claims > How to make a claim > Cashless claims [kb_in_health_claims_132443] (https://suraksha-example.in/claims, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 5,
+        "record_id": "kb_in_health_coverage_67333b",
+        "cosine": 0.09,
+        "bm25": 6.056,
+        "citation": "Family Shield Policy Wordings > Sum Insured Restoration [kb_in_health_coverage_67333b] (https://suraksha-example.in/docs/family-shield-policy-wordings.pdf, v1.0, effective 2026-04-01)"
+      }
+    ]
+  },
+  {
+    "id": "h09",
+    "market": "in_health",
+    "type": "policy",
+    "language": "en",
+    "query": "I have diabetes, after how long will it be covered?",
+    "expanded_query": "i have diabetes, after how long will it be covered? pre-existing disease",
+    "answerable_expected": true,
+    "answerable_predicted": true,
+    "gate_reason": "ok",
+    "confidence": 0.365,
+    "first_relevant_rank": 3,
+    "verdict": "partially correct",
+    "hits": [
+      {
+        "rank": 1,
+        "record_id": "kb_in_health_eligibility_8679ff",
+        "cosine": 0.365,
+        "bm25": 11.863,
+        "citation": "Lead Qualification Rules: Family Shield > Rule Q3: Pre-existing conditions [kb_in_health_eligibility_8679ff] (internal://underwriting/qualification-rules-v2.0, v2.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 2,
+        "record_id": "kb_in_health_compliance_60e97a",
+        "cosine": 0.291,
+        "bm25": 11.485,
+        "citation": "Family Shield Outbound Lead Qualification Script > Waiting period disclosure [kb_in_health_compliance_60e97a] (internal://sales/lead-qualification-script-v3.1, v3.1, effective 2026-04-01)"
+      },
+      {
+        "rank": 3,
+        "record_id": "kb_in_health_waiting_period_955157",
+        "cosine": 0.36,
+        "bm25": 10.737,
+        "citation": "Family Shield Policy Wordings > Waiting Periods [kb_in_health_waiting_period_955157] (https://suraksha-example.in/docs/family-shield-policy-wordings.pdf, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 4,
+        "record_id": "kb_in_health_waiting_period_65a836",
+        "cosine": 0.262,
+        "bm25": 10.965,
+        "citation": "Family Shield Health Plan > Waiting periods [kb_in_health_waiting_period_65a836] (https://suraksha-example.in/plans/family-shield, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 5,
+        "record_id": "kb_in_health_eligibility_8c5109",
+        "cosine": 0.237,
+        "bm25": 7.816,
+        "citation": "Lead Qualification Rules: Family Shield > Rule Q5: Required fields for a qualified lead [kb_in_health_eligibility_8c5109] (internal://underwriting/qualification-rules-v2.0, v2.0, effective 2026-04-01)"
+      }
+    ]
+  },
+  {
+    "id": "h10",
+    "market": "in_health",
+    "type": "policy",
+    "language": "en",
+    "query": "If I fall sick in the first month after buying, am I covered?",
+    "expanded_query": "if i fall sick in the first month after buying, am i covered? monthly",
+    "answerable_expected": true,
+    "answerable_predicted": false,
+    "gate_reason": "top_cosine_0.146_below_0.2",
+    "confidence": 0.146,
+    "first_relevant_rank": 2,
+    "verdict": "incorrect (refused)",
+    "hits": [
+      {
+        "rank": 1,
+        "record_id": "kb_in_health_objection_cd8b74",
+        "cosine": 0.146,
+        "bm25": 8.494,
+        "citation": "Family Shield Outbound Lead Qualification Script > Objection: I am healthy, I do not need insurance [kb_in_health_objection_cd8b74] (internal://sales/lead-qualification-script-v3.1, v3.1, effective 2026-04-01)"
+      },
+      {
+        "rank": 2,
+        "record_id": "kb_in_health_waiting_period_955157",
+        "cosine": 0.164,
+        "bm25": 6.48,
+        "citation": "Family Shield Policy Wordings > Waiting Periods [kb_in_health_waiting_period_955157] (https://suraksha-example.in/docs/family-shield-policy-wordings.pdf, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 3,
+        "record_id": "kb_in_health_faq_563f11",
+        "cosine": 0.201,
+        "bm25": 4.824,
+        "citation": "Frequently Asked Questions > Can I pay the premium monthly? [kb_in_health_faq_563f11] (https://suraksha-example.in/faq, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 4,
+        "record_id": "kb_in_health_waiting_period_65a836",
+        "cosine": 0.097,
+        "bm25": 6.024,
+        "citation": "Family Shield Health Plan > Waiting periods [kb_in_health_waiting_period_65a836] (https://suraksha-example.in/plans/family-shield, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 5,
+        "record_id": "kb_in_health_waiting_period_eff976",
+        "cosine": 0.132,
+        "bm25": 5.059,
+        "citation": "Family Shield Policy Wordings > Waiting Periods [kb_in_health_waiting_period_eff976] (https://suraksha-example.in/docs/family-shield-policy-wordings.pdf, v1.0, effective 2026-04-01)"
+      }
+    ]
+  },
+  {
+    "id": "h11",
+    "market": "in_health",
+    "type": "policy",
+    "language": "en",
+    "query": "Is cosmetic surgery covered?",
+    "expanded_query": "is cosmetic surgery covered?",
+    "answerable_expected": true,
+    "answerable_predicted": true,
+    "gate_reason": "ok",
+    "confidence": 0.253,
+    "first_relevant_rank": 1,
+    "verdict": "correct",
+    "hits": [
+      {
+        "rank": 1,
+        "record_id": "kb_in_health_exclusions_d3c891",
+        "cosine": 0.253,
+        "bm25": 7.927,
+        "citation": "Family Shield Policy Wordings > Permanent Exclusions [kb_in_health_exclusions_d3c891] (https://suraksha-example.in/docs/family-shield-policy-wordings.pdf, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 2,
+        "record_id": "kb_in_health_coverage_313e3d",
+        "cosine": 0.11,
+        "bm25": 4.041,
+        "citation": "Family Shield Health Plan > What is covered [kb_in_health_coverage_313e3d] (https://suraksha-example.in/plans/family-shield, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 3,
+        "record_id": "kb_in_health_waiting_period_65a836",
+        "cosine": 0.063,
+        "bm25": 2.939,
+        "citation": "Family Shield Health Plan > Waiting periods [kb_in_health_waiting_period_65a836] (https://suraksha-example.in/plans/family-shield, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 4,
+        "record_id": "kb_in_health_eligibility_6485c3",
+        "cosine": 0.057,
+        "bm25": 3.008,
+        "citation": "Family Shield Outbound Lead Qualification Script > Qualification questions [kb_in_health_eligibility_6485c3] (internal://sales/lead-qualification-script-v3.1, v3.1, effective 2026-04-01)"
+      },
+      {
+        "rank": 5,
+        "record_id": "kb_in_health_faq_175f7c",
+        "cosine": 0.046,
+        "bm25": 3.195,
+        "citation": "Frequently Asked Questions > Is COVID-19 or other infectious disease hospitalisation covered? [kb_in_health_faq_175f7c] (https://suraksha-example.in/faq, v1.0, effective 2026-04-01)"
+      }
+    ]
+  },
+  {
+    "id": "h12",
+    "market": "in_health",
+    "type": "policy",
+    "language": "en",
+    "query": "My father is 63, will there be a co-payment for him?",
+    "expanded_query": "my father is 63, will there be a co-payment for him? parents",
+    "answerable_expected": true,
+    "answerable_predicted": true,
+    "gate_reason": "ok",
+    "confidence": 0.307,
+    "first_relevant_rank": 1,
+    "verdict": "correct",
+    "hits": [
+      {
+        "rank": 1,
+        "record_id": "kb_in_health_coverage_1ffe7e",
+        "cosine": 0.307,
+        "bm25": 7.312,
+        "citation": "Family Shield Policy Wordings > Co-payment [kb_in_health_coverage_1ffe7e] (https://suraksha-example.in/docs/family-shield-policy-wordings.pdf, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 2,
+        "record_id": "kb_in_health_eligibility_60e194",
+        "cosine": 0.151,
+        "bm25": 5.354,
+        "citation": "Super Top-Up and Add-ons > Super Top-Up Plan > Parents cover [kb_in_health_eligibility_60e194] (https://suraksha-example.in/plans/super-top-up, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 3,
+        "record_id": "kb_in_health_eligibility_6485c3",
+        "cosine": 0.11,
+        "bm25": 3.193,
+        "citation": "Family Shield Outbound Lead Qualification Script > Qualification questions [kb_in_health_eligibility_6485c3] (internal://sales/lead-qualification-script-v3.1, v3.1, effective 2026-04-01)"
+      },
+      {
+        "rank": 4,
+        "record_id": "kb_in_health_eligibility_a2c567",
+        "cosine": 0.096,
+        "bm25": 2.935,
+        "citation": "Family Shield Health Plan > Who can buy Family Shield [kb_in_health_eligibility_a2c567] (https://suraksha-example.in/plans/family-shield, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 5,
+        "record_id": "kb_in_health_form_42e643",
+        "cosine": 0.044,
+        "bm25": 2.234,
+        "citation": "Health Insurance Enquiry Form > Fields [kb_in_health_form_42e643] (https://suraksha-example.in/enquiry, v1.0, effective 2026-04-01)"
+      }
+    ]
+  },
+  {
+    "id": "h13",
+    "market": "in_health",
+    "type": "policy",
+    "language": "en",
+    "query": "What happens if my coverage gets used up in the middle of the year?",
+    "expanded_query": "what happens if my coverage gets used up in the middle of the year? exhausted sum insured restoration",
+    "answerable_expected": true,
+    "answerable_predicted": true,
+    "gate_reason": "ok",
+    "confidence": 0.441,
+    "first_relevant_rank": 1,
+    "verdict": "correct",
+    "hits": [
+      {
+        "rank": 1,
+        "record_id": "kb_in_health_coverage_67333b",
+        "cosine": 0.441,
+        "bm25": 23.285,
+        "citation": "Family Shield Policy Wordings > Sum Insured Restoration [kb_in_health_coverage_67333b] (https://suraksha-example.in/docs/family-shield-policy-wordings.pdf, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 2,
+        "record_id": "kb_in_health_coverage_add76c",
+        "cosine": 0.076,
+        "bm25": 11.552,
+        "citation": "Family Shield Health Plan > No-claim bonus [kb_in_health_coverage_add76c] (https://suraksha-example.in/plans/family-shield, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 3,
+        "record_id": "kb_in_health_faq_5f7bec",
+        "cosine": 0.18,
+        "bm25": 7.144,
+        "citation": "Frequently Asked Questions > What happens if I miss my renewal date? [kb_in_health_faq_5f7bec] (https://suraksha-example.in/faq, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 4,
+        "record_id": "kb_in_health_coverage_9aa6f1",
+        "cosine": 0.093,
+        "bm25": 8.089,
+        "citation": "Family Shield Health Plan > Coverage amount options [kb_in_health_coverage_9aa6f1] (https://suraksha-example.in/plans/family-shield, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 5,
+        "record_id": "kb_in_health_coverage_313e3d",
+        "cosine": 0.067,
+        "bm25": 7.029,
+        "citation": "Family Shield Health Plan > What is covered [kb_in_health_coverage_313e3d] (https://suraksha-example.in/plans/family-shield, v1.0, effective 2026-04-01)"
+      }
+    ]
+  },
+  {
+    "id": "h14",
+    "market": "in_health",
+    "type": "policy",
+    "language": "en",
+    "query": "Can you refuse to renew my policy because I made claims?",
+    "expanded_query": "can you refuse to renew my policy because i made claims?",
+    "answerable_expected": true,
+    "answerable_predicted": true,
+    "gate_reason": "ok",
+    "confidence": 0.314,
+    "first_relevant_rank": 1,
+    "verdict": "correct",
+    "hits": [
+      {
+        "rank": 1,
+        "record_id": "kb_in_health_coverage_04d71b",
+        "cosine": 0.314,
+        "bm25": 12.923,
+        "citation": "Family Shield Policy Wordings > Renewal [kb_in_health_coverage_04d71b] (https://suraksha-example.in/docs/family-shield-policy-wordings.pdf, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 2,
+        "record_id": "kb_in_health_coverage_7cd22a",
+        "cosine": 0.231,
+        "bm25": 7.507,
+        "citation": "Family Shield Policy Wordings > Renewal [kb_in_health_coverage_7cd22a] (https://suraksha-example.in/docs/family-shield-policy-wordings.pdf, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 3,
+        "record_id": "kb_in_health_coverage_ed7a1b",
+        "cosine": 0.21,
+        "bm25": 6.071,
+        "citation": "Family Shield Policy Wordings > Cancellation by the Policyholder [kb_in_health_coverage_ed7a1b] (https://suraksha-example.in/docs/family-shield-policy-wordings.pdf, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 4,
+        "record_id": "kb_in_health_claims_8ffb69",
+        "cosine": 0.15,
+        "bm25": 4.834,
+        "citation": "Claims > How to make a claim > Claim settlement record [kb_in_health_claims_8ffb69] (https://suraksha-example.in/claims, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 5,
+        "record_id": "kb_in_health_coverage_67333b",
+        "cosine": 0.11,
+        "bm25": 4.855,
+        "citation": "Family Shield Policy Wordings > Sum Insured Restoration [kb_in_health_coverage_67333b] (https://suraksha-example.in/docs/family-shield-policy-wordings.pdf, v1.0, effective 2026-04-01)"
+      }
+    ]
+  },
+  {
+    "id": "h15",
+    "market": "in_health",
+    "type": "policy",
+    "language": "en",
+    "query": "If I cancel halfway through the year do I get money back?",
+    "expanded_query": "if i cancel halfway through the year do i get money back? refund cancellation",
+    "answerable_expected": true,
+    "answerable_predicted": true,
+    "gate_reason": "ok",
+    "confidence": 0.347,
+    "first_relevant_rank": 1,
+    "verdict": "correct",
+    "hits": [
+      {
+        "rank": 1,
+        "record_id": "kb_in_health_coverage_ed7a1b",
+        "cosine": 0.347,
+        "bm25": 14.748,
+        "citation": "Family Shield Policy Wordings > Cancellation by the Policyholder [kb_in_health_coverage_ed7a1b] (https://suraksha-example.in/docs/family-shield-policy-wordings.pdf, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 2,
+        "record_id": "kb_in_health_faq_fd4262",
+        "cosine": 0.239,
+        "bm25": 10.171,
+        "citation": "Frequently Asked Questions > Can I cancel the policy if I change my mind? [kb_in_health_faq_fd4262] (https://suraksha-example.in/faq, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 3,
+        "record_id": "kb_in_health_objection_b81169",
+        "cosine": 0.058,
+        "bm25": 3.934,
+        "citation": "Family Shield Outbound Lead Qualification Script > Objection: the premium is too expensive [kb_in_health_objection_b81169] (internal://sales/lead-qualification-script-v3.1, v3.1, effective 2026-04-01)"
+      },
+      {
+        "rank": 4,
+        "record_id": "kb_in_health_coverage_0a80d6",
+        "cosine": 0.067,
+        "bm25": 2.923,
+        "citation": "Family Shield Policy Wordings > Grievance Redressal [kb_in_health_coverage_0a80d6] (https://suraksha-example.in/docs/family-shield-policy-wordings.pdf, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 5,
+        "record_id": "kb_in_health_faq_563f11",
+        "cosine": 0.095,
+        "bm25": 2.679,
+        "citation": "Frequently Asked Questions > Can I pay the premium monthly? [kb_in_health_faq_563f11] (https://suraksha-example.in/faq, v1.0, effective 2026-04-01)"
+      }
+    ]
+  },
+  {
+    "id": "h16",
+    "market": "in_health",
+    "type": "policy",
+    "language": "en",
+    "query": "Where do I complain if my problem is not solved?",
+    "expanded_query": "where do i complain if my problem is not solved? complaint grievance",
+    "answerable_expected": true,
+    "answerable_predicted": true,
+    "gate_reason": "ok",
+    "confidence": 0.453,
+    "first_relevant_rank": 1,
+    "verdict": "correct",
+    "hits": [
+      {
+        "rank": 1,
+        "record_id": "kb_in_health_coverage_0a80d6",
+        "cosine": 0.453,
+        "bm25": 9.476,
+        "citation": "Family Shield Policy Wordings > Grievance Redressal [kb_in_health_coverage_0a80d6] (https://suraksha-example.in/docs/family-shield-policy-wordings.pdf, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 2,
+        "record_id": "kb_in_health_escalation_1b2832",
+        "cosine": 0.142,
+        "bm25": 4.226,
+        "citation": "Lead Qualification Rules: Family Shield > Rule Q6: Human escalation [kb_in_health_escalation_1b2832] (internal://underwriting/qualification-rules-v2.0, v2.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 3,
+        "record_id": "kb_in_health_objection_cd8b74",
+        "cosine": 0.099,
+        "bm25": 0,
+        "citation": "Family Shield Outbound Lead Qualification Script > Objection: I am healthy, I do not need insurance [kb_in_health_objection_cd8b74] (internal://sales/lead-qualification-script-v3.1, v3.1, effective 2026-04-01)"
+      },
+      {
+        "rank": 4,
+        "record_id": "kb_in_health_objection_0cd00e",
+        "cosine": 0.061,
+        "bm25": 0,
+        "citation": "Family Shield Outbound Lead Qualification Script > Objection: insurance companies reject claims [kb_in_health_objection_0cd00e] (internal://sales/lead-qualification-script-v3.1, v3.1, effective 2026-04-01)"
+      },
+      {
+        "rank": 5,
+        "record_id": "kb_in_health_objection_46ccac",
+        "cosine": 0.057,
+        "bm25": 0,
+        "citation": "Family Shield Outbound Lead Qualification Script > Objection: I already have health cover from my employer [kb_in_health_objection_46ccac] (internal://sales/lead-qualification-script-v3.1, v3.1, effective 2026-04-01)"
+      }
+    ]
+  },
+  {
+    "id": "h17",
+    "market": "in_health",
+    "type": "qualification",
+    "language": "en",
+    "query": "Can I buy this for my mother who is 70 years old?",
+    "expanded_query": "can i buy this for my mother who is 70 years old? parents",
+    "answerable_expected": true,
+    "answerable_predicted": false,
+    "gate_reason": "top_cosine_0.200_below_0.2",
+    "confidence": 0.2,
+    "first_relevant_rank": 2,
+    "verdict": "incorrect (refused)",
+    "hits": [
+      {
+        "rank": 1,
+        "record_id": "kb_in_health_eligibility_a2c567",
+        "cosine": 0.2,
+        "bm25": 9.443,
+        "citation": "Family Shield Health Plan > Who can buy Family Shield [kb_in_health_eligibility_a2c567] (https://suraksha-example.in/plans/family-shield, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 2,
+        "record_id": "kb_in_health_eligibility_60e194",
+        "cosine": 0.227,
+        "bm25": 8.315,
+        "citation": "Super Top-Up and Add-ons > Super Top-Up Plan > Parents cover [kb_in_health_eligibility_60e194] (https://suraksha-example.in/plans/super-top-up, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 3,
+        "record_id": "kb_in_health_eligibility_6485c3",
+        "cosine": 0.129,
+        "bm25": 3.193,
+        "citation": "Family Shield Outbound Lead Qualification Script > Qualification questions [kb_in_health_eligibility_6485c3] (internal://sales/lead-qualification-script-v3.1, v3.1, effective 2026-04-01)"
+      },
+      {
+        "rank": 4,
+        "record_id": "kb_in_health_objection_cd8b74",
+        "cosine": 0.073,
+        "bm25": 3.258,
+        "citation": "Family Shield Outbound Lead Qualification Script > Objection: I am healthy, I do not need insurance [kb_in_health_objection_cd8b74] (internal://sales/lead-qualification-script-v3.1, v3.1, effective 2026-04-01)"
+      },
+      {
+        "rank": 5,
+        "record_id": "kb_in_health_eligibility_37c477",
+        "cosine": 0.071,
+        "bm25": 3.195,
+        "citation": "Lead Qualification Rules: Family Shield > Rule Q2: Children [kb_in_health_eligibility_37c477] (internal://underwriting/qualification-rules-v2.0, v2.0, effective 2026-04-01)"
+      }
+    ]
+  },
+  {
+    "id": "h18",
+    "market": "in_health",
+    "type": "qualification",
+    "language": "en",
+    "query": "What is the maximum age to join the plan?",
+    "expanded_query": "what is the maximum age to join the plan?",
+    "answerable_expected": true,
+    "answerable_predicted": true,
+    "gate_reason": "ok",
+    "confidence": 0.234,
+    "first_relevant_rank": 1,
+    "verdict": "correct",
+    "hits": [
+      {
+        "rank": 1,
+        "record_id": "kb_in_health_eligibility_a2c567",
+        "cosine": 0.234,
+        "bm25": 9.211,
+        "citation": "Family Shield Health Plan > Who can buy Family Shield [kb_in_health_eligibility_a2c567] (https://suraksha-example.in/plans/family-shield, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 2,
+        "record_id": "kb_in_health_coverage_add76c",
+        "cosine": 0.236,
+        "bm25": 6.712,
+        "citation": "Family Shield Health Plan > No-claim bonus [kb_in_health_coverage_add76c] (https://suraksha-example.in/plans/family-shield, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 3,
+        "record_id": "kb_in_health_eligibility_60e194",
+        "cosine": 0.056,
+        "bm25": 5.249,
+        "citation": "Super Top-Up and Add-ons > Super Top-Up Plan > Parents cover [kb_in_health_eligibility_60e194] (https://suraksha-example.in/plans/super-top-up, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 4,
+        "record_id": "kb_in_health_product_9065da",
+        "cosine": 0.068,
+        "bm25": 3.515,
+        "citation": "Family Shield Health Plan [kb_in_health_product_9065da] (https://suraksha-example.in/plans/family-shield, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 5,
+        "record_id": "kb_in_health_eligibility_4b9bb8",
+        "cosine": 0.048,
+        "bm25": 5.026,
+        "citation": "Lead Qualification Rules: Family Shield > Rule Q1: Entry age [kb_in_health_eligibility_4b9bb8] (internal://underwriting/qualification-rules-v2.0, v2.0, effective 2026-04-01)"
+      }
+    ]
+  },
+  {
+    "id": "h19",
+    "market": "in_health",
+    "type": "qualification",
+    "language": "en",
+    "query": "Up to what age can my son stay on the family policy?",
+    "expanded_query": "up to what age can my son stay on the family policy? children",
+    "answerable_expected": true,
+    "answerable_predicted": true,
+    "gate_reason": "ok",
+    "confidence": 0.284,
+    "first_relevant_rank": 1,
+    "verdict": "correct",
+    "hits": [
+      {
+        "rank": 1,
+        "record_id": "kb_in_health_eligibility_a2c567",
+        "cosine": 0.284,
+        "bm25": 11.707,
+        "citation": "Family Shield Health Plan > Who can buy Family Shield [kb_in_health_eligibility_a2c567] (https://suraksha-example.in/plans/family-shield, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 2,
+        "record_id": "kb_in_health_eligibility_37c477",
+        "cosine": 0.469,
+        "bm25": 8.117,
+        "citation": "Lead Qualification Rules: Family Shield > Rule Q2: Children [kb_in_health_eligibility_37c477] (internal://underwriting/qualification-rules-v2.0, v2.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 3,
+        "record_id": "kb_in_health_eligibility_6485c3",
+        "cosine": 0.182,
+        "bm25": 7.184,
+        "citation": "Family Shield Outbound Lead Qualification Script > Qualification questions [kb_in_health_eligibility_6485c3] (internal://sales/lead-qualification-script-v3.1, v3.1, effective 2026-04-01)"
+      },
+      {
+        "rank": 4,
+        "record_id": "kb_in_health_objection_b81169",
+        "cosine": 0.105,
+        "bm25": 5.758,
+        "citation": "Family Shield Outbound Lead Qualification Script > Objection: the premium is too expensive [kb_in_health_objection_b81169] (internal://sales/lead-qualification-script-v3.1, v3.1, effective 2026-04-01)"
+      },
+      {
+        "rank": 5,
+        "record_id": "kb_in_health_eligibility_60e194",
+        "cosine": 0.057,
+        "bm25": 5.892,
+        "citation": "Super Top-Up and Add-ons > Super Top-Up Plan > Parents cover [kb_in_health_eligibility_60e194] (https://suraksha-example.in/plans/super-top-up, v1.0, effective 2026-04-01)"
+      }
+    ]
+  },
+  {
+    "id": "h20",
+    "market": "in_health",
+    "type": "qualification",
+    "language": "en",
+    "query": "Will I be rejected because I have high blood pressure?",
+    "expanded_query": "will i be rejected because i have high blood pressure? pre-existing disease hypertension",
+    "answerable_expected": true,
+    "answerable_predicted": true,
+    "gate_reason": "ok",
+    "confidence": 0.446,
+    "first_relevant_rank": 1,
+    "verdict": "correct",
+    "hits": [
+      {
+        "rank": 1,
+        "record_id": "kb_in_health_eligibility_8679ff",
+        "cosine": 0.446,
+        "bm25": 21.13,
+        "citation": "Lead Qualification Rules: Family Shield > Rule Q3: Pre-existing conditions [kb_in_health_eligibility_8679ff] (internal://underwriting/qualification-rules-v2.0, v2.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 2,
+        "record_id": "kb_in_health_waiting_period_955157",
+        "cosine": 0.214,
+        "bm25": 8.032,
+        "citation": "Family Shield Policy Wordings > Waiting Periods [kb_in_health_waiting_period_955157] (https://suraksha-example.in/docs/family-shield-policy-wordings.pdf, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 3,
+        "record_id": "kb_in_health_compliance_60e97a",
+        "cosine": 0.148,
+        "bm25": 5.87,
+        "citation": "Family Shield Outbound Lead Qualification Script > Waiting period disclosure [kb_in_health_compliance_60e97a] (internal://sales/lead-qualification-script-v3.1, v3.1, effective 2026-04-01)"
+      },
+      {
+        "rank": 4,
+        "record_id": "kb_in_health_eligibility_8c5109",
+        "cosine": 0.14,
+        "bm25": 5.727,
+        "citation": "Lead Qualification Rules: Family Shield > Rule Q5: Required fields for a qualified lead [kb_in_health_eligibility_8c5109] (internal://underwriting/qualification-rules-v2.0, v2.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 5,
+        "record_id": "kb_in_health_form_42e643",
+        "cosine": 0.127,
+        "bm25": 4.566,
+        "citation": "Health Insurance Enquiry Form > Fields [kb_in_health_form_42e643] (https://suraksha-example.in/enquiry, v1.0, effective 2026-04-01)"
+      }
+    ]
+  },
+  {
+    "id": "h21",
+    "market": "in_health",
+    "type": "faq",
+    "language": "en",
+    "query": "Do I have to go for a medical test before buying?",
+    "expanded_query": "do i have to go for a medical test before buying? medical check-up",
+    "answerable_expected": true,
+    "answerable_predicted": true,
+    "gate_reason": "ok",
+    "confidence": 0.574,
+    "first_relevant_rank": 1,
+    "verdict": "correct",
+    "hits": [
+      {
+        "rank": 1,
+        "record_id": "kb_in_health_faq_e03663",
+        "cosine": 0.574,
+        "bm25": 20.377,
+        "citation": "Frequently Asked Questions > Do I need a medical check-up before buying the policy? [kb_in_health_faq_e03663] (https://suraksha-example.in/faq, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 2,
+        "record_id": "kb_in_health_faq_fd4262",
+        "cosine": 0.228,
+        "bm25": 6.984,
+        "citation": "Frequently Asked Questions > Can I cancel the policy if I change my mind? [kb_in_health_faq_fd4262] (https://suraksha-example.in/faq, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 3,
+        "record_id": "kb_in_health_objection_cd8b74",
+        "cosine": 0.124,
+        "bm25": 5.598,
+        "citation": "Family Shield Outbound Lead Qualification Script > Objection: I am healthy, I do not need insurance [kb_in_health_objection_cd8b74] (internal://sales/lead-qualification-script-v3.1, v3.1, effective 2026-04-01)"
+      },
+      {
+        "rank": 4,
+        "record_id": "kb_in_health_eligibility_6485c3",
+        "cosine": 0.098,
+        "bm25": 2.838,
+        "citation": "Family Shield Outbound Lead Qualification Script > Qualification questions [kb_in_health_eligibility_6485c3] (internal://sales/lead-qualification-script-v3.1, v3.1, effective 2026-04-01)"
+      },
+      {
+        "rank": 5,
+        "record_id": "kb_in_health_compliance_60e97a",
+        "cosine": 0.069,
+        "bm25": 3.073,
+        "citation": "Family Shield Outbound Lead Qualification Script > Waiting period disclosure [kb_in_health_compliance_60e97a] (internal://sales/lead-qualification-script-v3.1, v3.1, effective 2026-04-01)"
+      }
+    ]
+  },
+  {
+    "id": "h22",
+    "market": "in_health",
+    "type": "faq",
+    "language": "en",
+    "query": "Can I pay every month instead of once a year?",
+    "expanded_query": "can i pay every month instead of once a year? monthly monthly instalments",
+    "answerable_expected": true,
+    "answerable_predicted": true,
+    "gate_reason": "ok",
+    "confidence": 0.377,
+    "first_relevant_rank": 1,
+    "verdict": "correct",
+    "hits": [
+      {
+        "rank": 1,
+        "record_id": "kb_in_health_faq_563f11",
+        "cosine": 0.377,
+        "bm25": 14.48,
+        "citation": "Frequently Asked Questions > Can I pay the premium monthly? [kb_in_health_faq_563f11] (https://suraksha-example.in/faq, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 2,
+        "record_id": "kb_in_health_objection_b81169",
+        "cosine": 0.238,
+        "bm25": 9.276,
+        "citation": "Family Shield Outbound Lead Qualification Script > Objection: the premium is too expensive [kb_in_health_objection_b81169] (internal://sales/lead-qualification-script-v3.1, v3.1, effective 2026-04-01)"
+      },
+      {
+        "rank": 3,
+        "record_id": "kb_in_health_coverage_add76c",
+        "cosine": 0.097,
+        "bm25": 7.97,
+        "citation": "Family Shield Health Plan > No-claim bonus [kb_in_health_coverage_add76c] (https://suraksha-example.in/plans/family-shield, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 4,
+        "record_id": "kb_in_health_coverage_67333b",
+        "cosine": 0.079,
+        "bm25": 7.437,
+        "citation": "Family Shield Policy Wordings > Sum Insured Restoration [kb_in_health_coverage_67333b] (https://suraksha-example.in/docs/family-shield-policy-wordings.pdf, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 5,
+        "record_id": "kb_in_health_coverage_1ffe7e",
+        "cosine": 0.082,
+        "bm25": 4.334,
+        "citation": "Family Shield Policy Wordings > Co-payment [kb_in_health_coverage_1ffe7e] (https://suraksha-example.in/docs/family-shield-policy-wordings.pdf, v1.0, effective 2026-04-01)"
+      }
+    ]
+  },
+  {
+    "id": "h23",
+    "market": "in_health",
+    "type": "faq",
+    "language": "en",
+    "query": "What if I forget to pay the renewal on time?",
+    "expanded_query": "what if i forget to pay the renewal on time?",
+    "answerable_expected": true,
+    "answerable_predicted": false,
+    "gate_reason": "top_cosine_0.194_below_0.2",
+    "confidence": 0.194,
+    "first_relevant_rank": 1,
+    "verdict": "partially correct (right chunk, but refused)",
+    "hits": [
+      {
+        "rank": 1,
+        "record_id": "kb_in_health_coverage_04d71b",
+        "cosine": 0.194,
+        "bm25": 5.149,
+        "citation": "Family Shield Policy Wordings > Renewal [kb_in_health_coverage_04d71b] (https://suraksha-example.in/docs/family-shield-policy-wordings.pdf, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 2,
+        "record_id": "kb_in_health_faq_5f7bec",
+        "cosine": 0.178,
+        "bm25": 4.665,
+        "citation": "Frequently Asked Questions > What happens if I miss my renewal date? [kb_in_health_faq_5f7bec] (https://suraksha-example.in/faq, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 3,
+        "record_id": "kb_in_health_coverage_7cd22a",
+        "cosine": 0.27,
+        "bm25": 4.277,
+        "citation": "Family Shield Policy Wordings > Renewal [kb_in_health_coverage_7cd22a] (https://suraksha-example.in/docs/family-shield-policy-wordings.pdf, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 4,
+        "record_id": "kb_in_health_faq_5cd96c",
+        "cosine": 0.147,
+        "bm25": 4.372,
+        "citation": "Frequently Asked Questions > Can I port my existing health policy to Suraksha? [kb_in_health_faq_5cd96c] (https://suraksha-example.in/faq, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 5,
+        "record_id": "kb_in_health_objection_f1d729",
+        "cosine": 0.086,
+        "bm25": 4.535,
+        "citation": "Family Shield Outbound Lead Qualification Script > Objection: I need to think about it / call me later [kb_in_health_objection_f1d729] (internal://sales/lead-qualification-script-v3.1, v3.1, effective 2026-04-01)"
+      }
+    ]
+  },
+  {
+    "id": "h24",
+    "market": "in_health",
+    "type": "faq",
+    "language": "en",
+    "query": "I want to switch my current policy from another company to you",
+    "expanded_query": "i want to switch my current policy from another company to you employer",
+    "answerable_expected": true,
+    "answerable_predicted": true,
+    "gate_reason": "ok",
+    "confidence": 0.201,
+    "first_relevant_rank": 1,
+    "verdict": "correct",
+    "hits": [
+      {
+        "rank": 1,
+        "record_id": "kb_in_health_faq_5cd96c",
+        "cosine": 0.201,
+        "bm25": 9.676,
+        "citation": "Frequently Asked Questions > Can I port my existing health policy to Suraksha? [kb_in_health_faq_5cd96c] (https://suraksha-example.in/faq, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 2,
+        "record_id": "kb_in_health_objection_46ccac",
+        "cosine": 0.187,
+        "bm25": 6.285,
+        "citation": "Family Shield Outbound Lead Qualification Script > Objection: I already have health cover from my employer [kb_in_health_objection_46ccac] (internal://sales/lead-qualification-script-v3.1, v3.1, effective 2026-04-01)"
+      },
+      {
+        "rank": 3,
+        "record_id": "kb_in_health_exclusions_d3c891",
+        "cosine": 0.076,
+        "bm25": 5.268,
+        "citation": "Family Shield Policy Wordings > Permanent Exclusions [kb_in_health_exclusions_d3c891] (https://suraksha-example.in/docs/family-shield-policy-wordings.pdf, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 4,
+        "record_id": "kb_in_health_eligibility_6485c3",
+        "cosine": 0.149,
+        "bm25": 4.266,
+        "citation": "Family Shield Outbound Lead Qualification Script > Qualification questions [kb_in_health_eligibility_6485c3] (internal://sales/lead-qualification-script-v3.1, v3.1, effective 2026-04-01)"
+      },
+      {
+        "rank": 5,
+        "record_id": "kb_in_health_cross_sell_b83b7e",
+        "cosine": 0.132,
+        "bm25": 4.361,
+        "citation": "Super Top-Up and Add-ons > Super Top-Up Plan [kb_in_health_cross_sell_b83b7e] (https://suraksha-example.in/plans/super-top-up, v1.0, effective 2026-04-01)"
+      }
+    ]
+  },
+  {
+    "id": "h25",
+    "market": "in_health",
+    "type": "faq",
+    "language": "en",
+    "query": "Does it cover ayurvedic treatment?",
+    "expanded_query": "does it cover ayurvedic treatment?",
+    "answerable_expected": true,
+    "answerable_predicted": true,
+    "gate_reason": "ok",
+    "confidence": 0.476,
+    "first_relevant_rank": 1,
+    "verdict": "correct",
+    "hits": [
+      {
+        "rank": 1,
+        "record_id": "kb_in_health_faq_110771",
+        "cosine": 0.476,
+        "bm25": 6.95,
+        "citation": "Frequently Asked Questions > Does Family Shield cover alternative treatments like Ayurveda? [kb_in_health_faq_110771] (https://suraksha-example.in/faq, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 2,
+        "record_id": "kb_in_health_exclusions_d3c891",
+        "cosine": 0.192,
+        "bm25": 5.156,
+        "citation": "Family Shield Policy Wordings > Permanent Exclusions [kb_in_health_exclusions_d3c891] (https://suraksha-example.in/docs/family-shield-policy-wordings.pdf, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 3,
+        "record_id": "kb_in_health_claims_132443",
+        "cosine": 0.073,
+        "bm25": 2.757,
+        "citation": "Claims > How to make a claim > Cashless claims [kb_in_health_claims_132443] (https://suraksha-example.in/claims, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 4,
+        "record_id": "kb_in_health_faq_5f7bec",
+        "cosine": 0.104,
+        "bm25": 2.55,
+        "citation": "Frequently Asked Questions > What happens if I miss my renewal date? [kb_in_health_faq_5f7bec] (https://suraksha-example.in/faq, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 5,
+        "record_id": "kb_in_health_objection_46ccac",
+        "cosine": 0.026,
+        "bm25": 4.157,
+        "citation": "Family Shield Outbound Lead Qualification Script > Objection: I already have health cover from my employer [kb_in_health_objection_46ccac] (internal://sales/lead-qualification-script-v3.1, v3.1, effective 2026-04-01)"
+      }
+    ]
+  },
+  {
+    "id": "h26",
+    "market": "in_health",
+    "type": "faq",
+    "language": "en",
+    "query": "Can I return the policy if I change my mind after buying?",
+    "expanded_query": "can i return the policy if i change my mind after buying?",
+    "answerable_expected": true,
+    "answerable_predicted": true,
+    "gate_reason": "ok",
+    "confidence": 0.246,
+    "first_relevant_rank": 1,
+    "verdict": "correct",
+    "hits": [
+      {
+        "rank": 1,
+        "record_id": "kb_in_health_faq_fd4262",
+        "cosine": 0.246,
+        "bm25": 14.437,
+        "citation": "Frequently Asked Questions > Can I cancel the policy if I change my mind? [kb_in_health_faq_fd4262] (https://suraksha-example.in/faq, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 2,
+        "record_id": "kb_in_health_faq_e03663",
+        "cosine": 0.15,
+        "bm25": 6.718,
+        "citation": "Frequently Asked Questions > Do I need a medical check-up before buying the policy? [kb_in_health_faq_e03663] (https://suraksha-example.in/faq, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 3,
+        "record_id": "kb_in_health_objection_cd8b74",
+        "cosine": 0.144,
+        "bm25": 6.131,
+        "citation": "Family Shield Outbound Lead Qualification Script > Objection: I am healthy, I do not need insurance [kb_in_health_objection_cd8b74] (internal://sales/lead-qualification-script-v3.1, v3.1, effective 2026-04-01)"
+      },
+      {
+        "rank": 4,
+        "record_id": "kb_in_health_cross_sell_b83b7e",
+        "cosine": 0.096,
+        "bm25": 4.474,
+        "citation": "Super Top-Up and Add-ons > Super Top-Up Plan [kb_in_health_cross_sell_b83b7e] (https://suraksha-example.in/plans/super-top-up, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 5,
+        "record_id": "kb_in_health_faq_5f7bec",
+        "cosine": 0.074,
+        "bm25": 4.161,
+        "citation": "Frequently Asked Questions > What happens if I miss my renewal date? [kb_in_health_faq_5f7bec] (https://suraksha-example.in/faq, v1.0, effective 2026-04-01)"
+      }
+    ]
+  },
+  {
+    "id": "h27",
+    "market": "in_health",
+    "type": "objection",
+    "language": "en",
+    "query": "This is too expensive, I can't afford it",
+    "expanded_query": "this is too expensive, i can't afford it premium too expensive discount premium too expensive monthly",
+    "answerable_expected": true,
+    "answerable_predicted": true,
+    "gate_reason": "ok",
+    "confidence": 0.25,
+    "first_relevant_rank": 1,
+    "verdict": "correct",
+    "hits": [
+      {
+        "rank": 1,
+        "record_id": "kb_in_health_objection_b81169",
+        "cosine": 0.25,
+        "bm25": 13.803,
+        "citation": "Family Shield Outbound Lead Qualification Script > Objection: the premium is too expensive [kb_in_health_objection_b81169] (internal://sales/lead-qualification-script-v3.1, v3.1, effective 2026-04-01)"
+      },
+      {
+        "rank": 2,
+        "record_id": "kb_in_health_cross_sell_5c70c0",
+        "cosine": 0.143,
+        "bm25": 7.628,
+        "citation": "Super Top-Up and Add-ons > Super Top-Up Plan > Multi-member discount [kb_in_health_cross_sell_5c70c0] (https://suraksha-example.in/plans/super-top-up, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 3,
+        "record_id": "kb_in_health_faq_563f11",
+        "cosine": 0.124,
+        "bm25": 6.868,
+        "citation": "Frequently Asked Questions > Can I pay the premium monthly? [kb_in_health_faq_563f11] (https://suraksha-example.in/faq, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 4,
+        "record_id": "kb_in_health_faq_5f7bec",
+        "cosine": 0.083,
+        "bm25": 4.265,
+        "citation": "Frequently Asked Questions > What happens if I miss my renewal date? [kb_in_health_faq_5f7bec] (https://suraksha-example.in/faq, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 5,
+        "record_id": "kb_in_health_compliance_acc7a4",
+        "cosine": 0.07,
+        "bm25": 4.563,
+        "citation": "Lead Qualification Rules: Family Shield > Rule Q7: Prohibited statements [kb_in_health_compliance_acc7a4] (internal://underwriting/qualification-rules-v2.0, v2.0, effective 2026-04-01)"
+      }
+    ]
+  },
+  {
+    "id": "h28",
+    "market": "in_health",
+    "type": "objection",
+    "language": "en",
+    "query": "My company already gives me health insurance",
+    "expanded_query": "my company already gives me health insurance employer",
+    "answerable_expected": true,
+    "answerable_predicted": true,
+    "gate_reason": "ok",
+    "confidence": 0.289,
+    "first_relevant_rank": 1,
+    "verdict": "correct",
+    "hits": [
+      {
+        "rank": 1,
+        "record_id": "kb_in_health_objection_46ccac",
+        "cosine": 0.289,
+        "bm25": 8.795,
+        "citation": "Family Shield Outbound Lead Qualification Script > Objection: I already have health cover from my employer [kb_in_health_objection_46ccac] (internal://sales/lead-qualification-script-v3.1, v3.1, effective 2026-04-01)"
+      },
+      {
+        "rank": 2,
+        "record_id": "kb_in_health_cross_sell_b83b7e",
+        "cosine": 0.255,
+        "bm25": 7.205,
+        "citation": "Super Top-Up and Add-ons > Super Top-Up Plan [kb_in_health_cross_sell_b83b7e] (https://suraksha-example.in/plans/super-top-up, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 3,
+        "record_id": "kb_in_health_form_42e643",
+        "cosine": 0.168,
+        "bm25": 7.127,
+        "citation": "Health Insurance Enquiry Form > Fields [kb_in_health_form_42e643] (https://suraksha-example.in/enquiry, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 4,
+        "record_id": "kb_in_health_faq_5cd96c",
+        "cosine": 0.178,
+        "bm25": 5.952,
+        "citation": "Frequently Asked Questions > Can I port my existing health policy to Suraksha? [kb_in_health_faq_5cd96c] (https://suraksha-example.in/faq, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 5,
+        "record_id": "kb_in_health_script_491712",
+        "cosine": 0.129,
+        "bm25": 6.404,
+        "citation": "Family Shield Outbound Lead Qualification Script > Opening [kb_in_health_script_491712] (internal://sales/lead-qualification-script-v3.1, v3.1, effective 2026-04-01)"
+      }
+    ]
+  },
+  {
+    "id": "h29",
+    "market": "in_health",
+    "type": "objection",
+    "language": "en",
+    "query": "Insurance companies always reject claims, why should I trust you?",
+    "expanded_query": "insurance companies always reject claims, why should i trust you?",
+    "answerable_expected": true,
+    "answerable_predicted": true,
+    "gate_reason": "ok",
+    "confidence": 0.213,
+    "first_relevant_rank": 1,
+    "verdict": "correct",
+    "hits": [
+      {
+        "rank": 1,
+        "record_id": "kb_in_health_objection_0cd00e",
+        "cosine": 0.213,
+        "bm25": 11.905,
+        "citation": "Family Shield Outbound Lead Qualification Script > Objection: insurance companies reject claims [kb_in_health_objection_0cd00e] (internal://sales/lead-qualification-script-v3.1, v3.1, effective 2026-04-01)"
+      },
+      {
+        "rank": 2,
+        "record_id": "kb_in_health_claims_8ffb69",
+        "cosine": 0.128,
+        "bm25": 4.834,
+        "citation": "Claims > How to make a claim > Claim settlement record [kb_in_health_claims_8ffb69] (https://suraksha-example.in/claims, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 3,
+        "record_id": "kb_in_health_claims_13c668",
+        "cosine": 0.09,
+        "bm25": 4.509,
+        "citation": "Claims > How to make a claim > Reimbursement claims [kb_in_health_claims_13c668] (https://suraksha-example.in/claims, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 4,
+        "record_id": "kb_in_health_claims_132443",
+        "cosine": 0.084,
+        "bm25": 6.088,
+        "citation": "Claims > How to make a claim > Cashless claims [kb_in_health_claims_132443] (https://suraksha-example.in/claims, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 5,
+        "record_id": "kb_in_health_eligibility_d33d1e",
+        "cosine": 0.088,
+        "bm25": 4.226,
+        "citation": "Lead Qualification Rules: Family Shield > Rule Q4: Serviceable location [kb_in_health_eligibility_d33d1e] (internal://underwriting/qualification-rules-v2.0, v2.0, effective 2026-04-01)"
+      }
+    ]
+  },
+  {
+    "id": "h30",
+    "market": "in_health",
+    "type": "objection",
+    "language": "en",
+    "query": "I'm young and healthy, why do I need this?",
+    "expanded_query": "i'm young and healthy, why do i need this?",
+    "answerable_expected": true,
+    "answerable_predicted": true,
+    "gate_reason": "ok",
+    "confidence": 0.304,
+    "first_relevant_rank": 1,
+    "verdict": "correct",
+    "hits": [
+      {
+        "rank": 1,
+        "record_id": "kb_in_health_objection_cd8b74",
+        "cosine": 0.304,
+        "bm25": 6.281,
+        "citation": "Family Shield Outbound Lead Qualification Script > Objection: I am healthy, I do not need insurance [kb_in_health_objection_cd8b74] (internal://sales/lead-qualification-script-v3.1, v3.1, effective 2026-04-01)"
+      },
+      {
+        "rank": 2,
+        "record_id": "kb_in_health_script_491712",
+        "cosine": 0.057,
+        "bm25": 0,
+        "citation": "Family Shield Outbound Lead Qualification Script > Opening [kb_in_health_script_491712] (internal://sales/lead-qualification-script-v3.1, v3.1, effective 2026-04-01)"
+      },
+      {
+        "rank": 3,
+        "record_id": "kb_in_health_faq_5cd96c",
+        "cosine": 0.055,
+        "bm25": 0,
+        "citation": "Frequently Asked Questions > Can I port my existing health policy to Suraksha? [kb_in_health_faq_5cd96c] (https://suraksha-example.in/faq, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 4,
+        "record_id": "kb_in_health_product_9065da",
+        "cosine": 0.053,
+        "bm25": 0,
+        "citation": "Family Shield Health Plan [kb_in_health_product_9065da] (https://suraksha-example.in/plans/family-shield, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 5,
+        "record_id": "kb_in_health_faq_110771",
+        "cosine": 0.042,
+        "bm25": 0,
+        "citation": "Frequently Asked Questions > Does Family Shield cover alternative treatments like Ayurveda? [kb_in_health_faq_110771] (https://suraksha-example.in/faq, v1.0, effective 2026-04-01)"
+      }
+    ]
+  },
+  {
+    "id": "h31",
+    "market": "in_health",
+    "type": "claims",
+    "language": "en",
+    "query": "How does cashless treatment work at the hospital?",
+    "expanded_query": "how does cashless treatment work at the hospital?",
+    "answerable_expected": true,
+    "answerable_predicted": true,
+    "gate_reason": "ok",
+    "confidence": 0.404,
+    "first_relevant_rank": 1,
+    "verdict": "correct",
+    "hits": [
+      {
+        "rank": 1,
+        "record_id": "kb_in_health_claims_132443",
+        "cosine": 0.404,
+        "bm25": 11.009,
+        "citation": "Claims > How to make a claim > Cashless claims [kb_in_health_claims_132443] (https://suraksha-example.in/claims, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 2,
+        "record_id": "kb_in_health_product_9065da",
+        "cosine": 0.486,
+        "bm25": 7.847,
+        "citation": "Family Shield Health Plan [kb_in_health_product_9065da] (https://suraksha-example.in/plans/family-shield, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 3,
+        "record_id": "kb_in_health_objection_0cd00e",
+        "cosine": 0.334,
+        "bm25": 8.29,
+        "citation": "Family Shield Outbound Lead Qualification Script > Objection: insurance companies reject claims [kb_in_health_objection_0cd00e] (internal://sales/lead-qualification-script-v3.1, v3.1, effective 2026-04-01)"
+      },
+      {
+        "rank": 4,
+        "record_id": "kb_in_health_faq_f03ba3",
+        "cosine": 0.341,
+        "bm25": 3.825,
+        "citation": "Frequently Asked Questions > How many network hospitals do you have? [kb_in_health_faq_f03ba3] (https://suraksha-example.in/faq, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 5,
+        "record_id": "kb_in_health_faq_110771",
+        "cosine": 0.241,
+        "bm25": 6.118,
+        "citation": "Frequently Asked Questions > Does Family Shield cover alternative treatments like Ayurveda? [kb_in_health_faq_110771] (https://suraksha-example.in/faq, v1.0, effective 2026-04-01)"
+      }
+    ]
+  },
+  {
+    "id": "h32",
+    "market": "in_health",
+    "type": "claims",
+    "language": "en",
+    "query": "How long do you take to settle a reimbursement claim?",
+    "expanded_query": "how long do you take to settle a reimbursement claim?",
+    "answerable_expected": true,
+    "answerable_predicted": true,
+    "gate_reason": "ok",
+    "confidence": 0.386,
+    "first_relevant_rank": 1,
+    "verdict": "correct",
+    "hits": [
+      {
+        "rank": 1,
+        "record_id": "kb_in_health_claims_13c668",
+        "cosine": 0.386,
+        "bm25": 9.374,
+        "citation": "Claims > How to make a claim > Reimbursement claims [kb_in_health_claims_13c668] (https://suraksha-example.in/claims, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 2,
+        "record_id": "kb_in_health_claims_8ffb69",
+        "cosine": 0.298,
+        "bm25": 3.759,
+        "citation": "Claims > How to make a claim > Claim settlement record [kb_in_health_claims_8ffb69] (https://suraksha-example.in/claims, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 3,
+        "record_id": "kb_in_health_objection_f1d729",
+        "cosine": 0.086,
+        "bm25": 4.254,
+        "citation": "Family Shield Outbound Lead Qualification Script > Objection: I need to think about it / call me later [kb_in_health_objection_f1d729] (internal://sales/lead-qualification-script-v3.1, v3.1, effective 2026-04-01)"
+      },
+      {
+        "rank": 4,
+        "record_id": "kb_in_health_objection_0cd00e",
+        "cosine": 0.133,
+        "bm25": 3.124,
+        "citation": "Family Shield Outbound Lead Qualification Script > Objection: insurance companies reject claims [kb_in_health_objection_0cd00e] (internal://sales/lead-qualification-script-v3.1, v3.1, effective 2026-04-01)"
+      },
+      {
+        "rank": 5,
+        "record_id": "kb_in_health_coverage_ed7a1b",
+        "cosine": 0.056,
+        "bm25": 3.436,
+        "citation": "Family Shield Policy Wordings > Cancellation by the Policyholder [kb_in_health_coverage_ed7a1b] (https://suraksha-example.in/docs/family-shield-policy-wordings.pdf, v1.0, effective 2026-04-01)"
+      }
+    ]
+  },
+  {
+    "id": "h33",
+    "market": "in_health",
+    "type": "pricing",
+    "language": "en",
+    "query": "How much is the premium for a 30 year old for 10 lakh cover?",
+    "expanded_query": "how much is the premium for a 30 year old for 10 lakh cover?",
+    "answerable_expected": true,
+    "answerable_predicted": true,
+    "gate_reason": "ok",
+    "confidence": 0.235,
+    "first_relevant_rank": null,
+    "verdict": "incorrect",
+    "hits": [
+      {
+        "rank": 1,
+        "record_id": "kb_in_health_coverage_9aa6f1",
+        "cosine": 0.235,
+        "bm25": 8.606,
+        "citation": "Family Shield Health Plan > Coverage amount options [kb_in_health_coverage_9aa6f1] (https://suraksha-example.in/plans/family-shield, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 2,
+        "record_id": "kb_in_health_cross_sell_b83b7e",
+        "cosine": 0.203,
+        "bm25": 11.42,
+        "citation": "Super Top-Up and Add-ons > Super Top-Up Plan [kb_in_health_cross_sell_b83b7e] (https://suraksha-example.in/plans/super-top-up, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 3,
+        "record_id": "kb_in_health_pricing_ae8f45",
+        "cosine": 0.193,
+        "bm25": 7.66,
+        "citation": "Family Shield Indicative Annual Premium Chart (individual, per member) > age band 18-25 [kb_in_health_pricing_ae8f45] (internal://pricing/family-shield-premium-chart.csv, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 4,
+        "record_id": "kb_in_health_objection_b81169",
+        "cosine": 0.131,
+        "bm25": 8.278,
+        "citation": "Family Shield Outbound Lead Qualification Script > Objection: the premium is too expensive [kb_in_health_objection_b81169] (internal://sales/lead-qualification-script-v3.1, v3.1, effective 2026-04-01)"
+      },
+      {
+        "rank": 5,
+        "record_id": "kb_in_health_pricing_1ab9bc",
+        "cosine": 0.193,
+        "bm25": 7.66,
+        "citation": "Family Shield Indicative Annual Premium Chart (individual, per member) > age band 46-55 [kb_in_health_pricing_1ab9bc] (internal://pricing/family-shield-premium-chart.csv, v1.0, effective 2026-04-01)"
+      }
+    ]
+  },
+  {
+    "id": "h34",
+    "market": "in_health",
+    "type": "faq",
+    "language": "en",
+    "query": "Do I get a tax benefit on the premium?",
+    "expanded_query": "do i get a tax benefit on the premium?",
+    "answerable_expected": true,
+    "answerable_predicted": true,
+    "gate_reason": "ok",
+    "confidence": 0.438,
+    "first_relevant_rank": 1,
+    "verdict": "correct",
+    "hits": [
+      {
+        "rank": 1,
+        "record_id": "kb_in_health_coverage_07f2e3",
+        "cosine": 0.438,
+        "bm25": 11.413,
+        "citation": "Family Shield Health Plan > Tax benefit [kb_in_health_coverage_07f2e3] (https://suraksha-example.in/plans/family-shield, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 2,
+        "record_id": "kb_in_health_compliance_acc7a4",
+        "cosine": 0.237,
+        "bm25": 6.35,
+        "citation": "Lead Qualification Rules: Family Shield > Rule Q7: Prohibited statements [kb_in_health_compliance_acc7a4] (internal://underwriting/qualification-rules-v2.0, v2.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 3,
+        "record_id": "kb_in_health_pricing_ae8f45",
+        "cosine": 0.062,
+        "bm25": 2.093,
+        "citation": "Family Shield Indicative Annual Premium Chart (individual, per member) > age band 18-25 [kb_in_health_pricing_ae8f45] (internal://pricing/family-shield-premium-chart.csv, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 4,
+        "record_id": "kb_in_health_pricing_091f5f",
+        "cosine": 0.06,
+        "bm25": 2.093,
+        "citation": "Family Shield Indicative Annual Premium Chart (individual, per member) > age band 36-45 [kb_in_health_pricing_091f5f] (internal://pricing/family-shield-premium-chart.csv, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 5,
+        "record_id": "kb_in_health_pricing_d08f26",
+        "cosine": 0.06,
+        "bm25": 2.093,
+        "citation": "Family Shield Indicative Annual Premium Chart (individual, per member) > age band 26-35 [kb_in_health_pricing_d08f26] (internal://pricing/family-shield-premium-chart.csv, v1.0, effective 2026-04-01)"
+      }
+    ]
+  },
+  {
+    "id": "h35",
+    "market": "in_health",
+    "type": "out_of_scope",
+    "language": "en",
+    "query": "Do you sell travel insurance for my Europe trip?",
+    "expanded_query": "do you sell travel insurance for my europe trip?",
+    "answerable_expected": false,
+    "answerable_predicted": false,
+    "gate_reason": "top_cosine_0.079_below_0.2",
+    "confidence": 0.079,
+    "first_relevant_rank": null,
+    "verdict": "correct (refused)",
+    "hits": [
+      {
+        "rank": 1,
+        "record_id": "kb_in_health_script_491712",
+        "cosine": 0.079,
+        "bm25": 3.915,
+        "citation": "Family Shield Outbound Lead Qualification Script > Opening [kb_in_health_script_491712] (internal://sales/lead-qualification-script-v3.1, v3.1, effective 2026-04-01)"
+      },
+      {
+        "rank": 2,
+        "record_id": "kb_in_health_coverage_f8ba08",
+        "cosine": 0.048,
+        "bm25": 3.262,
+        "citation": "Family Shield Policy Wordings > Preamble [kb_in_health_coverage_f8ba08] (https://suraksha-example.in/docs/family-shield-policy-wordings.pdf, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 3,
+        "record_id": "kb_in_health_form_42e643",
+        "cosine": 0.055,
+        "bm25": 2.761,
+        "citation": "Health Insurance Enquiry Form > Fields [kb_in_health_form_42e643] (https://suraksha-example.in/enquiry, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 4,
+        "record_id": "kb_in_health_coverage_0a80d6",
+        "cosine": 0.049,
+        "bm25": 3.05,
+        "citation": "Family Shield Policy Wordings > Grievance Redressal [kb_in_health_coverage_0a80d6] (https://suraksha-example.in/docs/family-shield-policy-wordings.pdf, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 5,
+        "record_id": "kb_in_health_objection_cd8b74",
+        "cosine": 0.031,
+        "bm25": 2.235,
+        "citation": "Family Shield Outbound Lead Qualification Script > Objection: I am healthy, I do not need insurance [kb_in_health_objection_cd8b74] (internal://sales/lead-qualification-script-v3.1, v3.1, effective 2026-04-01)"
+      }
+    ]
+  },
+  {
+    "id": "h36",
+    "market": "in_health",
+    "type": "out_of_scope",
+    "language": "en",
+    "query": "What's the weather going to be like in Delhi tomorrow?",
+    "expanded_query": "what's the weather going to be like in delhi tomorrow?",
+    "answerable_expected": false,
+    "answerable_predicted": false,
+    "gate_reason": "top_cosine_0.075_below_0.2",
+    "confidence": 0.075,
+    "first_relevant_rank": null,
+    "verdict": "correct (refused)",
+    "hits": [
+      {
+        "rank": 1,
+        "record_id": "kb_in_health_faq_175f7c",
+        "cosine": 0.075,
+        "bm25": 4.226,
+        "citation": "Frequently Asked Questions > Is COVID-19 or other infectious disease hospitalisation covered? [kb_in_health_faq_175f7c] (https://suraksha-example.in/faq, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 2,
+        "record_id": "kb_in_health_faq_110771",
+        "cosine": 0.073,
+        "bm25": 5.569,
+        "citation": "Frequently Asked Questions > Does Family Shield cover alternative treatments like Ayurveda? [kb_in_health_faq_110771] (https://suraksha-example.in/faq, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 3,
+        "record_id": "kb_in_health_eligibility_6485c3",
+        "cosine": 0.038,
+        "bm25": 0,
+        "citation": "Family Shield Outbound Lead Qualification Script > Qualification questions [kb_in_health_eligibility_6485c3] (internal://sales/lead-qualification-script-v3.1, v3.1, effective 2026-04-01)"
+      },
+      {
+        "rank": 4,
+        "record_id": "kb_in_health_operations_f54db1",
+        "cosine": 0.029,
+        "bm25": 0,
+        "citation": "Sales Desk Operating Notes > Do not call [kb_in_health_operations_f54db1] (internal://sales-ops/desk-notes, v1.0, effective 2026-05-10)"
+      },
+      {
+        "rank": 5,
+        "record_id": "kb_in_health_cross_sell_5f1417",
+        "cosine": 0.029,
+        "bm25": 0,
+        "citation": "Super Top-Up and Add-ons > Super Top-Up Plan > Optional add-ons > Maternity cover add-on [kb_in_health_cross_sell_5f1417] (https://suraksha-example.in/plans/super-top-up, v1.0, effective 2026-04-01)"
+      }
+    ]
+  },
+  {
+    "id": "h37",
+    "market": "in_health",
+    "type": "out_of_scope",
+    "language": "en",
+    "query": "Can I get a car loan from you?",
+    "expanded_query": "can i get a car loan from you?",
+    "answerable_expected": false,
+    "answerable_predicted": false,
+    "gate_reason": "top_cosine_0.022_below_0.2",
+    "confidence": 0.022,
+    "first_relevant_rank": null,
+    "verdict": "correct (refused)",
+    "hits": [
+      {
+        "rank": 1,
+        "record_id": "kb_in_health_objection_b81169",
+        "cosine": 0.022,
+        "bm25": 0,
+        "citation": "Family Shield Outbound Lead Qualification Script > Objection: the premium is too expensive [kb_in_health_objection_b81169] (internal://sales/lead-qualification-script-v3.1, v3.1, effective 2026-04-01)"
+      },
+      {
+        "rank": 2,
+        "record_id": "kb_in_health_coverage_d90352",
+        "cosine": 0.02,
+        "bm25": 0,
+        "citation": "Family Shield Policy Wordings > Free Look Period [kb_in_health_coverage_d90352] (https://suraksha-example.in/docs/family-shield-policy-wordings.pdf, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 3,
+        "record_id": "kb_in_health_coverage_9aa6f1",
+        "cosine": 0.019,
+        "bm25": 0,
+        "citation": "Family Shield Health Plan > Coverage amount options [kb_in_health_coverage_9aa6f1] (https://suraksha-example.in/plans/family-shield, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 4,
+        "record_id": "kb_in_health_eligibility_a2c567",
+        "cosine": 0.017,
+        "bm25": 0,
+        "citation": "Family Shield Health Plan > Who can buy Family Shield [kb_in_health_eligibility_a2c567] (https://suraksha-example.in/plans/family-shield, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 5,
+        "record_id": "kb_in_health_coverage_0a80d6",
+        "cosine": 0.017,
+        "bm25": 0,
+        "citation": "Family Shield Policy Wordings > Grievance Redressal [kb_in_health_coverage_0a80d6] (https://suraksha-example.in/docs/family-shield-policy-wordings.pdf, v1.0, effective 2026-04-01)"
+      }
+    ]
+  },
+  {
+    "id": "h38",
+    "market": "in_health",
+    "type": "out_of_scope",
+    "language": "en",
+    "query": "Who is the CEO of Suraksha?",
+    "expanded_query": "who is the ceo of suraksha?",
+    "answerable_expected": false,
+    "answerable_predicted": false,
+    "gate_reason": "top_cosine_0.000_below_0.2",
+    "confidence": 0,
+    "first_relevant_rank": null,
+    "verdict": "correct (refused)",
+    "hits": [
+      {
+        "rank": 1,
+        "record_id": "kb_in_health_faq_5cd96c",
+        "cosine": 0.184,
+        "bm25": 3.532,
+        "citation": "Frequently Asked Questions > Can I port my existing health policy to Suraksha? [kb_in_health_faq_5cd96c] (https://suraksha-example.in/faq, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 2,
+        "record_id": "kb_in_health_claims_8ffb69",
+        "cosine": 0.173,
+        "bm25": 3.506,
+        "citation": "Claims > How to make a claim > Claim settlement record [kb_in_health_claims_8ffb69] (https://suraksha-example.in/claims, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 3,
+        "record_id": "kb_in_health_coverage_f8ba08",
+        "cosine": 0.15,
+        "bm25": 3.262,
+        "citation": "Family Shield Policy Wordings > Preamble [kb_in_health_coverage_f8ba08] (https://suraksha-example.in/docs/family-shield-policy-wordings.pdf, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 4,
+        "record_id": "kb_in_health_script_491712",
+        "cosine": 0.14,
+        "bm25": 2.935,
+        "citation": "Family Shield Outbound Lead Qualification Script > Opening [kb_in_health_script_491712] (internal://sales/lead-qualification-script-v3.1, v3.1, effective 2026-04-01)"
+      },
+      {
+        "rank": 5,
+        "record_id": "kb_in_health_faq_f03ba3",
+        "cosine": 0.13,
+        "bm25": 3.09,
+        "citation": "Frequently Asked Questions > How many network hospitals do you have? [kb_in_health_faq_f03ba3] (https://suraksha-example.in/faq, v1.0, effective 2026-04-01)"
+      }
+    ]
+  },
+  {
+    "id": "h39",
+    "market": "in_health",
+    "type": "out_of_scope",
+    "language": "en",
+    "query": "Does the policy cover treatment taken abroad in the USA?",
+    "expanded_query": "does the policy cover treatment taken abroad in the usa?",
+    "answerable_expected": false,
+    "answerable_predicted": false,
+    "gate_reason": "top_cosine_0.169_below_0.2",
+    "confidence": 0.169,
+    "first_relevant_rank": null,
+    "verdict": "correct (refused)",
+    "hits": [
+      {
+        "rank": 1,
+        "record_id": "kb_in_health_faq_110771",
+        "cosine": 0.169,
+        "bm25": 6.95,
+        "citation": "Frequently Asked Questions > Does Family Shield cover alternative treatments like Ayurveda? [kb_in_health_faq_110771] (https://suraksha-example.in/faq, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 2,
+        "record_id": "kb_in_health_exclusions_d3c891",
+        "cosine": 0.173,
+        "bm25": 6.216,
+        "citation": "Family Shield Policy Wordings > Permanent Exclusions [kb_in_health_exclusions_d3c891] (https://suraksha-example.in/docs/family-shield-policy-wordings.pdf, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 3,
+        "record_id": "kb_in_health_faq_5f7bec",
+        "cosine": 0.102,
+        "bm25": 3.878,
+        "citation": "Frequently Asked Questions > What happens if I miss my renewal date? [kb_in_health_faq_5f7bec] (https://suraksha-example.in/faq, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 4,
+        "record_id": "kb_in_health_objection_46ccac",
+        "cosine": 0.043,
+        "bm25": 5.339,
+        "citation": "Family Shield Outbound Lead Qualification Script > Objection: I already have health cover from my employer [kb_in_health_objection_46ccac] (internal://sales/lead-qualification-script-v3.1, v3.1, effective 2026-04-01)"
+      },
+      {
+        "rank": 5,
+        "record_id": "kb_in_health_claims_132443",
+        "cosine": 0.069,
+        "bm25": 2.757,
+        "citation": "Claims > How to make a claim > Cashless claims [kb_in_health_claims_132443] (https://suraksha-example.in/claims, v1.0, effective 2026-04-01)"
+      }
+    ]
+  },
+  {
+    "id": "h40",
+    "market": "in_health",
+    "type": "out_of_scope",
+    "language": "en",
+    "query": "What is your bank's fixed deposit interest rate?",
+    "expanded_query": "what is your bank's fixed deposit interest rate?",
+    "answerable_expected": false,
+    "answerable_predicted": false,
+    "gate_reason": "top_cosine_0.114_below_0.2",
+    "confidence": 0.114,
+    "first_relevant_rank": null,
+    "verdict": "correct (refused)",
+    "hits": [
+      {
+        "rank": 1,
+        "record_id": "kb_in_health_objection_b81169",
+        "cosine": 0.114,
+        "bm25": 3.739,
+        "citation": "Family Shield Outbound Lead Qualification Script > Objection: the premium is too expensive [kb_in_health_objection_b81169] (internal://sales/lead-qualification-script-v3.1, v3.1, effective 2026-04-01)"
+      },
+      {
+        "rank": 2,
+        "record_id": "kb_in_health_cross_sell_b83b7e",
+        "cosine": 0.067,
+        "bm25": 2.478,
+        "citation": "Super Top-Up and Add-ons > Super Top-Up Plan [kb_in_health_cross_sell_b83b7e] (https://suraksha-example.in/plans/super-top-up, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 3,
+        "record_id": "kb_in_health_faq_563f11",
+        "cosine": 0.029,
+        "bm25": 2.479,
+        "citation": "Frequently Asked Questions > Can I pay the premium monthly? [kb_in_health_faq_563f11] (https://suraksha-example.in/faq, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 4,
+        "record_id": "kb_in_health_claims_13c668",
+        "cosine": 0.025,
+        "bm25": 2.263,
+        "citation": "Claims > How to make a claim > Reimbursement claims [kb_in_health_claims_13c668] (https://suraksha-example.in/claims, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 5,
+        "record_id": "kb_in_health_eligibility_a2c567",
+        "cosine": 0.036,
+        "bm25": 0,
+        "citation": "Family Shield Health Plan > Who can buy Family Shield [kb_in_health_eligibility_a2c567] (https://suraksha-example.in/plans/family-shield, v1.0, effective 2026-04-01)"
+      }
+    ]
+  },
+  {
+    "id": "h41",
+    "market": "in_health",
+    "type": "out_of_scope",
+    "language": "en",
+    "query": "Can you recommend a good cardiologist in Pune?",
+    "expanded_query": "can you recommend a good cardiologist in pune?",
+    "answerable_expected": false,
+    "answerable_predicted": false,
+    "gate_reason": "top_cosine_0.060_below_0.2",
+    "confidence": 0.06,
+    "first_relevant_rank": null,
+    "verdict": "correct (refused)",
+    "hits": [
+      {
+        "rank": 1,
+        "record_id": "kb_in_health_script_491712",
+        "cosine": 0.06,
+        "bm25": 4.279,
+        "citation": "Family Shield Outbound Lead Qualification Script > Opening [kb_in_health_script_491712] (internal://sales/lead-qualification-script-v3.1, v3.1, effective 2026-04-01)"
+      },
+      {
+        "rank": 2,
+        "record_id": "kb_in_health_objection_46ccac",
+        "cosine": 0.036,
+        "bm25": 2.736,
+        "citation": "Family Shield Outbound Lead Qualification Script > Objection: I already have health cover from my employer [kb_in_health_objection_46ccac] (internal://sales/lead-qualification-script-v3.1, v3.1, effective 2026-04-01)"
+      },
+      {
+        "rank": 3,
+        "record_id": "kb_in_health_waiting_period_eff976",
+        "cosine": 0.083,
+        "bm25": 0,
+        "citation": "Family Shield Policy Wordings > Waiting Periods [kb_in_health_waiting_period_eff976] (https://suraksha-example.in/docs/family-shield-policy-wordings.pdf, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 4,
+        "record_id": "kb_in_health_compliance_c8daf7",
+        "cosine": 0.047,
+        "bm25": 0,
+        "citation": "Family Shield Outbound Lead Qualification Script > Call recording disclosure [kb_in_health_compliance_c8daf7] (internal://sales/lead-qualification-script-v3.1, v3.1, effective 2026-04-01)"
+      },
+      {
+        "rank": 5,
+        "record_id": "kb_in_health_claims_8ffb69",
+        "cosine": 0.03,
+        "bm25": 0,
+        "citation": "Claims > How to make a claim > Claim settlement record [kb_in_health_claims_8ffb69] (https://suraksha-example.in/claims, v1.0, effective 2026-04-01)"
+      }
+    ]
+  },
+  {
+    "id": "h42",
+    "market": "in_health",
+    "type": "out_of_scope",
+    "language": "en",
+    "query": "Is my pet dog covered under the family plan?",
+    "expanded_query": "is my pet dog covered under the family plan?",
+    "answerable_expected": false,
+    "answerable_predicted": false,
+    "gate_reason": "top_cosine_0.120_below_0.2",
+    "confidence": 0.12,
+    "first_relevant_rank": null,
+    "verdict": "correct (refused)",
+    "hits": [
+      {
+        "rank": 1,
+        "record_id": "kb_in_health_cross_sell_5c70c0",
+        "cosine": 0.12,
+        "bm25": 9.214,
+        "citation": "Super Top-Up and Add-ons > Super Top-Up Plan > Multi-member discount [kb_in_health_cross_sell_5c70c0] (https://suraksha-example.in/plans/super-top-up, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 2,
+        "record_id": "kb_in_health_product_9065da",
+        "cosine": 0.169,
+        "bm25": 7.638,
+        "citation": "Family Shield Health Plan [kb_in_health_product_9065da] (https://suraksha-example.in/plans/family-shield, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 3,
+        "record_id": "kb_in_health_coverage_07f2e3",
+        "cosine": 0.114,
+        "bm25": 7.744,
+        "citation": "Family Shield Health Plan > Tax benefit [kb_in_health_coverage_07f2e3] (https://suraksha-example.in/plans/family-shield, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 4,
+        "record_id": "kb_in_health_eligibility_a2c567",
+        "cosine": 0.102,
+        "bm25": 6.112,
+        "citation": "Family Shield Health Plan > Who can buy Family Shield [kb_in_health_eligibility_a2c567] (https://suraksha-example.in/plans/family-shield, v1.0, effective 2026-04-01)"
+      },
+      {
+        "rank": 5,
+        "record_id": "kb_in_health_waiting_period_65a836",
+        "cosine": 0.11,
+        "bm25": 5.795,
+        "citation": "Family Shield Health Plan > Waiting periods [kb_in_health_waiting_period_65a836] (https://suraksha-example.in/plans/family-shield, v1.0, effective 2026-04-01)"
+      }
+    ]
+  },
+  {
+    "id": "p01",
+    "market": "ph_life",
+    "type": "faq",
+    "language": "taglish",
+    "query": "Na-late po ako ng bayad, active pa ba yung policy ko?",
+    "expanded_query": "na-late po ako ng bayad, active pa ba yung policy ko? late grace period payment pay magbayad",
+    "answerable_expected": true,
+    "answerable_predicted": true,
+    "gate_reason": "ok",
+    "confidence": 0.511,
+    "first_relevant_rank": 1,
+    "verdict": "correct",
+    "hits": [
+      {
+        "rank": 1,
+        "record_id": "kb_ph_life_faq_e6edd1",
+        "cosine": 0.511,
+        "bm25": 19.421,
+        "citation": "Mga Madalas Itanong: Kalinga Protect > Ano po ang mangyayari kapag na-late ako sa pagbayad ng premium? [kb_ph_life_faq_e6edd1] (internal://servicing/faq-taglish, v1.0, effective 2026-01-15)"
+      },
+      {
+        "rank": 2,
+        "record_id": "kb_ph_life_payment_b9d8fe",
+        "cosine": 0.215,
+        "bm25": 10.992,
+        "citation": "Payment, Grace Period, Lapse and Reinstatement: Kalinga Protect > Grace period [kb_ph_life_payment_b9d8fe] (internal://servicing/payment-lapse-reinstatement-v1.4, v1.4, effective 2026-01-15)"
+      },
+      {
+        "rank": 3,
+        "record_id": "kb_ph_life_payment_a15dd6",
+        "cosine": 0.147,
+        "bm25": 11.654,
+        "citation": "Payment, Grace Period, Lapse and Reinstatement: Kalinga Protect > Hardship assistance [kb_ph_life_payment_a15dd6] (internal://servicing/payment-lapse-reinstatement-v1.4, v1.4, effective 2026-01-15)"
+      },
+      {
+        "rank": 4,
+        "record_id": "kb_ph_life_payment_d35f44",
+        "cosine": 0.193,
+        "bm25": 10.052,
+        "citation": "Payment, Grace Period, Lapse and Reinstatement: Kalinga Protect > Lapse [kb_ph_life_payment_d35f44] (internal://servicing/payment-lapse-reinstatement-v1.4, v1.4, effective 2026-01-15)"
+      },
+      {
+        "rank": 5,
+        "record_id": "kb_ph_life_objection_fd5e66",
+        "cosine": 0.18,
+        "bm25": 10.158,
+        "citation": "Premium Reminder Call Script: Kalinga Protect > Objection: \"Wala pa po akong pera\" o \"Sa sweldo pa po\" [kb_ph_life_objection_fd5e66] (internal://servicing/premium-reminder-script-v2.0, v2.0, effective 2026-01-15)"
+      }
+    ]
+  },
+  {
+    "id": "p02",
+    "market": "ph_life",
+    "type": "policy",
+    "language": "taglish",
+    "query": "Nag-lapse na po yung policy ko last year, pwede pa ba ibalik?",
+    "expanded_query": "nag-lapse na po yung policy ko last year, pwede pa ba ibalik? lapse reinstate reinstatement",
+    "answerable_expected": true,
+    "answerable_predicted": true,
+    "gate_reason": "ok",
+    "confidence": 0.401,
+    "first_relevant_rank": 1,
+    "verdict": "correct",
+    "hits": [
+      {
+        "rank": 1,
+        "record_id": "kb_ph_life_payment_dc257c",
+        "cosine": 0.401,
+        "bm25": 9.801,
+        "citation": "Payment, Grace Period, Lapse and Reinstatement: Kalinga Protect > Reinstatement [kb_ph_life_payment_dc257c] (internal://servicing/payment-lapse-reinstatement-v1.4, v1.4, effective 2026-01-15)"
+      },
+      {
+        "rank": 2,
+        "record_id": "kb_ph_life_payment_d35f44",
+        "cosine": 0.362,
+        "bm25": 9.353,
+        "citation": "Payment, Grace Period, Lapse and Reinstatement: Kalinga Protect > Lapse [kb_ph_life_payment_d35f44] (internal://servicing/payment-lapse-reinstatement-v1.4, v1.4, effective 2026-01-15)"
+      },
+      {
+        "rank": 3,
+        "record_id": "kb_ph_life_faq_87a7c2",
+        "cosine": 0.351,
+        "bm25": 9.378,
+        "citation": "Mga Madalas Itanong: Kalinga Protect > Paano kung nag-lapse na yung policy ko, pwede pa ba i-reinstate? [kb_ph_life_faq_87a7c2] (internal://servicing/faq-taglish, v1.0, effective 2026-01-15)"
+      },
+      {
+        "rank": 4,
+        "record_id": "kb_ph_life_coverage_70e42d",
+        "cosine": 0.217,
+        "bm25": 6.242,
+        "citation": "Payment, Grace Period, Lapse and Reinstatement: Kalinga Protect > Premium amount [kb_ph_life_coverage_70e42d] (internal://servicing/payment-lapse-reinstatement-v1.4, v1.4, effective 2026-01-15)"
+      },
+      {
+        "rank": 5,
+        "record_id": "kb_ph_life_payment_a15dd6",
+        "cosine": 0.181,
+        "bm25": 7.862,
+        "citation": "Payment, Grace Period, Lapse and Reinstatement: Kalinga Protect > Hardship assistance [kb_ph_life_payment_a15dd6] (internal://servicing/payment-lapse-reinstatement-v1.4, v1.4, effective 2026-01-15)"
+      }
+    ]
+  },
+  {
+    "id": "p03",
+    "market": "ph_life",
+    "type": "faq",
+    "language": "tl",
+    "query": "Saan ako pwedeng magbayad ng hulog ko?",
+    "expanded_query": "saan ako pwedeng magbayad ng hulog ko? payment pay premium payment",
+    "answerable_expected": true,
+    "answerable_predicted": true,
+    "gate_reason": "ok",
+    "confidence": 0.413,
+    "first_relevant_rank": 1,
+    "verdict": "correct",
+    "hits": [
+      {
+        "rank": 1,
+        "record_id": "kb_ph_life_faq_7c6443",
+        "cosine": 0.413,
+        "bm25": 14.534,
+        "citation": "Mga Madalas Itanong: Kalinga Protect > Saan po ako pwedeng magbayad ng premium? [kb_ph_life_faq_7c6443] (internal://servicing/faq-taglish, v1.0, effective 2026-01-15)"
+      },
+      {
+        "rank": 2,
+        "record_id": "kb_ph_life_payment_b9d8fe",
+        "cosine": 0.135,
+        "bm25": 4.646,
+        "citation": "Payment, Grace Period, Lapse and Reinstatement: Kalinga Protect > Grace period [kb_ph_life_payment_b9d8fe] (internal://servicing/payment-lapse-reinstatement-v1.4, v1.4, effective 2026-01-15)"
+      },
+      {
+        "rank": 3,
+        "record_id": "kb_ph_life_payment_a15dd6",
+        "cosine": 0.107,
+        "bm25": 6.865,
+        "citation": "Payment, Grace Period, Lapse and Reinstatement: Kalinga Protect > Hardship assistance [kb_ph_life_payment_a15dd6] (internal://servicing/payment-lapse-reinstatement-v1.4, v1.4, effective 2026-01-15)"
+      },
+      {
+        "rank": 4,
+        "record_id": "kb_ph_life_coverage_70e42d",
+        "cosine": 0.102,
+        "bm25": 4.576,
+        "citation": "Payment, Grace Period, Lapse and Reinstatement: Kalinga Protect > Premium amount [kb_ph_life_coverage_70e42d] (internal://servicing/payment-lapse-reinstatement-v1.4, v1.4, effective 2026-01-15)"
+      },
+      {
+        "rank": 5,
+        "record_id": "kb_ph_life_payment_45211f",
+        "cosine": 0.126,
+        "bm25": 3.482,
+        "citation": "Payment, Grace Period, Lapse and Reinstatement: Kalinga Protect > Change of payment mode [kb_ph_life_payment_45211f] (internal://servicing/payment-lapse-reinstatement-v1.4, v1.4, effective 2026-01-15)"
+      }
+    ]
+  },
+  {
+    "id": "p04",
+    "market": "ph_life",
+    "type": "faq",
+    "language": "taglish",
+    "query": "Bakit po tumaas yung premium ko this year?",
+    "expanded_query": "bakit po tumaas yung premium ko this year? premium increase level",
+    "answerable_expected": true,
+    "answerable_predicted": true,
+    "gate_reason": "ok",
+    "confidence": 0.382,
+    "first_relevant_rank": 1,
+    "verdict": "correct",
+    "hits": [
+      {
+        "rank": 1,
+        "record_id": "kb_ph_life_coverage_70e42d",
+        "cosine": 0.382,
+        "bm25": 13.206,
+        "citation": "Payment, Grace Period, Lapse and Reinstatement: Kalinga Protect > Premium amount [kb_ph_life_coverage_70e42d] (internal://servicing/payment-lapse-reinstatement-v1.4, v1.4, effective 2026-01-15)"
+      },
+      {
+        "rank": 2,
+        "record_id": "kb_ph_life_faq_05c826",
+        "cosine": 0.256,
+        "bm25": 6.648,
+        "citation": "Mga Madalas Itanong: Kalinga Protect > Tataas po ba ang premium ko habang tumatagal? [kb_ph_life_faq_05c826] (internal://servicing/faq-taglish, v1.0, effective 2026-01-15)"
+      },
+      {
+        "rank": 3,
+        "record_id": "kb_ph_life_objection_6d6135",
+        "cosine": 0.082,
+        "bm25": 5.605,
+        "citation": "Premium Reminder Call Script: Kalinga Protect > Objection: \"Bakit kailangan ko pa ng rider?\" [kb_ph_life_objection_6d6135] (internal://servicing/premium-reminder-script-v2.0, v2.0, effective 2026-01-15)"
+      },
+      {
+        "rank": 4,
+        "record_id": "kb_ph_life_faq_940b27",
+        "cosine": 0.052,
+        "bm25": 3.278,
+        "citation": "Mga Madalas Itanong: Kalinga Protect > Wala po akong pambayad ngayon, may tulong po ba? [kb_ph_life_faq_940b27] (internal://servicing/faq-taglish, v1.0, effective 2026-01-15)"
+      },
+      {
+        "rank": 5,
+        "record_id": "kb_ph_life_script_760082",
+        "cosine": 0.087,
+        "bm25": 1.817,
+        "citation": "Premium Reminder Call Script: Kalinga Protect > Pagbati at pagpapakilala [kb_ph_life_script_760082] (internal://servicing/premium-reminder-script-v2.0, v2.0, effective 2026-01-15)"
+      }
+    ]
+  },
+  {
+    "id": "p05",
+    "market": "ph_life",
+    "type": "faq",
+    "language": "taglish",
+    "query": "Gusto ko po palitan yung beneficiary ko, yung kapatid ko na lang",
+    "expanded_query": "gusto ko po palitan yung beneficiary ko, yung kapatid ko na lang change beneficiary mode",
+    "answerable_expected": true,
+    "answerable_predicted": true,
+    "gate_reason": "ok",
+    "confidence": 0.553,
+    "first_relevant_rank": 1,
+    "verdict": "correct",
+    "hits": [
+      {
+        "rank": 1,
+        "record_id": "kb_ph_life_faq_efff90",
+        "cosine": 0.553,
+        "bm25": 14.615,
+        "citation": "Mga Madalas Itanong: Kalinga Protect > Pwede ko po bang palitan ang beneficiary ko? [kb_ph_life_faq_efff90] (internal://servicing/faq-taglish, v1.0, effective 2026-01-15)"
+      },
+      {
+        "rank": 2,
+        "record_id": "kb_ph_life_coverage_61fd1a",
+        "cosine": 0.414,
+        "bm25": 8.011,
+        "citation": "Kalinga Protect Term Life > Beneficiaries [kb_ph_life_coverage_61fd1a] (https://kalinga-life-example.ph/products/kalinga-protect, v1.0, effective 2026-01-15)"
+      },
+      {
+        "rank": 3,
+        "record_id": "kb_ph_life_payment_45211f",
+        "cosine": 0.152,
+        "bm25": 8.716,
+        "citation": "Payment, Grace Period, Lapse and Reinstatement: Kalinga Protect > Change of payment mode [kb_ph_life_payment_45211f] (internal://servicing/payment-lapse-reinstatement-v1.4, v1.4, effective 2026-01-15)"
+      },
+      {
+        "rank": 4,
+        "record_id": "kb_ph_life_faq_3b0804",
+        "cosine": 0.102,
+        "bm25": 6.727,
+        "citation": "Mga Madalas Itanong: Kalinga Protect > Pwede ko po bang gawing monthly ang bayad ko? [kb_ph_life_faq_3b0804] (internal://servicing/faq-taglish, v1.0, effective 2026-01-15)"
+      },
+      {
+        "rank": 5,
+        "record_id": "kb_ph_life_objection_0923a1",
+        "cosine": 0.052,
+        "bm25": 3.335,
+        "citation": "Premium Reminder Call Script: Kalinga Protect > Objection: \"Gusto ko na pong i-cancel\" o \"Hindi ko na kailangan\" [kb_ph_life_objection_0923a1] (internal://servicing/premium-reminder-script-v2.0, v2.0, effective 2026-01-15)"
+      }
+    ]
+  },
+  {
+    "id": "p06",
+    "market": "ph_life",
+    "type": "objection",
+    "language": "tl",
+    "query": "Wala po akong pera ngayon, nawalan ako ng trabaho",
+    "expanded_query": "wala po akong pera ngayon, nawalan ako ng trabaho payment hardship extension hardship extension hardship extension job loss",
+    "answerable_expected": true,
+    "answerable_predicted": true,
+    "gate_reason": "ok",
+    "confidence": 0.33,
+    "first_relevant_rank": 1,
+    "verdict": "correct",
+    "hits": [
+      {
+        "rank": 1,
+        "record_id": "kb_ph_life_faq_940b27",
+        "cosine": 0.33,
+        "bm25": 26.423,
+        "citation": "Mga Madalas Itanong: Kalinga Protect > Wala po akong pambayad ngayon, may tulong po ba? [kb_ph_life_faq_940b27] (internal://servicing/faq-taglish, v1.0, effective 2026-01-15)"
+      },
+      {
+        "rank": 2,
+        "record_id": "kb_ph_life_objection_fd5e66",
+        "cosine": 0.447,
+        "bm25": 26.215,
+        "citation": "Premium Reminder Call Script: Kalinga Protect > Objection: \"Wala pa po akong pera\" o \"Sa sweldo pa po\" [kb_ph_life_objection_fd5e66] (internal://servicing/premium-reminder-script-v2.0, v2.0, effective 2026-01-15)"
+      },
+      {
+        "rank": 3,
+        "record_id": "kb_ph_life_payment_a15dd6",
+        "cosine": 0.33,
+        "bm25": 16.811,
+        "citation": "Payment, Grace Period, Lapse and Reinstatement: Kalinga Protect > Hardship assistance [kb_ph_life_payment_a15dd6] (internal://servicing/payment-lapse-reinstatement-v1.4, v1.4, effective 2026-01-15)"
+      },
+      {
+        "rank": 4,
+        "record_id": "kb_ph_life_objection_0923a1",
+        "cosine": 0.05,
+        "bm25": 3.726,
+        "citation": "Premium Reminder Call Script: Kalinga Protect > Objection: \"Gusto ko na pong i-cancel\" o \"Hindi ko na kailangan\" [kb_ph_life_objection_0923a1] (internal://servicing/premium-reminder-script-v2.0, v2.0, effective 2026-01-15)"
+      },
+      {
+        "rank": 5,
+        "record_id": "kb_ph_life_payment_45211f",
+        "cosine": 0.047,
+        "bm25": 3.482,
+        "citation": "Payment, Grace Period, Lapse and Reinstatement: Kalinga Protect > Change of payment mode [kb_ph_life_payment_45211f] (internal://servicing/payment-lapse-reinstatement-v1.4, v1.4, effective 2026-01-15)"
+      }
+    ]
+  },
+  {
+    "id": "p07",
+    "market": "ph_life",
+    "type": "product",
+    "language": "en",
+    "query": "What does the critical illness rider pay?",
+    "expanded_query": "what does the critical illness rider pay?",
+    "answerable_expected": true,
+    "answerable_predicted": true,
+    "gate_reason": "ok",
+    "confidence": 0.515,
+    "first_relevant_rank": 1,
+    "verdict": "correct",
+    "hits": [
+      {
+        "rank": 1,
+        "record_id": "kb_ph_life_faq_f93557",
+        "cosine": 0.515,
+        "bm25": 14.64,
+        "citation": "Mga Madalas Itanong: Kalinga Protect > Ano po yung rider at kailangan ko ba? [kb_ph_life_faq_f93557] (internal://servicing/faq-taglish, v1.0, effective 2026-01-15)"
+      },
+      {
+        "rank": 2,
+        "record_id": "kb_ph_life_objection_6d6135",
+        "cosine": 0.446,
+        "bm25": 14.059,
+        "citation": "Premium Reminder Call Script: Kalinga Protect > Objection: \"Bakit kailangan ko pa ng rider?\" [kb_ph_life_objection_6d6135] (internal://servicing/premium-reminder-script-v2.0, v2.0, effective 2026-01-15)"
+      },
+      {
+        "rank": 3,
+        "record_id": "kb_ph_life_cross_sell_bf7896",
+        "cosine": 0.422,
+        "bm25": 12.669,
+        "citation": "Kalinga Protect Term Life > Riders [kb_ph_life_cross_sell_bf7896] (https://kalinga-life-example.ph/products/kalinga-protect, v1.0, effective 2026-01-15)"
+      },
+      {
+        "rank": 4,
+        "record_id": "kb_ph_life_payment_a15dd6",
+        "cosine": 0.107,
+        "bm25": 5.419,
+        "citation": "Payment, Grace Period, Lapse and Reinstatement: Kalinga Protect > Hardship assistance [kb_ph_life_payment_a15dd6] (internal://servicing/payment-lapse-reinstatement-v1.4, v1.4, effective 2026-01-15)"
+      },
+      {
+        "rank": 5,
+        "record_id": "kb_ph_life_faq_05c826",
+        "cosine": 0.072,
+        "bm25": 3.727,
+        "citation": "Mga Madalas Itanong: Kalinga Protect > Tataas po ba ang premium ko habang tumatagal? [kb_ph_life_faq_05c826] (internal://servicing/faq-taglish, v1.0, effective 2026-01-15)"
+      }
+    ]
+  },
+  {
+    "id": "p08",
+    "market": "ph_life",
+    "type": "faq",
+    "language": "taglish",
+    "query": "Nagbayad ako sa e-wallet kahapon, kailan po papasok?",
+    "expanded_query": "nagbayad ako sa e-wallet kahapon, kailan po papasok? payment pay posted",
+    "answerable_expected": true,
+    "answerable_predicted": true,
+    "gate_reason": "ok",
+    "confidence": 0.255,
+    "first_relevant_rank": 1,
+    "verdict": "correct",
+    "hits": [
+      {
+        "rank": 1,
+        "record_id": "kb_ph_life_payment_d7d7ba",
+        "cosine": 0.255,
+        "bm25": 8.555,
+        "citation": "Payment, Grace Period, Lapse and Reinstatement: Kalinga Protect > Payment confirmation [kb_ph_life_payment_d7d7ba] (internal://servicing/payment-lapse-reinstatement-v1.4, v1.4, effective 2026-01-15)"
+      },
+      {
+        "rank": 2,
+        "record_id": "kb_ph_life_faq_5e1f0d",
+        "cosine": 0.222,
+        "bm25": 9.476,
+        "citation": "Mga Madalas Itanong: Kalinga Protect > Kailan po makikita yung bayad ko? [kb_ph_life_faq_5e1f0d] (internal://servicing/faq-taglish, v1.0, effective 2026-01-15)"
+      },
+      {
+        "rank": 3,
+        "record_id": "kb_ph_life_payment_45211f",
+        "cosine": 0.074,
+        "bm25": 3.482,
+        "citation": "Payment, Grace Period, Lapse and Reinstatement: Kalinga Protect > Change of payment mode [kb_ph_life_payment_45211f] (internal://servicing/payment-lapse-reinstatement-v1.4, v1.4, effective 2026-01-15)"
+      },
+      {
+        "rank": 4,
+        "record_id": "kb_ph_life_payment_a15dd6",
+        "cosine": 0.058,
+        "bm25": 5.76,
+        "citation": "Payment, Grace Period, Lapse and Reinstatement: Kalinga Protect > Hardship assistance [kb_ph_life_payment_a15dd6] (internal://servicing/payment-lapse-reinstatement-v1.4, v1.4, effective 2026-01-15)"
+      },
+      {
+        "rank": 5,
+        "record_id": "kb_ph_life_payment_b9d8fe",
+        "cosine": 0.063,
+        "bm25": 2.914,
+        "citation": "Payment, Grace Period, Lapse and Reinstatement: Kalinga Protect > Grace period [kb_ph_life_payment_b9d8fe] (internal://servicing/payment-lapse-reinstatement-v1.4, v1.4, effective 2026-01-15)"
+      }
+    ]
+  },
+  {
+    "id": "p09",
+    "market": "ph_life",
+    "type": "policy",
+    "language": "taglish",
+    "query": "Pwede ko po ba gawing monthly yung payment mode?",
+    "expanded_query": "pwede ko po ba gawing monthly yung payment mode? monthly instalments auto-debit",
+    "answerable_expected": true,
+    "answerable_predicted": true,
+    "gate_reason": "ok",
+    "confidence": 0.358,
+    "first_relevant_rank": 1,
+    "verdict": "correct",
+    "hits": [
+      {
+        "rank": 1,
+        "record_id": "kb_ph_life_faq_3b0804",
+        "cosine": 0.358,
+        "bm25": 14.101,
+        "citation": "Mga Madalas Itanong: Kalinga Protect > Pwede ko po bang gawing monthly ang bayad ko? [kb_ph_life_faq_3b0804] (internal://servicing/faq-taglish, v1.0, effective 2026-01-15)"
+      },
+      {
+        "rank": 2,
+        "record_id": "kb_ph_life_payment_7a2274",
+        "cosine": 0.301,
+        "bm25": 12.381,
+        "citation": "Kalinga Protect Term Life > Premium payment [kb_ph_life_payment_7a2274] (https://kalinga-life-example.ph/products/kalinga-protect, v1.0, effective 2026-01-15)"
+      },
+      {
+        "rank": 3,
+        "record_id": "kb_ph_life_payment_45211f",
+        "cosine": 0.238,
+        "bm25": 10.957,
+        "citation": "Payment, Grace Period, Lapse and Reinstatement: Kalinga Protect > Change of payment mode [kb_ph_life_payment_45211f] (internal://servicing/payment-lapse-reinstatement-v1.4, v1.4, effective 2026-01-15)"
+      },
+      {
+        "rank": 4,
+        "record_id": "kb_ph_life_faq_7c6443",
+        "cosine": 0.241,
+        "bm25": 9.872,
+        "citation": "Mga Madalas Itanong: Kalinga Protect > Saan po ako pwedeng magbayad ng premium? [kb_ph_life_faq_7c6443] (internal://servicing/faq-taglish, v1.0, effective 2026-01-15)"
+      },
+      {
+        "rank": 5,
+        "record_id": "kb_ph_life_payment_d7d7ba",
+        "cosine": 0.114,
+        "bm25": 3.031,
+        "citation": "Payment, Grace Period, Lapse and Reinstatement: Kalinga Protect > Payment confirmation [kb_ph_life_payment_d7d7ba] (internal://servicing/payment-lapse-reinstatement-v1.4, v1.4, effective 2026-01-15)"
+      }
+    ]
+  },
+  {
+    "id": "p10",
+    "market": "ph_life",
+    "type": "objection",
+    "language": "taglish",
+    "query": "Ayoko na po, i-cancel ko na lang yung policy",
+    "expanded_query": "ayoko na po, i-cancel ko na lang yung policy cancel lapse advisor",
+    "answerable_expected": true,
+    "answerable_predicted": true,
+    "gate_reason": "ok",
+    "confidence": 0.221,
+    "first_relevant_rank": 1,
+    "verdict": "correct",
+    "hits": [
+      {
+        "rank": 1,
+        "record_id": "kb_ph_life_objection_0923a1",
+        "cosine": 0.221,
+        "bm25": 7.162,
+        "citation": "Premium Reminder Call Script: Kalinga Protect > Objection: \"Gusto ko na pong i-cancel\" o \"Hindi ko na kailangan\" [kb_ph_life_objection_0923a1] (internal://servicing/premium-reminder-script-v2.0, v2.0, effective 2026-01-15)"
+      },
+      {
+        "rank": 2,
+        "record_id": "kb_ph_life_payment_d35f44",
+        "cosine": 0.147,
+        "bm25": 6.16,
+        "citation": "Payment, Grace Period, Lapse and Reinstatement: Kalinga Protect > Lapse [kb_ph_life_payment_d35f44] (internal://servicing/payment-lapse-reinstatement-v1.4, v1.4, effective 2026-01-15)"
+      },
+      {
+        "rank": 3,
+        "record_id": "kb_ph_life_payment_a15dd6",
+        "cosine": 0.138,
+        "bm25": 6.139,
+        "citation": "Payment, Grace Period, Lapse and Reinstatement: Kalinga Protect > Hardship assistance [kb_ph_life_payment_a15dd6] (internal://servicing/payment-lapse-reinstatement-v1.4, v1.4, effective 2026-01-15)"
+      },
+      {
+        "rank": 4,
+        "record_id": "kb_ph_life_payment_dc257c",
+        "cosine": 0.086,
+        "bm25": 5.115,
+        "citation": "Payment, Grace Period, Lapse and Reinstatement: Kalinga Protect > Reinstatement [kb_ph_life_payment_dc257c] (internal://servicing/payment-lapse-reinstatement-v1.4, v1.4, effective 2026-01-15)"
+      },
+      {
+        "rank": 5,
+        "record_id": "kb_ph_life_faq_87a7c2",
+        "cosine": 0.084,
+        "bm25": 4.11,
+        "citation": "Mga Madalas Itanong: Kalinga Protect > Paano kung nag-lapse na yung policy ko, pwede pa ba i-reinstate? [kb_ph_life_faq_87a7c2] (internal://servicing/faq-taglish, v1.0, effective 2026-01-15)"
+      }
+    ]
+  },
+  {
+    "id": "p11",
+    "market": "ph_life",
+    "type": "product",
+    "language": "en",
+    "query": "Up to how old can I apply for Kalinga Protect?",
+    "expanded_query": "up to how old can i apply for kalinga protect?",
+    "answerable_expected": true,
+    "answerable_predicted": false,
+    "gate_reason": "top_cosine_0.173_below_0.2",
+    "confidence": 0.173,
+    "first_relevant_rank": 1,
+    "verdict": "partially correct (right chunk, but refused)",
+    "hits": [
+      {
+        "rank": 1,
+        "record_id": "kb_ph_life_coverage_b10f8d",
+        "cosine": 0.202,
+        "bm25": 9.976,
+        "citation": "Kalinga Protect Term Life > Coverage [kb_ph_life_coverage_b10f8d] (https://kalinga-life-example.ph/products/kalinga-protect, v1.0, effective 2026-01-15)"
+      },
+      {
+        "rank": 2,
+        "record_id": "kb_ph_life_product_21f95f",
+        "cosine": 0.129,
+        "bm25": 4.048,
+        "citation": "Kalinga Protect Term Life [kb_ph_life_product_21f95f] (https://kalinga-life-example.ph/products/kalinga-protect, v1.0, effective 2026-01-15)"
+      },
+      {
+        "rank": 3,
+        "record_id": "kb_ph_life_coverage_70e42d",
+        "cosine": 0.124,
+        "bm25": 4.048,
+        "citation": "Payment, Grace Period, Lapse and Reinstatement: Kalinga Protect > Premium amount [kb_ph_life_coverage_70e42d] (internal://servicing/payment-lapse-reinstatement-v1.4, v1.4, effective 2026-01-15)"
+      },
+      {
+        "rank": 4,
+        "record_id": "kb_ph_life_payment_a15dd6",
+        "cosine": 0.099,
+        "bm25": 4.776,
+        "citation": "Payment, Grace Period, Lapse and Reinstatement: Kalinga Protect > Hardship assistance [kb_ph_life_payment_a15dd6] (internal://servicing/payment-lapse-reinstatement-v1.4, v1.4, effective 2026-01-15)"
+      },
+      {
+        "rank": 5,
+        "record_id": "kb_ph_life_faq_05c826",
+        "cosine": 0.1,
+        "bm25": 4.013,
+        "citation": "Mga Madalas Itanong: Kalinga Protect > Tataas po ba ang premium ko habang tumatagal? [kb_ph_life_faq_05c826] (internal://servicing/faq-taglish, v1.0, effective 2026-01-15)"
+      }
+    ]
+  },
+  {
+    "id": "p12",
+    "market": "ph_life",
+    "type": "product",
+    "language": "taglish",
+    "query": "Ano po benefit kung through Bayanihan Bank referral ako?",
+    "expanded_query": "ano po benefit kung through bayanihan bank referral ako?",
+    "answerable_expected": true,
+    "answerable_predicted": true,
+    "gate_reason": "ok",
+    "confidence": 0.451,
+    "first_relevant_rank": 1,
+    "verdict": "correct",
+    "hits": [
+      {
+        "rank": 1,
+        "record_id": "kb_ph_life_cross_sell_2e95db",
+        "cosine": 0.48,
+        "bm25": 16.099,
+        "citation": "Kalinga Protect Term Life > Bank referral [kb_ph_life_cross_sell_2e95db] (https://kalinga-life-example.ph/products/kalinga-protect, v1.0, effective 2026-01-15)"
+      },
+      {
+        "rank": 2,
+        "record_id": "kb_ph_life_product_21f95f",
+        "cosine": 0.365,
+        "bm25": 12.013,
+        "citation": "Kalinga Protect Term Life [kb_ph_life_product_21f95f] (https://kalinga-life-example.ph/products/kalinga-protect, v1.0, effective 2026-01-15)"
+      },
+      {
+        "rank": 3,
+        "record_id": "kb_ph_life_payment_7a2274",
+        "cosine": 0.309,
+        "bm25": 11.63,
+        "citation": "Kalinga Protect Term Life > Premium payment [kb_ph_life_payment_7a2274] (https://kalinga-life-example.ph/products/kalinga-protect, v1.0, effective 2026-01-15)"
+      },
+      {
+        "rank": 4,
+        "record_id": "kb_ph_life_faq_7c6443",
+        "cosine": 0.215,
+        "bm25": 8.414,
+        "citation": "Mga Madalas Itanong: Kalinga Protect > Saan po ako pwedeng magbayad ng premium? [kb_ph_life_faq_7c6443] (internal://servicing/faq-taglish, v1.0, effective 2026-01-15)"
+      },
+      {
+        "rank": 5,
+        "record_id": "kb_ph_life_payment_45211f",
+        "cosine": 0.199,
+        "bm25": 8.281,
+        "citation": "Payment, Grace Period, Lapse and Reinstatement: Kalinga Protect > Change of payment mode [kb_ph_life_payment_45211f] (internal://servicing/payment-lapse-reinstatement-v1.4, v1.4, effective 2026-01-15)"
+      }
+    ]
+  },
+  {
+    "id": "p13",
+    "market": "ph_life",
+    "type": "out_of_scope",
+    "language": "taglish",
+    "query": "Magkano po ang exchange rate ng dollar ngayon?",
+    "expanded_query": "magkano po ang exchange rate ng dollar ngayon?",
+    "answerable_expected": false,
+    "answerable_predicted": false,
+    "gate_reason": "top_cosine_0.144_below_0.2",
+    "confidence": 0.144,
+    "first_relevant_rank": null,
+    "verdict": "correct (refused)",
+    "hits": [
+      {
+        "rank": 1,
+        "record_id": "kb_ph_life_faq_940b27",
+        "cosine": 0.144,
+        "bm25": 5.532,
+        "citation": "Mga Madalas Itanong: Kalinga Protect > Wala po akong pambayad ngayon, may tulong po ba? [kb_ph_life_faq_940b27] (internal://servicing/faq-taglish, v1.0, effective 2026-01-15)"
+      },
+      {
+        "rank": 2,
+        "record_id": "kb_ph_life_payment_45211f",
+        "cosine": 0.072,
+        "bm25": 0,
+        "citation": "Payment, Grace Period, Lapse and Reinstatement: Kalinga Protect > Change of payment mode [kb_ph_life_payment_45211f] (internal://servicing/payment-lapse-reinstatement-v1.4, v1.4, effective 2026-01-15)"
+      },
+      {
+        "rank": 3,
+        "record_id": "kb_ph_life_coverage_61fd1a",
+        "cosine": 0.055,
+        "bm25": 0,
+        "citation": "Kalinga Protect Term Life > Beneficiaries [kb_ph_life_coverage_61fd1a] (https://kalinga-life-example.ph/products/kalinga-protect, v1.0, effective 2026-01-15)"
+      },
+      {
+        "rank": 4,
+        "record_id": "kb_ph_life_faq_3b0804",
+        "cosine": 0.045,
+        "bm25": 0,
+        "citation": "Mga Madalas Itanong: Kalinga Protect > Pwede ko po bang gawing monthly ang bayad ko? [kb_ph_life_faq_3b0804] (internal://servicing/faq-taglish, v1.0, effective 2026-01-15)"
+      },
+      {
+        "rank": 5,
+        "record_id": "kb_ph_life_objection_fd5e66",
+        "cosine": 0.044,
+        "bm25": 0,
+        "citation": "Premium Reminder Call Script: Kalinga Protect > Objection: \"Wala pa po akong pera\" o \"Sa sweldo pa po\" [kb_ph_life_objection_fd5e66] (internal://servicing/premium-reminder-script-v2.0, v2.0, effective 2026-01-15)"
+      }
+    ]
+  },
+  {
+    "id": "p14",
+    "market": "ph_life",
+    "type": "out_of_scope",
+    "language": "taglish",
+    "query": "May car insurance din po ba kayo?",
+    "expanded_query": "may car insurance din po ba kayo?",
+    "answerable_expected": false,
+    "answerable_predicted": false,
+    "gate_reason": "top_cosine_0.069_below_0.2",
+    "confidence": 0.069,
+    "first_relevant_rank": null,
+    "verdict": "correct (refused)",
+    "hits": [
+      {
+        "rank": 1,
+        "record_id": "kb_ph_life_escalation_1f3664",
+        "cosine": 0.069,
+        "bm25": 3.721,
+        "citation": "Premium Reminder Call Script: Kalinga Protect > Escalation [kb_ph_life_escalation_1f3664] (internal://servicing/premium-reminder-script-v2.0, v2.0, effective 2026-01-15)"
+      },
+      {
+        "rank": 2,
+        "record_id": "kb_ph_life_product_21f95f",
+        "cosine": 0.153,
+        "bm25": 3.05,
+        "citation": "Kalinga Protect Term Life [kb_ph_life_product_21f95f] (https://kalinga-life-example.ph/products/kalinga-protect, v1.0, effective 2026-01-15)"
+      },
+      {
+        "rank": 3,
+        "record_id": "kb_ph_life_faq_940b27",
+        "cosine": 0.052,
+        "bm25": 3.215,
+        "citation": "Mga Madalas Itanong: Kalinga Protect > Wala po akong pambayad ngayon, may tulong po ba? [kb_ph_life_faq_940b27] (internal://servicing/faq-taglish, v1.0, effective 2026-01-15)"
+      },
+      {
+        "rank": 4,
+        "record_id": "kb_ph_life_objection_fd5e66",
+        "cosine": 0.042,
+        "bm25": 2.743,
+        "citation": "Premium Reminder Call Script: Kalinga Protect > Objection: \"Wala pa po akong pera\" o \"Sa sweldo pa po\" [kb_ph_life_objection_fd5e66] (internal://servicing/premium-reminder-script-v2.0, v2.0, effective 2026-01-15)"
+      },
+      {
+        "rank": 5,
+        "record_id": "kb_ph_life_payment_dc257c",
+        "cosine": 0.044,
+        "bm25": 2.5,
+        "citation": "Payment, Grace Period, Lapse and Reinstatement: Kalinga Protect > Reinstatement [kb_ph_life_payment_dc257c] (internal://servicing/payment-lapse-reinstatement-v1.4, v1.4, effective 2026-01-15)"
+      }
+    ]
+  },
+  {
+    "id": "p15",
+    "market": "ph_life",
+    "type": "out_of_scope",
+    "language": "en",
+    "query": "Can you help me open a credit card?",
+    "expanded_query": "can you help me open a credit card?",
+    "answerable_expected": false,
+    "answerable_predicted": false,
+    "gate_reason": "top_cosine_0.052_below_0.2",
+    "confidence": 0.052,
+    "first_relevant_rank": null,
+    "verdict": "correct (refused)",
+    "hits": [
+      {
+        "rank": 1,
+        "record_id": "kb_ph_life_faq_7c6443",
+        "cosine": 0.052,
+        "bm25": 0,
+        "citation": "Mga Madalas Itanong: Kalinga Protect > Saan po ako pwedeng magbayad ng premium? [kb_ph_life_faq_7c6443] (internal://servicing/faq-taglish, v1.0, effective 2026-01-15)"
+      },
+      {
+        "rank": 2,
+        "record_id": "kb_ph_life_payment_7a2274",
+        "cosine": 0.047,
+        "bm25": 0,
+        "citation": "Kalinga Protect Term Life > Premium payment [kb_ph_life_payment_7a2274] (https://kalinga-life-example.ph/products/kalinga-protect, v1.0, effective 2026-01-15)"
+      },
+      {
+        "rank": 3,
+        "record_id": "kb_ph_life_faq_f93557",
+        "cosine": 0.019,
+        "bm25": 0,
+        "citation": "Mga Madalas Itanong: Kalinga Protect > Ano po yung rider at kailangan ko ba? [kb_ph_life_faq_f93557] (internal://servicing/faq-taglish, v1.0, effective 2026-01-15)"
+      },
+      {
+        "rank": 4,
+        "record_id": "kb_ph_life_objection_6d6135",
+        "cosine": 0.018,
+        "bm25": 0,
+        "citation": "Premium Reminder Call Script: Kalinga Protect > Objection: \"Bakit kailangan ko pa ng rider?\" [kb_ph_life_objection_6d6135] (internal://servicing/premium-reminder-script-v2.0, v2.0, effective 2026-01-15)"
+      },
+      {
+        "rank": 5,
+        "record_id": "kb_ph_life_payment_a15dd6",
+        "cosine": 0.018,
+        "bm25": 0,
+        "citation": "Payment, Grace Period, Lapse and Reinstatement: Kalinga Protect > Hardship assistance [kb_ph_life_payment_a15dd6] (internal://servicing/payment-lapse-reinstatement-v1.4, v1.4, effective 2026-01-15)"
+      }
+    ]
+  },
+  {
+    "id": "i01",
+    "market": "id_finance",
+    "type": "faq",
+    "language": "id_colloquial",
+    "query": "Kalau telat bayar cicilan kena denda berapa?",
+    "expanded_query": "kalau telat bayar angsuran kena denda berapa? terlambat keterlambatan denda angsuran",
+    "answerable_expected": true,
+    "answerable_predicted": true,
+    "gate_reason": "ok",
+    "confidence": 0.548,
+    "first_relevant_rank": 1,
+    "verdict": "correct",
+    "hits": [
+      {
+        "rank": 1,
+        "record_id": "kb_id_finance_faq_272f27",
+        "cosine": 0.548,
+        "bm25": 25.878,
+        "citation": "Pertanyaan Umum Pelanggan > Kalau telat bayar cicilan, kena denda berapa? [kb_id_finance_faq_272f27] (internal://cc/faq-pelanggan, v1.0, effective 2026-02-01)"
+      },
+      {
+        "rank": 2,
+        "record_id": "kb_id_finance_payment_cb3ce0",
+        "cosine": 0.502,
+        "bm25": 12.44,
+        "citation": "Kebijakan Denda, Keringanan dan Penagihan > Jatuh tempo dan denda keterlambatan [kb_id_finance_payment_cb3ce0] (internal://collection/kebijakan-v3.0, v3.0, effective 2026-02-01)"
+      },
+      {
+        "rank": 3,
+        "record_id": "kb_id_finance_faq_9990cf",
+        "cosine": 0.182,
+        "bm25": 6.48,
+        "citation": "Pertanyaan Umum Pelanggan > Bayar angsuran bisa lewat mana saja? [kb_id_finance_faq_9990cf] (internal://cc/faq-pelanggan, v1.0, effective 2026-02-01)"
+      },
+      {
+        "rank": 4,
+        "record_id": "kb_id_finance_payment_1acdf0",
+        "cosine": 0.156,
+        "bm25": 5.419,
+        "citation": "Skrip Pengingat Angsuran (Pre-Due Reminder) > Pengingat [kb_id_finance_payment_1acdf0] (internal://collection/skrip-pengingat-v2.1, v2.1, effective 2026-02-01)"
+      },
+      {
+        "rank": 5,
+        "record_id": "kb_id_finance_objection_c97ff2",
+        "cosine": 0.126,
+        "bm25": 5.169,
+        "citation": "Skrip Pengingat Angsuran (Pre-Due Reminder) > Keberatan: \"Belum gajian\" atau \"Nanti dulu ya\" [kb_id_finance_objection_c97ff2] (internal://collection/skrip-pengingat-v2.1, v2.1, effective 2026-02-01)"
+      }
+    ]
+  },
+  {
+    "id": "i02",
+    "market": "id_finance",
+    "type": "policy",
+    "language": "id_formal",
+    "query": "Apakah tanggal jatuh tempo angsuran dapat diubah?",
+    "expanded_query": "apakah tanggal jatuh tempo angsuran dapat diubah?",
+    "answerable_expected": true,
+    "answerable_predicted": true,
+    "gate_reason": "ok",
+    "confidence": 0.387,
+    "first_relevant_rank": 3,
+    "verdict": "partially correct",
+    "hits": [
+      {
+        "rank": 1,
+        "record_id": "kb_id_finance_objection_c97ff2",
+        "cosine": 0.387,
+        "bm25": 16.948,
+        "citation": "Skrip Pengingat Angsuran (Pre-Due Reminder) > Keberatan: \"Belum gajian\" atau \"Nanti dulu ya\" [kb_id_finance_objection_c97ff2] (internal://collection/skrip-pengingat-v2.1, v2.1, effective 2026-02-01)"
+      },
+      {
+        "rank": 2,
+        "record_id": "kb_id_finance_payment_cb3ce0",
+        "cosine": 0.354,
+        "bm25": 15.563,
+        "citation": "Kebijakan Denda, Keringanan dan Penagihan > Jatuh tempo dan denda keterlambatan [kb_id_finance_payment_cb3ce0] (internal://collection/kebijakan-v3.0, v3.0, effective 2026-02-01)"
+      },
+      {
+        "rank": 3,
+        "record_id": "kb_id_finance_payment_3d8c86",
+        "cosine": 0.345,
+        "bm25": 14.927,
+        "citation": "Kebijakan Denda, Keringanan dan Penagihan > Perubahan tanggal jatuh tempo [kb_id_finance_payment_3d8c86] (internal://collection/kebijakan-v3.0, v3.0, effective 2026-02-01)"
+      },
+      {
+        "rank": 4,
+        "record_id": "kb_id_finance_faq_af7619",
+        "cosine": 0.335,
+        "bm25": 12.98,
+        "citation": "Pertanyaan Umum Pelanggan > Bisa nggak tanggal jatuh tempo diganti biar pas sama tanggal gajian? [kb_id_finance_faq_af7619] (internal://cc/faq-pelanggan, v1.0, effective 2026-02-01)"
+      },
+      {
+        "rank": 5,
+        "record_id": "kb_id_finance_payment_1acdf0",
+        "cosine": 0.324,
+        "bm25": 14.182,
+        "citation": "Skrip Pengingat Angsuran (Pre-Due Reminder) > Pengingat [kb_id_finance_payment_1acdf0] (internal://collection/skrip-pengingat-v2.1, v2.1, effective 2026-02-01)"
+      }
+    ]
+  },
+  {
+    "id": "i03",
+    "market": "id_finance",
+    "type": "objection",
+    "language": "id_colloquial",
+    "query": "Lagi susah nih, baru kena PHK, ada keringanan nggak?",
+    "expanded_query": "lagi susah nih, baru kena phk, ada keringanan nggak? kesulitan keringanan restrukturisasi kehilangan pekerjaan keringanan restrukturisasi restrukturisasi tidak",
+    "answerable_expected": true,
+    "answerable_predicted": true,
+    "gate_reason": "ok",
+    "confidence": 0.515,
+    "first_relevant_rank": 1,
+    "verdict": "correct",
+    "hits": [
+      {
+        "rank": 1,
+        "record_id": "kb_id_finance_faq_9c2b5b",
+        "cosine": 0.515,
+        "bm25": 26.196,
+        "citation": "Pertanyaan Umum Pelanggan > Saya lagi kesulitan bayar, ada keringanan? [kb_id_finance_faq_9c2b5b] (internal://cc/faq-pelanggan, v1.0, effective 2026-02-01)"
+      },
+      {
+        "rank": 2,
+        "record_id": "kb_id_finance_payment_e0951c",
+        "cosine": 0.498,
+        "bm25": 18.68,
+        "citation": "Kebijakan Denda, Keringanan dan Penagihan > Program keringanan (restrukturisasi) [kb_id_finance_payment_e0951c] (internal://collection/kebijakan-v3.0, v3.0, effective 2026-02-01)"
+      },
+      {
+        "rank": 3,
+        "record_id": "kb_id_finance_objection_0ae489",
+        "cosine": 0.404,
+        "bm25": 22.44,
+        "citation": "Skrip Pengingat Angsuran (Pre-Due Reminder) > Keberatan: \"Lagi susah, kena PHK\" atau \"Lagi sakit\" [kb_id_finance_objection_0ae489] (internal://collection/skrip-pengingat-v2.1, v2.1, effective 2026-02-01)"
+      },
+      {
+        "rank": 4,
+        "record_id": "kb_id_finance_faq_af7619",
+        "cosine": 0.065,
+        "bm25": 5.824,
+        "citation": "Pertanyaan Umum Pelanggan > Bisa nggak tanggal jatuh tempo diganti biar pas sama tanggal gajian? [kb_id_finance_faq_af7619] (internal://cc/faq-pelanggan, v1.0, effective 2026-02-01)"
+      },
+      {
+        "rank": 5,
+        "record_id": "kb_id_finance_payment_ec802f",
+        "cosine": 0.097,
+        "bm25": 3.217,
+        "citation": "Kebijakan Denda, Keringanan dan Penagihan > Pelunasan dipercepat [kb_id_finance_payment_ec802f] (internal://collection/kebijakan-v3.0, v3.0, effective 2026-02-01)"
+      }
+    ]
+  },
+  {
+    "id": "i04",
+    "market": "id_finance",
+    "type": "faq",
+    "language": "id_colloquial",
+    "query": "Bayar angsuran bisa di Indomaret nggak?",
+    "expanded_query": "bayar angsuran bisa di indomaret nggak? minimarket tidak",
+    "answerable_expected": true,
+    "answerable_predicted": true,
+    "gate_reason": "ok",
+    "confidence": 0.268,
+    "first_relevant_rank": 1,
+    "verdict": "correct",
+    "hits": [
+      {
+        "rank": 1,
+        "record_id": "kb_id_finance_faq_9990cf",
+        "cosine": 0.268,
+        "bm25": 11.407,
+        "citation": "Pertanyaan Umum Pelanggan > Bayar angsuran bisa lewat mana saja? [kb_id_finance_faq_9990cf] (internal://cc/faq-pelanggan, v1.0, effective 2026-02-01)"
+      },
+      {
+        "rank": 2,
+        "record_id": "kb_id_finance_payment_21e2ea",
+        "cosine": 0.219,
+        "bm25": 7.196,
+        "citation": "Pembiayaan Sepeda Motor > Pembiayaan Sepeda Motor Baru > Cara pembayaran angsuran [kb_id_finance_payment_21e2ea] (https://danamaju-example.co.id/produk/pembiayaan-motor, v1.0, effective 2026-02-01)"
+      },
+      {
+        "rank": 3,
+        "record_id": "kb_id_finance_faq_54f03b",
+        "cosine": 0.159,
+        "bm25": 7.749,
+        "citation": "Pertanyaan Umum Pelanggan > Sudah bayar tapi status masih belum lunas, gimana? [kb_id_finance_faq_54f03b] (internal://cc/faq-pelanggan, v1.0, effective 2026-02-01)"
+      },
+      {
+        "rank": 4,
+        "record_id": "kb_id_finance_faq_272f27",
+        "cosine": 0.149,
+        "bm25": 6.872,
+        "citation": "Pertanyaan Umum Pelanggan > Kalau telat bayar cicilan, kena denda berapa? [kb_id_finance_faq_272f27] (internal://cc/faq-pelanggan, v1.0, effective 2026-02-01)"
+      },
+      {
+        "rank": 5,
+        "record_id": "kb_id_finance_faq_af7619",
+        "cosine": 0.11,
+        "bm25": 5.824,
+        "citation": "Pertanyaan Umum Pelanggan > Bisa nggak tanggal jatuh tempo diganti biar pas sama tanggal gajian? [kb_id_finance_faq_af7619] (internal://cc/faq-pelanggan, v1.0, effective 2026-02-01)"
+      }
+    ]
+  },
+  {
+    "id": "i05",
+    "market": "id_finance",
+    "type": "faq",
+    "language": "id_colloquial",
+    "query": "Udah bayar kemarin tapi kok statusnya belum masuk?",
+    "expanded_query": "udah bayar kemarin tapi kok statusnya belum masuk? sudah tercatat",
+    "answerable_expected": true,
+    "answerable_predicted": true,
+    "gate_reason": "ok",
+    "confidence": 0.327,
+    "first_relevant_rank": 1,
+    "verdict": "correct",
+    "hits": [
+      {
+        "rank": 1,
+        "record_id": "kb_id_finance_faq_54f03b",
+        "cosine": 0.327,
+        "bm25": 18.2,
+        "citation": "Pertanyaan Umum Pelanggan > Sudah bayar tapi status masih belum lunas, gimana? [kb_id_finance_faq_54f03b] (internal://cc/faq-pelanggan, v1.0, effective 2026-02-01)"
+      },
+      {
+        "rank": 2,
+        "record_id": "kb_id_finance_payment_21e2ea",
+        "cosine": 0.122,
+        "bm25": 4.6,
+        "citation": "Pembiayaan Sepeda Motor > Pembiayaan Sepeda Motor Baru > Cara pembayaran angsuran [kb_id_finance_payment_21e2ea] (https://danamaju-example.co.id/produk/pembiayaan-motor, v1.0, effective 2026-02-01)"
+      },
+      {
+        "rank": 3,
+        "record_id": "kb_id_finance_faq_9990cf",
+        "cosine": 0.103,
+        "bm25": 7.293,
+        "citation": "Pertanyaan Umum Pelanggan > Bayar angsuran bisa lewat mana saja? [kb_id_finance_faq_9990cf] (internal://cc/faq-pelanggan, v1.0, effective 2026-02-01)"
+      },
+      {
+        "rank": 4,
+        "record_id": "kb_id_finance_faq_073ff8",
+        "cosine": 0.079,
+        "bm25": 2.899,
+        "citation": "Pertanyaan Umum Pelanggan > Saya mau ambil motor kedua, bisa? [kb_id_finance_faq_073ff8] (internal://cc/faq-pelanggan, v1.0, effective 2026-02-01)"
+      },
+      {
+        "rank": 5,
+        "record_id": "kb_id_finance_faq_272f27",
+        "cosine": 0.066,
+        "bm25": 3.699,
+        "citation": "Pertanyaan Umum Pelanggan > Kalau telat bayar cicilan, kena denda berapa? [kb_id_finance_faq_272f27] (internal://cc/faq-pelanggan, v1.0, effective 2026-02-01)"
+      }
+    ]
+  },
+  {
+    "id": "i06",
+    "market": "id_finance",
+    "type": "policy",
+    "language": "id_colloquial",
+    "query": "Mau lunasin lebih cepat, ada penaltinya?",
+    "expanded_query": "mau lunasin lebih cepat, ada penaltinya? pelunasan dipercepat",
+    "answerable_expected": true,
+    "answerable_predicted": true,
+    "gate_reason": "ok",
+    "confidence": 0.673,
+    "first_relevant_rank": 1,
+    "verdict": "correct",
+    "hits": [
+      {
+        "rank": 1,
+        "record_id": "kb_id_finance_faq_30b3c8",
+        "cosine": 0.673,
+        "bm25": 27.995,
+        "citation": "Pertanyaan Umum Pelanggan > Mau lunasin lebih cepat, ada biayanya? [kb_id_finance_faq_30b3c8] (internal://cc/faq-pelanggan, v1.0, effective 2026-02-01)"
+      },
+      {
+        "rank": 2,
+        "record_id": "kb_id_finance_payment_ec802f",
+        "cosine": 0.552,
+        "bm25": 12.127,
+        "citation": "Kebijakan Denda, Keringanan dan Penagihan > Pelunasan dipercepat [kb_id_finance_payment_ec802f] (internal://collection/kebijakan-v3.0, v3.0, effective 2026-02-01)"
+      },
+      {
+        "rank": 3,
+        "record_id": "kb_id_finance_faq_272f27",
+        "cosine": 0.082,
+        "bm25": 3.934,
+        "citation": "Pertanyaan Umum Pelanggan > Kalau telat bayar cicilan, kena denda berapa? [kb_id_finance_faq_272f27] (internal://cc/faq-pelanggan, v1.0, effective 2026-02-01)"
+      },
+      {
+        "rank": 4,
+        "record_id": "kb_id_finance_faq_54f03b",
+        "cosine": 0.12,
+        "bm25": 0,
+        "citation": "Pertanyaan Umum Pelanggan > Sudah bayar tapi status masih belum lunas, gimana? [kb_id_finance_faq_54f03b] (internal://cc/faq-pelanggan, v1.0, effective 2026-02-01)"
+      },
+      {
+        "rank": 5,
+        "record_id": "kb_id_finance_compliance_6f80f6",
+        "cosine": 0.047,
+        "bm25": 0,
+        "citation": "Kebijakan Denda, Keringanan dan Penagihan > Etika penagihan [kb_id_finance_compliance_6f80f6] (internal://collection/kebijakan-v3.0, v3.0, effective 2026-02-01)"
+      }
+    ]
+  },
+  {
+    "id": "i07",
+    "market": "id_finance",
+    "type": "product",
+    "language": "id_formal",
+    "query": "Berapa minimal uang muka untuk pembiayaan motor baru?",
+    "expanded_query": "berapa minimal uang muka untuk pembiayaan motor baru?",
+    "answerable_expected": true,
+    "answerable_predicted": true,
+    "gate_reason": "ok",
+    "confidence": 0.686,
+    "first_relevant_rank": 1,
+    "verdict": "correct",
+    "hits": [
+      {
+        "rank": 1,
+        "record_id": "kb_id_finance_product_7ca3e8",
+        "cosine": 0.686,
+        "bm25": 29,
+        "citation": "Pembiayaan Sepeda Motor > Pembiayaan Sepeda Motor Baru > Uang muka (DP) dan tenor [kb_id_finance_product_7ca3e8] (https://danamaju-example.co.id/produk/pembiayaan-motor, v1.0, effective 2026-02-01)"
+      },
+      {
+        "rank": 2,
+        "record_id": "kb_id_finance_product_ffd7e9",
+        "cosine": 0.377,
+        "bm25": 13.964,
+        "citation": "Pembiayaan Sepeda Motor > Pembiayaan Sepeda Motor Baru [kb_id_finance_product_ffd7e9] (https://danamaju-example.co.id/produk/pembiayaan-motor, v1.0, effective 2026-02-01)"
+      },
+      {
+        "rank": 3,
+        "record_id": "kb_id_finance_cross_sell_636bec",
+        "cosine": 0.336,
+        "bm25": 14.165,
+        "citation": "Pembiayaan Sepeda Motor > Pembiayaan Sepeda Motor Baru > Pembiayaan Multiguna [kb_id_finance_cross_sell_636bec] (https://danamaju-example.co.id/produk/pembiayaan-motor, v1.0, effective 2026-02-01)"
+      },
+      {
+        "rank": 4,
+        "record_id": "kb_id_finance_eligibility_41dd22",
+        "cosine": 0.307,
+        "bm25": 13.856,
+        "citation": "Pembiayaan Sepeda Motor > Pembiayaan Sepeda Motor Baru > Syarat pengajuan [kb_id_finance_eligibility_41dd22] (https://danamaju-example.co.id/produk/pembiayaan-motor, v1.0, effective 2026-02-01)"
+      },
+      {
+        "rank": 5,
+        "record_id": "kb_id_finance_payment_21e2ea",
+        "cosine": 0.27,
+        "bm25": 9.606,
+        "citation": "Pembiayaan Sepeda Motor > Pembiayaan Sepeda Motor Baru > Cara pembayaran angsuran [kb_id_finance_payment_21e2ea] (https://danamaju-example.co.id/produk/pembiayaan-motor, v1.0, effective 2026-02-01)"
+      }
+    ]
+  },
+  {
+    "id": "i08",
+    "market": "id_finance",
+    "type": "product",
+    "language": "id_loanwords",
+    "query": "DP minimal berapa persen, tenornya bisa sampai berapa bulan?",
+    "expanded_query": "uang muka minimal berapa persen, tenornya bisa sampai berapa bulan? uang muka",
+    "answerable_expected": true,
+    "answerable_predicted": true,
+    "gate_reason": "ok",
+    "confidence": 0.531,
+    "first_relevant_rank": 1,
+    "verdict": "correct",
+    "hits": [
+      {
+        "rank": 1,
+        "record_id": "kb_id_finance_product_7ca3e8",
+        "cosine": 0.531,
+        "bm25": 22.475,
+        "citation": "Pembiayaan Sepeda Motor > Pembiayaan Sepeda Motor Baru > Uang muka (DP) dan tenor [kb_id_finance_product_7ca3e8] (https://danamaju-example.co.id/produk/pembiayaan-motor, v1.0, effective 2026-02-01)"
+      },
+      {
+        "rank": 2,
+        "record_id": "kb_id_finance_eligibility_41dd22",
+        "cosine": 0.111,
+        "bm25": 6.554,
+        "citation": "Pembiayaan Sepeda Motor > Pembiayaan Sepeda Motor Baru > Syarat pengajuan [kb_id_finance_eligibility_41dd22] (https://danamaju-example.co.id/produk/pembiayaan-motor, v1.0, effective 2026-02-01)"
+      },
+      {
+        "rank": 3,
+        "record_id": "kb_id_finance_faq_073ff8",
+        "cosine": 0.105,
+        "bm25": 6.96,
+        "citation": "Pertanyaan Umum Pelanggan > Saya mau ambil motor kedua, bisa? [kb_id_finance_faq_073ff8] (internal://cc/faq-pelanggan, v1.0, effective 2026-02-01)"
+      },
+      {
+        "rank": 4,
+        "record_id": "kb_id_finance_compliance_6f80f6",
+        "cosine": 0.096,
+        "bm25": 4.856,
+        "citation": "Kebijakan Denda, Keringanan dan Penagihan > Etika penagihan [kb_id_finance_compliance_6f80f6] (internal://collection/kebijakan-v3.0, v3.0, effective 2026-02-01)"
+      },
+      {
+        "rank": 5,
+        "record_id": "kb_id_finance_cross_sell_636bec",
+        "cosine": 0.084,
+        "bm25": 6.262,
+        "citation": "Pembiayaan Sepeda Motor > Pembiayaan Sepeda Motor Baru > Pembiayaan Multiguna [kb_id_finance_cross_sell_636bec] (https://danamaju-example.co.id/produk/pembiayaan-motor, v1.0, effective 2026-02-01)"
+      }
+    ]
+  },
+  {
+    "id": "i09",
+    "market": "id_finance",
+    "type": "objection",
+    "language": "id_colloquial",
+    "query": "Motornya lagi rusak, masa harus tetap bayar?",
+    "expanded_query": "motornya lagi rusak, masa harus tetap bayar? kendaraan rusak angsuran tetap",
+    "answerable_expected": true,
+    "answerable_predicted": true,
+    "gate_reason": "ok",
+    "confidence": 0.484,
+    "first_relevant_rank": 1,
+    "verdict": "correct",
+    "hits": [
+      {
+        "rank": 1,
+        "record_id": "kb_id_finance_faq_deb7de",
+        "cosine": 0.484,
+        "bm25": 21.869,
+        "citation": "Pertanyaan Umum Pelanggan > Kalau motornya rusak atau hilang, cicilan tetap jalan? [kb_id_finance_faq_deb7de] (internal://cc/faq-pelanggan, v1.0, effective 2026-02-01)"
+      },
+      {
+        "rank": 2,
+        "record_id": "kb_id_finance_objection_e30f88",
+        "cosine": 0.439,
+        "bm25": 23.466,
+        "citation": "Skrip Pengingat Angsuran (Pre-Due Reminder) > Keberatan: \"Motornya rusak, ngapain bayar\" [kb_id_finance_objection_e30f88] (internal://collection/skrip-pengingat-v2.1, v2.1, effective 2026-02-01)"
+      },
+      {
+        "rank": 3,
+        "record_id": "kb_id_finance_script_daecf5",
+        "cosine": 0.162,
+        "bm25": 5.977,
+        "citation": "Skrip Pengingat Angsuran (Pre-Due Reminder) > Salam pembuka [kb_id_finance_script_daecf5] (internal://collection/skrip-pengingat-v2.1, v2.1, effective 2026-02-01)"
+      },
+      {
+        "rank": 4,
+        "record_id": "kb_id_finance_faq_272f27",
+        "cosine": 0.123,
+        "bm25": 6.872,
+        "citation": "Pertanyaan Umum Pelanggan > Kalau telat bayar cicilan, kena denda berapa? [kb_id_finance_faq_272f27] (internal://cc/faq-pelanggan, v1.0, effective 2026-02-01)"
+      },
+      {
+        "rank": 5,
+        "record_id": "kb_id_finance_faq_073ff8",
+        "cosine": 0.14,
+        "bm25": 6.487,
+        "citation": "Pertanyaan Umum Pelanggan > Saya mau ambil motor kedua, bisa? [kb_id_finance_faq_073ff8] (internal://cc/faq-pelanggan, v1.0, effective 2026-02-01)"
+      }
+    ]
+  },
+  {
+    "id": "i10",
+    "market": "id_finance",
+    "type": "product",
+    "language": "id_colloquial",
+    "query": "Saya mau ambil motor kedua buat anak, bisa nggak?",
+    "expanded_query": "saya mau ambil motor kedua buat anak, bisa nggak? kendaraan kedua multiguna tidak",
+    "answerable_expected": true,
+    "answerable_predicted": true,
+    "gate_reason": "ok",
+    "confidence": 0.534,
+    "first_relevant_rank": 1,
+    "verdict": "correct",
+    "hits": [
+      {
+        "rank": 1,
+        "record_id": "kb_id_finance_faq_073ff8",
+        "cosine": 0.534,
+        "bm25": 24.485,
+        "citation": "Pertanyaan Umum Pelanggan > Saya mau ambil motor kedua, bisa? [kb_id_finance_faq_073ff8] (internal://cc/faq-pelanggan, v1.0, effective 2026-02-01)"
+      },
+      {
+        "rank": 2,
+        "record_id": "kb_id_finance_cross_sell_636bec",
+        "cosine": 0.376,
+        "bm25": 17.157,
+        "citation": "Pembiayaan Sepeda Motor > Pembiayaan Sepeda Motor Baru > Pembiayaan Multiguna [kb_id_finance_cross_sell_636bec] (https://danamaju-example.co.id/produk/pembiayaan-motor, v1.0, effective 2026-02-01)"
+      },
+      {
+        "rank": 3,
+        "record_id": "kb_id_finance_faq_deb7de",
+        "cosine": 0.122,
+        "bm25": 5.903,
+        "citation": "Pertanyaan Umum Pelanggan > Kalau motornya rusak atau hilang, cicilan tetap jalan? [kb_id_finance_faq_deb7de] (internal://cc/faq-pelanggan, v1.0, effective 2026-02-01)"
+      },
+      {
+        "rank": 4,
+        "record_id": "kb_id_finance_objection_e30f88",
+        "cosine": 0.15,
+        "bm25": 4.213,
+        "citation": "Skrip Pengingat Angsuran (Pre-Due Reminder) > Keberatan: \"Motornya rusak, ngapain bayar\" [kb_id_finance_objection_e30f88] (internal://collection/skrip-pengingat-v2.1, v2.1, effective 2026-02-01)"
+      },
+      {
+        "rank": 5,
+        "record_id": "kb_id_finance_faq_af7619",
+        "cosine": 0.088,
+        "bm25": 5.824,
+        "citation": "Pertanyaan Umum Pelanggan > Bisa nggak tanggal jatuh tempo diganti biar pas sama tanggal gajian? [kb_id_finance_faq_af7619] (internal://cc/faq-pelanggan, v1.0, effective 2026-02-01)"
+      }
+    ]
+  },
+  {
+    "id": "i11",
+    "market": "id_finance",
+    "type": "objection",
+    "language": "id_regional_javanese",
+    "query": "Ngapunten, kula dereng gajian, saged mbayar minggu ngajeng?",
+    "expanded_query": "ngapunten, kula dereng gajian, saged mbayar minggu ngajeng? belum gaji tanggal jatuh tempo perubahan",
+    "answerable_expected": true,
+    "answerable_predicted": true,
+    "gate_reason": "ok",
+    "confidence": 0.326,
+    "first_relevant_rank": 1,
+    "verdict": "correct",
+    "hits": [
+      {
+        "rank": 1,
+        "record_id": "kb_id_finance_faq_af7619",
+        "cosine": 0.326,
+        "bm25": 21.046,
+        "citation": "Pertanyaan Umum Pelanggan > Bisa nggak tanggal jatuh tempo diganti biar pas sama tanggal gajian? [kb_id_finance_faq_af7619] (internal://cc/faq-pelanggan, v1.0, effective 2026-02-01)"
+      },
+      {
+        "rank": 2,
+        "record_id": "kb_id_finance_payment_3d8c86",
+        "cosine": 0.31,
+        "bm25": 20.311,
+        "citation": "Kebijakan Denda, Keringanan dan Penagihan > Perubahan tanggal jatuh tempo [kb_id_finance_payment_3d8c86] (internal://collection/kebijakan-v3.0, v3.0, effective 2026-02-01)"
+      },
+      {
+        "rank": 3,
+        "record_id": "kb_id_finance_objection_c97ff2",
+        "cosine": 0.285,
+        "bm25": 19.532,
+        "citation": "Skrip Pengingat Angsuran (Pre-Due Reminder) > Keberatan: \"Belum gajian\" atau \"Nanti dulu ya\" [kb_id_finance_objection_c97ff2] (internal://collection/skrip-pengingat-v2.1, v2.1, effective 2026-02-01)"
+      },
+      {
+        "rank": 4,
+        "record_id": "kb_id_finance_payment_cb3ce0",
+        "cosine": 0.163,
+        "bm25": 12.804,
+        "citation": "Kebijakan Denda, Keringanan dan Penagihan > Jatuh tempo dan denda keterlambatan [kb_id_finance_payment_cb3ce0] (internal://collection/kebijakan-v3.0, v3.0, effective 2026-02-01)"
+      },
+      {
+        "rank": 5,
+        "record_id": "kb_id_finance_payment_1acdf0",
+        "cosine": 0.136,
+        "bm25": 11.379,
+        "citation": "Skrip Pengingat Angsuran (Pre-Due Reminder) > Pengingat [kb_id_finance_payment_1acdf0] (internal://collection/skrip-pengingat-v2.1, v2.1, effective 2026-02-01)"
+      }
+    ]
+  },
+  {
+    "id": "i12",
+    "market": "id_finance",
+    "type": "faq",
+    "language": "id_regional_sundanese",
+    "query": "Punten, upami telat mayar dendana sabaraha?",
+    "expanded_query": "punten, upami telat mayar dendana sabaraha? terlambat keterlambatan denda berapa",
+    "answerable_expected": true,
+    "answerable_predicted": true,
+    "gate_reason": "ok",
+    "confidence": 0.336,
+    "first_relevant_rank": 1,
+    "verdict": "correct",
+    "hits": [
+      {
+        "rank": 1,
+        "record_id": "kb_id_finance_faq_272f27",
+        "cosine": 0.336,
+        "bm25": 14.079,
+        "citation": "Pertanyaan Umum Pelanggan > Kalau telat bayar cicilan, kena denda berapa? [kb_id_finance_faq_272f27] (internal://cc/faq-pelanggan, v1.0, effective 2026-02-01)"
+      },
+      {
+        "rank": 2,
+        "record_id": "kb_id_finance_payment_cb3ce0",
+        "cosine": 0.335,
+        "bm25": 9.681,
+        "citation": "Kebijakan Denda, Keringanan dan Penagihan > Jatuh tempo dan denda keterlambatan [kb_id_finance_payment_cb3ce0] (internal://collection/kebijakan-v3.0, v3.0, effective 2026-02-01)"
+      },
+      {
+        "rank": 3,
+        "record_id": "kb_id_finance_payment_1acdf0",
+        "cosine": 0.064,
+        "bm25": 2.616,
+        "citation": "Skrip Pengingat Angsuran (Pre-Due Reminder) > Pengingat [kb_id_finance_payment_1acdf0] (internal://collection/skrip-pengingat-v2.1, v2.1, effective 2026-02-01)"
+      },
+      {
+        "rank": 4,
+        "record_id": "kb_id_finance_objection_c97ff2",
+        "cosine": 0.073,
+        "bm25": 1.828,
+        "citation": "Skrip Pengingat Angsuran (Pre-Due Reminder) > Keberatan: \"Belum gajian\" atau \"Nanti dulu ya\" [kb_id_finance_objection_c97ff2] (internal://collection/skrip-pengingat-v2.1, v2.1, effective 2026-02-01)"
+      },
+      {
+        "rank": 5,
+        "record_id": "kb_id_finance_payment_ec802f",
+        "cosine": 0.041,
+        "bm25": 3.083,
+        "citation": "Kebijakan Denda, Keringanan dan Penagihan > Pelunasan dipercepat [kb_id_finance_payment_ec802f] (internal://collection/kebijakan-v3.0, v3.0, effective 2026-02-01)"
+      }
+    ]
+  },
+  {
+    "id": "i13",
+    "market": "id_finance",
+    "type": "out_of_scope",
+    "language": "id_colloquial",
+    "query": "Harga emas hari ini berapa ya?",
+    "expanded_query": "harga emas hari ini berapa ya?",
+    "answerable_expected": false,
+    "answerable_predicted": false,
+    "gate_reason": "top_cosine_0.118_below_0.2",
+    "confidence": 0.118,
+    "first_relevant_rank": null,
+    "verdict": "correct (refused)",
+    "hits": [
+      {
+        "rank": 1,
+        "record_id": "kb_id_finance_product_7ca3e8",
+        "cosine": 0.118,
+        "bm25": 4.399,
+        "citation": "Pembiayaan Sepeda Motor > Pembiayaan Sepeda Motor Baru > Uang muka (DP) dan tenor [kb_id_finance_product_7ca3e8] (https://danamaju-example.co.id/produk/pembiayaan-motor, v1.0, effective 2026-02-01)"
+      },
+      {
+        "rank": 2,
+        "record_id": "kb_id_finance_faq_272f27",
+        "cosine": 0.11,
+        "bm25": 4.301,
+        "citation": "Pertanyaan Umum Pelanggan > Kalau telat bayar cicilan, kena denda berapa? [kb_id_finance_faq_272f27] (internal://cc/faq-pelanggan, v1.0, effective 2026-02-01)"
+      },
+      {
+        "rank": 3,
+        "record_id": "kb_id_finance_payment_cb3ce0",
+        "cosine": 0.096,
+        "bm25": 4.268,
+        "citation": "Kebijakan Denda, Keringanan dan Penagihan > Jatuh tempo dan denda keterlambatan [kb_id_finance_payment_cb3ce0] (internal://collection/kebijakan-v3.0, v3.0, effective 2026-02-01)"
+      },
+      {
+        "rank": 4,
+        "record_id": "kb_id_finance_payment_1acdf0",
+        "cosine": 0.063,
+        "bm25": 3.175,
+        "citation": "Skrip Pengingat Angsuran (Pre-Due Reminder) > Pengingat [kb_id_finance_payment_1acdf0] (internal://collection/skrip-pengingat-v2.1, v2.1, effective 2026-02-01)"
+      },
+      {
+        "rank": 5,
+        "record_id": "kb_id_finance_objection_c97ff2",
+        "cosine": 0.066,
+        "bm25": 2.218,
+        "citation": "Skrip Pengingat Angsuran (Pre-Due Reminder) > Keberatan: \"Belum gajian\" atau \"Nanti dulu ya\" [kb_id_finance_objection_c97ff2] (internal://collection/skrip-pengingat-v2.1, v2.1, effective 2026-02-01)"
+      }
+    ]
+  },
+  {
+    "id": "i14",
+    "market": "id_finance",
+    "type": "out_of_scope",
+    "language": "id_formal",
+    "query": "Apakah Danamaju menyediakan KPR untuk rumah?",
+    "expanded_query": "apakah danamaju menyediakan kpr untuk rumah?",
+    "answerable_expected": false,
+    "answerable_predicted": true,
+    "gate_reason": "ok",
+    "confidence": 0.215,
+    "first_relevant_rank": null,
+    "verdict": "incorrect (answered out-of-scope)",
+    "hits": [
+      {
+        "rank": 1,
+        "record_id": "kb_id_finance_product_ffd7e9",
+        "cosine": 0.294,
+        "bm25": 9.173,
+        "citation": "Pembiayaan Sepeda Motor > Pembiayaan Sepeda Motor Baru [kb_id_finance_product_ffd7e9] (https://danamaju-example.co.id/produk/pembiayaan-motor, v1.0, effective 2026-02-01)"
+      },
+      {
+        "rank": 2,
+        "record_id": "kb_id_finance_script_daecf5",
+        "cosine": 0.137,
+        "bm25": 3.175,
+        "citation": "Skrip Pengingat Angsuran (Pre-Due Reminder) > Salam pembuka [kb_id_finance_script_daecf5] (internal://collection/skrip-pengingat-v2.1, v2.1, effective 2026-02-01)"
+      },
+      {
+        "rank": 3,
+        "record_id": "kb_id_finance_payment_21e2ea",
+        "cosine": 0.124,
+        "bm25": 4.016,
+        "citation": "Pembiayaan Sepeda Motor > Pembiayaan Sepeda Motor Baru > Cara pembayaran angsuran [kb_id_finance_payment_21e2ea] (https://danamaju-example.co.id/produk/pembiayaan-motor, v1.0, effective 2026-02-01)"
+      },
+      {
+        "rank": 4,
+        "record_id": "kb_id_finance_cross_sell_636bec",
+        "cosine": 0.087,
+        "bm25": 4.301,
+        "citation": "Pembiayaan Sepeda Motor > Pembiayaan Sepeda Motor Baru > Pembiayaan Multiguna [kb_id_finance_cross_sell_636bec] (https://danamaju-example.co.id/produk/pembiayaan-motor, v1.0, effective 2026-02-01)"
+      },
+      {
+        "rank": 5,
+        "record_id": "kb_id_finance_faq_9990cf",
+        "cosine": 0.088,
+        "bm25": 3.138,
+        "citation": "Pertanyaan Umum Pelanggan > Bayar angsuran bisa lewat mana saja? [kb_id_finance_faq_9990cf] (internal://cc/faq-pelanggan, v1.0, effective 2026-02-01)"
+      }
+    ]
+  },
+  {
+    "id": "i15",
+    "market": "id_finance",
+    "type": "out_of_scope",
+    "language": "id_colloquial",
+    "query": "Bisa bantu daftar BPJS kesehatan nggak?",
+    "expanded_query": "bisa bantu daftar bpjs kesehatan nggak? tidak",
+    "answerable_expected": false,
+    "answerable_predicted": false,
+    "gate_reason": "top_cosine_0.102_below_0.2",
+    "confidence": 0.102,
+    "first_relevant_rank": null,
+    "verdict": "correct (refused)",
+    "hits": [
+      {
+        "rank": 1,
+        "record_id": "kb_id_finance_faq_af7619",
+        "cosine": 0.102,
+        "bm25": 5.824,
+        "citation": "Pertanyaan Umum Pelanggan > Bisa nggak tanggal jatuh tempo diganti biar pas sama tanggal gajian? [kb_id_finance_faq_af7619] (internal://cc/faq-pelanggan, v1.0, effective 2026-02-01)"
+      },
+      {
+        "rank": 2,
+        "record_id": "kb_id_finance_script_e40c5f",
+        "cosine": 0.062,
+        "bm25": 0,
+        "citation": "Skrip Pengingat Angsuran (Pre-Due Reminder) > Penutup [kb_id_finance_script_e40c5f] (internal://collection/skrip-pengingat-v2.1, v2.1, effective 2026-02-01)"
+      },
+      {
+        "rank": 3,
+        "record_id": "kb_id_finance_payment_cb3ce0",
+        "cosine": 0.061,
+        "bm25": 0,
+        "citation": "Kebijakan Denda, Keringanan dan Penagihan > Jatuh tempo dan denda keterlambatan [kb_id_finance_payment_cb3ce0] (internal://collection/kebijakan-v3.0, v3.0, effective 2026-02-01)"
+      },
+      {
+        "rank": 4,
+        "record_id": "kb_id_finance_objection_e30f88",
+        "cosine": 0.06,
+        "bm25": 0,
+        "citation": "Skrip Pengingat Angsuran (Pre-Due Reminder) > Keberatan: \"Motornya rusak, ngapain bayar\" [kb_id_finance_objection_e30f88] (internal://collection/skrip-pengingat-v2.1, v2.1, effective 2026-02-01)"
+      },
+      {
+        "rank": 5,
+        "record_id": "kb_id_finance_faq_272f27",
+        "cosine": 0.056,
+        "bm25": 0,
+        "citation": "Pertanyaan Umum Pelanggan > Kalau telat bayar cicilan, kena denda berapa? [kb_id_finance_faq_272f27] (internal://cc/faq-pelanggan, v1.0, effective 2026-02-01)"
+      }
+    ]
+  }
+]

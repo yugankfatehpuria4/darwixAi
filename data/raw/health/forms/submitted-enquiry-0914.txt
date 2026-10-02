@@ -1,0 +1,19 @@
+SYNTHETIC SAMPLE CONTENT. Fictional person and company, written for the Darwix assessment.
+
+SURAKSHA HEALTH INSURANCE
+HEALTH INSURANCE ENQUIRY FORM (WEBSITE LEAD), SUBMITTED COPY
+Form ID: LEAD-WEB-07   Submitted: 14-09-2026
+
+Applicant Name: Rohan Mehta
+Contact Number: +91 98765 43210
+Email: rohan.mehta@example.com
+City: Pune
+Pin Code: 411001
+DOB: 12/03/1988
+PAN: ABCPM1234K
+Members to be Insured: Self, Spouse, 1 child
+Age of Eldest Member: 38
+Pre-existing illness: N
+Existing cover: Y (employer group policy)
+Sum Insured Required: 10 lakh
+Callback: Weekday evening

@@ -1,0 +1,83 @@
+{
+  "call_id": "call_20261002_db9d6070",
+  "market": "in_health",
+  "started_at": "2026-10-02T11:00:00.000Z",
+  "today": "2026-10-02",
+  "stage": "ended",
+  "register": "en",
+  "slots": {},
+  "skipped": [],
+  "pending_conflict": null,
+  "unanswered_questions": 0,
+  "consecutive_silence": 0,
+  "consecutive_unclear": 0,
+  "disclosures_given": [
+    "recording"
+  ],
+  "identity_attempts": 0,
+  "outcome": {
+    "status": "escalated_to_human",
+    "next_action": "warm_transfer_senior_advisor",
+    "reasons": [
+      "customer asked for a human"
+    ],
+    "rule_sources": [
+      "health/policies/qualification-rules.md#Rule Q6: Human escalation",
+      "health/policies/sales-desk-notes.md#Escalation desk"
+    ]
+  },
+  "escalated": true,
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "bot",
+      "text": "Hello, this is Asha, a virtual assistant from Suraksha Health Insurance, calling about the health insurance enquiry you submitted. This call is recorded for quality and training purposes. Is this a good time to talk for about five minutes?",
+      "at": "2026-10-02T11:00:00.000Z",
+      "register": "en",
+      "intent": "greeting"
+    },
+    {
+      "index": 1,
+      "speaker": "customer",
+      "text": "Yes",
+      "at": "2026-10-02T11:00:12.000Z",
+      "intent": "consent_yes",
+      "register": "en"
+    },
+    {
+      "index": 2,
+      "speaker": "bot",
+      "text": "First, who would you like to cover: just yourself, or also your spouse, children or parents?",
+      "at": "2026-10-02T09:45:53.089Z",
+      "register": "en"
+    },
+    {
+      "index": 3,
+      "speaker": "customer",
+      "text": "Can I talk to a real person please?",
+      "at": "2026-10-02T11:00:24.000Z",
+      "intent": "escalation_request",
+      "register": "en"
+    },
+    {
+      "index": 4,
+      "speaker": "bot",
+      "text": "Of course. I'm transferring you to a senior advisor now. Please stay on the line.",
+      "at": "2026-10-02T09:45:53.090Z",
+      "register": "en"
+    }
+  ],
+  "latencies": [
+    {
+      "turn": 1,
+      "understand_ms": 0,
+      "server_total_ms": 0
+    },
+    {
+      "turn": 3,
+      "understand_ms": 0,
+      "server_total_ms": 0
+    }
+  ],
+  "known_pii": []
+}

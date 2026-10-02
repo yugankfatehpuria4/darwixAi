@@ -1,0 +1,198 @@
+{
+  "call_id": "call_20261002_3eb04a29",
+  "market": "id_finance",
+  "started_at": "2026-10-02T04:00:00.000Z",
+  "today": "2026-10-02",
+  "stage": "ended",
+  "register": "santai",
+  "slots": {
+    "date_of_birth": {
+      "value": "1990-03-12",
+      "heard": "12 3 1990",
+      "turn": 3
+    },
+    "promise_date": {
+      "value": "2026-10-10",
+      "heard": "Waduh belum gajian nih, gajiannya tanggal 10",
+      "turn": 7
+    },
+    "payment_channel": {
+      "value": "minimarket",
+      "heard": "Lewat Alfamart aja",
+      "turn": 9
+    }
+  },
+  "skipped": [],
+  "pending_conflict": null,
+  "unanswered_questions": 0,
+  "consecutive_silence": 0,
+  "consecutive_unclear": 0,
+  "disclosures_given": [
+    "recording"
+  ],
+  "identity_attempts": 0,
+  "outcome": {
+    "status": "promise_late",
+    "next_action": "log_promise_to_pay_with_late_fee",
+    "reasons": [
+      "promise 2026-10-10 is 5 day(s) after due 2026-10-05"
+    ],
+    "rule_sources": [
+      "id/kebijakan/denda-keringanan-penagihan.md#Jatuh tempo dan denda keterlambatan",
+      "id/kebijakan/denda-keringanan-penagihan.md#Perubahan tanggal jatuh tempo"
+    ],
+    "details": {
+      "due_date": "2026-10-05",
+      "promise_date": "2026-10-10",
+      "days_late": 5,
+      "estimated_late_fee_idr": 12500,
+      "channel": "minimarket"
+    }
+  },
+  "escalated": false,
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "bot",
+      "text": "Selamat siang, Bapak. Saya Sari, asisten virtual dari Danamaju Finance, terkait pembiayaan sepeda motor Bapak. Untuk menjaga kualitas layanan, panggilan ini direkam. Apakah saya berbicara dengan Bapak [CUSTOMER_NAME]?",
+      "at": "2026-10-02T04:00:00.000Z",
+      "register": "formal",
+      "intent": "greeting"
+    },
+    {
+      "index": 1,
+      "speaker": "customer",
+      "text": "Iya bener, saya [CUSTOMER_NAME]",
+      "at": "2026-10-02T04:00:12.000Z",
+      "intent": "consent_yes",
+      "register": "santai"
+    },
+    {
+      "index": 2,
+      "speaker": "bot",
+      "text": "Makasih, Bapak. Buat verifikasi, boleh sebutkan tanggal lahirnya?",
+      "at": "2026-10-02T09:45:53.210Z",
+      "register": "santai"
+    },
+    {
+      "index": 3,
+      "speaker": "customer",
+      "text": "12 3 1990",
+      "at": "2026-10-02T04:00:24.000Z",
+      "intent": "slot:date_of_birth",
+      "register": "santai"
+    },
+    {
+      "index": 4,
+      "speaker": "bot",
+      "text": "Makasih, datanya sudah cocok. Mau ngingetin aja, Bapak, angsuran ke-9 motornya sebesar satu juta dua ratus lima puluh ribu rupiah jatuh tempo tanggal 5 Oktober. Kalau lewat dari tanggal itu, kena denda 0,2 persen per hari. Kira-kira Bapak bisa bayar kapan?",
+      "at": "2026-10-02T09:45:53.211Z",
+      "register": "santai"
+    },
+    {
+      "index": 5,
+      "speaker": "customer",
+      "text": "Kalau telat dendanya berapa sih?",
+      "at": "2026-10-02T04:00:36.000Z",
+      "intent": "question",
+      "register": "santai"
+    },
+    {
+      "index": 6,
+      "speaker": "bot",
+      "text": "Denda keterlambatan sebesar 0,2% per hari dari angsuran yang tertunggak, dihitung mulai hari pertama setelah tanggal jatuh tempo. Jadi semakin cepat dibayar, semakin kecil dendanya. Kira-kira Bapak bisa bayar kapan?",
+      "at": "2026-10-02T09:45:53.214Z",
+      "register": "santai",
+      "retrieval": {
+        "query": "Kalau telat dendanya berapa sih?",
+        "answerable": true,
+        "reason": "ok",
+        "confidence": 0.46,
+        "chunk_ids": [
+          "kb_id_finance_faq_272f27"
+        ],
+        "citations": [
+          "Pertanyaan Umum Pelanggan > Kalau telat bayar cicilan, kena denda berapa? [kb_id_finance_faq_272f27] (internal://cc/faq-pelanggan, v1.0, effective 2026-02-01)",
+          "Kebijakan Denda, Keringanan dan Penagihan > Jatuh tempo dan denda keterlambatan [kb_id_finance_payment_cb3ce0] (internal://collection/kebijakan-v3.0, v3.0, effective 2026-02-01)",
+          "Kebijakan Denda, Keringanan dan Penagihan > Pelunasan dipercepat [kb_id_finance_payment_ec802f] (internal://collection/kebijakan-v3.0, v3.0, effective 2026-02-01)"
+        ],
+        "answer_mode": "extractive"
+      }
+    },
+    {
+      "index": 7,
+      "speaker": "customer",
+      "text": "Waduh belum gajian nih, gajiannya tanggal 10",
+      "at": "2026-10-02T04:00:48.000Z",
+      "intent": "objection:not_paid_yet,slot:promise_date",
+      "register": "santai"
+    },
+    {
+      "index": 8,
+      "speaker": "bot",
+      "text": "Baik, Bapak, saya mengerti. Sebagai info, denda 0,2% per hari mulai berlaku sehari setelah jatuh tempo. Kalau tanggal gajian Bapak memang selalu setelah jatuh tempo, tanggal jatuh temponya bisa diubah satu kali selama tenor, dengan biaya administrasi Rp50.000. Bayarnya mau lewat apa, Bapak: virtual account, aplikasi, minimarket, atau ke cabang?",
+      "at": "2026-10-02T09:45:53.216Z",
+      "register": "santai",
+      "retrieval": {
+        "query": "Keberatan belum gajian nanti dulu",
+        "answerable": true,
+        "reason": "ok",
+        "confidence": 0.504,
+        "chunk_ids": [
+          "kb_id_finance_objection_c97ff2"
+        ],
+        "citations": [
+          "Skrip Pengingat Angsuran (Pre-Due Reminder) > Keberatan: \"Belum gajian\" atau \"Nanti dulu ya\" [kb_id_finance_objection_c97ff2] (internal://collection/skrip-pengingat-v2.1, v2.1, effective 2026-02-01)",
+          "Skrip Pengingat Angsuran (Pre-Due Reminder) > Keberatan: \"Motornya rusak, ngapain bayar\" [kb_id_finance_objection_e30f88] (internal://collection/skrip-pengingat-v2.1, v2.1, effective 2026-02-01)",
+          "Skrip Pengingat Angsuran (Pre-Due Reminder) > Keberatan: \"Lagi susah, kena PHK\" atau \"Lagi sakit\" [kb_id_finance_objection_0ae489] (internal://collection/skrip-pengingat-v2.1, v2.1, effective 2026-02-01)"
+        ],
+        "answer_mode": "extractive"
+      }
+    },
+    {
+      "index": 9,
+      "speaker": "customer",
+      "text": "Lewat Alfamart aja",
+      "at": "2026-10-02T04:01:00.000Z",
+      "intent": "slot:payment_channel",
+      "register": "santai"
+    },
+    {
+      "index": 10,
+      "speaker": "bot",
+      "text": "Oke, Bapak, saya catat bayarnya tanggal 10 Oktober, jadi telat 5 hari, dendanya sekitar dua belas ribu lima ratus rupiah. Kalau gajiannya memang selalu lewat dari jatuh tempo, tanggal jatuh temponya bisa diganti sekali selama tenor lewat cabang atau call center, biayanya lima puluh ribu rupiah. Makasih ya, Bapak.",
+      "at": "2026-10-02T09:45:53.218Z",
+      "register": "santai"
+    }
+  ],
+  "latencies": [
+    {
+      "turn": 1,
+      "understand_ms": 0.2,
+      "server_total_ms": 0.2
+    },
+    {
+      "turn": 3,
+      "understand_ms": 0.8,
+      "server_total_ms": 0.8
+    },
+    {
+      "turn": 5,
+      "understand_ms": 0.9,
+      "retrieval_ms": 0.9,
+      "server_total_ms": 1.8
+    },
+    {
+      "turn": 7,
+      "understand_ms": 0.3,
+      "retrieval_ms": 0.4,
+      "server_total_ms": 0.7
+    },
+    {
+      "turn": 9,
+      "understand_ms": 0.2,
+      "server_total_ms": 0.2
+    }
+  ],
+  "known_pii": []
+}

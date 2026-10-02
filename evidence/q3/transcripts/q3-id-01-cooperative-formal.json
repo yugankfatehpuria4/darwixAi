@@ -1,0 +1,121 @@
+{
+  "call_id": "call_20261002_f966d66f",
+  "market": "id_finance",
+  "started_at": "2026-10-02T02:00:00.000Z",
+  "today": "2026-10-02",
+  "stage": "ended",
+  "register": "formal",
+  "slots": {
+    "date_of_birth": {
+      "value": "1990-03-12",
+      "heard": "Tanggal 12 Maret 1990",
+      "turn": 3
+    },
+    "promise_date": {
+      "value": "2026-10-03",
+      "heard": "Besok saya bayar melalui virtual account",
+      "turn": 5
+    },
+    "payment_channel": {
+      "value": "virtual_account",
+      "heard": "Besok saya bayar melalui virtual account",
+      "turn": 5
+    }
+  },
+  "skipped": [],
+  "pending_conflict": null,
+  "unanswered_questions": 0,
+  "consecutive_silence": 0,
+  "consecutive_unclear": 0,
+  "disclosures_given": [
+    "recording"
+  ],
+  "identity_attempts": 0,
+  "outcome": {
+    "status": "promise_on_time",
+    "next_action": "log_promise_to_pay",
+    "reasons": [
+      "promise 2026-10-03 on or before due 2026-10-05"
+    ],
+    "rule_sources": [],
+    "details": {
+      "due_date": "2026-10-05",
+      "promise_date": "2026-10-03",
+      "channel": "virtual_account"
+    }
+  },
+  "escalated": false,
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "bot",
+      "text": "Selamat pagi, Bapak. Saya Sari, asisten virtual dari Danamaju Finance, terkait pembiayaan sepeda motor Bapak. Untuk menjaga kualitas layanan, panggilan ini direkam. Apakah saya berbicara dengan Bapak [CUSTOMER_NAME]?",
+      "at": "2026-10-02T02:00:00.000Z",
+      "register": "formal",
+      "intent": "greeting"
+    },
+    {
+      "index": 1,
+      "speaker": "customer",
+      "text": "Iya, benar, saya sendiri",
+      "at": "2026-10-02T02:00:12.000Z",
+      "intent": "consent_yes",
+      "register": "formal"
+    },
+    {
+      "index": 2,
+      "speaker": "bot",
+      "text": "Terima kasih, Bapak. Untuk verifikasi, mohon sebutkan tanggal lahir Bapak.",
+      "at": "2026-10-02T09:45:53.197Z",
+      "register": "formal"
+    },
+    {
+      "index": 3,
+      "speaker": "customer",
+      "text": "Tanggal 12 Maret 1990",
+      "at": "2026-10-02T02:00:24.000Z",
+      "intent": "slot:date_of_birth",
+      "register": "formal"
+    },
+    {
+      "index": 4,
+      "speaker": "bot",
+      "text": "Terima kasih, data sudah sesuai. Kami ingin mengingatkan bahwa angsuran ke-9 pembiayaan sepeda motor Bapak sebesar satu juta dua ratus lima puluh ribu rupiah akan jatuh tempo pada hari Senin, 5 Oktober 2026. Denda keterlambatan sebesar 0,2 persen per hari berlaku mulai sehari setelah jatuh tempo. Rencananya Bapak akan melakukan pembayaran kapan?",
+      "at": "2026-10-02T09:45:53.201Z",
+      "register": "formal"
+    },
+    {
+      "index": 5,
+      "speaker": "customer",
+      "text": "Besok saya bayar melalui virtual account",
+      "at": "2026-10-02T02:00:36.000Z",
+      "intent": "slot:promise_date,slot:payment_channel",
+      "register": "formal"
+    },
+    {
+      "index": 6,
+      "speaker": "bot",
+      "text": "Terima kasih, Bapak. Saya catat pembayaran pada hari Sabtu, 3 Oktober 2026 melalui virtual account, sebelum jatuh tempo, jadi tidak ada denda. Terima kasih atas waktunya, selamat pagi.",
+      "at": "2026-10-02T09:45:53.204Z",
+      "register": "formal"
+    }
+  ],
+  "latencies": [
+    {
+      "turn": 1,
+      "understand_ms": 0.7,
+      "server_total_ms": 0.7
+    },
+    {
+      "turn": 3,
+      "understand_ms": 2.6,
+      "server_total_ms": 2.6
+    },
+    {
+      "turn": 5,
+      "understand_ms": 1.1,
+      "server_total_ms": 1.1
+    }
+  ],
+  "known_pii": []
+}

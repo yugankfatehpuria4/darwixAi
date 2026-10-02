@@ -1,0 +1,160 @@
+{
+  "call_id": "call_20261002_15630140",
+  "market": "ph_life",
+  "started_at": "2026-10-02T05:30:00.000Z",
+  "today": "2026-10-02",
+  "stage": "ended",
+  "register": "taglish",
+  "slots": {
+    "policy_last4": {
+      "value": "4821",
+      "heard": "Yung last four ko po ay 4821",
+      "turn": 3
+    },
+    "payment_date": {
+      "value": "2026-10-15",
+      "heard": "Wala pa po akong pambayad, sa sweldo pa po sa 15",
+      "turn": 5
+    },
+    "payment_channel": {
+      "value": "branch",
+      "heard": "Over the counter na lang sa branch",
+      "turn": 7
+    }
+  },
+  "skipped": [],
+  "pending_conflict": null,
+  "unanswered_questions": 0,
+  "consecutive_silence": 0,
+  "consecutive_unclear": 0,
+  "disclosures_given": [
+    "recording"
+  ],
+  "identity_attempts": 0,
+  "outcome": {
+    "status": "promise_within_grace",
+    "next_action": "log_promise_to_pay",
+    "reasons": [
+      "promise 2026-10-15 within grace period ending 2026-11-07"
+    ],
+    "rule_sources": [
+      "ph/policies/payment-lapse-reinstatement.md#Grace period"
+    ],
+    "details": {
+      "due_date": "2026-10-07",
+      "grace_end": "2026-11-07",
+      "promise_date": "2026-10-15",
+      "channel": "branch"
+    }
+  },
+  "escalated": false,
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "bot",
+      "text": "Magandang hapon po! Si Lia po ito, virtual assistant ng Kalinga Life, partner ng Bayanihan Bank. Para po sa quality at training purposes, naka-record po ang tawag na ito. Si Ma'am [CUSTOMER_NAME] po ba ang kausap ko?",
+      "at": "2026-10-02T05:30:00.000Z",
+      "register": "taglish",
+      "intent": "greeting"
+    },
+    {
+      "index": 1,
+      "speaker": "customer",
+      "text": "Oo, ako nga",
+      "at": "2026-10-02T05:30:12.000Z",
+      "intent": "consent_yes",
+      "register": "taglish"
+    },
+    {
+      "index": 2,
+      "speaker": "bot",
+      "text": "Salamat po, Ma'am. Para po sa security, pwede ko po bang makuha ang huling apat na digits ng policy number ninyo?",
+      "at": "2026-10-02T09:45:53.153Z",
+      "register": "taglish"
+    },
+    {
+      "index": 3,
+      "speaker": "customer",
+      "text": "Yung last four ko po ay 4821",
+      "at": "2026-10-02T05:30:24.000Z",
+      "intent": "slot:policy_last4",
+      "register": "taglish"
+    },
+    {
+      "index": 4,
+      "speaker": "bot",
+      "text": "Salamat po, verified na po kayo. Tumatawag po ako para ipaalala na ang quarterly premium ng Kalinga Protect ninyo na 7,350 pesos ay due sa Miyerkules, ika-7 ng Oktubre. Kung sakaling ma-late po, may 31 days po kayong grace period mula sa due date. Kailan po kaya kayo makakapagbayad?",
+      "at": "2026-10-02T09:45:53.154Z",
+      "register": "taglish"
+    },
+    {
+      "index": 5,
+      "speaker": "customer",
+      "text": "Wala pa po akong pambayad, sa sweldo pa po sa 15",
+      "at": "2026-10-02T05:30:36.000Z",
+      "intent": "objection:no_money_yet,slot:payment_date",
+      "register": "taglish"
+    },
+    {
+      "index": 6,
+      "speaker": "bot",
+      "text": "Naiintindihan ko po, Ma'am. May 31 days po kayong grace period mula sa due date, kaya active pa rin po ang coverage ninyo habang hindi pa lumalampas doon. Kung nawalan po kayo ng trabaho o nagkasakit, pwede ko po kayong i-schedule ng callback sa advisor para sa premium payment extension. Saan po kayo magbabayad: sa Bayanihan Bank branch, sa mobile app, o sa e-wallet?",
+      "at": "2026-10-02T09:45:53.157Z",
+      "register": "taglish",
+      "retrieval": {
+        "query": "Objection Wala pa po akong pera Sa sweldo pa po",
+        "answerable": true,
+        "reason": "ok",
+        "confidence": 0.398,
+        "chunk_ids": [
+          "kb_ph_life_objection_fd5e66"
+        ],
+        "citations": [
+          "Premium Reminder Call Script: Kalinga Protect > Objection: \"Wala pa po akong pera\" o \"Sa sweldo pa po\" [kb_ph_life_objection_fd5e66] (internal://servicing/premium-reminder-script-v2.0, v2.0, effective 2026-01-15)",
+          "Premium Reminder Call Script: Kalinga Protect > Objection: \"Gusto ko na pong i-cancel\" o \"Hindi ko na kailangan\" [kb_ph_life_objection_0923a1] (internal://servicing/premium-reminder-script-v2.0, v2.0, effective 2026-01-15)",
+          "Premium Reminder Call Script: Kalinga Protect > Objection: \"Bakit kailangan ko pa ng rider?\" [kb_ph_life_objection_6d6135] (internal://servicing/premium-reminder-script-v2.0, v2.0, effective 2026-01-15)"
+        ],
+        "answer_mode": "extractive"
+      }
+    },
+    {
+      "index": 7,
+      "speaker": "customer",
+      "text": "Over the counter na lang sa branch",
+      "at": "2026-10-02T05:30:48.000Z",
+      "intent": "slot:payment_channel",
+      "register": "taglish"
+    },
+    {
+      "index": 8,
+      "speaker": "bot",
+      "text": "Salamat po! Itatala ko po na magbabayad kayo sa Huwebes, ika-15 ng Oktubre sa Bayanihan Bank branch. Pasok pa po iyon sa grace period, kaya tuloy po ang coverage ninyo. Ipapadala po ang official receipt sa email at SMS. Salamat po, ingat po kayo!",
+      "at": "2026-10-02T09:45:53.162Z",
+      "register": "taglish"
+    }
+  ],
+  "latencies": [
+    {
+      "turn": 1,
+      "understand_ms": 0.2,
+      "server_total_ms": 0.2
+    },
+    {
+      "turn": 3,
+      "understand_ms": 0.3,
+      "server_total_ms": 0.3
+    },
+    {
+      "turn": 5,
+      "understand_ms": 1.1,
+      "retrieval_ms": 0.9,
+      "server_total_ms": 2
+    },
+    {
+      "turn": 7,
+      "understand_ms": 0.2,
+      "server_total_ms": 0.2
+    }
+  ],
+  "known_pii": []
+}

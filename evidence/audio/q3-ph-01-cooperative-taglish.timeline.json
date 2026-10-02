@@ -1,0 +1,94 @@
+{
+  "call": "q3-ph-01-cooperative-taglish",
+  "market": "ph_life",
+  "synthetic_audio": true,
+  "voices": {
+    "bot": "id+f3",
+    "customer": "id+m3"
+  },
+  "sample_rate": 16000,
+  "duration_ms": 82539,
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "agent",
+      "start_ms": 0,
+      "end_ms": 13805,
+      "text": "Magandang umaga po! Si Lia po ito, virtual assistant ng Kalinga Life, partner ng Bayanihan Bank. Para po sa quality at training purposes, naka-record po ang tawag na ito. Si Ma'am Reyes po ba ang kausap ko?",
+      "event": null,
+      "asr_confidence": null
+    },
+    {
+      "index": 1,
+      "speaker": "customer",
+      "start_ms": 14255,
+      "end_ms": 15753,
+      "text": "Opo, ako po si Reyes",
+      "event": null,
+      "asr_confidence": null
+    },
+    {
+      "index": 2,
+      "speaker": "agent",
+      "start_ms": 16203,
+      "end_ms": 23659,
+      "text": "Salamat po, Ma'am. Para po sa security, pwede ko po bang makuha ang huling apat na digits ng policy number ninyo?",
+      "event": null,
+      "asr_confidence": null
+    },
+    {
+      "index": 3,
+      "speaker": "customer",
+      "start_ms": 24109,
+      "end_ms": 26480,
+      "text": "4821",
+      "event": null,
+      "asr_confidence": null
+    },
+    {
+      "index": 4,
+      "speaker": "agent",
+      "start_ms": 26930,
+      "end_ms": 47452,
+      "text": "Salamat po, verified na po kayo. Tumatawag po ako para ipaalala na ang quarterly premium ng Kalinga Protect ninyo na 7,350 pesos ay due sa Miyerkules, ika-7 ng Oktubre. Kung sakaling ma-late po, may 31 days po kayong grace period mula sa due date. Kailan po kaya kayo makakapagbayad?",
+      "event": null,
+      "asr_confidence": null
+    },
+    {
+      "index": 5,
+      "speaker": "customer",
+      "start_ms": 47902,
+      "end_ms": 50619,
+      "text": "Ano po mangyayari kapag na-late ako ng bayad?",
+      "event": null,
+      "asr_confidence": null
+    },
+    {
+      "index": 6,
+      "speaker": "agent",
+      "start_ms": 51069,
+      "end_ms": 61799,
+      "text": "May 31 days po kayong grace period mula sa due date. Habang nasa grace period, active pa rin po ang coverage ninyo. Kailan po kaya kayo makakapagbayad?",
+      "event": null,
+      "asr_confidence": null
+    },
+    {
+      "index": 7,
+      "speaker": "customer",
+      "start_ms": 62249,
+      "end_ms": 65145,
+      "text": "Sa Biyernes po ako magbabayad, sa GCash po",
+      "event": null,
+      "asr_confidence": null
+    },
+    {
+      "index": 8,
+      "speaker": "agent",
+      "start_ms": 65595,
+      "end_ms": 82086,
+      "text": "Salamat po! Itatala ko po na magbabayad kayo sa Biyernes, ika-9 ng Oktubre sa e-wallet. Pasok pa po iyon sa grace period, kaya tuloy po ang coverage ninyo. Ipapadala po ang official receipt sa email at SMS. Salamat po, ingat po kayo!",
+      "event": null,
+      "asr_confidence": null
+    }
+  ]
+}

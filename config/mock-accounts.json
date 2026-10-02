@@ -1,0 +1,24 @@
+{
+  "_note": "SYNTHETIC test accounts for the reminder bots. Fictional people; no real customer data. Due dates are relative to the call date so the demo works on any day.",
+  "ph_life": {
+    "first_name": "Ana",
+    "last_name": "Reyes",
+    "title": "Ma'am",
+    "policy_last4": "4821",
+    "product": "Kalinga Protect",
+    "premium_php": 7350,
+    "mode": "quarterly",
+    "due_in_days": 5
+  },
+  "id_finance": {
+    "full_name": "Budi Santoso",
+    "salutation": "Bapak",
+    "date_of_birth": "1990-03-12",
+    "contract_last4": "7735",
+    "installment_idr": 1250000,
+    "installment_number": 9,
+    "tenor_months": 24,
+    "vehicle": "sepeda motor",
+    "due_in_days": 3
+  }
+}

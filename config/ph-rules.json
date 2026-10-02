@@ -1,0 +1,6 @@
+{
+  "_note": "Deterministic rules for the Kalinga Protect premium reminder. Values cite the KB section they come from; tests/rules.test.ts checks them against the KB text. SYNTHETIC.",
+  "grace_period_days": { "value": 31, "source": "ph/policies/payment-lapse-reinstatement.md#Grace period" },
+  "hardship_extension_max_days": { "value": 60, "source": "ph/policies/payment-lapse-reinstatement.md#Hardship assistance" },
+  "max_unanswered_questions": { "value": 2, "source": "ph/scripts/premium-reminder-script.md#Escalation" }
+}

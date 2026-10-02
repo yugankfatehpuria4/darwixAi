@@ -1,0 +1,45 @@
+{
+  "_note": "Expected nudges per Q4 test call, written BEFORE the signal engine was run on these calls. A delivered nudge matches a label when the topic is equal and it was triggered by the labelled segment or the one after it (the recogniser can split a sentence). 'must_suppress' lists topics whose signal is expected but must NOT become a nudge (context suppression). Segment indexes follow the order of turns in data/q4/calls/*.json and evidence/audio/*.timeline.json.",
+  "calls": {
+    "q4-health-agent-slips": {
+      "expected": [
+        { "topic": "compliance:recording_disclosure", "segment": 2, "why": "asks age and members before saying the call is recorded" },
+        { "topic": "opportunity:parents_cover", "segment": 3, "why": "customer's parents (61, 64) have no insurance; agent moves on" },
+        { "topic": "compliance:price_before_disclosure", "segment": 6, "why": "quotes a price before the waiting-period disclosure" },
+        { "topic": "objection:price", "segment": 7, "why": "price objection; script has an approved response" },
+        { "topic": "risk:prohibited_promise", "segment": 10, "why": "guarantees claim approval (Rule Q7)" },
+        { "topic": "opportunity:buying_signal", "segment": 11, "why": "how do I sign up" }
+      ],
+      "must_suppress": []
+    },
+    "q4-id-collector-pressure": {
+      "expected": [
+        { "topic": "compliance:recording_disclosure", "segment": 2, "why": "discusses the arrears without the recording notice" },
+        { "topic": "compliance:identity_before_details", "segment": 2, "why": "states arrears before verifying date of birth" },
+        { "topic": "payment:difficulty", "segment": 3, "why": "PHK, no income" },
+        { "topic": "risk:threat", "segment": 4, "why": "threatens repossession (collection ethics)" },
+        { "topic": "customer:frustration", "segment": 5, "why": "repetition, complaint, interruption; rising" },
+        { "topic": "callback:requested", "segment": 10, "why": "call me tomorrow afternoon" }
+      ],
+      "must_suppress": ["opportunity:second_financing"]
+    },
+    "q4-ph-life-event": {
+      "expected": [
+        { "topic": "opportunity:life_event", "segment": 5, "why": "new baby: beneficiary and rider review" },
+        { "topic": "callback:requested", "segment": 11, "why": "call after 6pm" }
+      ],
+      "must_suppress": []
+    },
+    "q4-health-noisy": {
+      "expected": [],
+      "must_suppress": []
+    },
+    "q1-02-objections": {
+      "expected": [
+        { "topic": "objection:price", "segment": 9, "why": "too expensive (bot handles it, the nudge is still a correct signal)" },
+        { "topic": "objection:employer_cover", "segment": 13, "why": "company already gives insurance" }
+      ],
+      "must_suppress": []
+    }
+  }
+}

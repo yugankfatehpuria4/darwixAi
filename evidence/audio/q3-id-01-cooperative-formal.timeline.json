@@ -1,0 +1,76 @@
+{
+  "call": "q3-id-01-cooperative-formal",
+  "market": "id_finance",
+  "synthetic_audio": true,
+  "voices": {
+    "bot": "id+f3",
+    "customer": "id+m3"
+  },
+  "sample_rate": 16000,
+  "duration_ms": 69453,
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "agent",
+      "start_ms": 0,
+      "end_ms": 14547,
+      "text": "Selamat pagi, Bapak. Saya Sari, asisten virtual dari Danamaju Finance, terkait pembiayaan sepeda motor Bapak. Untuk menjaga kualitas layanan, panggilan ini direkam. Apakah saya berbicara dengan Bapak Budi Santoso?",
+      "event": null,
+      "asr_confidence": null
+    },
+    {
+      "index": 1,
+      "speaker": "customer",
+      "start_ms": 14997,
+      "end_ms": 16887,
+      "text": "Iya, benar, saya sendiri",
+      "event": null,
+      "asr_confidence": null
+    },
+    {
+      "index": 2,
+      "speaker": "agent",
+      "start_ms": 17337,
+      "end_ms": 22657,
+      "text": "Terima kasih, Bapak. Untuk verifikasi, mohon sebutkan tanggal lahir Bapak.",
+      "event": null,
+      "asr_confidence": null
+    },
+    {
+      "index": 3,
+      "speaker": "customer",
+      "start_ms": 23107,
+      "end_ms": 26619,
+      "text": "Tanggal 12 Maret 1990",
+      "event": null,
+      "asr_confidence": null
+    },
+    {
+      "index": 4,
+      "speaker": "agent",
+      "start_ms": 27069,
+      "end_ms": 51438,
+      "text": "Terima kasih, data sudah sesuai. Kami ingin mengingatkan bahwa angsuran ke-9 pembiayaan sepeda motor Bapak sebesar satu juta dua ratus lima puluh ribu rupiah akan jatuh tempo pada hari Senin, 5 Oktober 2026. Denda keterlambatan sebesar 0,2 persen per hari berlaku mulai sehari setelah jatuh tempo. Rencananya Bapak akan melakukan pembayaran kapan?",
+      "event": null,
+      "asr_confidence": null
+    },
+    {
+      "index": 5,
+      "speaker": "customer",
+      "start_ms": 51888,
+      "end_ms": 54525,
+      "text": "Besok saya bayar melalui virtual account",
+      "event": null,
+      "asr_confidence": null
+    },
+    {
+      "index": 6,
+      "speaker": "agent",
+      "start_ms": 54975,
+      "end_ms": 69001,
+      "text": "Terima kasih, Bapak. Saya catat pembayaran pada hari Sabtu, 3 Oktober 2026 melalui virtual account, sebelum jatuh tempo, jadi tidak ada denda. Terima kasih atas waktunya, selamat pagi.",
+      "event": null,
+      "asr_confidence": null
+    }
+  ]
+}

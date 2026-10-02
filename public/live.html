@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Live Nudges</title>
+  <link rel="stylesheet" href="/app.css">
+  <style>
+    .nudges { display: flex; flex-direction: column; gap: 10px; }
+    .nudge { border: 1px solid var(--line); border-left: 4px solid var(--accent); border-radius: 8px; padding: 10px 12px; background: var(--panel); transition: opacity .3s; }
+    .nudge.high { border-left-color: var(--bad); }
+    .nudge.medium { border-left-color: var(--warn); }
+    .nudge.resolved, .nudge.expired { opacity: .45; }
+    .nudge .topic { font-family: var(--mono); font-size: 12px; color: var(--muted); }
+    .nudge .text { font-weight: 600; margin: 4px 0; }
+    .nudge .cite { font-size: 12px; color: var(--muted); border-top: 1px dashed var(--line); margin-top: 6px; padding-top: 6px; }
+    .segment { padding: 4px 0; border-bottom: 1px solid var(--line); }
+    .segment .who { font-family: var(--mono); font-size: 12px; color: var(--muted); }
+    .partial { color: var(--muted); font-style: italic; min-height: 1.5em; }
+    .clock { font-family: var(--mono); font-size: 20px; }
+    #suppressed li { font-size: 12px; color: var(--muted); }
+  </style>
+</head>
+<body>
+<header class="top">
+  <h1>Darwix voice AI</h1>
+  <nav><a href="/call.html">Web call</a><a href="/dashboard.html">Calls &amp; KB</a><a href="/live.html" class="on">Live nudges</a></nav>
+</header>
+<main class="stack">
+  <section class="panel stack">
+    <div class="controls">
+      <select id="recording"></select>
+      <select id="speed"><option value="1">real time (1x)</option><option value="2">2x (not real time)</option></select>
+      <button class="primary" id="play">Replay call</button>
+      <button id="stop">Stop</button>
+      <span class="clock" id="clock">00:00</span>
+      <span id="status" class="muted">Idle</span>
+    </div>
+    <div class="controls">
+      <select id="liveMarket"><option value="in_health">in_health</option><option value="ph_life">ph_life</option><option value="id_finance">id_finance</option></select>
+      <button id="live">Live from microphone</button>
+      <label><input type="radio" name="who" value="agent" checked> I am speaking as the agent</label>
+      <label><input type="radio" name="who" value="customer"> as the customer</label>
+    </div>
+    <div id="mode" class="simulation muted"></div>
+    <audio id="audio" preload="auto"></audio>
+  </section>
+  <div class="grid">
+    <section class="panel">
+      <h2>Transcript</h2>
+      <div id="transcript" class="transcript"></div>
+      <div id="partial" class="partial"></div>
+    </section>
+    <aside class="stack">
+      <section class="panel">
+        <h2>Nudges for the agent</h2>
+        <div id="nudges" class="nudges"><span class="muted">None yet.</span></div>
+      </section>
+      <section class="panel">
+        <h2>Insights</h2>
+        <div id="insights" class="muted">Sentiment and topic appear as the customer speaks.</div>
+      </section>
+      <section class="panel">
+        <h2>Suppressed (not shown to the agent)</h2>
+        <ul id="suppressed"></ul>
+      </section>
+    </aside>
+  </div>
+</main>
+<script>
+const $ = (id) => document.getElementById(id);
+const escapeHtml = (value) => String(value ?? "").replace(/[&<>"]/g, (character) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[character]);
+let socket = null;
+let startedAt = null;
+let clockTimer = null;
+const sentiments = [];
+
+function connect() {
+  return new Promise((resolve) => {
+    if (socket && socket.readyState === WebSocket.OPEN) return resolve(socket);
+    socket = new WebSocket(`${location.protocol === "https:" ? "wss" : "ws"}://${location.host}/api/realtime`);
+    socket.onopen = () => {
+      const token = sessionStorage.getItem("demoToken");
+      if (token) socket.send(JSON.stringify({ type: "auth", token }));
+      resolve(socket);
+    };
+    socket.onmessage = (event) => handle(JSON.parse(event.data));
+    // Drop back to idle on disconnect; the next action reconnects.
+    socket.onclose = () => { $("status").textContent = "Disconnected"; clearInterval(clockTimer); };
+  });
+}
+
+function reset() {
+  $("transcript").innerHTML = "";
+  $("partial").textContent = "";
+  $("nudges").innerHTML = '<span class="muted">None yet.</span>';
+  $("suppressed").innerHTML = "";
+  $("insights").textContent = "Sentiment and topic appear as the customer speaks.";
+  sentiments.length = 0;
+}
+
+function startClock() {
+  startedAt = performance.now();
+  clearInterval(clockTimer);
+  clockTimer = setInterval(() => {
+    const seconds = Math.floor((performance.now() - startedAt) / 1000);
+    $("clock").textContent = `${String(Math.floor(seconds / 60)).padStart(2, "0")}:${String(seconds % 60).padStart(2, "0")}`;
+  }, 200);
+}
+
+function handle(message) {
+  if (message.type === "started") {
+    $("mode").textContent = message.asr_measured
+      ? `Live: ${message.asr}.`
+      : `SIMULATION: recorded audio (${message.call}) is streamed to the server in 250 ms chunks at real-time pace; transcripts come from the call's timeline (${message.asr}), released only as the audio reaches them. Signals, nudge control and delivery are real.`;
+    $("status").textContent = `Analysing ${message.call} (${message.market})`;
+    startClock();
+  } else if (message.type === "partial") {
+    $("partial").textContent = `${message.speaker}: ${message.text}`;
+  } else if (message.type === "transcript") {
+    $("partial").textContent = "";
+    const segment = message.segment;
+    const row = document.createElement("div");
+    row.className = "segment";
+    row.innerHTML = `<span class="who">#${segment.index} ${segment.speaker}${segment.interrupted_previous ? " (interrupts)" : ""} · asr ${segment.confidence.toFixed(2)}</span><br>${escapeHtml(segment.text)}`;
+    $("transcript").appendChild(row);
+    $("transcript").scrollTop = $("transcript").scrollHeight;
+  } else if (message.type === "nudge") {
+    const nudge = message.nudge;
+    if ($("nudges").querySelector(".muted")) $("nudges").innerHTML = "";
+    const card = document.createElement("div");
+    card.className = `nudge ${nudge.priority}`;
+    card.id = `nudge-${nudge.id}`;
+    card.innerHTML = `<div class="topic">${escapeHtml(nudge.topic)} · ${nudge.priority} · confidence ${nudge.confidence}</div>` +
+      `<div class="text">${escapeHtml(nudge.text)}</div>` +
+      (nudge.citation ? `<div class="cite">${escapeHtml(nudge.citation.snippet)}<br>${escapeHtml(nudge.citation.citation)}</div>` : "") +
+      `<div class="topic latency"></div>`;
+    $("nudges").prepend(card);
+    requestAnimationFrame(() => {
+      const displayedAt = Date.now();
+      card.querySelector(".latency").textContent = `${displayedAt - nudge.timings.t_audio_received} ms from audio to screen`;
+      socket.send(JSON.stringify({ type: "ack", nudge_id: nudge.id, received_at: displayedAt }));
+    });
+  } else if (message.type === "nudge_resolved" || message.type === "nudge_expired") {
+    const card = $(`nudge-${message.id}`);
+    if (card) {
+      card.classList.add(message.type === "nudge_resolved" ? "resolved" : "expired");
+      card.querySelector(".topic").textContent += message.type === "nudge_resolved" ? " · agent acted on it" : " · expired";
+    }
+  } else if (message.type === "nudge_suppressed") {
+    const entry = document.createElement("li");
+    entry.textContent = `#${message.segment_index} ${message.topic}: ${message.reason}`;
+    $("suppressed").prepend(entry);
+  } else if (message.type === "insight") {
+    if (message.kind === "sentiment") sentiments.push(message.value);
+    const last = sentiments.slice(-6).map((value) => (value > 0 ? "+" : value < 0 ? "-" : "0")).join(" ");
+    if (message.kind === "topic") $("insights").dataset.topic = message.value;
+    $("insights").textContent = `Customer sentiment, last turns: ${last || "-"} · Current topic: ${$("insights").dataset.topic || "-"}`;
+  } else if (message.type === "done") {
+    $("status").textContent = `Done: ${message.summary.delivered} nudges, ${message.summary.suppressed} suppressed, ${message.summary.resolved} resolved by the agent`;
+    clearInterval(clockTimer);
+  } else if (message.type === "error") {
+    $("status").textContent = `Error: ${message.message}`;
+  }
+}
+
+async function loadRecordings() {
+  const response = await fetch("/api/realtime/recordings");
+  const { recordings } = await response.json();
+  $("recording").innerHTML = recordings.map((recording) => `<option value="${recording.name}">${recording.name} (${recording.market}, ${Math.round(recording.duration_ms / 1000)} s${recording.noisy ? ", noisy" : ""})</option>`).join("");
+  const preferred = recordings.find((recording) => recording.name === "q4-health-agent-slips");
+  if (preferred) $("recording").value = preferred.name;
+}
+
+$("play").onclick = async () => {
+  reset();
+  const name = $("recording").value;
+  const speed = Number($("speed").value);
+  await connect();
+  $("audio").src = `/audio/${name}.wav`;
+  $("audio").playbackRate = speed;
+  $("audio").play().catch(() => {});
+  socket.send(JSON.stringify({ type: "replay", recording: name, speed }));
+};
+
+$("stop").onclick = () => {
+  socket?.send(JSON.stringify({ type: "stop" }));
+  $("audio").pause();
+  clearInterval(clockTimer);
+  $("status").textContent = "Stopped";
+};
+
+// Live mode: the browser recognises speech and sends finished segments.
+// There is no diarisation in the browser, so the speaker is chosen by hand.
+$("live").onclick = async () => {
+  const Recognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+  if (!Recognition) { $("status").textContent = "No speech recognition in this browser (use Chrome or Edge)"; return; }
+  reset();
+  await connect();
+  const market = $("liveMarket").value;
+  socket.send(JSON.stringify({ type: "live_start", market }));
+  const recognizer = new Recognition();
+  recognizer.lang = { in_health: "en-IN", ph_life: "fil-PH", id_finance: "id-ID" }[market];
+  recognizer.continuous = true;
+  recognizer.interimResults = true;
+  let speechEnded = null;
+  recognizer.onspeechend = () => { speechEnded = performance.now(); };
+  recognizer.onresult = (event) => {
+    const result = event.results[event.results.length - 1];
+    $("partial").textContent = result[0].transcript;
+    if (!result.isFinal) return;
+    socket.send(JSON.stringify({
+      type: "live_segment",
+      speaker: document.querySelector("input[name=who]:checked").value,
+      text: result[0].transcript,
+      // Chrome reports 0 when it has no estimate. 0.75 keeps strong
+      // detectors (0.85) above the 0.6 gate and weak ones (0.5) below it.
+      confidence: result[0].confidence > 0 ? result[0].confidence : 0.75,
+      asr_ms: speechEnded ? Math.round(performance.now() - speechEnded) : undefined,
+    }));
+  };
+  recognizer.onend = () => { if (socket?.readyState === WebSocket.OPEN) recognizer.start(); };
+  recognizer.start();
+};
+
+loadRecordings();
+</script>
+</body>
+</html>

@@ -1,0 +1,184 @@
+{
+  "call": "q1-03-conflicting",
+  "market": "in_health",
+  "synthetic_audio": true,
+  "voices": {
+    "bot": "en+f3",
+    "customer": "en-gb-x-rp+m3"
+  },
+  "sample_rate": 16000,
+  "duration_ms": 85677,
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "agent",
+      "start_ms": 0,
+      "end_ms": 13616,
+      "text": "Hello, this is Asha, a virtual assistant from Suraksha Health Insurance, calling about the health insurance enquiry you submitted. This call is recorded for quality and training purposes. Is this a good time to talk for about five minutes?",
+      "event": null,
+      "asr_confidence": null
+    },
+    {
+      "index": 1,
+      "speaker": "customer",
+      "start_ms": 14066,
+      "end_ms": 14686,
+      "text": "Yes please",
+      "event": null,
+      "asr_confidence": null
+    },
+    {
+      "index": 2,
+      "speaker": "agent",
+      "start_ms": 15136,
+      "end_ms": 20459,
+      "text": "First, who would you like to cover: just yourself, or also your spouse, children or parents?",
+      "event": null,
+      "asr_confidence": null
+    },
+    {
+      "index": 3,
+      "speaker": "customer",
+      "start_ms": 20909,
+      "end_ms": 21806,
+      "text": "Me and my father",
+      "event": null,
+      "asr_confidence": null
+    },
+    {
+      "index": 4,
+      "speaker": "agent",
+      "start_ms": 22256,
+      "end_ms": 24657,
+      "text": "What is the age of the eldest person to be covered?",
+      "event": null,
+      "asr_confidence": null
+    },
+    {
+      "index": 5,
+      "speaker": "customer",
+      "start_ms": 25107,
+      "end_ms": 26912,
+      "text": "My father is 58 years old",
+      "event": null,
+      "asr_confidence": null
+    },
+    {
+      "index": 6,
+      "speaker": "agent",
+      "start_ms": 27362,
+      "end_ms": 28682,
+      "text": "Which city do you live in?",
+      "event": null,
+      "asr_confidence": null
+    },
+    {
+      "index": 7,
+      "speaker": "customer",
+      "start_ms": 29132,
+      "end_ms": 29625,
+      "text": "Mumbai",
+      "event": null,
+      "asr_confidence": null
+    },
+    {
+      "index": 8,
+      "speaker": "agent",
+      "start_ms": 30075,
+      "end_ms": 36308,
+      "text": "Does anyone to be covered have an existing medical condition, such as diabetes, blood pressure, thyroid or asthma?",
+      "event": null,
+      "asr_confidence": null
+    },
+    {
+      "index": 9,
+      "speaker": "customer",
+      "start_ms": 36758,
+      "end_ms": 38235,
+      "text": "He is 68 years old",
+      "event": null,
+      "asr_confidence": null
+    },
+    {
+      "index": 10,
+      "speaker": "agent",
+      "start_ms": 38685,
+      "end_ms": 44648,
+      "text": "Just to check: earlier you said 58 years, and now 68 years. Is 68 years correct?",
+      "event": null,
+      "asr_confidence": null
+    },
+    {
+      "index": 11,
+      "speaker": "customer",
+      "start_ms": 45098,
+      "end_ms": 46219,
+      "text": "Yes, 68",
+      "event": null,
+      "asr_confidence": null
+    },
+    {
+      "index": 12,
+      "speaker": "agent",
+      "start_ms": 46669,
+      "end_ms": 55300,
+      "text": "Okay, I'll keep 68 years. Does anyone to be covered have an existing medical condition, such as diabetes, blood pressure, thyroid or asthma?",
+      "event": null,
+      "asr_confidence": null
+    },
+    {
+      "index": 13,
+      "speaker": "customer",
+      "start_ms": 55750,
+      "end_ms": 56637,
+      "text": "No conditions",
+      "event": null,
+      "asr_confidence": null
+    },
+    {
+      "index": 14,
+      "speaker": "agent",
+      "start_ms": 57087,
+      "end_ms": 61172,
+      "text": "Do you have any existing health insurance, including cover from your employer?",
+      "event": null,
+      "asr_confidence": null
+    },
+    {
+      "index": 15,
+      "speaker": "customer",
+      "start_ms": 61622,
+      "end_ms": 61914,
+      "text": "No",
+      "event": null,
+      "asr_confidence": null
+    },
+    {
+      "index": 16,
+      "speaker": "agent",
+      "start_ms": 62364,
+      "end_ms": 69702,
+      "text": "Last one: which cover amount are you looking at, 5, 10, 15 or 25 lakh rupees? You can also say not sure.",
+      "event": null,
+      "asr_confidence": null
+    },
+    {
+      "index": 17,
+      "speaker": "customer",
+      "start_ms": 70152,
+      "end_ms": 70864,
+      "text": "15 lakh",
+      "event": null,
+      "asr_confidence": null
+    },
+    {
+      "index": 18,
+      "speaker": "agent",
+      "start_ms": 71314,
+      "end_ms": 85219,
+      "text": "Thank you. Family Shield covers adults up to 65 years at entry, so for someone aged 68 there is a separate senior citizen plan handled by a specialist advisor. I've asked a specialist to call you back. Thank you, goodbye.",
+      "event": null,
+      "asr_confidence": null
+    }
+  ]
+}

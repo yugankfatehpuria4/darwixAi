@@ -1,0 +1,58 @@
+{
+  "call": "q1-09-call-later",
+  "market": "in_health",
+  "synthetic_audio": true,
+  "voices": {
+    "bot": "en+f3",
+    "customer": "en-gb-x-rp+m3"
+  },
+  "sample_rate": 16000,
+  "duration_ms": 34883,
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "agent",
+      "start_ms": 0,
+      "end_ms": 13620,
+      "text": "Hello, this is Asha, a virtual assistant from Suraksha Health Insurance, calling about the health insurance enquiry you submitted. This call is recorded for quality and training purposes. Is this a good time to talk for about five minutes?",
+      "event": null,
+      "asr_confidence": null
+    },
+    {
+      "index": 1,
+      "speaker": "customer",
+      "start_ms": 14070,
+      "end_ms": 14692,
+      "text": "Yes okay",
+      "event": null,
+      "asr_confidence": null
+    },
+    {
+      "index": 2,
+      "speaker": "agent",
+      "start_ms": 15142,
+      "end_ms": 20469,
+      "text": "First, who would you like to cover: just yourself, or also your spouse, children or parents?",
+      "event": null,
+      "asr_confidence": null
+    },
+    {
+      "index": 3,
+      "speaker": "customer",
+      "start_ms": 20919,
+      "end_ms": 23461,
+      "text": "Let me think about it and call me next week",
+      "event": null,
+      "asr_confidence": null
+    },
+    {
+      "index": 4,
+      "speaker": "agent",
+      "start_ms": 23911,
+      "end_ms": 34431,
+      "text": "Of course, take your time. I can send you a written quote by email or WhatsApp, and set up a callback at a time that suits you. I've noted that. Thank you for your time, goodbye.",
+      "event": null,
+      "asr_confidence": null
+    }
+  ]
+}

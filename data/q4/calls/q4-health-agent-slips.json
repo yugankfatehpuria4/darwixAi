@@ -1,0 +1,23 @@
+{
+  "_note": "SYNTHETIC human-agent call for Q4. Agent mistakes are deliberate: personal details asked before the recording disclosure, a price before the waiting-period disclosure, a guaranteed claim approval, and the parents cross-sell ignored. 'text' is what the recogniser outputs; 'spoken' (if present) is what the audio says.",
+  "call_id": "q4-health-agent-slips",
+  "market": "in_health",
+  "turns": [
+    { "speaker": "agent", "text": "Hi, am I speaking with Mr Rohan? This is Vikram from Suraksha Health. You filled in our form for health insurance." },
+    { "speaker": "customer", "text": "Yes, that's me." },
+    { "speaker": "agent", "text": "Great. So who do you want to cover, and what is your age?" },
+    { "speaker": "customer", "text": "Me and my wife. I'm 36 and she's 33. Actually my parents are 61 and 64 and they don't have any health insurance at all." },
+    { "speaker": "agent", "text": "Okay, noted. Which city are you in?" },
+    { "speaker": "customer", "text": "Pune." },
+    { "speaker": "agent", "text": "For you and your wife, 10 lakh cover would be around fifteen thousand rupees a year." },
+    { "speaker": "customer", "text": "Fifteen thousand? That's too expensive for us." },
+    { "speaker": "agent", "text": "It's a good plan, sir. Most people take it." },
+    { "speaker": "customer", "text": "Hmm. And if my wife gets hospitalised, will the claim actually be paid?" },
+    { "speaker": "agent", "text": "Don't worry, your claim will definitely be approved, a hundred percent." },
+    { "speaker": "customer", "text": "Okay, that sounds good. How do I sign up?" },
+    { "speaker": "agent", "text": "Also, this call is recorded for quality and training purposes." },
+    { "speaker": "agent", "text": "And your parents can be added to Family Shield since they are under 65." },
+    { "speaker": "customer", "text": "Great, please send me the quote." },
+    { "speaker": "agent", "text": "Sure, I will send it on WhatsApp in a few minutes." }
+  ]
+}

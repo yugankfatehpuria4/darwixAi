@@ -1,0 +1,214 @@
+{
+  "_note": "Canonical terminology. 'terms' maps variant wording to one canonical phrase so search_text is consistent across sources. 'form_fields' maps form labels to canonical field names. 'query_expansions' bridge code-switched and colloquial customer words to the vocabulary the documents actually use; they are applied to queries only, never to stored content.",
+  "terms": {
+    "sum insured": [
+      "cover amount",
+      "coverage amount",
+      "coverage limit",
+      "sum insured required",
+      "cover amount required"
+    ],
+    "pre-existing disease": [
+      "pre-existing condition",
+      "pre-existing illness",
+      "pre-existing diseases",
+      "pre-existing conditions",
+      "ped"
+    ],
+    "family floater": [
+      "floater policy",
+      "floater"
+    ],
+    "uang muka": [
+      "dp",
+      "down payment"
+    ],
+    "angsuran": [
+      "cicilan"
+    ],
+    "face amount": [
+      "sum assured",
+      "death benefit amount"
+    ]
+  },
+  "form_fields": {
+    "customer_name": [
+      "name of proposer",
+      "applicant name",
+      "name",
+      "nama lengkap"
+    ],
+    "phone": [
+      "mobile no.",
+      "mobile no",
+      "contact number",
+      "mobile number",
+      "phone"
+    ],
+    "email": [
+      "e-mail address",
+      "email",
+      "email address"
+    ],
+    "city": [
+      "city / town",
+      "city"
+    ],
+    "pin_code": [
+      "pin code",
+      "pincode"
+    ],
+    "date_of_birth": [
+      "date of birth (dd/mm/yyyy)",
+      "dob",
+      "date of birth"
+    ],
+    "members_to_cover": [
+      "members to be insured (self / spouse / children / parents)",
+      "members to be insured"
+    ],
+    "eldest_member_age": [
+      "age of eldest member"
+    ],
+    "pre_existing_disease": [
+      "any pre-existing disease? (y/n)",
+      "pre-existing illness"
+    ],
+    "existing_cover": [
+      "existing health insurance incl. employer cover? (y/n)",
+      "existing cover"
+    ],
+    "sum_insured": [
+      "cover amount required",
+      "sum insured required"
+    ],
+    "callback_time": [
+      "preferred time for call back",
+      "callback"
+    ],
+    "pan": [
+      "pan"
+    ]
+  },
+  "query_expansions": {
+    "en": {
+      "cost": "premium price",
+      "price": "premium",
+      "expensive": "premium too expensive discount",
+      "costly": "premium too expensive discount",
+      "afford": "premium too expensive monthly",
+      "monthly": "monthly instalments auto-debit",
+      "parents": "parents parents-in-law",
+      "mom": "parents",
+      "dad": "parents",
+      "kids": "children",
+      "son": "children",
+      "daughter": "children",
+      "diabetes": "pre-existing disease",
+      "bp": "pre-existing disease hypertension",
+      "sugar": "pre-existing disease diabetes",
+      "late": "grace period renewal",
+      "miss": "grace period renewal",
+      "refund": "cancel free-look cancellation",
+      "office": "employer",
+      "company": "employer",
+      "job": "employer",
+      "pregnancy": "maternity",
+      "baby": "maternity delivery",
+      "checkup": "medical check-up",
+      "test": "medical check-up",
+      "hospitals": "network hospitals",
+      "wife": "spouse",
+      "husband": "spouse",
+      "mother": "parents",
+      "father": "parents",
+      "used up": "exhausted sum insured restoration",
+      "run out": "exhausted sum insured restoration",
+      "exhausted": "sum insured restoration",
+      "month": "monthly",
+      "every month": "monthly instalments",
+      "blood pressure": "pre-existing disease hypertension",
+      "money back": "refund cancellation",
+      "complain": "complaint grievance"
+    },
+    "tl": {
+      "bayad": "payment pay magbayad",
+      "magbayad": "payment pay",
+      "nagbayad": "payment pay posted",
+      "hulog": "premium payment",
+      "huhulugan": "premium payment",
+      "pambayad": "payment hardship extension",
+      "pera": "payment hardship extension",
+      "sweldo": "payment hardship",
+      "na-late": "late grace period",
+      "late": "grace period lapse",
+      "nalate": "late grace period",
+      "lapse": "lapse grace period reinstatement",
+      "nag-lapse": "lapse reinstate reinstatement",
+      "tumaas": "premium increase level",
+      "mahal": "premium",
+      "palitan": "change beneficiary mode",
+      "ipalit": "change",
+      "buwan-buwan": "monthly",
+      "kada buwan": "monthly",
+      "cancel": "cancel lapse advisor",
+      "i-cancel": "cancel lapse advisor",
+      "makikita": "posted payment",
+      "pumasok": "posted payment",
+      "nawalan": "hardship extension",
+      "trabaho": "hardship extension job loss",
+      "sakit": "hardship illness critical"
+    },
+    "id": {
+      "cicilan": "angsuran",
+      "nyicil": "angsuran cicilan",
+      "telat": "terlambat keterlambatan denda",
+      "terlambat": "keterlambatan denda",
+      "nunggak": "tertunggak denda",
+      "gajian": "gaji tanggal jatuh tempo perubahan",
+      "ganti": "perubahan",
+      "pindah": "perubahan",
+      "lunasin": "pelunasan dipercepat",
+      "lunas": "pelunasan",
+      "dp": "uang muka",
+      "susah": "kesulitan keringanan restrukturisasi",
+      "phk": "kehilangan pekerjaan keringanan restrukturisasi",
+      "dipecat": "kehilangan pekerjaan keringanan",
+      "keringanan": "restrukturisasi",
+      "bayarnya": "pembayaran bayar",
+      "transfer": "pembayaran virtual account",
+      "indomaret": "minimarket",
+      "alfamart": "minimarket",
+      "masuk": "tercatat",
+      "rusak": "kendaraan rusak angsuran tetap",
+      "ilang": "hilang asuransi kendaraan",
+      "kedua": "kendaraan kedua multiguna",
+      "renovasi": "multiguna renovasi",
+      "mboten": "tidak",
+      "ndak": "tidak",
+      "nggak": "tidak",
+      "gak": "tidak",
+      "ora": "tidak",
+      "teu": "tidak",
+      "sampun": "sudah",
+      "udah": "sudah",
+      "atos": "sudah",
+      "dereng": "belum",
+      "durung": "belum",
+      "acan": "belum",
+      "piye": "bagaimana",
+      "pripun": "bagaimana",
+      "kumaha": "bagaimana",
+      "gimana": "bagaimana",
+      "pinten": "berapa",
+      "sabaraha": "berapa",
+      "dendane": "denda"
+    }
+  },
+  "brand_terms": [
+    "suraksha",
+    "danamaju",
+    "kalinga",
+    "bayanihan"
+  ]
+}

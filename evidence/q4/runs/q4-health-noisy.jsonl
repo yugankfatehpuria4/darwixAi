@@ -1,0 +1,180 @@
+{"type":"started","call":"q4-health-noisy","market":"in_health","asr":"simulated (timeline replay)","asr_measured":false,"duration_ms":48891,"client_received_at":1790933527479}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello,","client_received_at":1790933527727}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello, this","client_received_at":1790933528227}
+{"type":"audio","position_ms":1000,"client_received_at":1790933528477}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello, this is","client_received_at":1790933528727}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello, this is Meera","client_received_at":1790933528977}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello, this is Meera from","client_received_at":1790933529228}
+{"type":"audio","position_ms":2000,"client_received_at":1790933529477}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello, this is Meera from Suraksha","client_received_at":1790933529726}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello, this is Meera from Suraksha Health","client_received_at":1790933529977}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello, this is Meera from Suraksha Health Insurance.","client_received_at":1790933530477}
+{"type":"audio","position_ms":3000,"client_received_at":1790933530477}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello, this is Meera from Suraksha Health Insurance. This","client_received_at":1790933530727}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello, this is Meera from Suraksha Health Insurance. This call","client_received_at":1790933530982}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello, this is Meera from Suraksha Health Insurance. This call is","client_received_at":1790933531477}
+{"type":"audio","position_ms":4000,"client_received_at":1790933531477}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello, this is Meera from Suraksha Health Insurance. This call is recorded","client_received_at":1790933531728}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello, this is Meera from Suraksha Health Insurance. This call is recorded for","client_received_at":1790933531977}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello, this is Meera from Suraksha Health Insurance. This call is recorded for quality","client_received_at":1790933532477}
+{"type":"audio","position_ms":5000,"client_received_at":1790933532477}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello, this is Meera from Suraksha Health Insurance. This call is recorded for quality and","client_received_at":1790933532727}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello, this is Meera from Suraksha Health Insurance. This call is recorded for quality and training","client_received_at":1790933533227}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello, this is Meera from Suraksha Health Insurance. This call is recorded for quality and training purposes.","client_received_at":1790933533476}
+{"type":"audio","position_ms":6000,"client_received_at":1790933533476}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello, this is Meera from Suraksha Health Insurance. This call is recorded for quality and training purposes. Is","client_received_at":1790933533727}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello, this is Meera from Suraksha Health Insurance. This call is recorded for quality and training purposes. Is this","client_received_at":1790933534226}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello, this is Meera from Suraksha Health Insurance. This call is recorded for quality and training purposes. Is this a","client_received_at":1790933534476}
+{"type":"audio","position_ms":7000,"client_received_at":1790933534476}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello, this is Meera from Suraksha Health Insurance. This call is recorded for quality and training purposes. Is this a good","client_received_at":1790933534976}
+{"type":"transcript","segment":{"index":0,"speaker":"agent","text":"Hello, this is Meera from Suraksha Health Insurance. This call is recorded for quality and training purposes. Is this a good time?","confidence":0.82,"start_ms":0,"end_ms":7614,"interrupted_previous":false,"t_audio_received":1790933535226,"t_transcribed":1790933535226},"client_received_at":1790933535227}
+{"type":"audio","position_ms":8000,"client_received_at":1790933535477}
+{"type":"partial","index":1,"speaker":"customer","text":"yes","client_received_at":1790933535726}
+{"type":"partial","index":1,"speaker":"customer","text":"yes its","client_received_at":1790933536476}
+{"type":"audio","position_ms":9000,"client_received_at":1790933536476}
+{"type":"partial","index":1,"speaker":"customer","text":"yes its fine","client_received_at":1790933536727}
+{"type":"partial","index":1,"speaker":"customer","text":"yes its fine on","client_received_at":1790933536978}
+{"type":"partial","index":1,"speaker":"customer","text":"yes its fine on the","client_received_at":1790933537477}
+{"type":"audio","position_ms":10000,"client_received_at":1790933537477}
+{"type":"transcript","segment":{"index":1,"speaker":"customer","text":"yes its fine on the road","confidence":0.58,"start_ms":8064,"end_ms":10187,"interrupted_previous":false,"t_audio_received":1790933537727,"t_transcribed":1790933537727},"client_received_at":1790933537730}
+{"type":"insight","kind":"sentiment","segment_index":1,"value":0,"client_received_at":1790933537730}
+{"type":"partial","index":2,"speaker":"agent","text":"No","client_received_at":1790933538226}
+{"type":"audio","position_ms":11000,"client_received_at":1790933538476}
+{"type":"partial","index":2,"speaker":"agent","text":"No problem.","client_received_at":1790933538727}
+{"type":"partial","index":2,"speaker":"agent","text":"No problem. Who","client_received_at":1790933538977}
+{"type":"partial","index":2,"speaker":"agent","text":"No problem. Who would","client_received_at":1790933539477}
+{"type":"audio","position_ms":12000,"client_received_at":1790933539477}
+{"type":"partial","index":2,"speaker":"agent","text":"No problem. Who would you","client_received_at":1790933539727}
+{"type":"partial","index":2,"speaker":"agent","text":"No problem. Who would you like","client_received_at":1790933539976}
+{"type":"partial","index":2,"speaker":"agent","text":"No problem. Who would you like to","client_received_at":1790933540227}
+{"type":"audio","position_ms":13000,"client_received_at":1790933540477}
+{"type":"transcript","segment":{"index":2,"speaker":"agent","text":"No problem. Who would you like to cover?","confidence":0.8,"start_ms":10637,"end_ms":12925,"interrupted_previous":false,"t_audio_received":1790933540476,"t_transcribed":1790933540476},"client_received_at":1790933540477}
+{"type":"partial","index":3,"speaker":"customer","text":"me","client_received_at":1790933540976}
+{"type":"audio","position_ms":14000,"client_received_at":1790933541476}
+{"type":"partial","index":3,"speaker":"customer","text":"me and","client_received_at":1790933541727}
+{"type":"partial","index":3,"speaker":"customer","text":"me and may","client_received_at":1790933542227}
+{"type":"partial","index":3,"speaker":"customer","text":"me and may be","client_received_at":1790933542477}
+{"type":"audio","position_ms":15000,"client_received_at":1790933542477}
+{"type":"partial","index":3,"speaker":"customer","text":"me and may be my","client_received_at":1790933542976}
+{"type":"partial","index":3,"speaker":"customer","text":"me and may be my parent","client_received_at":1790933543226}
+{"type":"audio","position_ms":16000,"client_received_at":1790933543476}
+{"type":"transcript","segment":{"index":3,"speaker":"customer","text":"me and may be my parent check","confidence":0.41,"start_ms":13375,"end_ms":16076,"interrupted_previous":false,"t_audio_received":1790933543726,"t_transcribed":1790933543726},"client_received_at":1790933543731}
+{"type":"insight","kind":"sentiment","segment_index":3,"value":0,"client_received_at":1790933543731}
+{"type":"nudge_suppressed","topic":"opportunity:parents_cover","reason":"low_confidence (0.205 < 0.6)","confidence":0.205,"segment_index":3,"client_received_at":1790933543731}
+{"type":"partial","index":4,"speaker":"agent","text":"Sure.","client_received_at":1790933544227}
+{"type":"audio","position_ms":17000,"client_received_at":1790933544477}
+{"type":"partial","index":4,"speaker":"agent","text":"Sure. And","client_received_at":1790933544726}
+{"type":"partial","index":4,"speaker":"agent","text":"Sure. And how","client_received_at":1790933544976}
+{"type":"partial","index":4,"speaker":"agent","text":"Sure. And how old","client_received_at":1790933545227}
+{"type":"audio","position_ms":18000,"client_received_at":1790933545478}
+{"type":"partial","index":4,"speaker":"agent","text":"Sure. And how old is","client_received_at":1790933545728}
+{"type":"partial","index":4,"speaker":"agent","text":"Sure. And how old is the","client_received_at":1790933545977}
+{"type":"partial","index":4,"speaker":"agent","text":"Sure. And how old is the eldest","client_received_at":1790933546226}
+{"type":"audio","position_ms":19000,"client_received_at":1790933546476}
+{"type":"transcript","segment":{"index":4,"speaker":"agent","text":"Sure. And how old is the eldest person?","confidence":0.79,"start_ms":16526,"end_ms":18896,"interrupted_previous":false,"t_audio_received":1790933546476,"t_transcribed":1790933546476},"client_received_at":1790933546477}
+{"type":"partial","index":5,"speaker":"customer","text":"forty","client_received_at":1790933546976}
+{"type":"audio","position_ms":20000,"client_received_at":1790933547476}
+{"type":"partial","index":5,"speaker":"customer","text":"forty to","client_received_at":1790933548226}
+{"type":"audio","position_ms":21000,"client_received_at":1790933548476}
+{"type":"partial","index":5,"speaker":"customer","text":"forty to wait","client_received_at":1790933548977}
+{"type":"audio","position_ms":22000,"client_received_at":1790933549476}
+{"type":"partial","index":5,"speaker":"customer","text":"forty to wait expensive","client_received_at":1790933549727}
+{"type":"transcript","segment":{"index":5,"speaker":"customer","text":"forty to wait expensive earlier","confidence":0.37,"start_ms":19346,"end_ms":22719,"interrupted_previous":false,"t_audio_received":1790933550226,"t_transcribed":1790933550226},"client_received_at":1790933550229}
+{"type":"insight","kind":"sentiment","segment_index":5,"value":-1,"client_received_at":1790933550229}
+{"type":"nudge_suppressed","topic":"objection:price","reason":"low_confidence (0.204 < 0.6)","confidence":0.204,"segment_index":5,"client_received_at":1790933550229}
+{"type":"audio","position_ms":23000,"client_received_at":1790933550477}
+{"type":"partial","index":6,"speaker":"agent","text":"I","client_received_at":1790933550727}
+{"type":"partial","index":6,"speaker":"agent","text":"I haven't","client_received_at":1790933551477}
+{"type":"audio","position_ms":24000,"client_received_at":1790933551477}
+{"type":"partial","index":6,"speaker":"agent","text":"I haven't quoted","client_received_at":1790933551977}
+{"type":"partial","index":6,"speaker":"agent","text":"I haven't quoted a","client_received_at":1790933552227}
+{"type":"partial","index":6,"speaker":"agent","text":"I haven't quoted a price","client_received_at":1790933552478}
+{"type":"audio","position_ms":25000,"client_received_at":1790933552478}
+{"type":"partial","index":6,"speaker":"agent","text":"I haven't quoted a price yet.","client_received_at":1790933552977}
+{"type":"partial","index":6,"speaker":"agent","text":"I haven't quoted a price yet. Before","client_received_at":1790933553226}
+{"type":"audio","position_ms":26000,"client_received_at":1790933553477}
+{"type":"partial","index":6,"speaker":"agent","text":"I haven't quoted a price yet. Before any","client_received_at":1790933553727}
+{"type":"partial","index":6,"speaker":"agent","text":"I haven't quoted a price yet. Before any price:","client_received_at":1790933553977}
+{"type":"partial","index":6,"speaker":"agent","text":"I haven't quoted a price yet. Before any price: illnesses","client_received_at":1790933554477}
+{"type":"audio","position_ms":27000,"client_received_at":1790933554477}
+{"type":"partial","index":6,"speaker":"agent","text":"I haven't quoted a price yet. Before any price: illnesses are","client_received_at":1790933554727}
+{"type":"partial","index":6,"speaker":"agent","text":"I haven't quoted a price yet. Before any price: illnesses are covered","client_received_at":1790933555227}
+{"type":"partial","index":6,"speaker":"agent","text":"I haven't quoted a price yet. Before any price: illnesses are covered after","client_received_at":1790933555478}
+{"type":"audio","position_ms":28000,"client_received_at":1790933555478}
+{"type":"partial","index":6,"speaker":"agent","text":"I haven't quoted a price yet. Before any price: illnesses are covered after a","client_received_at":1790933555726}
+{"type":"partial","index":6,"speaker":"agent","text":"I haven't quoted a price yet. Before any price: illnesses are covered after a 30-day","client_received_at":1790933556227}
+{"type":"partial","index":6,"speaker":"agent","text":"I haven't quoted a price yet. Before any price: illnesses are covered after a 30-day waiting","client_received_at":1790933556478}
+{"type":"audio","position_ms":29000,"client_received_at":1790933556478}
+{"type":"partial","index":6,"speaker":"agent","text":"I haven't quoted a price yet. Before any price: illnesses are covered after a 30-day waiting period","client_received_at":1790933556977}
+{"type":"partial","index":6,"speaker":"agent","text":"I haven't quoted a price yet. Before any price: illnesses are covered after a 30-day waiting period and","client_received_at":1790933557226}
+{"type":"audio","position_ms":30000,"client_received_at":1790933557476}
+{"type":"partial","index":6,"speaker":"agent","text":"I haven't quoted a price yet. Before any price: illnesses are covered after a 30-day waiting period and pre-existing","client_received_at":1790933557726}
+{"type":"partial","index":6,"speaker":"agent","text":"I haven't quoted a price yet. Before any price: illnesses are covered after a 30-day waiting period and pre-existing diseases","client_received_at":1790933557977}
+{"type":"partial","index":6,"speaker":"agent","text":"I haven't quoted a price yet. Before any price: illnesses are covered after a 30-day waiting period and pre-existing diseases after","client_received_at":1790933558476}
+{"type":"audio","position_ms":31000,"client_received_at":1790933558476}
+{"type":"partial","index":6,"speaker":"agent","text":"I haven't quoted a price yet. Before any price: illnesses are covered after a 30-day waiting period and pre-existing diseases after 3","client_received_at":1790933558727}
+{"type":"transcript","segment":{"index":6,"speaker":"agent","text":"I haven't quoted a price yet. Before any price: illnesses are covered after a 30-day waiting period and pre-existing diseases after 3 years.","confidence":0.77,"start_ms":23169,"end_ms":31507,"interrupted_previous":false,"t_audio_received":1790933559227,"t_transcribed":1790933559227},"client_received_at":1790933559228}
+{"type":"partial","index":7,"speaker":"customer","text":"my","client_received_at":1790933559476}
+{"type":"audio","position_ms":32000,"client_received_at":1790933559476}
+{"type":"partial","index":7,"speaker":"customer","text":"my parents","client_received_at":1790933560226}
+{"type":"audio","position_ms":33000,"client_received_at":1790933560476}
+{"type":"partial","index":7,"speaker":"customer","text":"my parents already","client_received_at":1790933560726}
+{"type":"partial","index":7,"speaker":"customer","text":"my parents already have","client_received_at":1790933560976}
+{"type":"partial","index":7,"speaker":"customer","text":"my parents already have their","client_received_at":1790933561476}
+{"type":"audio","position_ms":34000,"client_received_at":1790933561476}
+{"type":"partial","index":7,"speaker":"customer","text":"my parents already have their own","client_received_at":1790933561726}
+{"type":"partial","index":7,"speaker":"customer","text":"my parents already have their own policy","client_received_at":1790933562226}
+{"type":"partial","index":7,"speaker":"customer","text":"my parents already have their own policy actually","client_received_at":1790933562477}
+{"type":"audio","position_ms":35000,"client_received_at":1790933562477}
+{"type":"partial","index":7,"speaker":"customer","text":"my parents already have their own policy actually so","client_received_at":1790933562727}
+{"type":"partial","index":7,"speaker":"customer","text":"my parents already have their own policy actually so its","client_received_at":1790933563227}
+{"type":"partial","index":7,"speaker":"customer","text":"my parents already have their own policy actually so its just","client_received_at":1790933563476}
+{"type":"audio","position_ms":36000,"client_received_at":1790933563476}
+{"type":"transcript","segment":{"index":7,"speaker":"customer","text":"my parents already have their own policy actually so its just me","confidence":0.86,"start_ms":31957,"end_ms":36331,"interrupted_previous":false,"t_audio_received":1790933563977,"t_transcribed":1790933563977},"client_received_at":1790933563979}
+{"type":"insight","kind":"sentiment","segment_index":7,"value":0,"client_received_at":1790933563979}
+{"type":"insight","kind":"topic","segment_index":7,"value":"eligibility","client_received_at":1790933563979}
+{"type":"partial","index":8,"speaker":"agent","text":"Got","client_received_at":1790933564476}
+{"type":"audio","position_ms":37000,"client_received_at":1790933564476}
+{"type":"partial","index":8,"speaker":"agent","text":"Got it,","client_received_at":1790933564977}
+{"type":"partial","index":8,"speaker":"agent","text":"Got it, just","client_received_at":1790933565226}
+{"type":"audio","position_ms":38000,"client_received_at":1790933565477}
+{"type":"partial","index":8,"speaker":"agent","text":"Got it, just you","client_received_at":1790933565726}
+{"type":"partial","index":8,"speaker":"agent","text":"Got it, just you then.","client_received_at":1790933565976}
+{"type":"partial","index":8,"speaker":"agent","text":"Got it, just you then. Which","client_received_at":1790933566227}
+{"type":"audio","position_ms":39000,"client_received_at":1790933566476}
+{"type":"transcript","segment":{"index":8,"speaker":"agent","text":"Got it, just you then. Which city?","confidence":0.81,"start_ms":36781,"end_ms":39003,"interrupted_previous":false,"t_audio_received":1790933566726,"t_transcribed":1790933566726},"client_received_at":1790933566727}
+{"type":"partial","index":9,"speaker":"customer","text":"delhi","client_received_at":1790933566977}
+{"type":"audio","position_ms":40000,"client_received_at":1790933567477}
+{"type":"partial","index":9,"speaker":"customer","text":"delhi sorry","client_received_at":1790933567727}
+{"type":"partial","index":9,"speaker":"customer","text":"delhi sorry the","client_received_at":1790933568226}
+{"type":"partial","index":9,"speaker":"customer","text":"delhi sorry the claim","client_received_at":1790933568477}
+{"type":"audio","position_ms":41000,"client_received_at":1790933568477}
+{"type":"partial","index":9,"speaker":"customer","text":"delhi sorry the claim how","client_received_at":1790933568978}
+{"type":"partial","index":9,"speaker":"customer","text":"delhi sorry the claim how does","client_received_at":1790933569227}
+{"type":"audio","position_ms":42000,"client_received_at":1790933569477}
+{"type":"partial","index":9,"speaker":"customer","text":"delhi sorry the claim how does claim","client_received_at":1790933569727}
+{"type":"transcript","segment":{"index":9,"speaker":"customer","text":"delhi sorry the claim how does claim work","confidence":0.52,"start_ms":39453,"end_ms":42427,"interrupted_previous":false,"t_audio_received":1790933569976,"t_transcribed":1790933569977},"client_received_at":1790933569978}
+{"type":"insight","kind":"sentiment","segment_index":9,"value":0,"client_received_at":1790933569978}
+{"type":"partial","index":10,"speaker":"agent","text":"At","client_received_at":1790933570478}
+{"type":"audio","position_ms":43000,"client_received_at":1790933570478}
+{"type":"partial","index":10,"speaker":"agent","text":"At network","client_received_at":1790933571227}
+{"type":"partial","index":10,"speaker":"agent","text":"At network hospitals","client_received_at":1790933571478}
+{"type":"audio","position_ms":44000,"client_received_at":1790933571478}
+{"type":"partial","index":10,"speaker":"agent","text":"At network hospitals it's","client_received_at":1790933571727}
+{"type":"partial","index":10,"speaker":"agent","text":"At network hospitals it's cashless;","client_received_at":1790933572226}
+{"type":"partial","index":10,"speaker":"agent","text":"At network hospitals it's cashless; I'll","client_received_at":1790933572476}
+{"type":"audio","position_ms":45000,"client_received_at":1790933572476}
+{"type":"partial","index":10,"speaker":"agent","text":"At network hospitals it's cashless; I'll send","client_received_at":1790933572727}
+{"type":"partial","index":10,"speaker":"agent","text":"At network hospitals it's cashless; I'll send you","client_received_at":1790933573227}
+{"type":"partial","index":10,"speaker":"agent","text":"At network hospitals it's cashless; I'll send you the","client_received_at":1790933573478}
+{"type":"audio","position_ms":46000,"client_received_at":1790933573478}
+{"type":"partial","index":10,"speaker":"agent","text":"At network hospitals it's cashless; I'll send you the details","client_received_at":1790933573726}
+{"type":"partial","index":10,"speaker":"agent","text":"At network hospitals it's cashless; I'll send you the details on","client_received_at":1790933574226}
+{"type":"audio","position_ms":47000,"client_received_at":1790933574477}
+{"type":"transcript","segment":{"index":10,"speaker":"agent","text":"At network hospitals it's cashless; I'll send you the details on WhatsApp.","confidence":0.8,"start_ms":42877,"end_ms":46914,"interrupted_previous":false,"t_audio_received":1790933574476,"t_transcribed":1790933574476},"client_received_at":1790933574477}
+{"type":"partial","index":11,"speaker":"customer","text":"okay","client_received_at":1790933574978}
+{"type":"audio","position_ms":48000,"client_received_at":1790933575478}
+{"type":"transcript","segment":{"index":11,"speaker":"customer","text":"okay thanks","confidence":0.62,"start_ms":47364,"end_ms":48441,"interrupted_previous":false,"t_audio_received":1790933575976,"t_transcribed":1790933575976},"client_received_at":1790933575978}
+{"type":"insight","kind":"sentiment","segment_index":11,"value":1,"client_received_at":1790933575978}
+{"type":"audio","position_ms":48891,"client_received_at":1790933576370}
+{"type":"done","summary":{"segments":12,"delivered":0,"suppressed":2,"resolved":0},"client_received_at":1790933576370}

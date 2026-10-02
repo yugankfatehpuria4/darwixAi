@@ -1,0 +1,32 @@
+{
+  "_note": "Utterance-level eval for the Q3 understanding layer: does the bot pick the right reply register, and does it extract the right thing from code-switched, colloquial and regionally-coloured speech? Written by us after the lexicons, so treat the numbers as a regression check, not as native-speaker validation (GAP-005). 'expect' keys: register, slot (name=value), intent (objection id | question | escalation | yes | no | hardship).",
+  "items": [
+    { "market": "ph_life", "kind": "taglish", "text": "Na-late po ako sa bayad ng premium, okay pa ba yung coverage ko?", "expect": { "register": "taglish", "intent": "question" } },
+    { "market": "ph_life", "kind": "taglish", "text": "Sa Friday na lang po ako magbabayad sa app", "expect": { "register": "taglish", "slot": "payment_date=2026-10-09" } },
+    { "market": "ph_life", "kind": "taglish", "text": "Wala pa po akong pambayad, sa sweldo pa", "expect": { "register": "taglish", "intent": "no_money_yet" } },
+    { "market": "ph_life", "kind": "taglish", "text": "Gusto ko na po i-cancel yung policy, hindi ko na kailangan", "expect": { "register": "taglish", "intent": "cancel_policy" } },
+    { "market": "ph_life", "kind": "tagalog", "text": "Nawalan po ako ng trabaho kaya hindi ko po kaya magbayad ngayon", "expect": { "register": "taglish", "intent": "hardship" } },
+    { "market": "ph_life", "kind": "tagalog", "text": "Bukas po ako magbabayad", "expect": { "slot": "payment_date=2026-10-03" } },
+    { "market": "ph_life", "kind": "tagalog", "text": "Opo, ako po iyon", "expect": { "intent": "yes" } },
+    { "market": "ph_life", "kind": "tagalog", "text": "Hindi po, kapatid niya po ako", "expect": { "intent": "no" } },
+    { "market": "ph_life", "kind": "taglish", "text": "Pwede po ba akong makausap ng tao? May reklamo po ako", "expect": { "intent": "escalation" } },
+    { "market": "ph_life", "kind": "english", "text": "I'd like to know what happens if I miss the due date", "expect": { "register": "en", "intent": "question" } },
+    { "market": "ph_life", "kind": "english", "text": "I'll pay at the branch on the 15th", "expect": { "register": "en", "slot": "payment_date=2026-10-15" } },
+    { "market": "ph_life", "kind": "taglish", "text": "Over the counter na lang sa branch", "expect": { "register": "taglish", "slot": "payment_channel=branch" } },
+
+    { "market": "id_finance", "kind": "formal", "text": "Apakah tanggal jatuh tempo dapat diubah?", "expect": { "register": "formal", "intent": "question" } },
+    { "market": "id_finance", "kind": "formal", "text": "Saya akan membayar besok melalui virtual account", "expect": { "register": "formal", "slot": "promise_date=2026-10-03" } },
+    { "market": "id_finance", "kind": "colloquial", "text": "Waduh belum gajian nih, nanti dulu ya", "expect": { "register": "santai", "intent": "not_paid_yet" } },
+    { "market": "id_finance", "kind": "colloquial", "text": "Kalau telat dendanya berapa sih?", "expect": { "register": "santai", "intent": "question" } },
+    { "market": "id_finance", "kind": "colloquial", "text": "Udah kena PHK bulan lalu, nggak bisa bayar dulu", "expect": { "register": "santai", "intent": "hardship" } },
+    { "market": "id_finance", "kind": "colloquial", "text": "Motornya lagi rusak, ngapain bayar", "expect": { "register": "santai", "intent": "vehicle_broken" } },
+    { "market": "id_finance", "kind": "loanwords", "text": "DP saya kemarin 20 persen, tenornya 24 bulan, cicilan bisa di-reschedule nggak?", "expect": { "register": "santai", "intent": "question" } },
+    { "market": "id_finance", "kind": "loanwords", "text": "Bayarnya lewat m-banking aja tanggal 10", "expect": { "register": "santai", "slot": "promise_date=2026-10-10" } },
+    { "market": "id_finance", "kind": "javanese", "text": "Ngapunten, kula dereng gajian, saged mbayar minggu ngajeng?", "expect": { "register": "formal", "intent": "not_paid_yet" } },
+    { "market": "id_finance", "kind": "javanese", "text": "Nggih, leres", "expect": { "register": "formal", "intent": "yes" } },
+    { "market": "id_finance", "kind": "sundanese", "text": "Punten, upami telat mayar dendana sabaraha?", "expect": { "register": "formal", "intent": "question" } },
+    { "market": "id_finance", "kind": "sundanese", "text": "Muhun, abdi nyalira", "expect": { "intent": "yes" } },
+    { "market": "id_finance", "kind": "colloquial", "text": "Saya mau ngomong sama petugas aja", "expect": { "intent": "escalation" } },
+    { "market": "id_finance", "kind": "colloquial", "text": "Bukan, ini istrinya", "expect": { "intent": "no" } }
+  ]
+}

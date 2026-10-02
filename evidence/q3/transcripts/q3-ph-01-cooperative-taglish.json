@@ -1,0 +1,160 @@
+{
+  "call_id": "call_20261002_5037e2f2",
+  "market": "ph_life",
+  "started_at": "2026-10-02T02:00:00.000Z",
+  "today": "2026-10-02",
+  "stage": "ended",
+  "register": "taglish",
+  "slots": {
+    "policy_last4": {
+      "value": "4821",
+      "heard": "4821",
+      "turn": 3
+    },
+    "payment_date": {
+      "value": "2026-10-09",
+      "heard": "Sa Biyernes po ako magbabayad, sa GCash po",
+      "turn": 7
+    },
+    "payment_channel": {
+      "value": "e_wallet",
+      "heard": "Sa Biyernes po ako magbabayad, sa GCash po",
+      "turn": 7
+    }
+  },
+  "skipped": [],
+  "pending_conflict": null,
+  "unanswered_questions": 0,
+  "consecutive_silence": 0,
+  "consecutive_unclear": 0,
+  "disclosures_given": [
+    "recording"
+  ],
+  "identity_attempts": 0,
+  "outcome": {
+    "status": "promise_within_grace",
+    "next_action": "log_promise_to_pay",
+    "reasons": [
+      "promise 2026-10-09 within grace period ending 2026-11-07"
+    ],
+    "rule_sources": [
+      "ph/policies/payment-lapse-reinstatement.md#Grace period"
+    ],
+    "details": {
+      "due_date": "2026-10-07",
+      "grace_end": "2026-11-07",
+      "promise_date": "2026-10-09",
+      "channel": "e_wallet"
+    }
+  },
+  "escalated": false,
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "bot",
+      "text": "Magandang umaga po! Si Lia po ito, virtual assistant ng Kalinga Life, partner ng Bayanihan Bank. Para po sa quality at training purposes, naka-record po ang tawag na ito. Si Ma'am [CUSTOMER_NAME] po ba ang kausap ko?",
+      "at": "2026-10-02T02:00:00.000Z",
+      "register": "taglish",
+      "intent": "greeting"
+    },
+    {
+      "index": 1,
+      "speaker": "customer",
+      "text": "Opo, ako po si [CUSTOMER_NAME]",
+      "at": "2026-10-02T02:00:12.000Z",
+      "intent": "consent_yes",
+      "register": "taglish"
+    },
+    {
+      "index": 2,
+      "speaker": "bot",
+      "text": "Salamat po, Ma'am. Para po sa security, pwede ko po bang makuha ang huling apat na digits ng policy number ninyo?",
+      "at": "2026-10-02T09:45:53.134Z",
+      "register": "taglish"
+    },
+    {
+      "index": 3,
+      "speaker": "customer",
+      "text": "4821",
+      "at": "2026-10-02T02:00:24.000Z",
+      "intent": "slot:policy_last4",
+      "register": "taglish"
+    },
+    {
+      "index": 4,
+      "speaker": "bot",
+      "text": "Salamat po, verified na po kayo. Tumatawag po ako para ipaalala na ang quarterly premium ng Kalinga Protect ninyo na 7,350 pesos ay due sa Miyerkules, ika-7 ng Oktubre. Kung sakaling ma-late po, may 31 days po kayong grace period mula sa due date. Kailan po kaya kayo makakapagbayad?",
+      "at": "2026-10-02T09:45:53.137Z",
+      "register": "taglish"
+    },
+    {
+      "index": 5,
+      "speaker": "customer",
+      "text": "Ano po mangyayari kapag na-late ako ng bayad?",
+      "at": "2026-10-02T02:00:36.000Z",
+      "intent": "question",
+      "register": "taglish"
+    },
+    {
+      "index": 6,
+      "speaker": "bot",
+      "text": "May 31 days po kayong grace period mula sa due date. Habang nasa grace period, active pa rin po ang coverage ninyo. Kailan po kaya kayo makakapagbayad?",
+      "at": "2026-10-02T09:45:53.143Z",
+      "register": "taglish",
+      "retrieval": {
+        "query": "Ano po mangyayari kapag na-late ako ng bayad?",
+        "answerable": true,
+        "reason": "ok",
+        "confidence": 0.652,
+        "chunk_ids": [
+          "kb_ph_life_faq_e6edd1"
+        ],
+        "citations": [
+          "Mga Madalas Itanong: Kalinga Protect > Ano po ang mangyayari kapag na-late ako sa pagbayad ng premium? [kb_ph_life_faq_e6edd1] (internal://servicing/faq-taglish, v1.0, effective 2026-01-15)",
+          "Payment, Grace Period, Lapse and Reinstatement: Kalinga Protect > Grace period [kb_ph_life_payment_b9d8fe] (internal://servicing/payment-lapse-reinstatement-v1.4, v1.4, effective 2026-01-15)",
+          "Payment, Grace Period, Lapse and Reinstatement: Kalinga Protect > Lapse [kb_ph_life_payment_d35f44] (internal://servicing/payment-lapse-reinstatement-v1.4, v1.4, effective 2026-01-15)"
+        ],
+        "answer_mode": "extractive"
+      }
+    },
+    {
+      "index": 7,
+      "speaker": "customer",
+      "text": "Sa Biyernes po ako magbabayad, sa GCash po",
+      "at": "2026-10-02T02:00:48.000Z",
+      "intent": "slot:payment_date,slot:payment_channel",
+      "register": "taglish"
+    },
+    {
+      "index": 8,
+      "speaker": "bot",
+      "text": "Salamat po! Itatala ko po na magbabayad kayo sa Biyernes, ika-9 ng Oktubre sa e-wallet. Pasok pa po iyon sa grace period, kaya tuloy po ang coverage ninyo. Ipapadala po ang official receipt sa email at SMS. Salamat po, ingat po kayo!",
+      "at": "2026-10-02T09:45:53.146Z",
+      "register": "taglish"
+    }
+  ],
+  "latencies": [
+    {
+      "turn": 1,
+      "understand_ms": 0.9,
+      "server_total_ms": 0.9
+    },
+    {
+      "turn": 3,
+      "understand_ms": 2.3,
+      "server_total_ms": 2.3
+    },
+    {
+      "turn": 5,
+      "understand_ms": 3.1,
+      "retrieval_ms": 1.6,
+      "server_total_ms": 4.7
+    },
+    {
+      "turn": 7,
+      "understand_ms": 1.1,
+      "server_total_ms": 1.1
+    }
+  ],
+  "known_pii": []
+}

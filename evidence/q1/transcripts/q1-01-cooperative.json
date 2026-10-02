@@ -1,0 +1,264 @@
+{
+  "call_id": "call_20261002_d4c7bbdc",
+  "market": "in_health",
+  "started_at": "2026-10-02T06:30:00.000Z",
+  "today": "2026-10-02",
+  "stage": "ended",
+  "register": "en",
+  "slots": {
+    "members_to_cover": {
+      "value": [
+        "self"
+      ],
+      "heard": "Just me",
+      "turn": 3
+    },
+    "eldest_member_age": {
+      "value": 29,
+      "heard": "I am 29",
+      "turn": 5
+    },
+    "city": {
+      "value": "Bengaluru",
+      "heard": "Bengaluru",
+      "turn": 9
+    },
+    "pre_existing_disease": {
+      "value": false,
+      "heard": "No, nothing like that",
+      "turn": 11
+    },
+    "existing_cover": {
+      "value": false,
+      "heard": "No, I don't have any insurance",
+      "turn": 13
+    },
+    "sum_insured": {
+      "value": 10,
+      "heard": "10 lakh",
+      "turn": 15
+    }
+  },
+  "skipped": [],
+  "pending_conflict": null,
+  "unanswered_questions": 0,
+  "consecutive_silence": 0,
+  "consecutive_unclear": 0,
+  "disclosures_given": [
+    "recording"
+  ],
+  "identity_attempts": 0,
+  "outcome": {
+    "status": "qualified",
+    "next_action": "send_written_quote",
+    "reasons": [
+      "all required fields captured",
+      "eldest member aged 29 within 18-65",
+      "no pre-existing condition declared"
+    ],
+    "rule_sources": [
+      "health/policies/qualification-rules.md#Rule Q1: Entry age",
+      "health/policies/qualification-rules.md#Rule Q5: Required fields for a qualified lead",
+      "health/tables/family-shield-premium-chart.csv"
+    ],
+    "details": {
+      "city_verification": "manual_verification_required",
+      "indicative_premium": {
+        "age_band": "26-35",
+        "sum_insured_lakh": 10,
+        "annual_premium_inr": 9600,
+        "basis": "individual, per member, annual, indicative"
+      }
+    }
+  },
+  "escalated": false,
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "bot",
+      "text": "Hello, this is Asha, a virtual assistant from Suraksha Health Insurance, calling about the health insurance enquiry you submitted. This call is recorded for quality and training purposes. Is this a good time to talk for about five minutes?",
+      "at": "2026-10-02T06:30:00.000Z",
+      "register": "en",
+      "intent": "greeting"
+    },
+    {
+      "index": 1,
+      "speaker": "customer",
+      "text": "Yes, sure, go ahead",
+      "at": "2026-10-02T06:30:12.000Z",
+      "intent": "consent_yes",
+      "register": "en"
+    },
+    {
+      "index": 2,
+      "speaker": "bot",
+      "text": "First, who would you like to cover: just yourself, or also your spouse, children or parents?",
+      "at": "2026-10-02T09:45:52.984Z",
+      "register": "en"
+    },
+    {
+      "index": 3,
+      "speaker": "customer",
+      "text": "Just me",
+      "at": "2026-10-02T06:30:24.000Z",
+      "intent": "slot:members_to_cover",
+      "register": "en"
+    },
+    {
+      "index": 4,
+      "speaker": "bot",
+      "text": "What is the age of the eldest person to be covered?",
+      "at": "2026-10-02T09:45:52.991Z",
+      "register": "en"
+    },
+    {
+      "index": 5,
+      "speaker": "customer",
+      "text": "I am 29",
+      "at": "2026-10-02T06:30:36.000Z",
+      "intent": "slot:eldest_member_age",
+      "register": "en"
+    },
+    {
+      "index": 6,
+      "speaker": "bot",
+      "text": "Which city do you live in?",
+      "at": "2026-10-02T09:45:52.994Z",
+      "register": "en"
+    },
+    {
+      "index": 7,
+      "speaker": "customer",
+      "text": "Before that, how does cashless treatment work at the hospital?",
+      "at": "2026-10-02T06:30:48.000Z",
+      "intent": "question",
+      "register": "en"
+    },
+    {
+      "index": 8,
+      "speaker": "bot",
+      "text": "Hospital bills covered, cashless at 6,500+ network hospitals. Which city do you live in?",
+      "at": "2026-10-02T09:45:53.004Z",
+      "register": "en",
+      "retrieval": {
+        "query": "Before that, how does cashless treatment work at the hospital?",
+        "answerable": true,
+        "reason": "ok",
+        "confidence": 0.444,
+        "chunk_ids": [
+          "kb_in_health_product_9065da"
+        ],
+        "citations": [
+          "Family Shield Health Plan [kb_in_health_product_9065da] (https://suraksha-example.in/plans/family-shield, v1.0, effective 2026-04-01)",
+          "Claims > How to make a claim > Cashless claims [kb_in_health_claims_132443] (https://suraksha-example.in/claims, v1.0, effective 2026-04-01)",
+          "Frequently Asked Questions > Does Family Shield cover alternative treatments like Ayurveda? [kb_in_health_faq_110771] (https://suraksha-example.in/faq, v1.0, effective 2026-04-01)"
+        ],
+        "answer_mode": "extractive"
+      }
+    },
+    {
+      "index": 9,
+      "speaker": "customer",
+      "text": "Bengaluru",
+      "at": "2026-10-02T06:31:00.000Z",
+      "intent": "slot:city",
+      "register": "en"
+    },
+    {
+      "index": 10,
+      "speaker": "bot",
+      "text": "Does anyone to be covered have an existing medical condition, such as diabetes, blood pressure, thyroid or asthma?",
+      "at": "2026-10-02T09:45:53.005Z",
+      "register": "en"
+    },
+    {
+      "index": 11,
+      "speaker": "customer",
+      "text": "No, nothing like that",
+      "at": "2026-10-02T06:31:12.000Z",
+      "intent": "slot:pre_existing_disease",
+      "register": "en"
+    },
+    {
+      "index": 12,
+      "speaker": "bot",
+      "text": "Do you have any existing health insurance, including cover from your employer?",
+      "at": "2026-10-02T09:45:53.007Z",
+      "register": "en"
+    },
+    {
+      "index": 13,
+      "speaker": "customer",
+      "text": "No, I don't have any insurance",
+      "at": "2026-10-02T06:31:24.000Z",
+      "intent": "slot:existing_cover",
+      "register": "en"
+    },
+    {
+      "index": 14,
+      "speaker": "bot",
+      "text": "Last one: which cover amount are you looking at, 5, 10, 15 or 25 lakh rupees? You can also say not sure.",
+      "at": "2026-10-02T09:45:53.008Z",
+      "register": "en"
+    },
+    {
+      "index": 15,
+      "speaker": "customer",
+      "text": "10 lakh",
+      "at": "2026-10-02T06:31:36.000Z",
+      "intent": "slot:sum_insured",
+      "register": "en"
+    },
+    {
+      "index": 16,
+      "speaker": "bot",
+      "text": "Thank you, that's everything I need. You're eligible to apply for Family Shield. Please note: illnesses are covered after a 30-day waiting period, and pre-existing diseases after 3 years. The indicative annual premium for one member aged 26-35 with 10 lakh cover is Rs 9,600. I'll send you a written quote by email or WhatsApp within 15 minutes, and an advisor will confirm the final premium. Thank you for your time, goodbye.",
+      "at": "2026-10-02T09:45:53.024Z",
+      "register": "en"
+    }
+  ],
+  "latencies": [
+    {
+      "turn": 1,
+      "understand_ms": 2.9,
+      "server_total_ms": 2.9
+    },
+    {
+      "turn": 3,
+      "understand_ms": 5.5,
+      "server_total_ms": 5.5
+    },
+    {
+      "turn": 5,
+      "understand_ms": 1.5,
+      "server_total_ms": 1.5
+    },
+    {
+      "turn": 7,
+      "understand_ms": 1.2,
+      "retrieval_ms": 6.9,
+      "server_total_ms": 8.1
+    },
+    {
+      "turn": 9,
+      "understand_ms": 0.2,
+      "server_total_ms": 0.2
+    },
+    {
+      "turn": 11,
+      "understand_ms": 0.3,
+      "server_total_ms": 0.3
+    },
+    {
+      "turn": 13,
+      "understand_ms": 0.1,
+      "server_total_ms": 0.1
+    },
+    {
+      "turn": 15,
+      "understand_ms": 14.7,
+      "server_total_ms": 14.7
+    }
+  ],
+  "known_pii": []
+}

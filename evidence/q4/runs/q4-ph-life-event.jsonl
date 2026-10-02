@@ -1,0 +1,212 @@
+{"type":"started","call":"q4-ph-life-event","market":"ph_life","asr":"simulated (timeline replay)","asr_measured":false,"duration_ms":60347,"client_received_at":1790933527479}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello","client_received_at":1790933527728}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello po,","client_received_at":1790933528229}
+{"type":"audio","position_ms":1000,"client_received_at":1790933528479}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello po, good","client_received_at":1790933528728}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello po, good afternoon!","client_received_at":1790933528978}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello po, good afternoon! Si","client_received_at":1790933529479}
+{"type":"audio","position_ms":2000,"client_received_at":1790933529479}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello po, good afternoon! Si Joy","client_received_at":1790933529729}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello po, good afternoon! Si Joy po","client_received_at":1790933529980}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello po, good afternoon! Si Joy po ito","client_received_at":1790933530479}
+{"type":"audio","position_ms":3000,"client_received_at":1790933530479}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello po, good afternoon! Si Joy po ito from","client_received_at":1790933530730}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello po, good afternoon! Si Joy po ito from Kalinga","client_received_at":1790933531230}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello po, good afternoon! Si Joy po ito from Kalinga Life.","client_received_at":1790933531479}
+{"type":"audio","position_ms":4000,"client_received_at":1790933531479}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello po, good afternoon! Si Joy po ito from Kalinga Life. Para","client_received_at":1790933531728}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello po, good afternoon! Si Joy po ito from Kalinga Life. Para po","client_received_at":1790933532228}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello po, good afternoon! Si Joy po ito from Kalinga Life. Para po sa","client_received_at":1790933532479}
+{"type":"audio","position_ms":5000,"client_received_at":1790933532479}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello po, good afternoon! Si Joy po ito from Kalinga Life. Para po sa quality,","client_received_at":1790933532978}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello po, good afternoon! Si Joy po ito from Kalinga Life. Para po sa quality, naka-record","client_received_at":1790933533229}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello po, good afternoon! Si Joy po ito from Kalinga Life. Para po sa quality, naka-record po","client_received_at":1790933533480}
+{"type":"audio","position_ms":6000,"client_received_at":1790933533480}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello po, good afternoon! Si Joy po ito from Kalinga Life. Para po sa quality, naka-record po ang","client_received_at":1790933533979}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello po, good afternoon! Si Joy po ito from Kalinga Life. Para po sa quality, naka-record po ang tawag","client_received_at":1790933534229}
+{"type":"audio","position_ms":7000,"client_received_at":1790933534479}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello po, good afternoon! Si Joy po ito from Kalinga Life. Para po sa quality, naka-record po ang tawag na","client_received_at":1790933534728}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello po, good afternoon! Si Joy po ito from Kalinga Life. Para po sa quality, naka-record po ang tawag na ito.","client_received_at":1790933534979}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello po, good afternoon! Si Joy po ito from Kalinga Life. Para po sa quality, naka-record po ang tawag na ito. Si","client_received_at":1790933535229}
+{"type":"audio","position_ms":8000,"client_received_at":1790933535480}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello po, good afternoon! Si Joy po ito from Kalinga Life. Para po sa quality, naka-record po ang tawag na ito. Si Ma'am","client_received_at":1790933535730}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello po, good afternoon! Si Joy po ito from Kalinga Life. Para po sa quality, naka-record po ang tawag na ito. Si Ma'am Reyes","client_received_at":1790933535980}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello po, good afternoon! Si Joy po ito from Kalinga Life. Para po sa quality, naka-record po ang tawag na ito. Si Ma'am Reyes po","client_received_at":1790933536479}
+{"type":"audio","position_ms":9000,"client_received_at":1790933536479}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello po, good afternoon! Si Joy po ito from Kalinga Life. Para po sa quality, naka-record po ang tawag na ito. Si Ma'am Reyes po ba","client_received_at":1790933536728}
+{"type":"transcript","segment":{"index":0,"speaker":"agent","text":"Hello po, good afternoon! Si Joy po ito from Kalinga Life. Para po sa quality, naka-record po ang tawag na ito. Si Ma'am Reyes po ba ito?","confidence":0.92,"start_ms":0,"end_ms":9491,"interrupted_previous":false,"t_audio_received":1790933536978,"t_transcribed":1790933536978},"client_received_at":1790933536979}
+{"type":"partial","index":1,"speaker":"customer","text":"Opo,","client_received_at":1790933537478}
+{"type":"audio","position_ms":10000,"client_received_at":1790933537478}
+{"type":"partial","index":1,"speaker":"customer","text":"Opo, ako","client_received_at":1790933538230}
+{"type":"audio","position_ms":11000,"client_received_at":1790933538480}
+{"type":"transcript","segment":{"index":1,"speaker":"customer","text":"Opo, ako po.","confidence":0.92,"start_ms":9941,"end_ms":10915,"interrupted_previous":false,"t_audio_received":1790933538478,"t_transcribed":1790933538478},"client_received_at":1790933538480}
+{"type":"insight","kind":"sentiment","segment_index":1,"value":0,"client_received_at":1790933538480}
+{"type":"partial","index":2,"speaker":"agent","text":"Ma'am,","client_received_at":1790933538979}
+{"type":"audio","position_ms":12000,"client_received_at":1790933539478}
+{"type":"partial","index":2,"speaker":"agent","text":"Ma'am, para","client_received_at":1790933539729}
+{"type":"partial","index":2,"speaker":"agent","text":"Ma'am, para po","client_received_at":1790933540228}
+{"type":"partial","index":2,"speaker":"agent","text":"Ma'am, para po sa","client_received_at":1790933540478}
+{"type":"audio","position_ms":13000,"client_received_at":1790933540478}
+{"type":"partial","index":2,"speaker":"agent","text":"Ma'am, para po sa verification,","client_received_at":1790933540979}
+{"type":"partial","index":2,"speaker":"agent","text":"Ma'am, para po sa verification, last","client_received_at":1790933541480}
+{"type":"audio","position_ms":14000,"client_received_at":1790933541480}
+{"type":"partial","index":2,"speaker":"agent","text":"Ma'am, para po sa verification, last four","client_received_at":1790933541729}
+{"type":"partial","index":2,"speaker":"agent","text":"Ma'am, para po sa verification, last four digits","client_received_at":1790933542228}
+{"type":"partial","index":2,"speaker":"agent","text":"Ma'am, para po sa verification, last four digits po","client_received_at":1790933542478}
+{"type":"audio","position_ms":15000,"client_received_at":1790933542478}
+{"type":"partial","index":2,"speaker":"agent","text":"Ma'am, para po sa verification, last four digits po ng","client_received_at":1790933542979}
+{"type":"partial","index":2,"speaker":"agent","text":"Ma'am, para po sa verification, last four digits po ng policy","client_received_at":1790933543479}
+{"type":"audio","position_ms":16000,"client_received_at":1790933543479}
+{"type":"transcript","segment":{"index":2,"speaker":"agent","text":"Ma'am, para po sa verification, last four digits po ng policy number?","confidence":0.92,"start_ms":11365,"end_ms":16166,"interrupted_previous":false,"t_audio_received":1790933543731,"t_transcribed":1790933543731},"client_received_at":1790933543733}
+{"type":"partial","index":3,"speaker":"customer","text":"4821","client_received_at":1790933544228}
+{"type":"audio","position_ms":17000,"client_received_at":1790933544480}
+{"type":"audio","position_ms":18000,"client_received_at":1790933545478}
+{"type":"audio","position_ms":19000,"client_received_at":1790933546479}
+{"type":"transcript","segment":{"index":3,"speaker":"customer","text":"4821 po.","confidence":0.92,"start_ms":16616,"end_ms":19154,"interrupted_previous":false,"t_audio_received":1790933546728,"t_transcribed":1790933546728},"client_received_at":1790933546730}
+{"type":"insight","kind":"sentiment","segment_index":3,"value":0,"client_received_at":1790933546730}
+{"type":"partial","index":4,"speaker":"agent","text":"Salamat","client_received_at":1790933547228}
+{"type":"audio","position_ms":20000,"client_received_at":1790933547480}
+{"type":"partial","index":4,"speaker":"agent","text":"Salamat po.","client_received_at":1790933547979}
+{"type":"partial","index":4,"speaker":"agent","text":"Salamat po. Paalala","client_received_at":1790933548229}
+{"type":"audio","position_ms":21000,"client_received_at":1790933548479}
+{"type":"partial","index":4,"speaker":"agent","text":"Salamat po. Paalala lang","client_received_at":1790933548729}
+{"type":"partial","index":4,"speaker":"agent","text":"Salamat po. Paalala lang po,","client_received_at":1790933548978}
+{"type":"partial","index":4,"speaker":"agent","text":"Salamat po. Paalala lang po, due","client_received_at":1790933549478}
+{"type":"audio","position_ms":22000,"client_received_at":1790933549478}
+{"type":"partial","index":4,"speaker":"agent","text":"Salamat po. Paalala lang po, due na","client_received_at":1790933549728}
+{"type":"partial","index":4,"speaker":"agent","text":"Salamat po. Paalala lang po, due na po","client_received_at":1790933550229}
+{"type":"partial","index":4,"speaker":"agent","text":"Salamat po. Paalala lang po, due na po ang","client_received_at":1790933550478}
+{"type":"audio","position_ms":23000,"client_received_at":1790933550478}
+{"type":"partial","index":4,"speaker":"agent","text":"Salamat po. Paalala lang po, due na po ang quarterly","client_received_at":1790933550728}
+{"type":"partial","index":4,"speaker":"agent","text":"Salamat po. Paalala lang po, due na po ang quarterly premium","client_received_at":1790933551228}
+{"type":"partial","index":4,"speaker":"agent","text":"Salamat po. Paalala lang po, due na po ang quarterly premium ninyo","client_received_at":1790933551479}
+{"type":"audio","position_ms":24000,"client_received_at":1790933551479}
+{"type":"partial","index":4,"speaker":"agent","text":"Salamat po. Paalala lang po, due na po ang quarterly premium ninyo sa","client_received_at":1790933551978}
+{"type":"partial","index":4,"speaker":"agent","text":"Salamat po. Paalala lang po, due na po ang quarterly premium ninyo sa October","client_received_at":1790933552228}
+{"type":"audio","position_ms":25000,"client_received_at":1790933552478}
+{"type":"transcript","segment":{"index":4,"speaker":"agent","text":"Salamat po. Paalala lang po, due na po ang quarterly premium ninyo sa October 7.","confidence":0.92,"start_ms":19604,"end_ms":25039,"interrupted_previous":false,"t_audio_received":1790933552728,"t_transcribed":1790933552728},"client_received_at":1790933552729}
+{"type":"partial","index":5,"speaker":"customer","text":"Ay","client_received_at":1790933552979}
+{"type":"audio","position_ms":26000,"client_received_at":1790933553479}
+{"type":"partial","index":5,"speaker":"customer","text":"Ay opo.","client_received_at":1790933553979}
+{"type":"partial","index":5,"speaker":"customer","text":"Ay opo. Actually","client_received_at":1790933554229}
+{"type":"audio","position_ms":27000,"client_received_at":1790933554478}
+{"type":"partial","index":5,"speaker":"customer","text":"Ay opo. Actually kakapanganak","client_received_at":1790933554728}
+{"type":"partial","index":5,"speaker":"customer","text":"Ay opo. Actually kakapanganak ko","client_received_at":1790933554978}
+{"type":"partial","index":5,"speaker":"customer","text":"Ay opo. Actually kakapanganak ko lang","client_received_at":1790933555478}
+{"type":"audio","position_ms":28000,"client_received_at":1790933555478}
+{"type":"partial","index":5,"speaker":"customer","text":"Ay opo. Actually kakapanganak ko lang last","client_received_at":1790933555729}
+{"type":"partial","index":5,"speaker":"customer","text":"Ay opo. Actually kakapanganak ko lang last month","client_received_at":1790933556228}
+{"type":"partial","index":5,"speaker":"customer","text":"Ay opo. Actually kakapanganak ko lang last month kaya","client_received_at":1790933556478}
+{"type":"audio","position_ms":29000,"client_received_at":1790933556478}
+{"type":"partial","index":5,"speaker":"customer","text":"Ay opo. Actually kakapanganak ko lang last month kaya medyo","client_received_at":1790933556978}
+{"type":"partial","index":5,"speaker":"customer","text":"Ay opo. Actually kakapanganak ko lang last month kaya medyo hectic.","client_received_at":1790933557230}
+{"type":"audio","position_ms":30000,"client_received_at":1790933557479}
+{"type":"partial","index":5,"speaker":"customer","text":"Ay opo. Actually kakapanganak ko lang last month kaya medyo hectic. Baby","client_received_at":1790933557728}
+{"type":"partial","index":5,"speaker":"customer","text":"Ay opo. Actually kakapanganak ko lang last month kaya medyo hectic. Baby girl","client_received_at":1790933558229}
+{"type":"audio","position_ms":31000,"client_received_at":1790933558481}
+{"type":"transcript","segment":{"index":5,"speaker":"customer","text":"Ay opo. Actually kakapanganak ko lang last month kaya medyo hectic. Baby girl po!","confidence":0.92,"start_ms":25489,"end_ms":30899,"interrupted_previous":false,"t_audio_received":1790933558478,"t_transcribed":1790933558478},"client_received_at":1790933558481}
+{"type":"insight","kind":"sentiment","segment_index":5,"value":0,"client_received_at":1790933558481}
+{"type":"nudge","nudge":{"id":"n1","topic":"opportunity:life_event","priority":"low","text":"Life event (new baby). Offer a beneficiary review and mention riders such as Critical Illness.","confidence":0.782,"evidence":"Ay opo. Actually kakapanganak ko lang last month kaya medyo hectic. Baby girl po!","segment_index":5,"citation":{"record_id":"kb_ph_life_coverage_61fd1a","citation":"Kalinga Protect Term Life > Beneficiaries [kb_ph_life_coverage_61fd1a] (https://kalinga-life-example.ph/products/kalinga-protect, v1.0, effective 2026-01-15)","snippet":"You can name up to five beneficiaries and set the share of each one. Beneficiaries can be revocable, which you can change anytime, or irrevocable, which can only be changed with the beneficiary's written consent."},"created_at":1790933558480,"expires_at":1790933648480,"timings":{"t_audio_received":1790933558478,"t_transcribed":1790933558478,"t_signal":1790933558480,"kb_ms":0.5,"t_ready":1790933558481},"t_sent":1790933558481},"client_received_at":1790933558481}
+{"type":"partial","index":6,"speaker":"agent","text":"Congrats","client_received_at":1790933558978}
+{"type":"audio","position_ms":32000,"client_received_at":1790933559479}
+{"type":"partial","index":6,"speaker":"agent","text":"Congrats po,","client_received_at":1790933559978}
+{"type":"partial","index":6,"speaker":"agent","text":"Congrats po, Ma'am!","client_received_at":1790933560479}
+{"type":"audio","position_ms":33000,"client_received_at":1790933560479}
+{"type":"partial","index":6,"speaker":"agent","text":"Congrats po, Ma'am! So","client_received_at":1790933560979}
+{"type":"partial","index":6,"speaker":"agent","text":"Congrats po, Ma'am! So kailan","client_received_at":1790933561479}
+{"type":"audio","position_ms":34000,"client_received_at":1790933561479}
+{"type":"partial","index":6,"speaker":"agent","text":"Congrats po, Ma'am! So kailan po","client_received_at":1790933561978}
+{"type":"partial","index":6,"speaker":"agent","text":"Congrats po, Ma'am! So kailan po kayo","client_received_at":1790933562480}
+{"type":"audio","position_ms":35000,"client_received_at":1790933562480}
+{"type":"transcript","segment":{"index":6,"speaker":"agent","text":"Congrats po, Ma'am! So kailan po kayo makakapagbayad?","confidence":0.92,"start_ms":31349,"end_ms":35269,"interrupted_previous":false,"t_audio_received":1790933562978,"t_transcribed":1790933562978},"client_received_at":1790933562979}
+{"type":"partial","index":7,"speaker":"customer","text":"Sa","client_received_at":1790933563228}
+{"type":"audio","position_ms":36000,"client_received_at":1790933563479}
+{"type":"partial","index":7,"speaker":"customer","text":"Sa sweldo","client_received_at":1790933563979}
+{"type":"partial","index":7,"speaker":"customer","text":"Sa sweldo po,","client_received_at":1790933564478}
+{"type":"audio","position_ms":37000,"client_received_at":1790933564478}
+{"type":"partial","index":7,"speaker":"customer","text":"Sa sweldo po, sa","client_received_at":1790933564728}
+{"type":"transcript","segment":{"index":7,"speaker":"customer","text":"Sa sweldo po, sa 15.","confidence":0.92,"start_ms":35719,"end_ms":37517,"interrupted_previous":false,"t_audio_received":1790933565228,"t_transcribed":1790933565228},"client_received_at":1790933565229}
+{"type":"insight","kind":"sentiment","segment_index":7,"value":0,"client_received_at":1790933565229}
+{"type":"insight","kind":"topic","segment_index":7,"value":"payment","client_received_at":1790933565229}
+{"type":"partial","index":8,"speaker":"agent","text":"Sige","client_received_at":1790933565478}
+{"type":"audio","position_ms":38000,"client_received_at":1790933565478}
+{"type":"partial","index":8,"speaker":"agent","text":"Sige po,","client_received_at":1790933566228}
+{"type":"audio","position_ms":39000,"client_received_at":1790933566479}
+{"type":"partial","index":8,"speaker":"agent","text":"Sige po, noted.","client_received_at":1790933566728}
+{"type":"partial","index":8,"speaker":"agent","text":"Sige po, noted. Pasok","client_received_at":1790933566979}
+{"type":"partial","index":8,"speaker":"agent","text":"Sige po, noted. Pasok pa","client_received_at":1790933567478}
+{"type":"audio","position_ms":40000,"client_received_at":1790933567478}
+{"type":"partial","index":8,"speaker":"agent","text":"Sige po, noted. Pasok pa po","client_received_at":1790933567730}
+{"type":"partial","index":8,"speaker":"agent","text":"Sige po, noted. Pasok pa po iyon","client_received_at":1790933567980}
+{"type":"partial","index":8,"speaker":"agent","text":"Sige po, noted. Pasok pa po iyon sa","client_received_at":1790933568478}
+{"type":"audio","position_ms":41000,"client_received_at":1790933568478}
+{"type":"partial","index":8,"speaker":"agent","text":"Sige po, noted. Pasok pa po iyon sa grace","client_received_at":1790933568729}
+{"type":"transcript","segment":{"index":8,"speaker":"agent","text":"Sige po, noted. Pasok pa po iyon sa grace period.","confidence":0.92,"start_ms":37967,"end_ms":41540,"interrupted_previous":false,"t_audio_received":1790933569228,"t_transcribed":1790933569228},"client_received_at":1790933569228}
+{"type":"partial","index":9,"speaker":"customer","text":"Tsaka","client_received_at":1790933569479}
+{"type":"audio","position_ms":42000,"client_received_at":1790933569479}
+{"type":"partial","index":9,"speaker":"customer","text":"Tsaka pwede","client_received_at":1790933570228}
+{"type":"audio","position_ms":43000,"client_received_at":1790933570478}
+{"type":"partial","index":9,"speaker":"customer","text":"Tsaka pwede bang","client_received_at":1790933570728}
+{"type":"partial","index":9,"speaker":"customer","text":"Tsaka pwede bang idagdag","client_received_at":1790933570979}
+{"type":"partial","index":9,"speaker":"customer","text":"Tsaka pwede bang idagdag ko","client_received_at":1790933571229}
+{"type":"audio","position_ms":44000,"client_received_at":1790933571478}
+{"type":"partial","index":9,"speaker":"customer","text":"Tsaka pwede bang idagdag ko yung","client_received_at":1790933571728}
+{"type":"partial","index":9,"speaker":"customer","text":"Tsaka pwede bang idagdag ko yung baby","client_received_at":1790933571979}
+{"type":"partial","index":9,"speaker":"customer","text":"Tsaka pwede bang idagdag ko yung baby ko","client_received_at":1790933572230}
+{"type":"audio","position_ms":45000,"client_received_at":1790933572479}
+{"type":"partial","index":9,"speaker":"customer","text":"Tsaka pwede bang idagdag ko yung baby ko as","client_received_at":1790933572728}
+{"type":"transcript","segment":{"index":9,"speaker":"customer","text":"Tsaka pwede bang idagdag ko yung baby ko as beneficiary?","confidence":0.92,"start_ms":41990,"end_ms":45370,"interrupted_previous":false,"t_audio_received":1790933572979,"t_transcribed":1790933572979},"client_received_at":1790933572980}
+{"type":"insight","kind":"sentiment","segment_index":9,"value":0,"client_received_at":1790933572980}
+{"type":"insight","kind":"topic","segment_index":9,"value":"faq","client_received_at":1790933572980}
+{"type":"partial","index":10,"speaker":"agent","text":"Opo","client_received_at":1790933573478}
+{"type":"audio","position_ms":46000,"client_received_at":1790933573478}
+{"type":"partial","index":10,"speaker":"agent","text":"Opo Ma'am,","client_received_at":1790933574229}
+{"type":"audio","position_ms":47000,"client_received_at":1790933574480}
+{"type":"partial","index":10,"speaker":"agent","text":"Opo Ma'am, pwede","client_received_at":1790933574728}
+{"type":"partial","index":10,"speaker":"agent","text":"Opo Ma'am, pwede po.","client_received_at":1790933574978}
+{"type":"partial","index":10,"speaker":"agent","text":"Opo Ma'am, pwede po. Revocable","client_received_at":1790933575478}
+{"type":"audio","position_ms":48000,"client_received_at":1790933575478}
+{"type":"partial","index":10,"speaker":"agent","text":"Opo Ma'am, pwede po. Revocable po","client_received_at":1790933575729}
+{"type":"partial","index":10,"speaker":"agent","text":"Opo Ma'am, pwede po. Revocable po ang","client_received_at":1790933576228}
+{"type":"audio","position_ms":49000,"client_received_at":1790933576479}
+{"type":"partial","index":10,"speaker":"agent","text":"Opo Ma'am, pwede po. Revocable po ang beneficiary","client_received_at":1790933576729}
+{"type":"partial","index":10,"speaker":"agent","text":"Opo Ma'am, pwede po. Revocable po ang beneficiary ninyo","client_received_at":1790933576979}
+{"type":"partial","index":10,"speaker":"agent","text":"Opo Ma'am, pwede po. Revocable po ang beneficiary ninyo kaya","client_received_at":1790933577479}
+{"type":"audio","position_ms":50000,"client_received_at":1790933577479}
+{"type":"partial","index":10,"speaker":"agent","text":"Opo Ma'am, pwede po. Revocable po ang beneficiary ninyo kaya pwede","client_received_at":1790933577728}
+{"type":"partial","index":10,"speaker":"agent","text":"Opo Ma'am, pwede po. Revocable po ang beneficiary ninyo kaya pwede pong","client_received_at":1790933578228}
+{"type":"audio","position_ms":51000,"client_received_at":1790933578479}
+{"type":"partial","index":10,"speaker":"agent","text":"Opo Ma'am, pwede po. Revocable po ang beneficiary ninyo kaya pwede pong palitan","client_received_at":1790933578728}
+{"type":"transcript","segment":{"index":10,"speaker":"agent","text":"Opo Ma'am, pwede po. Revocable po ang beneficiary ninyo kaya pwede pong palitan anytime.","confidence":0.92,"start_ms":45820,"end_ms":51408,"interrupted_previous":false,"t_audio_received":1790933578979,"t_transcribed":1790933578979},"client_received_at":1790933578979}
+{"type":"nudge_resolved","id":"n1","topic":"opportunity:life_event","segment_index":10,"client_received_at":1790933578979}
+{"type":"partial","index":11,"speaker":"customer","text":"Sige","client_received_at":1790933579479}
+{"type":"audio","position_ms":52000,"client_received_at":1790933579479}
+{"type":"partial","index":11,"speaker":"customer","text":"Sige po,","client_received_at":1790933580229}
+{"type":"partial","index":11,"speaker":"customer","text":"Sige po, pakitawagan","client_received_at":1790933580479}
+{"type":"audio","position_ms":53000,"client_received_at":1790933580479}
+{"type":"partial","index":11,"speaker":"customer","text":"Sige po, pakitawagan na","client_received_at":1790933580979}
+{"type":"partial","index":11,"speaker":"customer","text":"Sige po, pakitawagan na lang","client_received_at":1790933581229}
+{"type":"audio","position_ms":54000,"client_received_at":1790933581480}
+{"type":"partial","index":11,"speaker":"customer","text":"Sige po, pakitawagan na lang ako","client_received_at":1790933581728}
+{"type":"partial","index":11,"speaker":"customer","text":"Sige po, pakitawagan na lang ako after","client_received_at":1790933581979}
+{"type":"partial","index":11,"speaker":"customer","text":"Sige po, pakitawagan na lang ako after 6pm","client_received_at":1790933582478}
+{"type":"audio","position_ms":55000,"client_received_at":1790933582478}
+{"type":"partial","index":11,"speaker":"customer","text":"Sige po, pakitawagan na lang ako after 6pm para","client_received_at":1790933582979}
+{"type":"transcript","segment":{"index":11,"speaker":"customer","text":"Sige po, pakitawagan na lang ako after 6pm para diyan.","confidence":0.92,"start_ms":51858,"end_ms":55632,"interrupted_previous":false,"t_audio_received":1790933583228,"t_transcribed":1790933583228},"client_received_at":1790933583230}
+{"type":"insight","kind":"sentiment","segment_index":11,"value":1,"client_received_at":1790933583230}
+{"type":"nudge","nudge":{"id":"n2","topic":"callback:requested","priority":"medium","text":"Callback requested. Confirm the time and log it before ending the call.","confidence":0.782,"evidence":"Sige po, pakitawagan na lang ako after 6pm para diyan.","segment_index":11,"citation":null,"created_at":1790933583229,"expires_at":1790933643229,"timings":{"t_audio_received":1790933583228,"t_transcribed":1790933583228,"t_signal":1790933583229,"kb_ms":0,"t_ready":1790933583230},"t_sent":1790933583230},"client_received_at":1790933583230}
+{"type":"audio","position_ms":56000,"client_received_at":1790933583479}
+{"type":"partial","index":12,"speaker":"agent","text":"Noted","client_received_at":1790933583729}
+{"type":"partial","index":12,"speaker":"agent","text":"Noted po,","client_received_at":1790933584479}
+{"type":"audio","position_ms":57000,"client_received_at":1790933584479}
+{"type":"partial","index":12,"speaker":"agent","text":"Noted po, tatawag","client_received_at":1790933584978}
+{"type":"partial","index":12,"speaker":"agent","text":"Noted po, tatawag po","client_received_at":1790933585479}
+{"type":"audio","position_ms":58000,"client_received_at":1790933585479}
+{"type":"partial","index":12,"speaker":"agent","text":"Noted po, tatawag po kami","client_received_at":1790933585729}
+{"type":"partial","index":12,"speaker":"agent","text":"Noted po, tatawag po kami after","client_received_at":1790933586229}
+{"type":"audio","position_ms":59000,"client_received_at":1790933586478}
+{"type":"partial","index":12,"speaker":"agent","text":"Noted po, tatawag po kami after 6pm.","client_received_at":1790933586728}
+{"type":"partial","index":12,"speaker":"agent","text":"Noted po, tatawag po kami after 6pm. Salamat","client_received_at":1790933586979}
+{"type":"audio","position_ms":60000,"client_received_at":1790933587478}
+{"type":"transcript","segment":{"index":12,"speaker":"agent","text":"Noted po, tatawag po kami after 6pm. Salamat po!","confidence":0.92,"start_ms":56082,"end_ms":59897,"interrupted_previous":false,"t_audio_received":1790933587478,"t_transcribed":1790933587478},"client_received_at":1790933587478}
+{"type":"done","summary":{"segments":13,"delivered":2,"suppressed":0,"resolved":1},"client_received_at":1790933587826}

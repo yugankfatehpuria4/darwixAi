@@ -1,0 +1,22 @@
+{
+  "_note": "Held-out questions written AFTER the glossary and retrieval fixes made in response to retrieval-eval.json. Never used for tuning. If these are tuned against, write a new hold-out set.",
+  "items": [
+    { "id": "x01", "market": "in_health", "type": "product", "query": "Can my in-laws be added to the family policy?", "answerable": true, "expected": [{ "source": "family-shield.html", "section": "Who can buy" }, { "source": "top-up-and-addons.html", "section": "Parents cover" }] },
+    { "id": "x02", "market": "in_health", "type": "product", "query": "Is dialysis covered even if I am not admitted overnight?", "answerable": true, "expected": [{ "source": "family-shield.html", "section": "What is covered" }] },
+    { "id": "x03", "market": "in_health", "type": "policy", "query": "Are spectacles and hearing aids paid for?", "answerable": true, "expected": [{ "source": "policy-wordings.pdf", "section": "Permanent Exclusions" }] },
+    { "id": "x04", "market": "in_health", "type": "policy", "query": "When will my knee replacement surgery be covered?", "answerable": true, "expected": [{ "source": "policy-wordings.pdf", "section": "Waiting Periods" }, { "source": "family-shield.html", "section": "Waiting periods" }] },
+    { "id": "x05", "market": "in_health", "type": "claims", "query": "Which documents do I need to send for a claim at a non-network hospital?", "answerable": true, "expected": [{ "source": "claims.html", "section": "Reimbursement" }] },
+    { "id": "x06", "market": "in_health", "type": "faq", "query": "Is corona hospitalisation covered?", "answerable": true, "expected": [{ "source": "faq.html", "section": "COVID-19" }] },
+    { "id": "x07", "market": "in_health", "type": "objection", "query": "Let me think about it and call me next week", "answerable": true, "expected": [{ "source": "lead-qualification-script.md", "section": "think about it" }] },
+    { "id": "x08", "market": "in_health", "type": "product", "query": "Is there a discount if I buy for two years at once?", "answerable": true, "expected": [{ "source": "top-up-and-addons.html", "section": "Multi-member discount" }] },
+    { "id": "x09", "market": "in_health", "type": "qualification", "query": "My daughter is 27, can she be on my floater?", "answerable": true, "expected": [{ "source": "qualification-rules.md", "section": "Children" }, { "source": "family-shield.html", "section": "Who can buy" }] },
+    { "id": "x10", "market": "in_health", "type": "out_of_scope", "query": "Do you offer life insurance with maturity benefit?", "answerable": false, "expected": [] },
+    { "id": "x11", "market": "in_health", "type": "out_of_scope", "query": "Can I book a vaccination appointment through you?", "answerable": false, "expected": [] },
+    { "id": "x12", "market": "ph_life", "type": "policy", "language": "taglish", "query": "Kung mamatay po ako habang grace period, may makukuha pa ba pamilya ko?", "answerable": true, "expected": [{ "source": "payment-lapse-reinstatement.md", "section": "Grace period" }] },
+    { "id": "x13", "market": "ph_life", "type": "product", "language": "en", "query": "How many beneficiaries can I name?", "answerable": true, "expected": [{ "source": "kalinga-protect.html", "section": "Beneficiaries" }] },
+    { "id": "x14", "market": "ph_life", "type": "out_of_scope", "language": "taglish", "query": "Pwede po ba ako mag-loan sa policy ko?", "answerable": false, "expected": [] },
+    { "id": "x15", "market": "id_finance", "type": "product", "language": "id_formal", "query": "Dokumen apa saja yang dibutuhkan untuk mengajukan kredit motor?", "answerable": true, "expected": [{ "source": "pembiayaan-motor.html", "section": "Syarat" }] },
+    { "id": "x16", "market": "id_finance", "type": "policy", "language": "id_colloquial", "query": "Debt collector boleh nelpon jam 10 malam nggak sih?", "answerable": true, "expected": [{ "source": "denda-keringanan-penagihan.md", "section": "Etika penagihan" }] },
+    { "id": "x17", "market": "id_finance", "type": "out_of_scope", "language": "id_colloquial", "query": "Bisa pinjam uang tunai tanpa jaminan nggak?", "answerable": false, "expected": [] }
+  ]
+}

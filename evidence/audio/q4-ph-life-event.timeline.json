@@ -1,0 +1,144 @@
+{
+  "call": "q4-ph-life-event",
+  "market": "ph_life",
+  "synthetic_audio": true,
+  "voices": {
+    "bot": "id+f3",
+    "customer": "id+m3"
+  },
+  "noise_snr_db": null,
+  "sample_rate": 16000,
+  "duration_ms": 60347,
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "agent",
+      "start_ms": 0,
+      "end_ms": 9491,
+      "text": "Hello po, good afternoon! Si Joy po ito from Kalinga Life. Para po sa quality, naka-record po ang tawag na ito. Si Ma'am Reyes po ba ito?",
+      "event": null,
+      "asr_confidence": null,
+      "interrupted_previous": false
+    },
+    {
+      "index": 1,
+      "speaker": "customer",
+      "start_ms": 9941,
+      "end_ms": 10915,
+      "text": "Opo, ako po.",
+      "event": null,
+      "asr_confidence": null,
+      "interrupted_previous": false
+    },
+    {
+      "index": 2,
+      "speaker": "agent",
+      "start_ms": 11365,
+      "end_ms": 16166,
+      "text": "Ma'am, para po sa verification, last four digits po ng policy number?",
+      "event": null,
+      "asr_confidence": null,
+      "interrupted_previous": false
+    },
+    {
+      "index": 3,
+      "speaker": "customer",
+      "start_ms": 16616,
+      "end_ms": 19154,
+      "text": "4821 po.",
+      "event": null,
+      "asr_confidence": null,
+      "interrupted_previous": false
+    },
+    {
+      "index": 4,
+      "speaker": "agent",
+      "start_ms": 19604,
+      "end_ms": 25039,
+      "text": "Salamat po. Paalala lang po, due na po ang quarterly premium ninyo sa October 7.",
+      "event": null,
+      "asr_confidence": null,
+      "interrupted_previous": false
+    },
+    {
+      "index": 5,
+      "speaker": "customer",
+      "start_ms": 25489,
+      "end_ms": 30899,
+      "text": "Ay opo. Actually kakapanganak ko lang last month kaya medyo hectic. Baby girl po!",
+      "event": null,
+      "asr_confidence": null,
+      "interrupted_previous": false
+    },
+    {
+      "index": 6,
+      "speaker": "agent",
+      "start_ms": 31349,
+      "end_ms": 35269,
+      "text": "Congrats po, Ma'am! So kailan po kayo makakapagbayad?",
+      "event": null,
+      "asr_confidence": null,
+      "interrupted_previous": false
+    },
+    {
+      "index": 7,
+      "speaker": "customer",
+      "start_ms": 35719,
+      "end_ms": 37517,
+      "text": "Sa sweldo po, sa 15.",
+      "event": null,
+      "asr_confidence": null,
+      "interrupted_previous": false
+    },
+    {
+      "index": 8,
+      "speaker": "agent",
+      "start_ms": 37967,
+      "end_ms": 41540,
+      "text": "Sige po, noted. Pasok pa po iyon sa grace period.",
+      "event": null,
+      "asr_confidence": null,
+      "interrupted_previous": false
+    },
+    {
+      "index": 9,
+      "speaker": "customer",
+      "start_ms": 41990,
+      "end_ms": 45370,
+      "text": "Tsaka pwede bang idagdag ko yung baby ko as beneficiary?",
+      "event": null,
+      "asr_confidence": null,
+      "interrupted_previous": false
+    },
+    {
+      "index": 10,
+      "speaker": "agent",
+      "start_ms": 45820,
+      "end_ms": 51408,
+      "text": "Opo Ma'am, pwede po. Revocable po ang beneficiary ninyo kaya pwede pong palitan anytime.",
+      "event": null,
+      "asr_confidence": null,
+      "interrupted_previous": false
+    },
+    {
+      "index": 11,
+      "speaker": "customer",
+      "start_ms": 51858,
+      "end_ms": 55632,
+      "text": "Sige po, pakitawagan na lang ako after 6pm para diyan.",
+      "event": null,
+      "asr_confidence": null,
+      "interrupted_previous": false
+    },
+    {
+      "index": 12,
+      "speaker": "agent",
+      "start_ms": 56082,
+      "end_ms": 59897,
+      "text": "Noted po, tatawag po kami after 6pm. Salamat po!",
+      "event": null,
+      "asr_confidence": null,
+      "interrupted_previous": false
+    }
+  ]
+}

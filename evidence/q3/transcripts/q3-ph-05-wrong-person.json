@@ -1,0 +1,60 @@
+{
+  "call_id": "call_20261002_80517e50",
+  "market": "ph_life",
+  "started_at": "2026-10-02T03:00:00.000Z",
+  "today": "2026-10-02",
+  "stage": "ended",
+  "register": "taglish",
+  "slots": {},
+  "skipped": [],
+  "pending_conflict": null,
+  "unanswered_questions": 0,
+  "consecutive_silence": 0,
+  "consecutive_unclear": 0,
+  "disclosures_given": [
+    "recording"
+  ],
+  "identity_attempts": 0,
+  "outcome": {
+    "status": "wrong_person_no_disclosure",
+    "next_action": "retry_call_later",
+    "reasons": [
+      "declined the opening question"
+    ],
+    "rule_sources": []
+  },
+  "escalated": false,
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "bot",
+      "text": "Magandang umaga po! Si Lia po ito, virtual assistant ng Kalinga Life, partner ng Bayanihan Bank. Para po sa quality at training purposes, naka-record po ang tawag na ito. Si Ma'am [CUSTOMER_NAME] po ba ang kausap ko?",
+      "at": "2026-10-02T03:00:00.000Z",
+      "register": "taglish",
+      "intent": "greeting"
+    },
+    {
+      "index": 1,
+      "speaker": "customer",
+      "text": "Hindi po, kapatid niya po ako",
+      "at": "2026-10-02T03:00:12.000Z",
+      "intent": "consent_no",
+      "register": "taglish"
+    },
+    {
+      "index": 2,
+      "speaker": "bot",
+      "text": "Ay, pasensya na po sa abala. Tatawag na lang po ulit kami. Salamat po, ingat po kayo.",
+      "at": "2026-10-02T09:45:53.186Z",
+      "register": "taglish"
+    }
+  ],
+  "latencies": [
+    {
+      "turn": 1,
+      "understand_ms": 0.1,
+      "server_total_ms": 0.1
+    }
+  ],
+  "known_pii": []
+}

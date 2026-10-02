@@ -1,0 +1,209 @@
+{
+  "call_id": "call_20261002_d3805525",
+  "market": "in_health",
+  "started_at": "2026-10-02T09:15:00.000Z",
+  "today": "2026-10-02",
+  "stage": "ended",
+  "register": "en",
+  "slots": {
+    "members_to_cover": {
+      "value": [
+        "self",
+        "parents"
+      ],
+      "heard": "My mother in law",
+      "turn": 3
+    },
+    "city": {
+      "value": "Chennai",
+      "heard": "Chennai",
+      "turn": 7
+    },
+    "existing_cover": {
+      "value": false,
+      "heard": "No",
+      "turn": 11
+    },
+    "sum_insured": {
+      "value": 5,
+      "heard": "5 lakh",
+      "turn": 13
+    }
+  },
+  "skipped": [
+    "eldest_member_age",
+    "pre_existing_disease"
+  ],
+  "pending_conflict": null,
+  "unanswered_questions": 0,
+  "consecutive_silence": 0,
+  "consecutive_unclear": 0,
+  "disclosures_given": [
+    "recording"
+  ],
+  "identity_attempts": 0,
+  "outcome": {
+    "status": "incomplete",
+    "next_action": "advisor_callback_to_complete",
+    "reasons": [
+      "missing required fields: eldest_member_age, pre_existing_disease"
+    ],
+    "rule_sources": [
+      "health/policies/qualification-rules.md#Rule Q5: Required fields for a qualified lead"
+    ]
+  },
+  "escalated": false,
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "bot",
+      "text": "Hello, this is Asha, a virtual assistant from Suraksha Health Insurance, calling about the health insurance enquiry you submitted. This call is recorded for quality and training purposes. Is this a good time to talk for about five minutes?",
+      "at": "2026-10-02T09:15:00.000Z",
+      "register": "en",
+      "intent": "greeting"
+    },
+    {
+      "index": 1,
+      "speaker": "customer",
+      "text": "Yeah okay",
+      "at": "2026-10-02T09:15:12.000Z",
+      "intent": "consent_yes",
+      "register": "en"
+    },
+    {
+      "index": 2,
+      "speaker": "bot",
+      "text": "First, who would you like to cover: just yourself, or also your spouse, children or parents?",
+      "at": "2026-10-02T09:45:53.065Z",
+      "register": "en"
+    },
+    {
+      "index": 3,
+      "speaker": "customer",
+      "text": "My mother in law",
+      "at": "2026-10-02T09:15:24.000Z",
+      "intent": "slot:members_to_cover",
+      "register": "en"
+    },
+    {
+      "index": 4,
+      "speaker": "bot",
+      "text": "What is the age of the eldest person to be covered?",
+      "at": "2026-10-02T09:45:53.065Z",
+      "register": "en"
+    },
+    {
+      "index": 5,
+      "speaker": "customer",
+      "text": "I don't know her exact age, not sure",
+      "at": "2026-10-02T09:15:36.000Z",
+      "intent": "skipped:eldest_member_age",
+      "register": "en"
+    },
+    {
+      "index": 6,
+      "speaker": "bot",
+      "text": "That's fine, we can leave that for the advisor. Which city do you live in?",
+      "at": "2026-10-02T09:45:53.066Z",
+      "register": "en"
+    },
+    {
+      "index": 7,
+      "speaker": "customer",
+      "text": "Chennai",
+      "at": "2026-10-02T09:15:48.000Z",
+      "intent": "slot:city",
+      "register": "en"
+    },
+    {
+      "index": 8,
+      "speaker": "bot",
+      "text": "Does anyone to be covered have an existing medical condition, such as diabetes, blood pressure, thyroid or asthma?",
+      "at": "2026-10-02T09:45:53.067Z",
+      "register": "en"
+    },
+    {
+      "index": 9,
+      "speaker": "customer",
+      "text": "I don't know, I'd have to ask her",
+      "at": "2026-10-02T09:16:00.000Z",
+      "intent": "skipped:pre_existing_disease",
+      "register": "en"
+    },
+    {
+      "index": 10,
+      "speaker": "bot",
+      "text": "That's fine, we can leave that for the advisor. Do you have any existing health insurance, including cover from your employer?",
+      "at": "2026-10-02T09:45:53.068Z",
+      "register": "en"
+    },
+    {
+      "index": 11,
+      "speaker": "customer",
+      "text": "No",
+      "at": "2026-10-02T09:16:12.000Z",
+      "intent": "slot:existing_cover",
+      "register": "en"
+    },
+    {
+      "index": 12,
+      "speaker": "bot",
+      "text": "Last one: which cover amount are you looking at, 5, 10, 15 or 25 lakh rupees? You can also say not sure.",
+      "at": "2026-10-02T09:45:53.071Z",
+      "register": "en"
+    },
+    {
+      "index": 13,
+      "speaker": "customer",
+      "text": "5 lakh",
+      "at": "2026-10-02T09:16:24.000Z",
+      "intent": "slot:sum_insured",
+      "register": "en"
+    },
+    {
+      "index": 14,
+      "speaker": "bot",
+      "text": "No problem. I don't have all the details yet, so an advisor will call you back within 2 working days to complete them. Thank you, goodbye.",
+      "at": "2026-10-02T09:45:53.072Z",
+      "register": "en"
+    }
+  ],
+  "latencies": [
+    {
+      "turn": 1,
+      "understand_ms": 0,
+      "server_total_ms": 0
+    },
+    {
+      "turn": 3,
+      "understand_ms": 0.1,
+      "server_total_ms": 0.1
+    },
+    {
+      "turn": 5,
+      "understand_ms": 0.1,
+      "server_total_ms": 0.1
+    },
+    {
+      "turn": 7,
+      "understand_ms": 0.2,
+      "server_total_ms": 0.2
+    },
+    {
+      "turn": 9,
+      "understand_ms": 0.1,
+      "server_total_ms": 0.1
+    },
+    {
+      "turn": 11,
+      "understand_ms": 0.1,
+      "server_total_ms": 0.1
+    },
+    {
+      "turn": 13,
+      "understand_ms": 0.1,
+      "server_total_ms": 0.1
+    }
+  ],
+  "known_pii": []
+}

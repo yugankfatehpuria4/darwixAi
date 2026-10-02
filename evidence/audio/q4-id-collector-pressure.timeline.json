@@ -1,0 +1,134 @@
+{
+  "call": "q4-id-collector-pressure",
+  "market": "id_finance",
+  "synthetic_audio": true,
+  "voices": {
+    "bot": "id+f3",
+    "customer": "id+m3"
+  },
+  "noise_snr_db": null,
+  "sample_rate": 16000,
+  "duration_ms": 52843,
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "agent",
+      "start_ms": 0,
+      "end_ms": 4947,
+      "text": "Selamat siang, dengan Bapak Budi Santoso? Saya Andi dari Danamaju Finance.",
+      "event": null,
+      "asr_confidence": null,
+      "interrupted_previous": false
+    },
+    {
+      "index": 1,
+      "speaker": "customer",
+      "start_ms": 5397,
+      "end_ms": 6767,
+      "text": "Iya, saya sendiri.",
+      "event": null,
+      "asr_confidence": null,
+      "interrupted_previous": false
+    },
+    {
+      "index": 2,
+      "speaker": "agent",
+      "start_ms": 7217,
+      "end_ms": 11772,
+      "text": "Pak, angsuran Bapak sudah jatuh tempo tanggal lima, kapan mau dibayar?",
+      "event": null,
+      "asr_confidence": null,
+      "interrupted_previous": false
+    },
+    {
+      "index": 3,
+      "speaker": "customer",
+      "start_ms": 12222,
+      "end_ms": 17036,
+      "text": "Aduh Pak, saya baru kena PHK bulan lalu, belum ada pemasukan sama sekali.",
+      "event": null,
+      "asr_confidence": null,
+      "interrupted_previous": false
+    },
+    {
+      "index": 4,
+      "speaker": "agent",
+      "start_ms": 17486,
+      "end_ms": 22436,
+      "text": "Ya tapi kewajiban tetap harus dibayar Pak, kalau tidak motor akan kami tarik.",
+      "event": null,
+      "asr_confidence": null,
+      "interrupted_previous": false
+    },
+    {
+      "index": 5,
+      "speaker": "customer",
+      "start_ms": 21536,
+      "end_ms": 27275,
+      "text": "Saya kan sudah bilang, saya lagi nggak kerja. Kenapa sih nelpon terus, capek saya.",
+      "event": null,
+      "asr_confidence": null,
+      "interrupted_previous": true
+    },
+    {
+      "index": 6,
+      "speaker": "agent",
+      "start_ms": 27725,
+      "end_ms": 30066,
+      "text": "Pokoknya harus bayar minggu ini ya Pak.",
+      "event": null,
+      "asr_confidence": null,
+      "interrupted_previous": false
+    },
+    {
+      "index": 7,
+      "speaker": "customer",
+      "start_ms": 29366,
+      "end_ms": 33817,
+      "text": "Sudah saya bilang berkali-kali, saya nggak bisa! Ini ribet banget.",
+      "event": null,
+      "asr_confidence": null,
+      "interrupted_previous": true
+    },
+    {
+      "index": 8,
+      "speaker": "customer",
+      "start_ms": 34267,
+      "end_ms": 38375,
+      "text": "Anak saya juga sebenarnya mau ambil motor kedua, tapi ya sudahlah.",
+      "event": null,
+      "asr_confidence": null,
+      "interrupted_previous": false
+    },
+    {
+      "index": 9,
+      "speaker": "agent",
+      "start_ms": 38825,
+      "end_ms": 44817,
+      "text": "Baik Pak, mohon maaf. Ada program keringanan, nanti petugas cabang akan menghubungi Bapak.",
+      "event": null,
+      "asr_confidence": null,
+      "interrupted_previous": false
+    },
+    {
+      "index": 10,
+      "speaker": "customer",
+      "start_ms": 45267,
+      "end_ms": 48549,
+      "text": "Ya sudah, tolong telepon saya lagi besok sore saja.",
+      "event": null,
+      "asr_confidence": null,
+      "interrupted_previous": false
+    },
+    {
+      "index": 11,
+      "speaker": "agent",
+      "start_ms": 48999,
+      "end_ms": 52393,
+      "text": "Baik Pak, besok sore kami hubungi. Terima kasih.",
+      "event": null,
+      "asr_confidence": null,
+      "interrupted_previous": false
+    }
+  ]
+}

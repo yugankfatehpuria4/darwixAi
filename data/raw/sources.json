@@ -1,0 +1,29 @@
+{
+  "_note": "SYNTHETIC SAMPLE CONTENT. Source registry for the raw corpus. Every file the pipeline ingests must be listed here; provenance (URL, owner, authority, effective date) lives here rather than being guessed from file names.",
+  "sources": [
+    { "path": "health/website/family-shield.html", "source_url": "https://suraksha-example.in/plans/family-shield", "market": "in_health", "doc_type": "product", "authority": "website", "access": "public" },
+    { "path": "health/website/top-up-and-addons.html", "source_url": "https://suraksha-example.in/plans/super-top-up", "market": "in_health", "doc_type": "product", "authority": "website", "access": "public" },
+    { "path": "health/website/claims.html", "source_url": "https://suraksha-example.in/claims", "market": "in_health", "doc_type": "claims", "authority": "website", "access": "public" },
+    { "path": "health/website/faq.html", "source_url": "https://suraksha-example.in/faq", "market": "in_health", "doc_type": "faq", "authority": "website", "access": "public" },
+    { "path": "health/website/help-faq-mirror.html", "source_url": "https://suraksha-example.in/help/faq", "market": "in_health", "doc_type": "faq", "authority": "website", "access": "public" },
+    { "path": "health/website/brochure-2024.html", "source_url": "https://suraksha-example.in/campaigns/brochure-2024", "market": "in_health", "doc_type": "product", "authority": "marketing", "access": "public", "superseded_by": "health/website/family-shield.html" },
+    { "path": "health/pdf/family-shield-policy-wordings.pdf", "source_url": "https://suraksha-example.in/docs/family-shield-policy-wordings.pdf", "title": "Family Shield Policy Wordings", "market": "in_health", "doc_type": "policy", "authority": "policy_document", "access": "public", "effective_date": "2026-04-01" },
+    { "path": "health/pdf/scanned-claim-form.pdf", "source_url": "internal://forms/claim-form-scan.pdf", "title": "Claim Form (scanned)", "market": "in_health", "doc_type": "form", "authority": "internal_policy", "access": "internal", "effective_date": "2026-04-01" },
+    { "path": "health/tables/family-shield-premium-chart.csv", "source_url": "internal://pricing/family-shield-premium-chart.csv", "title": "Family Shield Indicative Annual Premium Chart (individual, per member)", "market": "in_health", "doc_type": "pricing", "authority": "internal_policy", "access": "internal", "effective_date": "2026-04-01", "audience": "customer" },
+    { "path": "health/scripts/lead-qualification-script.md", "source_url": "internal://sales/lead-qualification-script-v3.1", "market": "in_health", "doc_type": "script", "authority": "internal_policy", "access": "internal" },
+    { "path": "health/policies/qualification-rules.md", "source_url": "internal://underwriting/qualification-rules-v2.0", "market": "in_health", "doc_type": "policy", "authority": "internal_policy", "access": "internal" },
+    { "path": "health/policies/sales-desk-notes.md", "source_url": "internal://sales-ops/desk-notes", "market": "in_health", "doc_type": "operations", "authority": "internal_policy", "access": "internal" },
+    { "path": "health/forms/web-enquiry-form.txt", "source_url": "https://suraksha-example.in/enquiry", "title": "Health Insurance Enquiry Form", "market": "in_health", "doc_type": "form", "authority": "website", "access": "public" },
+    { "path": "health/forms/submitted-enquiry-0914.txt", "source_url": "internal://crm/leads/export-0914", "title": "Submitted enquiry export", "market": "in_health", "doc_type": "form_submission", "authority": "internal_policy", "access": "restricted" },
+
+    { "path": "ph/website/kalinga-protect.html", "source_url": "https://kalinga-life-example.ph/products/kalinga-protect", "market": "ph_life", "doc_type": "product", "authority": "website", "access": "public" },
+    { "path": "ph/policies/payment-lapse-reinstatement.md", "source_url": "internal://servicing/payment-lapse-reinstatement-v1.4", "market": "ph_life", "doc_type": "policy", "authority": "internal_policy", "access": "internal", "audience": "customer" },
+    { "path": "ph/faq/faq-taglish.md", "source_url": "internal://servicing/faq-taglish", "market": "ph_life", "doc_type": "faq", "authority": "internal_policy", "access": "internal", "audience": "customer" },
+    { "path": "ph/scripts/premium-reminder-script.md", "source_url": "internal://servicing/premium-reminder-script-v2.0", "market": "ph_life", "doc_type": "script", "authority": "internal_policy", "access": "internal" },
+
+    { "path": "id/website/pembiayaan-motor.html", "source_url": "https://danamaju-example.co.id/produk/pembiayaan-motor", "market": "id_finance", "doc_type": "product", "authority": "website", "access": "public" },
+    { "path": "id/kebijakan/denda-keringanan-penagihan.md", "source_url": "internal://collection/kebijakan-v3.0", "market": "id_finance", "doc_type": "policy", "authority": "internal_policy", "access": "internal", "audience": "customer" },
+    { "path": "id/faq/faq-pelanggan.md", "source_url": "internal://cc/faq-pelanggan", "market": "id_finance", "doc_type": "faq", "authority": "internal_policy", "access": "internal", "audience": "customer" },
+    { "path": "id/scripts/skrip-pengingat-angsuran.md", "source_url": "internal://collection/skrip-pengingat-v2.1", "market": "id_finance", "doc_type": "script", "authority": "internal_policy", "access": "internal" }
+  ]
+}

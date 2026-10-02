@@ -1,0 +1,19 @@
+{
+  "_note": "SYNTHETIC human-collector call for Q4. The collector states the arrears before verifying identity, never discloses the recording, threatens repossession and keeps pushing while the customer, who has lost his job, gets more frustrated and interrupts. The customer also mentions a second motorbike: a cross-sell that should be suppressed because the customer is in hardship.",
+  "call_id": "q4-id-collector-pressure",
+  "market": "id_finance",
+  "turns": [
+    { "speaker": "agent", "text": "Selamat siang, dengan Bapak Budi Santoso? Saya Andi dari Danamaju Finance." },
+    { "speaker": "customer", "text": "Iya, saya sendiri." },
+    { "speaker": "agent", "text": "Pak, angsuran Bapak sudah jatuh tempo tanggal lima, kapan mau dibayar?" },
+    { "speaker": "customer", "text": "Aduh Pak, saya baru kena PHK bulan lalu, belum ada pemasukan sama sekali." },
+    { "speaker": "agent", "text": "Ya tapi kewajiban tetap harus dibayar Pak, kalau tidak motor akan kami tarik." },
+    { "speaker": "customer", "text": "Saya kan sudah bilang, saya lagi nggak kerja. Kenapa sih nelpon terus, capek saya.", "barge_in_ms": 900 },
+    { "speaker": "agent", "text": "Pokoknya harus bayar minggu ini ya Pak." },
+    { "speaker": "customer", "text": "Sudah saya bilang berkali-kali, saya nggak bisa! Ini ribet banget.", "barge_in_ms": 700 },
+    { "speaker": "customer", "text": "Anak saya juga sebenarnya mau ambil motor kedua, tapi ya sudahlah." },
+    { "speaker": "agent", "text": "Baik Pak, mohon maaf. Ada program keringanan, nanti petugas cabang akan menghubungi Bapak." },
+    { "speaker": "customer", "text": "Ya sudah, tolong telepon saya lagi besok sore saja." },
+    { "speaker": "agent", "text": "Baik Pak, besok sore kami hubungi. Terima kasih." }
+  ]
+}

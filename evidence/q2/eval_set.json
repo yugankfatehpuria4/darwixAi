@@ -1,0 +1,1013 @@
+{
+  "_note": "Hand-written retrieval eval set. Questions are phrased the way a caller would say them, not copied from headings. 'expected' lists every chunk that fully answers the question (source file + a substring of the section); a hit on any of them counts. answerable=false items must be refused. Written after the corpus and glossary were frozen; see evidence/q2/retrieval_results.md for the glossary hash used.",
+  "items": [
+    {
+      "id": "h01",
+      "market": "in_health",
+      "type": "product",
+      "query": "Can I cover my wife and two kids in one policy?",
+      "answerable": true,
+      "expected": [
+        {
+          "source": "family-shield.html",
+          "section": "Who can buy"
+        }
+      ]
+    },
+    {
+      "id": "h02",
+      "market": "in_health",
+      "type": "product",
+      "query": "What coverage amounts can I choose from?",
+      "answerable": true,
+      "expected": [
+        {
+          "source": "family-shield.html",
+          "section": "Coverage amount options"
+        }
+      ]
+    },
+    {
+      "id": "h03",
+      "market": "in_health",
+      "type": "product",
+      "query": "Does the plan pay for ambulance charges?",
+      "answerable": true,
+      "expected": [
+        {
+          "source": "family-shield.html",
+          "section": "What is covered"
+        }
+      ]
+    },
+    {
+      "id": "h04",
+      "market": "in_health",
+      "type": "product",
+      "query": "Is there a limit on hospital room rent?",
+      "answerable": true,
+      "expected": [
+        {
+          "source": "family-shield.html",
+          "section": "What is covered"
+        }
+      ]
+    },
+    {
+      "id": "h05",
+      "market": "in_health",
+      "type": "product",
+      "query": "What is a super top-up and when does it pay?",
+      "answerable": true,
+      "expected": [
+        {
+          "source": "top-up-and-addons.html",
+          "section": "Super Top-Up Plan"
+        }
+      ]
+    },
+    {
+      "id": "h06",
+      "market": "in_health",
+      "type": "product",
+      "query": "Do you cover delivery expenses if my wife gets pregnant?",
+      "answerable": true,
+      "expected": [
+        {
+          "source": "top-up-and-addons.html",
+          "section": "Maternity"
+        }
+      ]
+    },
+    {
+      "id": "h07",
+      "market": "in_health",
+      "type": "product",
+      "query": "Will you pay for my doctor consultations and medicines outside the hospital?",
+      "answerable": true,
+      "expected": [
+        {
+          "source": "top-up-and-addons.html",
+          "section": "OPD"
+        }
+      ]
+    },
+    {
+      "id": "h08",
+      "market": "in_health",
+      "type": "product",
+      "query": "Do I get any bonus if I don't make a claim this year?",
+      "answerable": true,
+      "expected": [
+        {
+          "source": "family-shield.html",
+          "section": "No-claim bonus"
+        }
+      ]
+    },
+    {
+      "id": "h09",
+      "market": "in_health",
+      "type": "policy",
+      "query": "I have diabetes, after how long will it be covered?",
+      "answerable": true,
+      "expected": [
+        {
+          "source": "family-shield.html",
+          "section": "Waiting periods"
+        },
+        {
+          "source": "policy-wordings.pdf",
+          "section": "Waiting Periods"
+        }
+      ]
+    },
+    {
+      "id": "h10",
+      "market": "in_health",
+      "type": "policy",
+      "query": "If I fall sick in the first month after buying, am I covered?",
+      "answerable": true,
+      "expected": [
+        {
+          "source": "family-shield.html",
+          "section": "Waiting periods"
+        },
+        {
+          "source": "policy-wordings.pdf",
+          "section": "Waiting Periods"
+        }
+      ]
+    },
+    {
+      "id": "h11",
+      "market": "in_health",
+      "type": "policy",
+      "query": "Is cosmetic surgery covered?",
+      "answerable": true,
+      "expected": [
+        {
+          "source": "policy-wordings.pdf",
+          "section": "Permanent Exclusions"
+        }
+      ]
+    },
+    {
+      "id": "h12",
+      "market": "in_health",
+      "type": "policy",
+      "query": "My father is 63, will there be a co-payment for him?",
+      "answerable": true,
+      "expected": [
+        {
+          "source": "policy-wordings.pdf",
+          "section": "Co-payment"
+        }
+      ]
+    },
+    {
+      "id": "h13",
+      "market": "in_health",
+      "type": "policy",
+      "query": "What happens if my coverage gets used up in the middle of the year?",
+      "answerable": true,
+      "expected": [
+        {
+          "source": "policy-wordings.pdf",
+          "section": "Sum Insured Restoration"
+        }
+      ]
+    },
+    {
+      "id": "h14",
+      "market": "in_health",
+      "type": "policy",
+      "query": "Can you refuse to renew my policy because I made claims?",
+      "answerable": true,
+      "expected": [
+        {
+          "source": "policy-wordings.pdf",
+          "section": "Renewal"
+        }
+      ]
+    },
+    {
+      "id": "h15",
+      "market": "in_health",
+      "type": "policy",
+      "query": "If I cancel halfway through the year do I get money back?",
+      "answerable": true,
+      "expected": [
+        {
+          "source": "policy-wordings.pdf",
+          "section": "Cancellation"
+        }
+      ]
+    },
+    {
+      "id": "h16",
+      "market": "in_health",
+      "type": "policy",
+      "query": "Where do I complain if my problem is not solved?",
+      "answerable": true,
+      "expected": [
+        {
+          "source": "policy-wordings.pdf",
+          "section": "Grievance"
+        }
+      ]
+    },
+    {
+      "id": "h17",
+      "market": "in_health",
+      "type": "qualification",
+      "query": "Can I buy this for my mother who is 70 years old?",
+      "answerable": true,
+      "expected": [
+        {
+          "source": "top-up-and-addons.html",
+          "section": "Parents cover"
+        },
+        {
+          "source": "qualification-rules.md",
+          "section": "Entry age"
+        }
+      ]
+    },
+    {
+      "id": "h18",
+      "market": "in_health",
+      "type": "qualification",
+      "query": "What is the maximum age to join the plan?",
+      "answerable": true,
+      "expected": [
+        {
+          "source": "family-shield.html",
+          "section": "Who can buy"
+        },
+        {
+          "source": "qualification-rules.md",
+          "section": "Entry age"
+        }
+      ]
+    },
+    {
+      "id": "h19",
+      "market": "in_health",
+      "type": "qualification",
+      "query": "Up to what age can my son stay on the family policy?",
+      "answerable": true,
+      "expected": [
+        {
+          "source": "family-shield.html",
+          "section": "Who can buy"
+        },
+        {
+          "source": "qualification-rules.md",
+          "section": "Children"
+        }
+      ]
+    },
+    {
+      "id": "h20",
+      "market": "in_health",
+      "type": "qualification",
+      "query": "Will I be rejected because I have high blood pressure?",
+      "answerable": true,
+      "expected": [
+        {
+          "source": "qualification-rules.md",
+          "section": "Pre-existing conditions"
+        }
+      ]
+    },
+    {
+      "id": "h21",
+      "market": "in_health",
+      "type": "faq",
+      "query": "Do I have to go for a medical test before buying?",
+      "answerable": true,
+      "expected": [
+        {
+          "source": "faq.html",
+          "section": "medical check-up"
+        }
+      ]
+    },
+    {
+      "id": "h22",
+      "market": "in_health",
+      "type": "faq",
+      "query": "Can I pay every month instead of once a year?",
+      "answerable": true,
+      "expected": [
+        {
+          "source": "faq.html",
+          "section": "premium monthly"
+        }
+      ]
+    },
+    {
+      "id": "h23",
+      "market": "in_health",
+      "type": "faq",
+      "query": "What if I forget to pay the renewal on time?",
+      "answerable": true,
+      "expected": [
+        {
+          "source": "faq.html",
+          "section": "miss my renewal"
+        },
+        {
+          "source": "policy-wordings.pdf",
+          "section": "Renewal"
+        }
+      ]
+    },
+    {
+      "id": "h24",
+      "market": "in_health",
+      "type": "faq",
+      "query": "I want to switch my current policy from another company to you",
+      "answerable": true,
+      "expected": [
+        {
+          "source": "faq.html",
+          "section": "port"
+        }
+      ]
+    },
+    {
+      "id": "h25",
+      "market": "in_health",
+      "type": "faq",
+      "query": "Does it cover ayurvedic treatment?",
+      "answerable": true,
+      "expected": [
+        {
+          "source": "faq.html",
+          "section": "Ayurveda"
+        }
+      ]
+    },
+    {
+      "id": "h26",
+      "market": "in_health",
+      "type": "faq",
+      "query": "Can I return the policy if I change my mind after buying?",
+      "answerable": true,
+      "expected": [
+        {
+          "source": "faq.html",
+          "section": "cancel the policy"
+        },
+        {
+          "source": "policy-wordings.pdf",
+          "section": "Free Look"
+        }
+      ]
+    },
+    {
+      "id": "h27",
+      "market": "in_health",
+      "type": "objection",
+      "query": "This is too expensive, I can't afford it",
+      "answerable": true,
+      "expected": [
+        {
+          "source": "lead-qualification-script.md",
+          "section": "too expensive"
+        }
+      ]
+    },
+    {
+      "id": "h28",
+      "market": "in_health",
+      "type": "objection",
+      "query": "My company already gives me health insurance",
+      "answerable": true,
+      "expected": [
+        {
+          "source": "lead-qualification-script.md",
+          "section": "employer"
+        }
+      ]
+    },
+    {
+      "id": "h29",
+      "market": "in_health",
+      "type": "objection",
+      "query": "Insurance companies always reject claims, why should I trust you?",
+      "answerable": true,
+      "expected": [
+        {
+          "source": "lead-qualification-script.md",
+          "section": "reject claims"
+        },
+        {
+          "source": "claims.html",
+          "section": "settlement record"
+        }
+      ]
+    },
+    {
+      "id": "h30",
+      "market": "in_health",
+      "type": "objection",
+      "query": "I'm young and healthy, why do I need this?",
+      "answerable": true,
+      "expected": [
+        {
+          "source": "lead-qualification-script.md",
+          "section": "healthy"
+        }
+      ]
+    },
+    {
+      "id": "h31",
+      "market": "in_health",
+      "type": "claims",
+      "query": "How does cashless treatment work at the hospital?",
+      "answerable": true,
+      "expected": [
+        {
+          "source": "claims.html",
+          "section": "Cashless"
+        }
+      ]
+    },
+    {
+      "id": "h32",
+      "market": "in_health",
+      "type": "claims",
+      "query": "How long do you take to settle a reimbursement claim?",
+      "answerable": true,
+      "expected": [
+        {
+          "source": "claims.html",
+          "section": "Reimbursement"
+        }
+      ]
+    },
+    {
+      "id": "h33",
+      "market": "in_health",
+      "type": "pricing",
+      "query": "How much is the premium for a 30 year old for 10 lakh cover?",
+      "answerable": true,
+      "expected": [
+        {
+          "source": "premium-chart.csv",
+          "section": "26-35"
+        }
+      ]
+    },
+    {
+      "id": "h34",
+      "market": "in_health",
+      "type": "faq",
+      "query": "Do I get a tax benefit on the premium?",
+      "answerable": true,
+      "expected": [
+        {
+          "source": "family-shield.html",
+          "section": "Tax benefit"
+        }
+      ]
+    },
+    {
+      "id": "h35",
+      "market": "in_health",
+      "type": "out_of_scope",
+      "query": "Do you sell travel insurance for my Europe trip?",
+      "answerable": false,
+      "expected": []
+    },
+    {
+      "id": "h36",
+      "market": "in_health",
+      "type": "out_of_scope",
+      "query": "What's the weather going to be like in Delhi tomorrow?",
+      "answerable": false,
+      "expected": []
+    },
+    {
+      "id": "h37",
+      "market": "in_health",
+      "type": "out_of_scope",
+      "query": "Can I get a car loan from you?",
+      "answerable": false,
+      "expected": []
+    },
+    {
+      "id": "h38",
+      "market": "in_health",
+      "type": "out_of_scope",
+      "query": "Who is the CEO of Suraksha?",
+      "answerable": false,
+      "expected": []
+    },
+    {
+      "id": "h39",
+      "market": "in_health",
+      "type": "out_of_scope",
+      "query": "Does the policy cover treatment taken abroad in the USA?",
+      "answerable": false,
+      "expected": []
+    },
+    {
+      "id": "h40",
+      "market": "in_health",
+      "type": "out_of_scope",
+      "query": "What is your bank's fixed deposit interest rate?",
+      "answerable": false,
+      "expected": []
+    },
+    {
+      "id": "h41",
+      "market": "in_health",
+      "type": "out_of_scope",
+      "query": "Can you recommend a good cardiologist in Pune?",
+      "answerable": false,
+      "expected": []
+    },
+    {
+      "id": "h42",
+      "market": "in_health",
+      "type": "out_of_scope",
+      "query": "Is my pet dog covered under the family plan?",
+      "answerable": false,
+      "expected": []
+    },
+    {
+      "id": "p01",
+      "market": "ph_life",
+      "type": "faq",
+      "language": "taglish",
+      "query": "Na-late po ako ng bayad, active pa ba yung policy ko?",
+      "answerable": true,
+      "expected": [
+        {
+          "source": "faq-taglish.md",
+          "section": "na-late"
+        },
+        {
+          "source": "payment-lapse-reinstatement.md",
+          "section": "Grace period"
+        }
+      ]
+    },
+    {
+      "id": "p02",
+      "market": "ph_life",
+      "type": "policy",
+      "language": "taglish",
+      "query": "Nag-lapse na po yung policy ko last year, pwede pa ba ibalik?",
+      "answerable": true,
+      "expected": [
+        {
+          "source": "faq-taglish.md",
+          "section": "reinstate"
+        },
+        {
+          "source": "payment-lapse-reinstatement.md",
+          "section": "Reinstatement"
+        }
+      ]
+    },
+    {
+      "id": "p03",
+      "market": "ph_life",
+      "type": "faq",
+      "language": "tl",
+      "query": "Saan ako pwedeng magbayad ng hulog ko?",
+      "answerable": true,
+      "expected": [
+        {
+          "source": "faq-taglish.md",
+          "section": "magbayad"
+        },
+        {
+          "source": "kalinga-protect.html",
+          "section": "Premium payment"
+        }
+      ]
+    },
+    {
+      "id": "p04",
+      "market": "ph_life",
+      "type": "faq",
+      "language": "taglish",
+      "query": "Bakit po tumaas yung premium ko this year?",
+      "answerable": true,
+      "expected": [
+        {
+          "source": "faq-taglish.md",
+          "section": "Tataas"
+        },
+        {
+          "source": "payment-lapse-reinstatement.md",
+          "section": "Premium amount"
+        }
+      ]
+    },
+    {
+      "id": "p05",
+      "market": "ph_life",
+      "type": "faq",
+      "language": "taglish",
+      "query": "Gusto ko po palitan yung beneficiary ko, yung kapatid ko na lang",
+      "answerable": true,
+      "expected": [
+        {
+          "source": "faq-taglish.md",
+          "section": "beneficiary"
+        },
+        {
+          "source": "kalinga-protect.html",
+          "section": "Beneficiaries"
+        }
+      ]
+    },
+    {
+      "id": "p06",
+      "market": "ph_life",
+      "type": "objection",
+      "language": "tl",
+      "query": "Wala po akong pera ngayon, nawalan ako ng trabaho",
+      "answerable": true,
+      "expected": [
+        {
+          "source": "faq-taglish.md",
+          "section": "pambayad"
+        },
+        {
+          "source": "payment-lapse-reinstatement.md",
+          "section": "Hardship"
+        },
+        {
+          "source": "premium-reminder-script.md",
+          "section": "Wala pa po akong pera"
+        }
+      ]
+    },
+    {
+      "id": "p07",
+      "market": "ph_life",
+      "type": "product",
+      "language": "en",
+      "query": "What does the critical illness rider pay?",
+      "answerable": true,
+      "expected": [
+        {
+          "source": "kalinga-protect.html",
+          "section": "Riders"
+        },
+        {
+          "source": "faq-taglish.md",
+          "section": "rider"
+        }
+      ]
+    },
+    {
+      "id": "p08",
+      "market": "ph_life",
+      "type": "faq",
+      "language": "taglish",
+      "query": "Nagbayad ako sa e-wallet kahapon, kailan po papasok?",
+      "answerable": true,
+      "expected": [
+        {
+          "source": "faq-taglish.md",
+          "section": "makikita"
+        },
+        {
+          "source": "payment-lapse-reinstatement.md",
+          "section": "Payment confirmation"
+        }
+      ]
+    },
+    {
+      "id": "p09",
+      "market": "ph_life",
+      "type": "policy",
+      "language": "taglish",
+      "query": "Pwede ko po ba gawing monthly yung payment mode?",
+      "answerable": true,
+      "expected": [
+        {
+          "source": "faq-taglish.md",
+          "section": "monthly"
+        },
+        {
+          "source": "payment-lapse-reinstatement.md",
+          "section": "Change of payment mode"
+        }
+      ]
+    },
+    {
+      "id": "p10",
+      "market": "ph_life",
+      "type": "objection",
+      "language": "taglish",
+      "query": "Ayoko na po, i-cancel ko na lang yung policy",
+      "answerable": true,
+      "expected": [
+        {
+          "source": "premium-reminder-script.md",
+          "section": "cancel"
+        }
+      ]
+    },
+    {
+      "id": "p11",
+      "market": "ph_life",
+      "type": "product",
+      "language": "en",
+      "query": "Up to how old can I apply for Kalinga Protect?",
+      "answerable": true,
+      "expected": [
+        {
+          "source": "kalinga-protect.html",
+          "section": "Coverage"
+        }
+      ]
+    },
+    {
+      "id": "p12",
+      "market": "ph_life",
+      "type": "product",
+      "language": "taglish",
+      "query": "Ano po benefit kung through Bayanihan Bank referral ako?",
+      "answerable": true,
+      "expected": [
+        {
+          "source": "kalinga-protect.html",
+          "section": "Bank referral"
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "market": "ph_life",
+      "type": "out_of_scope",
+      "language": "taglish",
+      "query": "Magkano po ang exchange rate ng dollar ngayon?",
+      "answerable": false,
+      "expected": []
+    },
+    {
+      "id": "p14",
+      "market": "ph_life",
+      "type": "out_of_scope",
+      "language": "taglish",
+      "query": "May car insurance din po ba kayo?",
+      "answerable": false,
+      "expected": []
+    },
+    {
+      "id": "p15",
+      "market": "ph_life",
+      "type": "out_of_scope",
+      "language": "en",
+      "query": "Can you help me open a credit card?",
+      "answerable": false,
+      "expected": []
+    },
+    {
+      "id": "i01",
+      "market": "id_finance",
+      "type": "faq",
+      "language": "id_colloquial",
+      "query": "Kalau telat bayar cicilan kena denda berapa?",
+      "answerable": true,
+      "expected": [
+        {
+          "source": "faq-pelanggan.md",
+          "section": "telat"
+        },
+        {
+          "source": "denda-keringanan-penagihan.md",
+          "section": "denda"
+        }
+      ]
+    },
+    {
+      "id": "i02",
+      "market": "id_finance",
+      "type": "policy",
+      "language": "id_formal",
+      "query": "Apakah tanggal jatuh tempo angsuran dapat diubah?",
+      "answerable": true,
+      "expected": [
+        {
+          "source": "faq-pelanggan.md",
+          "section": "jatuh tempo"
+        },
+        {
+          "source": "denda-keringanan-penagihan.md",
+          "section": "Perubahan tanggal"
+        }
+      ]
+    },
+    {
+      "id": "i03",
+      "market": "id_finance",
+      "type": "objection",
+      "language": "id_colloquial",
+      "query": "Lagi susah nih, baru kena PHK, ada keringanan nggak?",
+      "answerable": true,
+      "expected": [
+        {
+          "source": "faq-pelanggan.md",
+          "section": "kesulitan"
+        },
+        {
+          "source": "denda-keringanan-penagihan.md",
+          "section": "keringanan"
+        },
+        {
+          "source": "skrip-pengingat-angsuran.md",
+          "section": "PHK"
+        }
+      ]
+    },
+    {
+      "id": "i04",
+      "market": "id_finance",
+      "type": "faq",
+      "language": "id_colloquial",
+      "query": "Bayar angsuran bisa di Indomaret nggak?",
+      "answerable": true,
+      "expected": [
+        {
+          "source": "faq-pelanggan.md",
+          "section": "lewat mana"
+        },
+        {
+          "source": "pembiayaan-motor.html",
+          "section": "Cara pembayaran"
+        }
+      ]
+    },
+    {
+      "id": "i05",
+      "market": "id_finance",
+      "type": "faq",
+      "language": "id_colloquial",
+      "query": "Udah bayar kemarin tapi kok statusnya belum masuk?",
+      "answerable": true,
+      "expected": [
+        {
+          "source": "faq-pelanggan.md",
+          "section": "belum lunas"
+        }
+      ]
+    },
+    {
+      "id": "i06",
+      "market": "id_finance",
+      "type": "policy",
+      "language": "id_colloquial",
+      "query": "Mau lunasin lebih cepat, ada penaltinya?",
+      "answerable": true,
+      "expected": [
+        {
+          "source": "faq-pelanggan.md",
+          "section": "lunasin"
+        },
+        {
+          "source": "denda-keringanan-penagihan.md",
+          "section": "Pelunasan"
+        }
+      ]
+    },
+    {
+      "id": "i07",
+      "market": "id_finance",
+      "type": "product",
+      "language": "id_formal",
+      "query": "Berapa minimal uang muka untuk pembiayaan motor baru?",
+      "answerable": true,
+      "expected": [
+        {
+          "source": "pembiayaan-motor.html",
+          "section": "Uang muka"
+        }
+      ]
+    },
+    {
+      "id": "i08",
+      "market": "id_finance",
+      "type": "product",
+      "language": "id_loanwords",
+      "query": "DP minimal berapa persen, tenornya bisa sampai berapa bulan?",
+      "answerable": true,
+      "expected": [
+        {
+          "source": "pembiayaan-motor.html",
+          "section": "Uang muka"
+        }
+      ]
+    },
+    {
+      "id": "i09",
+      "market": "id_finance",
+      "type": "objection",
+      "language": "id_colloquial",
+      "query": "Motornya lagi rusak, masa harus tetap bayar?",
+      "answerable": true,
+      "expected": [
+        {
+          "source": "faq-pelanggan.md",
+          "section": "rusak"
+        },
+        {
+          "source": "skrip-pengingat-angsuran.md",
+          "section": "rusak"
+        }
+      ]
+    },
+    {
+      "id": "i10",
+      "market": "id_finance",
+      "type": "product",
+      "language": "id_colloquial",
+      "query": "Saya mau ambil motor kedua buat anak, bisa nggak?",
+      "answerable": true,
+      "expected": [
+        {
+          "source": "faq-pelanggan.md",
+          "section": "motor kedua"
+        },
+        {
+          "source": "pembiayaan-motor.html",
+          "section": "Multiguna"
+        }
+      ]
+    },
+    {
+      "id": "i11",
+      "market": "id_finance",
+      "type": "objection",
+      "language": "id_regional_javanese",
+      "query": "Ngapunten, kula dereng gajian, saged mbayar minggu ngajeng?",
+      "answerable": true,
+      "expected": [
+        {
+          "source": "skrip-pengingat-angsuran.md",
+          "section": "gajian"
+        },
+        {
+          "source": "faq-pelanggan.md",
+          "section": "gajian"
+        }
+      ]
+    },
+    {
+      "id": "i12",
+      "market": "id_finance",
+      "type": "faq",
+      "language": "id_regional_sundanese",
+      "query": "Punten, upami telat mayar dendana sabaraha?",
+      "answerable": true,
+      "expected": [
+        {
+          "source": "faq-pelanggan.md",
+          "section": "telat"
+        },
+        {
+          "source": "denda-keringanan-penagihan.md",
+          "section": "denda"
+        }
+      ]
+    },
+    {
+      "id": "i13",
+      "market": "id_finance",
+      "type": "out_of_scope",
+      "language": "id_colloquial",
+      "query": "Harga emas hari ini berapa ya?",
+      "answerable": false,
+      "expected": []
+    },
+    {
+      "id": "i14",
+      "market": "id_finance",
+      "type": "out_of_scope",
+      "language": "id_formal",
+      "query": "Apakah Danamaju menyediakan KPR untuk rumah?",
+      "answerable": false,
+      "expected": []
+    },
+    {
+      "id": "i15",
+      "market": "id_finance",
+      "type": "out_of_scope",
+      "language": "id_colloquial",
+      "query": "Bisa bantu daftar BPJS kesehatan nggak?",
+      "answerable": false,
+      "expected": []
+    }
+  ]
+}

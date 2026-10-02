@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Web Call</title>
+  <link rel="stylesheet" href="/app.css">
+</head>
+<body>
+<header class="top">
+  <h1>Darwix voice AI</h1>
+  <nav><a href="/call.html" class="on">Web call</a><a href="/dashboard.html">Calls &amp; KB</a><a href="/live.html">Live nudges</a></nav>
+</header>
+<main>
+  <div class="grid">
+    <section class="panel stack">
+      <div class="controls">
+        <select id="market">
+          <option value="in_health">Q1 Health insurance lead qualification (English, India)</option>
+          <option value="ph_life">Q3 Life insurance premium reminder (Taglish / English, Philippines)</option>
+          <option value="id_finance">Q3 Motorcycle installment reminder (Bahasa Indonesia)</option>
+        </select>
+        <button class="primary" id="start">Start call</button>
+        <button id="end" disabled>Hang up</button>
+        <span class="mic" id="mic" title="microphone"></span>
+        <span id="status" class="muted">Idle</span>
+      </div>
+      <div class="controls">
+        <label><input type="checkbox" id="bargeIn"> Allow interrupting the bot (use headphones)</label>
+        <label><input type="checkbox" id="record" checked> Record my side to the server</label>
+      </div>
+      <div class="transcript" id="transcript"></div>
+      <form class="controls" id="typed">
+        <input type="text" id="typedText" placeholder="Or type what the caller says (works without a microphone)" autocomplete="off">
+        <button type="submit">Send</button>
+        <button type="button" id="silence" title="Simulate the caller saying nothing">Silence</button>
+      </form>
+    </section>
+    <aside class="stack">
+      <section class="panel">
+        <h2>Speech</h2>
+        <div id="speechInfo" class="muted">Speech recognition and voices come from this browser (Web Speech API). Chrome or Edge on desktop recommended.</div>
+      </section>
+      <section class="panel">
+        <h2>Last retrieval</h2>
+        <pre id="retrieval" class="muted">No knowledge-base lookup yet.</pre>
+      </section>
+      <section class="panel">
+        <h2>Outcome and lead</h2>
+        <pre id="outcome" class="muted">Call not finished.</pre>
+      </section>
+      <section class="panel">
+        <h2>Latency (this call)</h2>
+        <table><thead><tr><th>Turn</th><th>ASR</th><th>Server</th><th>KB</th><th>LLM</th><th>TTS start</th></tr></thead><tbody id="latency"></tbody></table>
+      </section>
+    </aside>
+  </div>
+</main>
+<script>
+const $ = (id) => document.getElementById(id);
+// ?typed in the URL turns the microphone off: typed turns only (quiet rooms, automated UI checks).
+const typedOnly = new URLSearchParams(location.search).has("typed");
+const Recognition = typedOnly ? null : window.SpeechRecognition || window.webkitSpeechRecognition;
+const SILENCE_MS = 8000;
+
+const call = { id: null, ended: true, asrLocale: "en-IN", recognizer: null, listening: false, speaking: false, bargedIn: false,
+  speechEndedAt: null, silenceTimer: null, recorder: null, audioChunks: [], lastTurn: null };
+
+function authHeaders() {
+  const token = sessionStorage.getItem("demoToken");
+  return token ? { authorization: `Bearer ${token}` } : {};
+}
+
+async function api(path, body) {
+  const response = await fetch(path, { method: body === undefined ? "GET" : "POST", headers: { "content-type": "application/json", ...authHeaders() }, body: body === undefined ? undefined : JSON.stringify(body) });
+  const payload = await response.json();
+  if (response.status === 401) {
+    const token = prompt("This server needs the demo access token:");
+    if (token) { sessionStorage.setItem("demoToken", token); return api(path, body); }
+  }
+  if (!response.ok) throw new Error(payload.error?.message || response.statusText);
+  return payload;
+}
+
+function status(text) { $("status").textContent = text; }
+
+function addTurn(speaker, text, meta) {
+  const element = document.createElement("div");
+  element.className = `turn ${speaker}`;
+  element.textContent = text;
+  if (meta) {
+    const metaLine = document.createElement("div");
+    metaLine.className = "meta";
+    metaLine.textContent = meta;
+    element.appendChild(metaLine);
+  }
+  $("transcript").appendChild(element);
+  $("transcript").scrollTop = $("transcript").scrollHeight;
+}
+
+function describeRetrieval(retrieval) {
+  if (!retrieval) return "";
+  return retrieval.answerable
+    ? `KB ${retrieval.answer_mode}: ${retrieval.chunk_ids.join(", ")} (confidence ${retrieval.confidence})`
+    : `KB refused: ${retrieval.reason}`;
+}
+
+function pickVoice(locale) {
+  const voices = speechSynthesis.getVoices();
+  const exact = voices.find((voice) => voice.lang.replace("_", "-").toLowerCase() === locale.toLowerCase());
+  const sameLanguage = voices.find((voice) => voice.lang.toLowerCase().startsWith(locale.slice(0, 2).toLowerCase()));
+  // Filipino voices are often listed as "fil" or "tl" depending on the OS.
+  const filipino = locale.startsWith("fil") ? voices.find((voice) => /^(fil|tl)/i.test(voice.lang)) : null;
+  return exact || filipino || sameLanguage || null;
+}
+
+function speak(reply, receivedAt) {
+  return new Promise((resolve) => {
+    if (!("speechSynthesis" in window)) return resolve();
+    const utterance = new SpeechSynthesisUtterance(reply.text);
+    utterance.lang = reply.tts_locale;
+    const voice = pickVoice(reply.tts_locale);
+    if (voice) utterance.voice = voice;
+    $("speechInfo").textContent = `Recognition: ${Recognition ? call.asrLocale : "not supported in this browser, type instead"}. Voice: ${voice ? `${voice.name} (${voice.lang})` : `no ${reply.tts_locale} voice installed, using browser default`}.`;
+    utterance.onstart = () => {
+      call.speaking = true;
+      if (call.lastTurn !== null) api(`/api/calls/${call.id}/timing`, { turn: call.lastTurn, tts_start_ms: Math.round(performance.now() - receivedAt) }).catch(() => {});
+      if ($("bargeIn").checked) listen();
+    };
+    // Chrome sometimes never fires onend (long utterances, no audio device),
+    // which would leave the call stuck; give up waiting after a generous
+    // estimate of the speaking time.
+    const fallback = setTimeout(done, 2000 + reply.text.split(/\s+/).length * 450);
+    function done() { clearTimeout(fallback); call.speaking = false; resolve(); }
+    utterance.onend = utterance.onerror = done;
+    speechSynthesis.speak(utterance);
+  });
+}
+
+function stopListening() {
+  clearTimeout(call.silenceTimer);
+  if (call.recognizer && call.listening) call.recognizer.abort();
+  call.listening = false;
+  $("mic").classList.remove("live");
+}
+
+function listen() {
+  if (call.ended || call.listening) return;
+  if (!Recognition) { status("Type the caller's reply below"); return; }
+  const recognizer = new Recognition();
+  call.recognizer = recognizer;
+  recognizer.lang = call.asrLocale;
+  recognizer.interimResults = true;
+  recognizer.maxAlternatives = 1;
+  recognizer.onstart = () => { call.listening = true; $("mic").classList.add("live"); status(`Listening (${call.asrLocale})`); };
+  recognizer.onspeechstart = () => {
+    clearTimeout(call.silenceTimer);
+    if (call.speaking) { speechSynthesis.cancel(); call.bargedIn = true; }
+  };
+  recognizer.onspeechend = () => { call.speechEndedAt = performance.now(); };
+  recognizer.onresult = (event) => {
+    const result = event.results[event.results.length - 1];
+    status(`Heard: ${result[0].transcript}`);
+    if (!result.isFinal) return;
+    const asrMs = call.speechEndedAt ? Math.round(performance.now() - call.speechEndedAt) : undefined;
+    stopListening();
+    sendTurn({ text: result[0].transcript, asr_confidence: result[0].confidence || undefined, client_timing: { asr_ms: asrMs } });
+  };
+  recognizer.onerror = (event) => {
+    stopListening();
+    if (event.error === "aborted") return;
+    if (event.error === "no-speech") sendTurn({ event: "silence" });
+    else { status(`Recognition error: ${event.error}`); sendTurn({ event: "asr_error" }); }
+  };
+  recognizer.onend = () => { call.listening = false; $("mic").classList.remove("live"); };
+  recognizer.start();
+  call.silenceTimer = setTimeout(() => { stopListening(); sendTurn({ event: "silence" }); }, SILENCE_MS);
+}
+
+function showLatency(latency) {
+  if (!latency) return;
+  const row = document.createElement("tr");
+  const cell = (value) => (value === undefined || value === null ? "-" : `${value} ms`);
+  row.innerHTML = `<td>${latency.turn}</td><td>${cell(latency.asr_ms)}</td><td>${cell(latency.server_total_ms)}</td><td>${cell(latency.retrieval_ms)}</td><td>${cell(latency.llm_ms)}</td><td id="tts-${latency.turn}">-</td>`;
+  $("latency").appendChild(row);
+}
+
+async function handleReply(reply, receivedAt) {
+  call.asrLocale = reply.asr_locale;
+  addTurn("bot", reply.text, [reply.register && `register ${reply.register}`, describeRetrieval(reply.retrieval)].filter(Boolean).join(" | "));
+  if (reply.retrieval) $("retrieval").textContent = JSON.stringify(reply.retrieval, null, 2);
+  if (reply.ended) {
+    call.ended = true;
+    $("end").disabled = true;
+    $("start").disabled = false;
+    status(reply.escalated ? "Escalated to a human" : "Call ended");
+  }
+  await speak(reply, receivedAt);
+  if (!call.ended && !call.listening) listen();
+  if (call.ended) finishRecording();
+}
+
+async function sendTurn(input) {
+  if (call.ended) return;
+  if (call.bargedIn) { input.barged_in = true; call.bargedIn = false; }
+  addTurn("customer", input.text || `(${input.event})`, input.asr_confidence ? `asr confidence ${input.asr_confidence.toFixed(2)}` : "");
+  status("Thinking...");
+  try {
+    const result = await api(`/api/calls/${call.id}/turns`, input);
+    const receivedAt = performance.now();
+    call.lastTurn = result.turn;
+    showLatency(result.latency);
+    if (result.lead) $("outcome").textContent = JSON.stringify(result.lead, null, 2);
+    await handleReply(result.reply, receivedAt);
+  } catch (error) {
+    status(`Error: ${error.message}`);
+  }
+}
+
+async function startRecording() {
+  if (!$("record").checked || !navigator.mediaDevices) return;
+  try {
+    const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+    call.audioChunks = [];
+    call.recorder = new MediaRecorder(stream);
+    call.recorder.ondataavailable = (event) => event.data.size && call.audioChunks.push(event.data);
+    call.recorder.start(1000);
+  } catch (error) {
+    status(`Microphone not available (${error.message}); you can still type.`);
+  }
+}
+
+function finishRecording() {
+  const recorder = call.recorder;
+  if (!recorder || recorder.state === "inactive") return;
+  const callId = call.id;
+  recorder.onstop = async () => {
+    recorder.stream.getTracks().forEach((track) => track.stop());
+    const blob = new Blob(call.audioChunks, { type: recorder.mimeType || "audio/webm" });
+    await fetch(`/api/calls/${callId}/audio`, { method: "POST", headers: { "content-type": blob.type.split(";")[0], ...authHeaders() }, body: blob });
+  };
+  recorder.stop();
+}
+
+$("start").onclick = async () => {
+  $("transcript").innerHTML = "";
+  $("latency").innerHTML = "";
+  $("outcome").textContent = "Call not finished.";
+  $("retrieval").textContent = "No knowledge-base lookup yet.";
+  $("start").disabled = true;
+  $("end").disabled = false;
+  await startRecording();
+  const result = await api("/api/calls", { market: $("market").value });
+  Object.assign(call, { id: result.call_id, ended: false, lastTurn: null });
+  status(`Call ${result.call_id}`);
+  await handleReply(result.reply, performance.now());
+};
+
+$("end").onclick = () => {
+  stopListening();
+  speechSynthesis.cancel();
+  call.ended = true;
+  $("end").disabled = true;
+  $("start").disabled = false;
+  status("Hung up");
+  finishRecording();
+};
+
+$("typed").onsubmit = (event) => {
+  event.preventDefault();
+  const text = $("typedText").value.trim();
+  if (!text || call.ended) return;
+  $("typedText").value = "";
+  stopListening();
+  speechSynthesis.cancel();
+  sendTurn({ text });
+};
+$("silence").onclick = () => { if (!call.ended) { stopListening(); sendTurn({ event: "silence" }); } };
+
+if (typedOnly) { $("speechInfo").textContent = "Typed mode (?typed): microphone off, type the caller's replies."; $("record").checked = false; }
+else if (!Recognition) $("speechInfo").textContent = "This browser has no speech recognition (Web Speech API). Use Chrome or Edge, or type the caller's replies.";
+speechSynthesis.getVoices();
+</script>
+</body>
+</html>

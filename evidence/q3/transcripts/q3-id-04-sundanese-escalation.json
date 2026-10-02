@@ -1,0 +1,144 @@
+{
+  "call_id": "call_20261002_e92cd918",
+  "market": "id_finance",
+  "started_at": "2026-10-02T08:30:00.000Z",
+  "today": "2026-10-02",
+  "stage": "ended",
+  "register": "formal",
+  "slots": {
+    "date_of_birth": {
+      "value": "1990-03-12",
+      "heard": "12 Maret 1990",
+      "turn": 3
+    }
+  },
+  "skipped": [],
+  "pending_conflict": null,
+  "unanswered_questions": 0,
+  "consecutive_silence": 0,
+  "consecutive_unclear": 0,
+  "disclosures_given": [
+    "recording"
+  ],
+  "identity_attempts": 0,
+  "outcome": {
+    "status": "escalated_to_human",
+    "next_action": "officer_transfer_or_callback",
+    "reasons": [
+      "customer asked for a human"
+    ],
+    "rule_sources": [
+      "id/scripts/skrip-pengingat-angsuran.md#Eskalasi"
+    ]
+  },
+  "escalated": true,
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "bot",
+      "text": "Selamat sore, Bapak. Saya Sari, asisten virtual dari Danamaju Finance, terkait pembiayaan sepeda motor Bapak. Untuk menjaga kualitas layanan, panggilan ini direkam. Apakah saya berbicara dengan Bapak [CUSTOMER_NAME]?",
+      "at": "2026-10-02T08:30:00.000Z",
+      "register": "formal",
+      "intent": "greeting"
+    },
+    {
+      "index": 1,
+      "speaker": "customer",
+      "text": "Muhun, leres",
+      "at": "2026-10-02T08:30:12.000Z",
+      "intent": "consent_yes",
+      "register": "formal"
+    },
+    {
+      "index": 2,
+      "speaker": "bot",
+      "text": "Terima kasih, Bapak. Untuk verifikasi, mohon sebutkan tanggal lahir Bapak.",
+      "at": "2026-10-02T09:45:53.230Z",
+      "register": "formal"
+    },
+    {
+      "index": 3,
+      "speaker": "customer",
+      "text": "12 Maret 1990",
+      "at": "2026-10-02T08:30:24.000Z",
+      "intent": "slot:date_of_birth",
+      "register": "formal"
+    },
+    {
+      "index": 4,
+      "speaker": "bot",
+      "text": "Terima kasih, data sudah sesuai. Kami ingin mengingatkan bahwa angsuran ke-9 pembiayaan sepeda motor Bapak sebesar satu juta dua ratus lima puluh ribu rupiah akan jatuh tempo pada hari Senin, 5 Oktober 2026. Denda keterlambatan sebesar 0,2 persen per hari berlaku mulai sehari setelah jatuh tempo. Rencananya Bapak akan melakukan pembayaran kapan?",
+      "at": "2026-10-02T09:45:53.230Z",
+      "register": "formal"
+    },
+    {
+      "index": 5,
+      "speaker": "customer",
+      "text": "Punten, upami telat mayar dendana sabaraha?",
+      "at": "2026-10-02T08:30:36.000Z",
+      "intent": "question",
+      "register": "formal"
+    },
+    {
+      "index": 6,
+      "speaker": "bot",
+      "text": "Denda keterlambatan sebesar 0,2% per hari dari angsuran yang tertunggak, dihitung mulai hari pertama setelah tanggal jatuh tempo. Rencananya Bapak akan melakukan pembayaran kapan?",
+      "at": "2026-10-02T09:45:53.234Z",
+      "register": "formal",
+      "retrieval": {
+        "query": "Punten, upami telat mayar dendana sabaraha?",
+        "answerable": true,
+        "reason": "ok",
+        "confidence": 0.336,
+        "chunk_ids": [
+          "kb_id_finance_faq_272f27"
+        ],
+        "citations": [
+          "Pertanyaan Umum Pelanggan > Kalau telat bayar cicilan, kena denda berapa? [kb_id_finance_faq_272f27] (internal://cc/faq-pelanggan, v1.0, effective 2026-02-01)",
+          "Kebijakan Denda, Keringanan dan Penagihan > Jatuh tempo dan denda keterlambatan [kb_id_finance_payment_cb3ce0] (internal://collection/kebijakan-v3.0, v3.0, effective 2026-02-01)",
+          "Kebijakan Denda, Keringanan dan Penagihan > Program keringanan (restrukturisasi) [kb_id_finance_payment_e0951c] (internal://collection/kebijakan-v3.0, v3.0, effective 2026-02-01)"
+        ],
+        "answer_mode": "extractive"
+      }
+    },
+    {
+      "index": 7,
+      "speaker": "customer",
+      "text": "Abdi hoyong ngobrol sareng petugas wae",
+      "at": "2026-10-02T08:30:48.000Z",
+      "intent": "escalation_request",
+      "register": "formal"
+    },
+    {
+      "index": 8,
+      "speaker": "bot",
+      "text": "Baik, Bapak, saya alihkan ke petugas kami. Mohon ditunggu sebentar.",
+      "at": "2026-10-02T09:45:53.235Z",
+      "register": "formal"
+    }
+  ],
+  "latencies": [
+    {
+      "turn": 1,
+      "understand_ms": 0.1,
+      "server_total_ms": 0.1
+    },
+    {
+      "turn": 3,
+      "understand_ms": 0.2,
+      "server_total_ms": 0.2
+    },
+    {
+      "turn": 5,
+      "understand_ms": 0.7,
+      "retrieval_ms": 1.4,
+      "server_total_ms": 2.1
+    },
+    {
+      "turn": 7,
+      "understand_ms": 0.2,
+      "server_total_ms": 0.2
+    }
+  ],
+  "known_pii": []
+}

@@ -1,0 +1,204 @@
+{
+  "call": "q1-02-objections",
+  "market": "in_health",
+  "synthetic_audio": true,
+  "voices": {
+    "bot": "en+f3",
+    "customer": "en-gb-x-rp+m3"
+  },
+  "noise_snr_db": null,
+  "sample_rate": 16000,
+  "duration_ms": 124286,
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "agent",
+      "start_ms": 0,
+      "end_ms": 13611,
+      "text": "Hello, this is Asha, a virtual assistant from Suraksha Health Insurance, calling about the health insurance enquiry you submitted. This call is recorded for quality and training purposes. Is this a good time to talk for about five minutes?",
+      "event": null,
+      "asr_confidence": null,
+      "interrupted_previous": false
+    },
+    {
+      "index": 1,
+      "speaker": "customer",
+      "start_ms": 14061,
+      "end_ms": 14935,
+      "text": "Okay, yes",
+      "event": null,
+      "asr_confidence": null,
+      "interrupted_previous": false
+    },
+    {
+      "index": 2,
+      "speaker": "agent",
+      "start_ms": 15385,
+      "end_ms": 20716,
+      "text": "First, who would you like to cover: just yourself, or also your spouse, children or parents?",
+      "event": null,
+      "asr_confidence": null,
+      "interrupted_previous": false
+    },
+    {
+      "index": 3,
+      "speaker": "customer",
+      "start_ms": 21166,
+      "end_ms": 21975,
+      "text": "Me and my wife",
+      "event": null,
+      "asr_confidence": null,
+      "interrupted_previous": false
+    },
+    {
+      "index": 4,
+      "speaker": "agent",
+      "start_ms": 22425,
+      "end_ms": 24826,
+      "text": "What is the age of the eldest person to be covered?",
+      "event": null,
+      "asr_confidence": null,
+      "interrupted_previous": false
+    },
+    {
+      "index": 5,
+      "speaker": "customer",
+      "start_ms": 25276,
+      "end_ms": 25936,
+      "text": "41",
+      "event": null,
+      "asr_confidence": null,
+      "interrupted_previous": false
+    },
+    {
+      "index": 6,
+      "speaker": "agent",
+      "start_ms": 26386,
+      "end_ms": 27706,
+      "text": "Which city do you live in?",
+      "event": null,
+      "asr_confidence": null,
+      "interrupted_previous": false
+    },
+    {
+      "index": 7,
+      "speaker": "customer",
+      "start_ms": 28156,
+      "end_ms": 28436,
+      "text": "Delhi",
+      "event": null,
+      "asr_confidence": null,
+      "interrupted_previous": false
+    },
+    {
+      "index": 8,
+      "speaker": "agent",
+      "start_ms": 28886,
+      "end_ms": 35124,
+      "text": "Does anyone to be covered have an existing medical condition, such as diabetes, blood pressure, thyroid or asthma?",
+      "event": null,
+      "asr_confidence": null,
+      "interrupted_previous": false
+    },
+    {
+      "index": 9,
+      "speaker": "customer",
+      "start_ms": 35574,
+      "end_ms": 38275,
+      "text": "Honestly this is too expensive, I can't afford it",
+      "event": null,
+      "asr_confidence": null,
+      "interrupted_previous": false
+    },
+    {
+      "index": 10,
+      "speaker": "agent",
+      "start_ms": 38725,
+      "end_ms": 62429,
+      "text": "I understand, budget matters. One hospital stay can cost several lakh rupees, and your premium stays fixed for the year. We can look at a lower cover amount, a single family floater instead of separate policies, a 10% family discount when two or more members are covered, or monthly auto-debit payments. Does anyone to be covered have an existing medical condition, such as diabetes, blood pressure, thyroid or asthma?",
+      "event": null,
+      "asr_confidence": null,
+      "interrupted_previous": false
+    },
+    {
+      "index": 11,
+      "speaker": "customer",
+      "start_ms": 62879,
+      "end_ms": 64188,
+      "text": "No medical conditions",
+      "event": null,
+      "asr_confidence": null,
+      "interrupted_previous": false
+    },
+    {
+      "index": 12,
+      "speaker": "agent",
+      "start_ms": 64638,
+      "end_ms": 68718,
+      "text": "Do you have any existing health insurance, including cover from your employer?",
+      "event": null,
+      "asr_confidence": null,
+      "interrupted_previous": false
+    },
+    {
+      "index": 13,
+      "speaker": "customer",
+      "start_ms": 69168,
+      "end_ms": 71514,
+      "text": "My company already gives me health insurance",
+      "event": null,
+      "asr_confidence": null,
+      "interrupted_previous": false
+    },
+    {
+      "index": 14,
+      "speaker": "agent",
+      "start_ms": 71964,
+      "end_ms": 90052,
+      "text": "That is good to have. Employer cover usually stops when you change jobs or retire, and it is often shared or limited. A personal policy lets you finish the waiting periods while you are still employed, or you can add a Super Top-Up on top of your office cover. Do you have any existing health insurance, including cover from your employer?",
+      "event": null,
+      "asr_confidence": null,
+      "interrupted_previous": false
+    },
+    {
+      "index": 15,
+      "speaker": "customer",
+      "start_ms": 90502,
+      "end_ms": 91509,
+      "text": "Yes, through work",
+      "event": null,
+      "asr_confidence": null,
+      "interrupted_previous": false
+    },
+    {
+      "index": 16,
+      "speaker": "agent",
+      "start_ms": 91959,
+      "end_ms": 99292,
+      "text": "Last one: which cover amount are you looking at, 5, 10, 15 or 25 lakh rupees? You can also say not sure.",
+      "event": null,
+      "asr_confidence": null,
+      "interrupted_previous": false
+    },
+    {
+      "index": 17,
+      "speaker": "customer",
+      "start_ms": 99742,
+      "end_ms": 101081,
+      "text": "Not sure, you tell me",
+      "event": null,
+      "asr_confidence": null,
+      "interrupted_previous": false
+    },
+    {
+      "index": 18,
+      "speaker": "agent",
+      "start_ms": 101531,
+      "end_ms": 123836,
+      "text": "That's fine, we can leave that for the advisor. Thank you, that's everything I need. You're eligible to apply for Family Shield. Please note: illnesses are covered after a 30-day waiting period, and pre-existing diseases after 3 years. I'll send you a written quote by email or WhatsApp within 15 minutes, and an advisor will confirm the final premium. Thank you for your time, goodbye.",
+      "event": null,
+      "asr_confidence": null,
+      "interrupted_previous": false
+    }
+  ]
+}

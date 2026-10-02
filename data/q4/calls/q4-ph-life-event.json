@@ -1,0 +1,20 @@
+{
+  "_note": "SYNTHETIC Taglish servicing call for Q4. The agent is compliant (disclosure and verification done) but misses a life event: the customer just had a baby, which should prompt a beneficiary and rider review. Ends with a callback request.",
+  "call_id": "q4-ph-life-event",
+  "market": "ph_life",
+  "turns": [
+    { "speaker": "agent", "text": "Hello po, good afternoon! Si Joy po ito from Kalinga Life. Para po sa quality, naka-record po ang tawag na ito. Si Ma'am Reyes po ba ito?" },
+    { "speaker": "customer", "text": "Opo, ako po." },
+    { "speaker": "agent", "text": "Ma'am, para po sa verification, last four digits po ng policy number?" },
+    { "speaker": "customer", "text": "4821 po." },
+    { "speaker": "agent", "text": "Salamat po. Paalala lang po, due na po ang quarterly premium ninyo sa October 7." },
+    { "speaker": "customer", "text": "Ay opo. Actually kakapanganak ko lang last month kaya medyo hectic. Baby girl po!" },
+    { "speaker": "agent", "text": "Congrats po, Ma'am! So kailan po kayo makakapagbayad?" },
+    { "speaker": "customer", "text": "Sa sweldo po, sa 15." },
+    { "speaker": "agent", "text": "Sige po, noted. Pasok pa po iyon sa grace period." },
+    { "speaker": "customer", "text": "Tsaka pwede bang idagdag ko yung baby ko as beneficiary?" },
+    { "speaker": "agent", "text": "Opo Ma'am, pwede po. Revocable po ang beneficiary ninyo kaya pwede pong palitan anytime." },
+    { "speaker": "customer", "text": "Sige po, pakitawagan na lang ako after 6pm para diyan." },
+    { "speaker": "agent", "text": "Noted po, tatawag po kami after 6pm. Salamat po!" }
+  ]
+}

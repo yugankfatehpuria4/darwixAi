@@ -1,0 +1,58 @@
+{
+  "call": "q1-06-human-request",
+  "market": "in_health",
+  "synthetic_audio": true,
+  "voices": {
+    "bot": "en+f3",
+    "customer": "en-gb-x-rp+m3"
+  },
+  "sample_rate": 16000,
+  "duration_ms": 28033,
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "agent",
+      "start_ms": 0,
+      "end_ms": 13616,
+      "text": "Hello, this is Asha, a virtual assistant from Suraksha Health Insurance, calling about the health insurance enquiry you submitted. This call is recorded for quality and training purposes. Is this a good time to talk for about five minutes?",
+      "event": null,
+      "asr_confidence": null
+    },
+    {
+      "index": 1,
+      "speaker": "customer",
+      "start_ms": 14066,
+      "end_ms": 14381,
+      "text": "Yes",
+      "event": null,
+      "asr_confidence": null
+    },
+    {
+      "index": 2,
+      "speaker": "agent",
+      "start_ms": 14831,
+      "end_ms": 20154,
+      "text": "First, who would you like to cover: just yourself, or also your spouse, children or parents?",
+      "event": null,
+      "asr_confidence": null
+    },
+    {
+      "index": 3,
+      "speaker": "customer",
+      "start_ms": 20604,
+      "end_ms": 22426,
+      "text": "Can I talk to a real person please?",
+      "event": null,
+      "asr_confidence": null
+    },
+    {
+      "index": 4,
+      "speaker": "agent",
+      "start_ms": 22876,
+      "end_ms": 27581,
+      "text": "Of course. I'm transferring you to a senior advisor now. Please stay on the line.",
+      "event": null,
+      "asr_confidence": null
+    }
+  ]
+}

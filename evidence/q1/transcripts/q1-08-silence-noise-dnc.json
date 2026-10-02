@@ -1,0 +1,140 @@
+{
+  "call_id": "call_20261002_a30e1030",
+  "market": "in_health",
+  "started_at": "2026-10-02T12:30:00.000Z",
+  "today": "2026-10-02",
+  "stage": "ended",
+  "register": "en",
+  "slots": {},
+  "skipped": [],
+  "pending_conflict": null,
+  "unanswered_questions": 0,
+  "consecutive_silence": 0,
+  "consecutive_unclear": 0,
+  "disclosures_given": [
+    "recording"
+  ],
+  "identity_attempts": 0,
+  "outcome": {
+    "status": "do_not_call",
+    "next_action": "mark_number_do_not_call",
+    "reasons": [
+      "customer asked not to be called again"
+    ],
+    "rule_sources": []
+  },
+  "escalated": false,
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "bot",
+      "text": "Hello, this is Asha, a virtual assistant from Suraksha Health Insurance, calling about the health insurance enquiry you submitted. This call is recorded for quality and training purposes. Is this a good time to talk for about five minutes?",
+      "at": "2026-10-02T12:30:00.000Z",
+      "register": "en",
+      "intent": "greeting"
+    },
+    {
+      "index": 1,
+      "speaker": "customer",
+      "text": "Yes",
+      "at": "2026-10-02T12:30:12.000Z",
+      "intent": "consent_yes",
+      "register": "en"
+    },
+    {
+      "index": 2,
+      "speaker": "bot",
+      "text": "First, who would you like to cover: just yourself, or also your spouse, children or parents?",
+      "at": "2026-10-02T09:45:53.116Z",
+      "register": "en"
+    },
+    {
+      "index": 3,
+      "speaker": "customer",
+      "text": "",
+      "at": "2026-10-02T12:30:24.000Z",
+      "event": "silence",
+      "intent": "silence"
+    },
+    {
+      "index": 4,
+      "speaker": "bot",
+      "text": "Are you still there? First, who would you like to cover: just yourself, or also your spouse, children or parents?",
+      "at": "2026-10-02T09:45:53.117Z",
+      "register": "en"
+    },
+    {
+      "index": 5,
+      "speaker": "customer",
+      "text": "mmh wife ah the",
+      "at": "2026-10-02T12:30:36.000Z",
+      "asr_confidence": 0.31,
+      "intent": "low_confidence"
+    },
+    {
+      "index": 6,
+      "speaker": "bot",
+      "text": "Sorry, I didn't catch that. Could you say it again?",
+      "at": "2026-10-02T09:45:53.118Z",
+      "register": "en"
+    },
+    {
+      "index": 7,
+      "speaker": "customer",
+      "text": "",
+      "at": "2026-10-02T12:30:48.000Z",
+      "event": "asr_error",
+      "intent": "asr_error"
+    },
+    {
+      "index": 8,
+      "speaker": "bot",
+      "text": "Sorry, I didn't catch that. Could you say it again?",
+      "at": "2026-10-02T09:45:53.119Z",
+      "register": "en"
+    },
+    {
+      "index": 9,
+      "speaker": "customer",
+      "text": "Please don't call me again",
+      "at": "2026-10-02T12:31:00.000Z",
+      "intent": "do_not_call",
+      "register": "en"
+    },
+    {
+      "index": 10,
+      "speaker": "bot",
+      "text": "Understood. I've noted that you don't want any more calls, and we won't call this number again. Goodbye.",
+      "at": "2026-10-02T09:45:53.120Z",
+      "register": "en"
+    }
+  ],
+  "latencies": [
+    {
+      "turn": 1,
+      "understand_ms": 0.3,
+      "server_total_ms": 0.3
+    },
+    {
+      "turn": 3,
+      "understand_ms": 0.1,
+      "server_total_ms": 0.1
+    },
+    {
+      "turn": 5,
+      "understand_ms": 0.1,
+      "server_total_ms": 0.1
+    },
+    {
+      "turn": 7,
+      "understand_ms": 0.1,
+      "server_total_ms": 0.1
+    },
+    {
+      "turn": 9,
+      "understand_ms": 0.1,
+      "server_total_ms": 0.1
+    }
+  ],
+  "known_pii": []
+}

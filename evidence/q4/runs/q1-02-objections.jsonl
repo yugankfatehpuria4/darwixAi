@@ -1,0 +1,494 @@
+{"type":"started","call":"q1-02-objections","market":"in_health","asr":"simulated (timeline replay)","asr_measured":false,"duration_ms":124286,"client_received_at":1790933527499}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello,","client_received_at":1790933527749}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello, this","client_received_at":1790933528249}
+{"type":"audio","position_ms":1000,"client_received_at":1790933528500}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello, this is","client_received_at":1790933528749}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello, this is Asha,","client_received_at":1790933528999}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello, this is Asha, a","client_received_at":1790933529249}
+{"type":"audio","position_ms":2000,"client_received_at":1790933529498}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello, this is Asha, a virtual","client_received_at":1790933529752}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello, this is Asha, a virtual assistant","client_received_at":1790933529999}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello, this is Asha, a virtual assistant from","client_received_at":1790933530498}
+{"type":"audio","position_ms":3000,"client_received_at":1790933530498}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello, this is Asha, a virtual assistant from Suraksha","client_received_at":1790933530749}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello, this is Asha, a virtual assistant from Suraksha Health","client_received_at":1790933530998}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello, this is Asha, a virtual assistant from Suraksha Health Insurance,","client_received_at":1790933531499}
+{"type":"audio","position_ms":4000,"client_received_at":1790933531499}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello, this is Asha, a virtual assistant from Suraksha Health Insurance, calling","client_received_at":1790933531750}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello, this is Asha, a virtual assistant from Suraksha Health Insurance, calling about","client_received_at":1790933532250}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello, this is Asha, a virtual assistant from Suraksha Health Insurance, calling about the","client_received_at":1790933532500}
+{"type":"audio","position_ms":5000,"client_received_at":1790933532500}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello, this is Asha, a virtual assistant from Suraksha Health Insurance, calling about the health","client_received_at":1790933532749}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello, this is Asha, a virtual assistant from Suraksha Health Insurance, calling about the health insurance","client_received_at":1790933533250}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello, this is Asha, a virtual assistant from Suraksha Health Insurance, calling about the health insurance enquiry","client_received_at":1790933533498}
+{"type":"audio","position_ms":6000,"client_received_at":1790933533498}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello, this is Asha, a virtual assistant from Suraksha Health Insurance, calling about the health insurance enquiry you","client_received_at":1790933533999}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello, this is Asha, a virtual assistant from Suraksha Health Insurance, calling about the health insurance enquiry you submitted.","client_received_at":1790933534248}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello, this is Asha, a virtual assistant from Suraksha Health Insurance, calling about the health insurance enquiry you submitted. This","client_received_at":1790933534499}
+{"type":"audio","position_ms":7000,"client_received_at":1790933534499}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello, this is Asha, a virtual assistant from Suraksha Health Insurance, calling about the health insurance enquiry you submitted. This call","client_received_at":1790933534999}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello, this is Asha, a virtual assistant from Suraksha Health Insurance, calling about the health insurance enquiry you submitted. This call is","client_received_at":1790933535249}
+{"type":"audio","position_ms":8000,"client_received_at":1790933535499}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello, this is Asha, a virtual assistant from Suraksha Health Insurance, calling about the health insurance enquiry you submitted. This call is recorded","client_received_at":1790933535749}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello, this is Asha, a virtual assistant from Suraksha Health Insurance, calling about the health insurance enquiry you submitted. This call is recorded for","client_received_at":1790933535999}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello, this is Asha, a virtual assistant from Suraksha Health Insurance, calling about the health insurance enquiry you submitted. This call is recorded for quality","client_received_at":1790933536248}
+{"type":"audio","position_ms":9000,"client_received_at":1790933536498}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello, this is Asha, a virtual assistant from Suraksha Health Insurance, calling about the health insurance enquiry you submitted. This call is recorded for quality and","client_received_at":1790933536748}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello, this is Asha, a virtual assistant from Suraksha Health Insurance, calling about the health insurance enquiry you submitted. This call is recorded for quality and training","client_received_at":1790933536998}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello, this is Asha, a virtual assistant from Suraksha Health Insurance, calling about the health insurance enquiry you submitted. This call is recorded for quality and training purposes.","client_received_at":1790933537498}
+{"type":"audio","position_ms":10000,"client_received_at":1790933537498}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello, this is Asha, a virtual assistant from Suraksha Health Insurance, calling about the health insurance enquiry you submitted. This call is recorded for quality and training purposes. Is","client_received_at":1790933537748}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello, this is Asha, a virtual assistant from Suraksha Health Insurance, calling about the health insurance enquiry you submitted. This call is recorded for quality and training purposes. Is this","client_received_at":1790933537999}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello, this is Asha, a virtual assistant from Suraksha Health Insurance, calling about the health insurance enquiry you submitted. This call is recorded for quality and training purposes. Is this a","client_received_at":1790933538500}
+{"type":"audio","position_ms":11000,"client_received_at":1790933538500}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello, this is Asha, a virtual assistant from Suraksha Health Insurance, calling about the health insurance enquiry you submitted. This call is recorded for quality and training purposes. Is this a good","client_received_at":1790933538749}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello, this is Asha, a virtual assistant from Suraksha Health Insurance, calling about the health insurance enquiry you submitted. This call is recorded for quality and training purposes. Is this a good time","client_received_at":1790933539248}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello, this is Asha, a virtual assistant from Suraksha Health Insurance, calling about the health insurance enquiry you submitted. This call is recorded for quality and training purposes. Is this a good time to","client_received_at":1790933539499}
+{"type":"audio","position_ms":12000,"client_received_at":1790933539499}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello, this is Asha, a virtual assistant from Suraksha Health Insurance, calling about the health insurance enquiry you submitted. This call is recorded for quality and training purposes. Is this a good time to talk","client_received_at":1790933539749}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello, this is Asha, a virtual assistant from Suraksha Health Insurance, calling about the health insurance enquiry you submitted. This call is recorded for quality and training purposes. Is this a good time to talk for","client_received_at":1790933540248}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello, this is Asha, a virtual assistant from Suraksha Health Insurance, calling about the health insurance enquiry you submitted. This call is recorded for quality and training purposes. Is this a good time to talk for about","client_received_at":1790933540500}
+{"type":"audio","position_ms":13000,"client_received_at":1790933540500}
+{"type":"partial","index":0,"speaker":"agent","text":"Hello, this is Asha, a virtual assistant from Suraksha Health Insurance, calling about the health insurance enquiry you submitted. This call is recorded for quality and training purposes. Is this a good time to talk for about five","client_received_at":1790933540999}
+{"type":"transcript","segment":{"index":0,"speaker":"agent","text":"Hello, this is Asha, a virtual assistant from Suraksha Health Insurance, calling about the health insurance enquiry you submitted. This call is recorded for quality and training purposes. Is this a good time to talk for about five minutes?","confidence":0.92,"start_ms":0,"end_ms":13611,"interrupted_previous":false,"t_audio_received":1790933541248,"t_transcribed":1790933541248},"client_received_at":1790933541249}
+{"type":"audio","position_ms":14000,"client_received_at":1790933541499}
+{"type":"partial","index":1,"speaker":"customer","text":"Okay,","client_received_at":1790933541749}
+{"type":"audio","position_ms":15000,"client_received_at":1790933542500}
+{"type":"transcript","segment":{"index":1,"speaker":"customer","text":"Okay, yes","confidence":0.92,"start_ms":14061,"end_ms":14935,"interrupted_previous":false,"t_audio_received":1790933542498,"t_transcribed":1790933542498},"client_received_at":1790933542500}
+{"type":"insight","kind":"sentiment","segment_index":1,"value":1,"client_received_at":1790933542500}
+{"type":"partial","index":2,"speaker":"agent","text":"First,","client_received_at":1790933542998}
+{"type":"audio","position_ms":16000,"client_received_at":1790933543499}
+{"type":"partial","index":2,"speaker":"agent","text":"First, who","client_received_at":1790933543748}
+{"type":"partial","index":2,"speaker":"agent","text":"First, who would","client_received_at":1790933543999}
+{"type":"partial","index":2,"speaker":"agent","text":"First, who would you","client_received_at":1790933544248}
+{"type":"audio","position_ms":17000,"client_received_at":1790933544498}
+{"type":"partial","index":2,"speaker":"agent","text":"First, who would you like","client_received_at":1790933544749}
+{"type":"partial","index":2,"speaker":"agent","text":"First, who would you like to","client_received_at":1790933544998}
+{"type":"partial","index":2,"speaker":"agent","text":"First, who would you like to cover:","client_received_at":1790933545249}
+{"type":"audio","position_ms":18000,"client_received_at":1790933545498}
+{"type":"partial","index":2,"speaker":"agent","text":"First, who would you like to cover: just","client_received_at":1790933545748}
+{"type":"partial","index":2,"speaker":"agent","text":"First, who would you like to cover: just yourself,","client_received_at":1790933545998}
+{"type":"partial","index":2,"speaker":"agent","text":"First, who would you like to cover: just yourself, or","client_received_at":1790933546249}
+{"type":"audio","position_ms":19000,"client_received_at":1790933546498}
+{"type":"partial","index":2,"speaker":"agent","text":"First, who would you like to cover: just yourself, or also","client_received_at":1790933546749}
+{"type":"partial","index":2,"speaker":"agent","text":"First, who would you like to cover: just yourself, or also your","client_received_at":1790933546999}
+{"type":"partial","index":2,"speaker":"agent","text":"First, who would you like to cover: just yourself, or also your spouse,","client_received_at":1790933547248}
+{"type":"audio","position_ms":20000,"client_received_at":1790933547499}
+{"type":"partial","index":2,"speaker":"agent","text":"First, who would you like to cover: just yourself, or also your spouse, children","client_received_at":1790933547750}
+{"type":"partial","index":2,"speaker":"agent","text":"First, who would you like to cover: just yourself, or also your spouse, children or","client_received_at":1790933548000}
+{"type":"transcript","segment":{"index":2,"speaker":"agent","text":"First, who would you like to cover: just yourself, or also your spouse, children or parents?","confidence":0.92,"start_ms":15385,"end_ms":20716,"interrupted_previous":false,"t_audio_received":1790933548249,"t_transcribed":1790933548249},"client_received_at":1790933548249}
+{"type":"audio","position_ms":21000,"client_received_at":1790933548498}
+{"type":"partial","index":3,"speaker":"customer","text":"Me","client_received_at":1790933548750}
+{"type":"partial","index":3,"speaker":"customer","text":"Me and","client_received_at":1790933549249}
+{"type":"audio","position_ms":22000,"client_received_at":1790933549500}
+{"type":"transcript","segment":{"index":3,"speaker":"customer","text":"Me and my wife","confidence":0.92,"start_ms":21166,"end_ms":21975,"interrupted_previous":false,"t_audio_received":1790933549499,"t_transcribed":1790933549499},"client_received_at":1790933549500}
+{"type":"insight","kind":"sentiment","segment_index":3,"value":0,"client_received_at":1790933549500}
+{"type":"partial","index":4,"speaker":"agent","text":"What","client_received_at":1790933549999}
+{"type":"partial","index":4,"speaker":"agent","text":"What is","client_received_at":1790933550499}
+{"type":"audio","position_ms":23000,"client_received_at":1790933550499}
+{"type":"partial","index":4,"speaker":"agent","text":"What is the","client_received_at":1790933550748}
+{"type":"partial","index":4,"speaker":"agent","text":"What is the age","client_received_at":1790933550999}
+{"type":"partial","index":4,"speaker":"agent","text":"What is the age of the","client_received_at":1790933551248}
+{"type":"partial","index":4,"speaker":"agent","text":"What is the age of the eldest","client_received_at":1790933551499}
+{"type":"audio","position_ms":24000,"client_received_at":1790933551499}
+{"type":"partial","index":4,"speaker":"agent","text":"What is the age of the eldest person","client_received_at":1790933551748}
+{"type":"partial","index":4,"speaker":"agent","text":"What is the age of the eldest person to","client_received_at":1790933551999}
+{"type":"partial","index":4,"speaker":"agent","text":"What is the age of the eldest person to be","client_received_at":1790933552248}
+{"type":"audio","position_ms":25000,"client_received_at":1790933552499}
+{"type":"transcript","segment":{"index":4,"speaker":"agent","text":"What is the age of the eldest person to be covered?","confidence":0.92,"start_ms":22425,"end_ms":24826,"interrupted_previous":false,"t_audio_received":1790933552498,"t_transcribed":1790933552498},"client_received_at":1790933552499}
+{"type":"partial","index":5,"speaker":"customer","text":"41","client_received_at":1790933552999}
+{"type":"audio","position_ms":26000,"client_received_at":1790933553499}
+{"type":"transcript","segment":{"index":5,"speaker":"customer","text":"41","confidence":0.92,"start_ms":25276,"end_ms":25936,"interrupted_previous":false,"t_audio_received":1790933553498,"t_transcribed":1790933553498},"client_received_at":1790933553499}
+{"type":"insight","kind":"sentiment","segment_index":5,"value":0,"client_received_at":1790933553499}
+{"type":"partial","index":6,"speaker":"agent","text":"Which","client_received_at":1790933554000}
+{"type":"partial","index":6,"speaker":"agent","text":"Which city","client_received_at":1790933554498}
+{"type":"audio","position_ms":27000,"client_received_at":1790933554498}
+{"type":"partial","index":6,"speaker":"agent","text":"Which city do","client_received_at":1790933554748}
+{"type":"partial","index":6,"speaker":"agent","text":"Which city do you live","client_received_at":1790933554998}
+{"type":"transcript","segment":{"index":6,"speaker":"agent","text":"Which city do you live in?","confidence":0.92,"start_ms":26386,"end_ms":27706,"interrupted_previous":false,"t_audio_received":1790933555248,"t_transcribed":1790933555248},"client_received_at":1790933555248}
+{"type":"audio","position_ms":28000,"client_received_at":1790933555498}
+{"type":"partial","index":7,"speaker":"customer","text":"Delhi","client_received_at":1790933555749}
+{"type":"transcript","segment":{"index":7,"speaker":"customer","text":"Delhi","confidence":0.92,"start_ms":28156,"end_ms":28436,"interrupted_previous":false,"t_audio_received":1790933555998,"t_transcribed":1790933555998},"client_received_at":1790933555999}
+{"type":"insight","kind":"sentiment","segment_index":7,"value":0,"client_received_at":1790933555999}
+{"type":"partial","index":8,"speaker":"agent","text":"Does","client_received_at":1790933556499}
+{"type":"audio","position_ms":29000,"client_received_at":1790933556499}
+{"type":"partial","index":8,"speaker":"agent","text":"Does anyone","client_received_at":1790933557250}
+{"type":"partial","index":8,"speaker":"agent","text":"Does anyone to","client_received_at":1790933557498}
+{"type":"audio","position_ms":30000,"client_received_at":1790933557498}
+{"type":"partial","index":8,"speaker":"agent","text":"Does anyone to be","client_received_at":1790933557999}
+{"type":"partial","index":8,"speaker":"agent","text":"Does anyone to be covered","client_received_at":1790933558248}
+{"type":"partial","index":8,"speaker":"agent","text":"Does anyone to be covered have","client_received_at":1790933558498}
+{"type":"audio","position_ms":31000,"client_received_at":1790933558498}
+{"type":"partial","index":8,"speaker":"agent","text":"Does anyone to be covered have an","client_received_at":1790933559000}
+{"type":"partial","index":8,"speaker":"agent","text":"Does anyone to be covered have an existing","client_received_at":1790933559250}
+{"type":"audio","position_ms":32000,"client_received_at":1790933559498}
+{"type":"partial","index":8,"speaker":"agent","text":"Does anyone to be covered have an existing medical","client_received_at":1790933559748}
+{"type":"partial","index":8,"speaker":"agent","text":"Does anyone to be covered have an existing medical condition,","client_received_at":1790933559999}
+{"type":"partial","index":8,"speaker":"agent","text":"Does anyone to be covered have an existing medical condition, such","client_received_at":1790933560249}
+{"type":"audio","position_ms":33000,"client_received_at":1790933560499}
+{"type":"partial","index":8,"speaker":"agent","text":"Does anyone to be covered have an existing medical condition, such as","client_received_at":1790933560749}
+{"type":"partial","index":8,"speaker":"agent","text":"Does anyone to be covered have an existing medical condition, such as diabetes,","client_received_at":1790933560998}
+{"type":"partial","index":8,"speaker":"agent","text":"Does anyone to be covered have an existing medical condition, such as diabetes, blood","client_received_at":1790933561248}
+{"type":"audio","position_ms":34000,"client_received_at":1790933561498}
+{"type":"partial","index":8,"speaker":"agent","text":"Does anyone to be covered have an existing medical condition, such as diabetes, blood pressure,","client_received_at":1790933561749}
+{"type":"partial","index":8,"speaker":"agent","text":"Does anyone to be covered have an existing medical condition, such as diabetes, blood pressure, thyroid","client_received_at":1790933562000}
+{"type":"partial","index":8,"speaker":"agent","text":"Does anyone to be covered have an existing medical condition, such as diabetes, blood pressure, thyroid or","client_received_at":1790933562498}
+{"type":"audio","position_ms":35000,"client_received_at":1790933562498}
+{"type":"transcript","segment":{"index":8,"speaker":"agent","text":"Does anyone to be covered have an existing medical condition, such as diabetes, blood pressure, thyroid or asthma?","confidence":0.92,"start_ms":28886,"end_ms":35124,"interrupted_previous":false,"t_audio_received":1790933562748,"t_transcribed":1790933562748},"client_received_at":1790933562748}
+{"type":"partial","index":9,"speaker":"customer","text":"Honestly","client_received_at":1790933563248}
+{"type":"audio","position_ms":36000,"client_received_at":1790933563498}
+{"type":"partial","index":9,"speaker":"customer","text":"Honestly this","client_received_at":1790933563749}
+{"type":"partial","index":9,"speaker":"customer","text":"Honestly this is","client_received_at":1790933563998}
+{"type":"partial","index":9,"speaker":"customer","text":"Honestly this is too","client_received_at":1790933564499}
+{"type":"audio","position_ms":37000,"client_received_at":1790933564499}
+{"type":"partial","index":9,"speaker":"customer","text":"Honestly this is too expensive,","client_received_at":1790933564749}
+{"type":"partial","index":9,"speaker":"customer","text":"Honestly this is too expensive, I","client_received_at":1790933565001}
+{"type":"partial","index":9,"speaker":"customer","text":"Honestly this is too expensive, I can't","client_received_at":1790933565250}
+{"type":"partial","index":9,"speaker":"customer","text":"Honestly this is too expensive, I can't afford","client_received_at":1790933565499}
+{"type":"audio","position_ms":38000,"client_received_at":1790933565499}
+{"type":"transcript","segment":{"index":9,"speaker":"customer","text":"Honestly this is too expensive, I can't afford it","confidence":0.92,"start_ms":35574,"end_ms":38275,"interrupted_previous":false,"t_audio_received":1790933566000,"t_transcribed":1790933566000},"client_received_at":1790933566002}
+{"type":"insight","kind":"sentiment","segment_index":9,"value":-1,"client_received_at":1790933566002}
+{"type":"nudge","nudge":{"id":"n1","topic":"objection:price","priority":"medium","text":"Price objection. Use the approved response: cost of one hospital stay, lower cover, floater, 10% family discount, monthly auto-debit.","confidence":0.736,"evidence":"Honestly this is too expensive, I can't afford it","segment_index":9,"citation":{"record_id":"kb_in_health_objection_b81169","citation":"Family Shield Outbound Lead Qualification Script > Objection: the premium is too expensive [kb_in_health_objection_b81169] (internal://sales/lead-qualification-script-v3.1, v3.1, effective 2026-04-01)","snippet":"I understand, budget matters. One hospital stay can cost several lakh rupees, and your premium stays fixed for the year. We can look at a lower cover amount, a single family floater instead of separate policies, a 10% family discount ..."},"created_at":1790933566001,"expires_at":1790933611001,"timings":{"t_audio_received":1790933566000,"t_transcribed":1790933566000,"t_signal":1790933566001,"kb_ms":0.3,"t_ready":1790933566001},"t_sent":1790933566001},"client_received_at":1790933566002}
+{"type":"partial","index":10,"speaker":"agent","text":"I","client_received_at":1790933566249}
+{"type":"audio","position_ms":39000,"client_received_at":1790933566499}
+{"type":"partial","index":10,"speaker":"agent","text":"I understand,","client_received_at":1790933566999}
+{"type":"partial","index":10,"speaker":"agent","text":"I understand, budget","client_received_at":1790933567499}
+{"type":"audio","position_ms":40000,"client_received_at":1790933567499}
+{"type":"partial","index":10,"speaker":"agent","text":"I understand, budget matters.","client_received_at":1790933567749}
+{"type":"partial","index":10,"speaker":"agent","text":"I understand, budget matters. One","client_received_at":1790933567998}
+{"type":"partial","index":10,"speaker":"agent","text":"I understand, budget matters. One hospital","client_received_at":1790933568499}
+{"type":"audio","position_ms":41000,"client_received_at":1790933568499}
+{"type":"partial","index":10,"speaker":"agent","text":"I understand, budget matters. One hospital stay","client_received_at":1790933568748}
+{"type":"partial","index":10,"speaker":"agent","text":"I understand, budget matters. One hospital stay can","client_received_at":1790933568999}
+{"type":"partial","index":10,"speaker":"agent","text":"I understand, budget matters. One hospital stay can cost","client_received_at":1790933569499}
+{"type":"audio","position_ms":42000,"client_received_at":1790933569499}
+{"type":"partial","index":10,"speaker":"agent","text":"I understand, budget matters. One hospital stay can cost several","client_received_at":1790933569749}
+{"type":"partial","index":10,"speaker":"agent","text":"I understand, budget matters. One hospital stay can cost several lakh","client_received_at":1790933570248}
+{"type":"partial","index":10,"speaker":"agent","text":"I understand, budget matters. One hospital stay can cost several lakh rupees,","client_received_at":1790933570498}
+{"type":"audio","position_ms":43000,"client_received_at":1790933570499}
+{"type":"partial","index":10,"speaker":"agent","text":"I understand, budget matters. One hospital stay can cost several lakh rupees, and","client_received_at":1790933570749}
+{"type":"partial","index":10,"speaker":"agent","text":"I understand, budget matters. One hospital stay can cost several lakh rupees, and your","client_received_at":1790933571249}
+{"type":"partial","index":10,"speaker":"agent","text":"I understand, budget matters. One hospital stay can cost several lakh rupees, and your premium","client_received_at":1790933571499}
+{"type":"audio","position_ms":44000,"client_received_at":1790933571499}
+{"type":"partial","index":10,"speaker":"agent","text":"I understand, budget matters. One hospital stay can cost several lakh rupees, and your premium stays","client_received_at":1790933571749}
+{"type":"partial","index":10,"speaker":"agent","text":"I understand, budget matters. One hospital stay can cost several lakh rupees, and your premium stays fixed","client_received_at":1790933572249}
+{"type":"partial","index":10,"speaker":"agent","text":"I understand, budget matters. One hospital stay can cost several lakh rupees, and your premium stays fixed for","client_received_at":1790933572500}
+{"type":"audio","position_ms":45000,"client_received_at":1790933572500}
+{"type":"partial","index":10,"speaker":"agent","text":"I understand, budget matters. One hospital stay can cost several lakh rupees, and your premium stays fixed for the","client_received_at":1790933573000}
+{"type":"partial","index":10,"speaker":"agent","text":"I understand, budget matters. One hospital stay can cost several lakh rupees, and your premium stays fixed for the year.","client_received_at":1790933573249}
+{"type":"partial","index":10,"speaker":"agent","text":"I understand, budget matters. One hospital stay can cost several lakh rupees, and your premium stays fixed for the year. We","client_received_at":1790933573499}
+{"type":"audio","position_ms":46000,"client_received_at":1790933573499}
+{"type":"partial","index":10,"speaker":"agent","text":"I understand, budget matters. One hospital stay can cost several lakh rupees, and your premium stays fixed for the year. We can","client_received_at":1790933573998}
+{"type":"partial","index":10,"speaker":"agent","text":"I understand, budget matters. One hospital stay can cost several lakh rupees, and your premium stays fixed for the year. We can look","client_received_at":1790933574249}
+{"type":"partial","index":10,"speaker":"agent","text":"I understand, budget matters. One hospital stay can cost several lakh rupees, and your premium stays fixed for the year. We can look at","client_received_at":1790933574499}
+{"type":"audio","position_ms":47000,"client_received_at":1790933574499}
+{"type":"partial","index":10,"speaker":"agent","text":"I understand, budget matters. One hospital stay can cost several lakh rupees, and your premium stays fixed for the year. We can look at a","client_received_at":1790933574999}
+{"type":"partial","index":10,"speaker":"agent","text":"I understand, budget matters. One hospital stay can cost several lakh rupees, and your premium stays fixed for the year. We can look at a lower","client_received_at":1790933575249}
+{"type":"audio","position_ms":48000,"client_received_at":1790933575499}
+{"type":"partial","index":10,"speaker":"agent","text":"I understand, budget matters. One hospital stay can cost several lakh rupees, and your premium stays fixed for the year. We can look at a lower cover","client_received_at":1790933575749}
+{"type":"partial","index":10,"speaker":"agent","text":"I understand, budget matters. One hospital stay can cost several lakh rupees, and your premium stays fixed for the year. We can look at a lower cover amount,","client_received_at":1790933575999}
+{"type":"partial","index":10,"speaker":"agent","text":"I understand, budget matters. One hospital stay can cost several lakh rupees, and your premium stays fixed for the year. We can look at a lower cover amount, a","client_received_at":1790933576249}
+{"type":"audio","position_ms":49000,"client_received_at":1790933576499}
+{"type":"partial","index":10,"speaker":"agent","text":"I understand, budget matters. One hospital stay can cost several lakh rupees, and your premium stays fixed for the year. We can look at a lower cover amount, a single","client_received_at":1790933576749}
+{"type":"partial","index":10,"speaker":"agent","text":"I understand, budget matters. One hospital stay can cost several lakh rupees, and your premium stays fixed for the year. We can look at a lower cover amount, a single family","client_received_at":1790933576999}
+{"type":"partial","index":10,"speaker":"agent","text":"I understand, budget matters. One hospital stay can cost several lakh rupees, and your premium stays fixed for the year. We can look at a lower cover amount, a single family floater","client_received_at":1790933577249}
+{"type":"audio","position_ms":50000,"client_received_at":1790933577499}
+{"type":"partial","index":10,"speaker":"agent","text":"I understand, budget matters. One hospital stay can cost several lakh rupees, and your premium stays fixed for the year. We can look at a lower cover amount, a single family floater instead","client_received_at":1790933577748}
+{"type":"partial","index":10,"speaker":"agent","text":"I understand, budget matters. One hospital stay can cost several lakh rupees, and your premium stays fixed for the year. We can look at a lower cover amount, a single family floater instead of","client_received_at":1790933577999}
+{"type":"partial","index":10,"speaker":"agent","text":"I understand, budget matters. One hospital stay can cost several lakh rupees, and your premium stays fixed for the year. We can look at a lower cover amount, a single family floater instead of separate","client_received_at":1790933578249}
+{"type":"audio","position_ms":51000,"client_received_at":1790933578500}
+{"type":"partial","index":10,"speaker":"agent","text":"I understand, budget matters. One hospital stay can cost several lakh rupees, and your premium stays fixed for the year. We can look at a lower cover amount, a single family floater instead of separate policies,","client_received_at":1790933578750}
+{"type":"partial","index":10,"speaker":"agent","text":"I understand, budget matters. One hospital stay can cost several lakh rupees, and your premium stays fixed for the year. We can look at a lower cover amount, a single family floater instead of separate policies, a","client_received_at":1790933578998}
+{"type":"partial","index":10,"speaker":"agent","text":"I understand, budget matters. One hospital stay can cost several lakh rupees, and your premium stays fixed for the year. We can look at a lower cover amount, a single family floater instead of separate policies, a 10%","client_received_at":1790933579498}
+{"type":"audio","position_ms":52000,"client_received_at":1790933579498}
+{"type":"partial","index":10,"speaker":"agent","text":"I understand, budget matters. One hospital stay can cost several lakh rupees, and your premium stays fixed for the year. We can look at a lower cover amount, a single family floater instead of separate policies, a 10% family","client_received_at":1790933579748}
+{"type":"partial","index":10,"speaker":"agent","text":"I understand, budget matters. One hospital stay can cost several lakh rupees, and your premium stays fixed for the year. We can look at a lower cover amount, a single family floater instead of separate policies, a 10% family discount","client_received_at":1790933579999}
+{"type":"partial","index":10,"speaker":"agent","text":"I understand, budget matters. One hospital stay can cost several lakh rupees, and your premium stays fixed for the year. We can look at a lower cover amount, a single family floater instead of separate policies, a 10% family discount when","client_received_at":1790933580499}
+{"type":"audio","position_ms":53000,"client_received_at":1790933580499}
+{"type":"partial","index":10,"speaker":"agent","text":"I understand, budget matters. One hospital stay can cost several lakh rupees, and your premium stays fixed for the year. We can look at a lower cover amount, a single family floater instead of separate policies, a 10% family discount when two","client_received_at":1790933580749}
+{"type":"partial","index":10,"speaker":"agent","text":"I understand, budget matters. One hospital stay can cost several lakh rupees, and your premium stays fixed for the year. We can look at a lower cover amount, a single family floater instead of separate policies, a 10% family discount when two or","client_received_at":1790933581000}
+{"type":"partial","index":10,"speaker":"agent","text":"I understand, budget matters. One hospital stay can cost several lakh rupees, and your premium stays fixed for the year. We can look at a lower cover amount, a single family floater instead of separate policies, a 10% family discount when two or more","client_received_at":1790933581500}
+{"type":"audio","position_ms":54000,"client_received_at":1790933581500}
+{"type":"partial","index":10,"speaker":"agent","text":"I understand, budget matters. One hospital stay can cost several lakh rupees, and your premium stays fixed for the year. We can look at a lower cover amount, a single family floater instead of separate policies, a 10% family discount when two or more members","client_received_at":1790933581749}
+{"type":"partial","index":10,"speaker":"agent","text":"I understand, budget matters. One hospital stay can cost several lakh rupees, and your premium stays fixed for the year. We can look at a lower cover amount, a single family floater instead of separate policies, a 10% family discount when two or more members are","client_received_at":1790933582248}
+{"type":"partial","index":10,"speaker":"agent","text":"I understand, budget matters. One hospital stay can cost several lakh rupees, and your premium stays fixed for the year. We can look at a lower cover amount, a single family floater instead of separate policies, a 10% family discount when two or more members are covered,","client_received_at":1790933582499}
+{"type":"audio","position_ms":55000,"client_received_at":1790933582499}
+{"type":"partial","index":10,"speaker":"agent","text":"I understand, budget matters. One hospital stay can cost several lakh rupees, and your premium stays fixed for the year. We can look at a lower cover amount, a single family floater instead of separate policies, a 10% family discount when two or more members are covered, or","client_received_at":1790933582748}
+{"type":"partial","index":10,"speaker":"agent","text":"I understand, budget matters. One hospital stay can cost several lakh rupees, and your premium stays fixed for the year. We can look at a lower cover amount, a single family floater instead of separate policies, a 10% family discount when two or more members are covered, or monthly","client_received_at":1790933583249}
+{"type":"partial","index":10,"speaker":"agent","text":"I understand, budget matters. One hospital stay can cost several lakh rupees, and your premium stays fixed for the year. We can look at a lower cover amount, a single family floater instead of separate policies, a 10% family discount when two or more members are covered, or monthly auto-debit","client_received_at":1790933583499}
+{"type":"audio","position_ms":56000,"client_received_at":1790933583499}
+{"type":"partial","index":10,"speaker":"agent","text":"I understand, budget matters. One hospital stay can cost several lakh rupees, and your premium stays fixed for the year. We can look at a lower cover amount, a single family floater instead of separate policies, a 10% family discount when two or more members are covered, or monthly auto-debit payments.","client_received_at":1790933583749}
+{"type":"partial","index":10,"speaker":"agent","text":"I understand, budget matters. One hospital stay can cost several lakh rupees, and your premium stays fixed for the year. We can look at a lower cover amount, a single family floater instead of separate policies, a 10% family discount when two or more members are covered, or monthly auto-debit payments. Does","client_received_at":1790933584248}
+{"type":"partial","index":10,"speaker":"agent","text":"I understand, budget matters. One hospital stay can cost several lakh rupees, and your premium stays fixed for the year. We can look at a lower cover amount, a single family floater instead of separate policies, a 10% family discount when two or more members are covered, or monthly auto-debit payments. Does anyone","client_received_at":1790933584499}
+{"type":"audio","position_ms":57000,"client_received_at":1790933584499}
+{"type":"partial","index":10,"speaker":"agent","text":"I understand, budget matters. One hospital stay can cost several lakh rupees, and your premium stays fixed for the year. We can look at a lower cover amount, a single family floater instead of separate policies, a 10% family discount when two or more members are covered, or monthly auto-debit payments. Does anyone to","client_received_at":1790933585001}
+{"type":"partial","index":10,"speaker":"agent","text":"I understand, budget matters. One hospital stay can cost several lakh rupees, and your premium stays fixed for the year. We can look at a lower cover amount, a single family floater instead of separate policies, a 10% family discount when two or more members are covered, or monthly auto-debit payments. Does anyone to be","client_received_at":1790933585248}
+{"type":"partial","index":10,"speaker":"agent","text":"I understand, budget matters. One hospital stay can cost several lakh rupees, and your premium stays fixed for the year. We can look at a lower cover amount, a single family floater instead of separate policies, a 10% family discount when two or more members are covered, or monthly auto-debit payments. Does anyone to be covered","client_received_at":1790933585499}
+{"type":"audio","position_ms":58000,"client_received_at":1790933585499}
+{"type":"partial","index":10,"speaker":"agent","text":"I understand, budget matters. One hospital stay can cost several lakh rupees, and your premium stays fixed for the year. We can look at a lower cover amount, a single family floater instead of separate policies, a 10% family discount when two or more members are covered, or monthly auto-debit payments. Does anyone to be covered have","client_received_at":1790933585998}
+{"type":"partial","index":10,"speaker":"agent","text":"I understand, budget matters. One hospital stay can cost several lakh rupees, and your premium stays fixed for the year. We can look at a lower cover amount, a single family floater instead of separate policies, a 10% family discount when two or more members are covered, or monthly auto-debit payments. Does anyone to be covered have an","client_received_at":1790933586249}
+{"type":"partial","index":10,"speaker":"agent","text":"I understand, budget matters. One hospital stay can cost several lakh rupees, and your premium stays fixed for the year. We can look at a lower cover amount, a single family floater instead of separate policies, a 10% family discount when two or more members are covered, or monthly auto-debit payments. Does anyone to be covered have an existing","client_received_at":1790933586498}
+{"type":"audio","position_ms":59000,"client_received_at":1790933586498}
+{"type":"partial","index":10,"speaker":"agent","text":"I understand, budget matters. One hospital stay can cost several lakh rupees, and your premium stays fixed for the year. We can look at a lower cover amount, a single family floater instead of separate policies, a 10% family discount when two or more members are covered, or monthly auto-debit payments. Does anyone to be covered have an existing medical","client_received_at":1790933586998}
+{"type":"partial","index":10,"speaker":"agent","text":"I understand, budget matters. One hospital stay can cost several lakh rupees, and your premium stays fixed for the year. We can look at a lower cover amount, a single family floater instead of separate policies, a 10% family discount when two or more members are covered, or monthly auto-debit payments. Does anyone to be covered have an existing medical condition,","client_received_at":1790933587248}
+{"type":"audio","position_ms":60000,"client_received_at":1790933587499}
+{"type":"partial","index":10,"speaker":"agent","text":"I understand, budget matters. One hospital stay can cost several lakh rupees, and your premium stays fixed for the year. We can look at a lower cover amount, a single family floater instead of separate policies, a 10% family discount when two or more members are covered, or monthly auto-debit payments. Does anyone to be covered have an existing medical condition, such","client_received_at":1790933587748}
+{"type":"partial","index":10,"speaker":"agent","text":"I understand, budget matters. One hospital stay can cost several lakh rupees, and your premium stays fixed for the year. We can look at a lower cover amount, a single family floater instead of separate policies, a 10% family discount when two or more members are covered, or monthly auto-debit payments. Does anyone to be covered have an existing medical condition, such as","client_received_at":1790933587998}
+{"type":"partial","index":10,"speaker":"agent","text":"I understand, budget matters. One hospital stay can cost several lakh rupees, and your premium stays fixed for the year. We can look at a lower cover amount, a single family floater instead of separate policies, a 10% family discount when two or more members are covered, or monthly auto-debit payments. Does anyone to be covered have an existing medical condition, such as diabetes,","client_received_at":1790933588248}
+{"type":"audio","position_ms":61000,"client_received_at":1790933588498}
+{"type":"partial","index":10,"speaker":"agent","text":"I understand, budget matters. One hospital stay can cost several lakh rupees, and your premium stays fixed for the year. We can look at a lower cover amount, a single family floater instead of separate policies, a 10% family discount when two or more members are covered, or monthly auto-debit payments. Does anyone to be covered have an existing medical condition, such as diabetes, blood","client_received_at":1790933588748}
+{"type":"partial","index":10,"speaker":"agent","text":"I understand, budget matters. One hospital stay can cost several lakh rupees, and your premium stays fixed for the year. We can look at a lower cover amount, a single family floater instead of separate policies, a 10% family discount when two or more members are covered, or monthly auto-debit payments. Does anyone to be covered have an existing medical condition, such as diabetes, blood pressure,","client_received_at":1790933588999}
+{"type":"partial","index":10,"speaker":"agent","text":"I understand, budget matters. One hospital stay can cost several lakh rupees, and your premium stays fixed for the year. We can look at a lower cover amount, a single family floater instead of separate policies, a 10% family discount when two or more members are covered, or monthly auto-debit payments. Does anyone to be covered have an existing medical condition, such as diabetes, blood pressure, thyroid","client_received_at":1790933589249}
+{"type":"audio","position_ms":62000,"client_received_at":1790933589499}
+{"type":"partial","index":10,"speaker":"agent","text":"I understand, budget matters. One hospital stay can cost several lakh rupees, and your premium stays fixed for the year. We can look at a lower cover amount, a single family floater instead of separate policies, a 10% family discount when two or more members are covered, or monthly auto-debit payments. Does anyone to be covered have an existing medical condition, such as diabetes, blood pressure, thyroid or","client_received_at":1790933589749}
+{"type":"transcript","segment":{"index":10,"speaker":"agent","text":"I understand, budget matters. One hospital stay can cost several lakh rupees, and your premium stays fixed for the year. We can look at a lower cover amount, a single family floater instead of separate policies, a 10% family discount when two or more members are covered, or monthly auto-debit payments. Does anyone to be covered have an existing medical condition, such as diabetes, blood pressure, thyroid or asthma?","confidence":0.92,"start_ms":38725,"end_ms":62429,"interrupted_previous":false,"t_audio_received":1790933589998,"t_transcribed":1790933589998},"client_received_at":1790933589999}
+{"type":"partial","index":11,"speaker":"customer","text":"No","client_received_at":1790933590499}
+{"type":"audio","position_ms":63000,"client_received_at":1790933590499}
+{"type":"partial","index":11,"speaker":"customer","text":"No medical","client_received_at":1790933591499}
+{"type":"audio","position_ms":64000,"client_received_at":1790933591499}
+{"type":"transcript","segment":{"index":11,"speaker":"customer","text":"No medical conditions","confidence":0.92,"start_ms":62879,"end_ms":64188,"interrupted_previous":false,"t_audio_received":1790933591749,"t_transcribed":1790933591749},"client_received_at":1790933591750}
+{"type":"insight","kind":"sentiment","segment_index":11,"value":-1,"client_received_at":1790933591750}
+{"type":"insight","kind":"topic","segment_index":11,"value":"coverage","client_received_at":1790933591750}
+{"type":"partial","index":12,"speaker":"agent","text":"Do","client_received_at":1790933592249}
+{"type":"audio","position_ms":65000,"client_received_at":1790933592500}
+{"type":"partial","index":12,"speaker":"agent","text":"Do you","client_received_at":1790933593000}
+{"type":"partial","index":12,"speaker":"agent","text":"Do you have","client_received_at":1790933593250}
+{"type":"partial","index":12,"speaker":"agent","text":"Do you have any","client_received_at":1790933593500}
+{"type":"audio","position_ms":66000,"client_received_at":1790933593500}
+{"type":"partial","index":12,"speaker":"agent","text":"Do you have any existing","client_received_at":1790933593998}
+{"type":"partial","index":12,"speaker":"agent","text":"Do you have any existing health","client_received_at":1790933594249}
+{"type":"audio","position_ms":67000,"client_received_at":1790933594498}
+{"type":"partial","index":12,"speaker":"agent","text":"Do you have any existing health insurance,","client_received_at":1790933594748}
+{"type":"partial","index":12,"speaker":"agent","text":"Do you have any existing health insurance, including","client_received_at":1790933594998}
+{"type":"partial","index":12,"speaker":"agent","text":"Do you have any existing health insurance, including cover","client_received_at":1790933595249}
+{"type":"audio","position_ms":68000,"client_received_at":1790933595499}
+{"type":"partial","index":12,"speaker":"agent","text":"Do you have any existing health insurance, including cover from","client_received_at":1790933595750}
+{"type":"partial","index":12,"speaker":"agent","text":"Do you have any existing health insurance, including cover from your","client_received_at":1790933596000}
+{"type":"transcript","segment":{"index":12,"speaker":"agent","text":"Do you have any existing health insurance, including cover from your employer?","confidence":0.92,"start_ms":64638,"end_ms":68718,"interrupted_previous":false,"t_audio_received":1790933596249,"t_transcribed":1790933596249},"client_received_at":1790933596249}
+{"type":"audio","position_ms":69000,"client_received_at":1790933596499}
+{"type":"partial","index":13,"speaker":"customer","text":"My","client_received_at":1790933596749}
+{"type":"partial","index":13,"speaker":"customer","text":"My company","client_received_at":1790933597499}
+{"type":"audio","position_ms":70000,"client_received_at":1790933597499}
+{"type":"partial","index":13,"speaker":"customer","text":"My company already","client_received_at":1790933597749}
+{"type":"partial","index":13,"speaker":"customer","text":"My company already gives","client_received_at":1790933598249}
+{"type":"partial","index":13,"speaker":"customer","text":"My company already gives me","client_received_at":1790933598500}
+{"type":"audio","position_ms":71000,"client_received_at":1790933598500}
+{"type":"partial","index":13,"speaker":"customer","text":"My company already gives me health","client_received_at":1790933598749}
+{"type":"transcript","segment":{"index":13,"speaker":"customer","text":"My company already gives me health insurance","confidence":0.92,"start_ms":69168,"end_ms":71514,"interrupted_previous":false,"t_audio_received":1790933599248,"t_transcribed":1790933599248},"client_received_at":1790933599251}
+{"type":"insight","kind":"sentiment","segment_index":13,"value":0,"client_received_at":1790933599251}
+{"type":"insight","kind":"topic","segment_index":13,"value":"cross_sell","client_received_at":1790933599251}
+{"type":"nudge","nudge":{"id":"n2","topic":"objection:employer_cover","priority":"medium","text":"Employer-cover objection. Explain that employer cover ends with the job; suggest a personal policy or a Super Top-Up.","confidence":0.69,"evidence":"My company already gives me health insurance","segment_index":13,"citation":{"record_id":"kb_in_health_objection_46ccac","citation":"Family Shield Outbound Lead Qualification Script > Objection: I already have health cover from my employer [kb_in_health_objection_46ccac] (internal://sales/lead-qualification-script-v3.1, v3.1, effective 2026-04-01)","snippet":"That is good to have. Employer cover usually stops when you change jobs or retire, and it is often shared or limited. A personal policy lets you finish the waiting periods while you are still employed, or you can add ..."},"created_at":1790933599250,"expires_at":1790933644250,"timings":{"t_audio_received":1790933599248,"t_transcribed":1790933599248,"t_signal":1790933599250,"kb_ms":0.3,"t_ready":1790933599250},"t_sent":1790933599250},"client_received_at":1790933599251}
+{"type":"partial","index":14,"speaker":"agent","text":"That","client_received_at":1790933599499}
+{"type":"audio","position_ms":72000,"client_received_at":1790933599499}
+{"type":"partial","index":14,"speaker":"agent","text":"That is","client_received_at":1790933600250}
+{"type":"partial","index":14,"speaker":"agent","text":"That is good","client_received_at":1790933600500}
+{"type":"audio","position_ms":73000,"client_received_at":1790933600500}
+{"type":"partial","index":14,"speaker":"agent","text":"That is good to","client_received_at":1790933600750}
+{"type":"partial","index":14,"speaker":"agent","text":"That is good to have.","client_received_at":1790933601000}
+{"type":"partial","index":14,"speaker":"agent","text":"That is good to have. Employer","client_received_at":1790933601249}
+{"type":"audio","position_ms":74000,"client_received_at":1790933601499}
+{"type":"partial","index":14,"speaker":"agent","text":"That is good to have. Employer cover","client_received_at":1790933601749}
+{"type":"partial","index":14,"speaker":"agent","text":"That is good to have. Employer cover usually","client_received_at":1790933601999}
+{"type":"partial","index":14,"speaker":"agent","text":"That is good to have. Employer cover usually stops","client_received_at":1790933602249}
+{"type":"partial","index":14,"speaker":"agent","text":"That is good to have. Employer cover usually stops when","client_received_at":1790933602499}
+{"type":"audio","position_ms":75000,"client_received_at":1790933602499}
+{"type":"partial","index":14,"speaker":"agent","text":"That is good to have. Employer cover usually stops when you","client_received_at":1790933602749}
+{"type":"partial","index":14,"speaker":"agent","text":"That is good to have. Employer cover usually stops when you change","client_received_at":1790933603249}
+{"type":"partial","index":14,"speaker":"agent","text":"That is good to have. Employer cover usually stops when you change jobs","client_received_at":1790933603499}
+{"type":"audio","position_ms":76000,"client_received_at":1790933603499}
+{"type":"partial","index":14,"speaker":"agent","text":"That is good to have. Employer cover usually stops when you change jobs or","client_received_at":1790933603749}
+{"type":"partial","index":14,"speaker":"agent","text":"That is good to have. Employer cover usually stops when you change jobs or retire,","client_received_at":1790933603999}
+{"type":"partial","index":14,"speaker":"agent","text":"That is good to have. Employer cover usually stops when you change jobs or retire, and","client_received_at":1790933604249}
+{"type":"audio","position_ms":77000,"client_received_at":1790933604498}
+{"type":"partial","index":14,"speaker":"agent","text":"That is good to have. Employer cover usually stops when you change jobs or retire, and it","client_received_at":1790933604748}
+{"type":"partial","index":14,"speaker":"agent","text":"That is good to have. Employer cover usually stops when you change jobs or retire, and it is","client_received_at":1790933604999}
+{"type":"partial","index":14,"speaker":"agent","text":"That is good to have. Employer cover usually stops when you change jobs or retire, and it is often","client_received_at":1790933605249}
+{"type":"partial","index":14,"speaker":"agent","text":"That is good to have. Employer cover usually stops when you change jobs or retire, and it is often shared","client_received_at":1790933605499}
+{"type":"audio","position_ms":78000,"client_received_at":1790933605499}
+{"type":"partial","index":14,"speaker":"agent","text":"That is good to have. Employer cover usually stops when you change jobs or retire, and it is often shared or","client_received_at":1790933605749}
+{"type":"partial","index":14,"speaker":"agent","text":"That is good to have. Employer cover usually stops when you change jobs or retire, and it is often shared or limited.","client_received_at":1790933605998}
+{"type":"partial","index":14,"speaker":"agent","text":"That is good to have. Employer cover usually stops when you change jobs or retire, and it is often shared or limited. A","client_received_at":1790933606500}
+{"type":"audio","position_ms":79000,"client_received_at":1790933606500}
+{"type":"partial","index":14,"speaker":"agent","text":"That is good to have. Employer cover usually stops when you change jobs or retire, and it is often shared or limited. A personal","client_received_at":1790933606750}
+{"type":"partial","index":14,"speaker":"agent","text":"That is good to have. Employer cover usually stops when you change jobs or retire, and it is often shared or limited. A personal policy","client_received_at":1790933607000}
+{"type":"partial","index":14,"speaker":"agent","text":"That is good to have. Employer cover usually stops when you change jobs or retire, and it is often shared or limited. A personal policy lets","client_received_at":1790933607249}
+{"type":"partial","index":14,"speaker":"agent","text":"That is good to have. Employer cover usually stops when you change jobs or retire, and it is often shared or limited. A personal policy lets you","client_received_at":1790933607499}
+{"type":"audio","position_ms":80000,"client_received_at":1790933607499}
+{"type":"partial","index":14,"speaker":"agent","text":"That is good to have. Employer cover usually stops when you change jobs or retire, and it is often shared or limited. A personal policy lets you finish","client_received_at":1790933607999}
+{"type":"partial","index":14,"speaker":"agent","text":"That is good to have. Employer cover usually stops when you change jobs or retire, and it is often shared or limited. A personal policy lets you finish the","client_received_at":1790933608250}
+{"type":"partial","index":14,"speaker":"agent","text":"That is good to have. Employer cover usually stops when you change jobs or retire, and it is often shared or limited. A personal policy lets you finish the waiting","client_received_at":1790933608499}
+{"type":"audio","position_ms":81000,"client_received_at":1790933608499}
+{"type":"partial","index":14,"speaker":"agent","text":"That is good to have. Employer cover usually stops when you change jobs or retire, and it is often shared or limited. A personal policy lets you finish the waiting periods","client_received_at":1790933608749}
+{"type":"partial","index":14,"speaker":"agent","text":"That is good to have. Employer cover usually stops when you change jobs or retire, and it is often shared or limited. A personal policy lets you finish the waiting periods while","client_received_at":1790933608999}
+{"type":"partial","index":14,"speaker":"agent","text":"That is good to have. Employer cover usually stops when you change jobs or retire, and it is often shared or limited. A personal policy lets you finish the waiting periods while you","client_received_at":1790933609249}
+{"type":"audio","position_ms":82000,"client_received_at":1790933609499}
+{"type":"partial","index":14,"speaker":"agent","text":"That is good to have. Employer cover usually stops when you change jobs or retire, and it is often shared or limited. A personal policy lets you finish the waiting periods while you are","client_received_at":1790933609749}
+{"type":"partial","index":14,"speaker":"agent","text":"That is good to have. Employer cover usually stops when you change jobs or retire, and it is often shared or limited. A personal policy lets you finish the waiting periods while you are still","client_received_at":1790933610000}
+{"type":"partial","index":14,"speaker":"agent","text":"That is good to have. Employer cover usually stops when you change jobs or retire, and it is often shared or limited. A personal policy lets you finish the waiting periods while you are still employed,","client_received_at":1790933610250}
+{"type":"partial","index":14,"speaker":"agent","text":"That is good to have. Employer cover usually stops when you change jobs or retire, and it is often shared or limited. A personal policy lets you finish the waiting periods while you are still employed, or","client_received_at":1790933610500}
+{"type":"audio","position_ms":83000,"client_received_at":1790933610500}
+{"type":"partial","index":14,"speaker":"agent","text":"That is good to have. Employer cover usually stops when you change jobs or retire, and it is often shared or limited. A personal policy lets you finish the waiting periods while you are still employed, or you","client_received_at":1790933610749}
+{"type":"partial","index":14,"speaker":"agent","text":"That is good to have. Employer cover usually stops when you change jobs or retire, and it is often shared or limited. A personal policy lets you finish the waiting periods while you are still employed, or you can","client_received_at":1790933611249}
+{"type":"nudge_expired","id":"n1","topic":"objection:price","client_received_at":1790933611249}
+{"type":"partial","index":14,"speaker":"agent","text":"That is good to have. Employer cover usually stops when you change jobs or retire, and it is often shared or limited. A personal policy lets you finish the waiting periods while you are still employed, or you can add","client_received_at":1790933611499}
+{"type":"audio","position_ms":84000,"client_received_at":1790933611499}
+{"type":"partial","index":14,"speaker":"agent","text":"That is good to have. Employer cover usually stops when you change jobs or retire, and it is often shared or limited. A personal policy lets you finish the waiting periods while you are still employed, or you can add a","client_received_at":1790933611749}
+{"type":"partial","index":14,"speaker":"agent","text":"That is good to have. Employer cover usually stops when you change jobs or retire, and it is often shared or limited. A personal policy lets you finish the waiting periods while you are still employed, or you can add a Super","client_received_at":1790933611999}
+{"type":"partial","index":14,"speaker":"agent","text":"That is good to have. Employer cover usually stops when you change jobs or retire, and it is often shared or limited. A personal policy lets you finish the waiting periods while you are still employed, or you can add a Super Top-Up","client_received_at":1790933612249}
+{"type":"audio","position_ms":85000,"client_received_at":1790933612499}
+{"type":"partial","index":14,"speaker":"agent","text":"That is good to have. Employer cover usually stops when you change jobs or retire, and it is often shared or limited. A personal policy lets you finish the waiting periods while you are still employed, or you can add a Super Top-Up on","client_received_at":1790933612749}
+{"type":"partial","index":14,"speaker":"agent","text":"That is good to have. Employer cover usually stops when you change jobs or retire, and it is often shared or limited. A personal policy lets you finish the waiting periods while you are still employed, or you can add a Super Top-Up on top","client_received_at":1790933612998}
+{"type":"partial","index":14,"speaker":"agent","text":"That is good to have. Employer cover usually stops when you change jobs or retire, and it is often shared or limited. A personal policy lets you finish the waiting periods while you are still employed, or you can add a Super Top-Up on top of","client_received_at":1790933613248}
+{"type":"partial","index":14,"speaker":"agent","text":"That is good to have. Employer cover usually stops when you change jobs or retire, and it is often shared or limited. A personal policy lets you finish the waiting periods while you are still employed, or you can add a Super Top-Up on top of your","client_received_at":1790933613499}
+{"type":"audio","position_ms":86000,"client_received_at":1790933613499}
+{"type":"partial","index":14,"speaker":"agent","text":"That is good to have. Employer cover usually stops when you change jobs or retire, and it is often shared or limited. A personal policy lets you finish the waiting periods while you are still employed, or you can add a Super Top-Up on top of your office","client_received_at":1790933613750}
+{"type":"partial","index":14,"speaker":"agent","text":"That is good to have. Employer cover usually stops when you change jobs or retire, and it is often shared or limited. A personal policy lets you finish the waiting periods while you are still employed, or you can add a Super Top-Up on top of your office cover.","client_received_at":1790933614000}
+{"type":"partial","index":14,"speaker":"agent","text":"That is good to have. Employer cover usually stops when you change jobs or retire, and it is often shared or limited. A personal policy lets you finish the waiting periods while you are still employed, or you can add a Super Top-Up on top of your office cover. Do","client_received_at":1790933614499}
+{"type":"audio","position_ms":87000,"client_received_at":1790933614499}
+{"type":"partial","index":14,"speaker":"agent","text":"That is good to have. Employer cover usually stops when you change jobs or retire, and it is often shared or limited. A personal policy lets you finish the waiting periods while you are still employed, or you can add a Super Top-Up on top of your office cover. Do you","client_received_at":1790933614749}
+{"type":"partial","index":14,"speaker":"agent","text":"That is good to have. Employer cover usually stops when you change jobs or retire, and it is often shared or limited. A personal policy lets you finish the waiting periods while you are still employed, or you can add a Super Top-Up on top of your office cover. Do you have","client_received_at":1790933615000}
+{"type":"partial","index":14,"speaker":"agent","text":"That is good to have. Employer cover usually stops when you change jobs or retire, and it is often shared or limited. A personal policy lets you finish the waiting periods while you are still employed, or you can add a Super Top-Up on top of your office cover. Do you have any","client_received_at":1790933615250}
+{"type":"partial","index":14,"speaker":"agent","text":"That is good to have. Employer cover usually stops when you change jobs or retire, and it is often shared or limited. A personal policy lets you finish the waiting periods while you are still employed, or you can add a Super Top-Up on top of your office cover. Do you have any existing","client_received_at":1790933615500}
+{"type":"audio","position_ms":88000,"client_received_at":1790933615500}
+{"type":"partial","index":14,"speaker":"agent","text":"That is good to have. Employer cover usually stops when you change jobs or retire, and it is often shared or limited. A personal policy lets you finish the waiting periods while you are still employed, or you can add a Super Top-Up on top of your office cover. Do you have any existing health","client_received_at":1790933615999}
+{"type":"partial","index":14,"speaker":"agent","text":"That is good to have. Employer cover usually stops when you change jobs or retire, and it is often shared or limited. A personal policy lets you finish the waiting periods while you are still employed, or you can add a Super Top-Up on top of your office cover. Do you have any existing health insurance,","client_received_at":1790933616250}
+{"type":"partial","index":14,"speaker":"agent","text":"That is good to have. Employer cover usually stops when you change jobs or retire, and it is often shared or limited. A personal policy lets you finish the waiting periods while you are still employed, or you can add a Super Top-Up on top of your office cover. Do you have any existing health insurance, including","client_received_at":1790933616499}
+{"type":"audio","position_ms":89000,"client_received_at":1790933616499}
+{"type":"partial","index":14,"speaker":"agent","text":"That is good to have. Employer cover usually stops when you change jobs or retire, and it is often shared or limited. A personal policy lets you finish the waiting periods while you are still employed, or you can add a Super Top-Up on top of your office cover. Do you have any existing health insurance, including cover","client_received_at":1790933616749}
+{"type":"partial","index":14,"speaker":"agent","text":"That is good to have. Employer cover usually stops when you change jobs or retire, and it is often shared or limited. A personal policy lets you finish the waiting periods while you are still employed, or you can add a Super Top-Up on top of your office cover. Do you have any existing health insurance, including cover from","client_received_at":1790933616999}
+{"type":"partial","index":14,"speaker":"agent","text":"That is good to have. Employer cover usually stops when you change jobs or retire, and it is often shared or limited. A personal policy lets you finish the waiting periods while you are still employed, or you can add a Super Top-Up on top of your office cover. Do you have any existing health insurance, including cover from your","client_received_at":1790933617500}
+{"type":"audio","position_ms":90000,"client_received_at":1790933617500}
+{"type":"transcript","segment":{"index":14,"speaker":"agent","text":"That is good to have. Employer cover usually stops when you change jobs or retire, and it is often shared or limited. A personal policy lets you finish the waiting periods while you are still employed, or you can add a Super Top-Up on top of your office cover. Do you have any existing health insurance, including cover from your employer?","confidence":0.92,"start_ms":71964,"end_ms":90052,"interrupted_previous":false,"t_audio_received":1790933617749,"t_transcribed":1790933617749},"client_received_at":1790933617750}
+{"type":"partial","index":15,"speaker":"customer","text":"Yes,","client_received_at":1790933618249}
+{"type":"audio","position_ms":91000,"client_received_at":1790933618499}
+{"type":"partial","index":15,"speaker":"customer","text":"Yes, through","client_received_at":1790933618749}
+{"type":"transcript","segment":{"index":15,"speaker":"customer","text":"Yes, through work","confidence":0.92,"start_ms":90502,"end_ms":91509,"interrupted_previous":false,"t_audio_received":1790933619249,"t_transcribed":1790933619249},"client_received_at":1790933619250}
+{"type":"insight","kind":"sentiment","segment_index":15,"value":0,"client_received_at":1790933619250}
+{"type":"partial","index":16,"speaker":"agent","text":"Last","client_received_at":1790933619499}
+{"type":"audio","position_ms":92000,"client_received_at":1790933619499}
+{"type":"partial","index":16,"speaker":"agent","text":"Last one:","client_received_at":1790933620249}
+{"type":"partial","index":16,"speaker":"agent","text":"Last one: which","client_received_at":1790933620499}
+{"type":"audio","position_ms":93000,"client_received_at":1790933620499}
+{"type":"partial","index":16,"speaker":"agent","text":"Last one: which cover","client_received_at":1790933620999}
+{"type":"partial","index":16,"speaker":"agent","text":"Last one: which cover amount","client_received_at":1790933621282}
+{"type":"partial","index":16,"speaker":"agent","text":"Last one: which cover amount are","client_received_at":1790933621498}
+{"type":"audio","position_ms":94000,"client_received_at":1790933621498}
+{"type":"partial","index":16,"speaker":"agent","text":"Last one: which cover amount are you","client_received_at":1790933621999}
+{"type":"partial","index":16,"speaker":"agent","text":"Last one: which cover amount are you looking","client_received_at":1790933622252}
+{"type":"partial","index":16,"speaker":"agent","text":"Last one: which cover amount are you looking at,","client_received_at":1790933622499}
+{"type":"audio","position_ms":95000,"client_received_at":1790933622499}
+{"type":"partial","index":16,"speaker":"agent","text":"Last one: which cover amount are you looking at, 5,","client_received_at":1790933622999}
+{"type":"partial","index":16,"speaker":"agent","text":"Last one: which cover amount are you looking at, 5, 10,","client_received_at":1790933623249}
+{"type":"partial","index":16,"speaker":"agent","text":"Last one: which cover amount are you looking at, 5, 10, 15","client_received_at":1790933623499}
+{"type":"audio","position_ms":96000,"client_received_at":1790933623499}
+{"type":"partial","index":16,"speaker":"agent","text":"Last one: which cover amount are you looking at, 5, 10, 15 or","client_received_at":1790933623999}
+{"type":"partial","index":16,"speaker":"agent","text":"Last one: which cover amount are you looking at, 5, 10, 15 or 25","client_received_at":1790933624249}
+{"type":"partial","index":16,"speaker":"agent","text":"Last one: which cover amount are you looking at, 5, 10, 15 or 25 lakh","client_received_at":1790933624499}
+{"type":"audio","position_ms":97000,"client_received_at":1790933624499}
+{"type":"partial","index":16,"speaker":"agent","text":"Last one: which cover amount are you looking at, 5, 10, 15 or 25 lakh rupees?","client_received_at":1790933624999}
+{"type":"partial","index":16,"speaker":"agent","text":"Last one: which cover amount are you looking at, 5, 10, 15 or 25 lakh rupees? You","client_received_at":1790933625249}
+{"type":"partial","index":16,"speaker":"agent","text":"Last one: which cover amount are you looking at, 5, 10, 15 or 25 lakh rupees? You can","client_received_at":1790933625499}
+{"type":"audio","position_ms":98000,"client_received_at":1790933625499}
+{"type":"partial","index":16,"speaker":"agent","text":"Last one: which cover amount are you looking at, 5, 10, 15 or 25 lakh rupees? You can also","client_received_at":1790933625999}
+{"type":"partial","index":16,"speaker":"agent","text":"Last one: which cover amount are you looking at, 5, 10, 15 or 25 lakh rupees? You can also say","client_received_at":1790933626249}
+{"type":"partial","index":16,"speaker":"agent","text":"Last one: which cover amount are you looking at, 5, 10, 15 or 25 lakh rupees? You can also say not","client_received_at":1790933626498}
+{"type":"audio","position_ms":99000,"client_received_at":1790933626498}
+{"type":"transcript","segment":{"index":16,"speaker":"agent","text":"Last one: which cover amount are you looking at, 5, 10, 15 or 25 lakh rupees? You can also say not sure.","confidence":0.92,"start_ms":91959,"end_ms":99292,"interrupted_previous":false,"t_audio_received":1790933626999,"t_transcribed":1790933626999},"client_received_at":1790933626999}
+{"type":"partial","index":17,"speaker":"customer","text":"Not","client_received_at":1790933627248}
+{"type":"audio","position_ms":100000,"client_received_at":1790933627498}
+{"type":"partial","index":17,"speaker":"customer","text":"Not sure,","client_received_at":1790933627999}
+{"type":"partial","index":17,"speaker":"customer","text":"Not sure, you","client_received_at":1790933628249}
+{"type":"partial","index":17,"speaker":"customer","text":"Not sure, you tell","client_received_at":1790933628499}
+{"type":"audio","position_ms":101000,"client_received_at":1790933628499}
+{"type":"transcript","segment":{"index":17,"speaker":"customer","text":"Not sure, you tell me","confidence":0.92,"start_ms":99742,"end_ms":101081,"interrupted_previous":false,"t_audio_received":1790933628749,"t_transcribed":1790933628749},"client_received_at":1790933628749}
+{"type":"insight","kind":"sentiment","segment_index":17,"value":0,"client_received_at":1790933628749}
+{"type":"partial","index":18,"speaker":"agent","text":"That's","client_received_at":1790933629249}
+{"type":"audio","position_ms":102000,"client_received_at":1790933629499}
+{"type":"partial","index":18,"speaker":"agent","text":"That's fine,","client_received_at":1790933629749}
+{"type":"partial","index":18,"speaker":"agent","text":"That's fine, we","client_received_at":1790933630249}
+{"type":"partial","index":18,"speaker":"agent","text":"That's fine, we can","client_received_at":1790933630499}
+{"type":"audio","position_ms":103000,"client_received_at":1790933630499}
+{"type":"partial","index":18,"speaker":"agent","text":"That's fine, we can leave","client_received_at":1790933630749}
+{"type":"partial","index":18,"speaker":"agent","text":"That's fine, we can leave that","client_received_at":1790933631248}
+{"type":"partial","index":18,"speaker":"agent","text":"That's fine, we can leave that for","client_received_at":1790933631500}
+{"type":"audio","position_ms":104000,"client_received_at":1790933631500}
+{"type":"partial","index":18,"speaker":"agent","text":"That's fine, we can leave that for the","client_received_at":1790933632000}
+{"type":"partial","index":18,"speaker":"agent","text":"That's fine, we can leave that for the advisor.","client_received_at":1790933632249}
+{"type":"partial","index":18,"speaker":"agent","text":"That's fine, we can leave that for the advisor. Thank","client_received_at":1790933632500}
+{"type":"audio","position_ms":105000,"client_received_at":1790933632500}
+{"type":"partial","index":18,"speaker":"agent","text":"That's fine, we can leave that for the advisor. Thank you,","client_received_at":1790933632999}
+{"type":"partial","index":18,"speaker":"agent","text":"That's fine, we can leave that for the advisor. Thank you, that's","client_received_at":1790933633249}
+{"type":"partial","index":18,"speaker":"agent","text":"That's fine, we can leave that for the advisor. Thank you, that's everything","client_received_at":1790933633499}
+{"type":"audio","position_ms":106000,"client_received_at":1790933633499}
+{"type":"partial","index":18,"speaker":"agent","text":"That's fine, we can leave that for the advisor. Thank you, that's everything I","client_received_at":1790933633999}
+{"type":"partial","index":18,"speaker":"agent","text":"That's fine, we can leave that for the advisor. Thank you, that's everything I need.","client_received_at":1790933634249}
+{"type":"audio","position_ms":107000,"client_received_at":1790933634498}
+{"type":"partial","index":18,"speaker":"agent","text":"That's fine, we can leave that for the advisor. Thank you, that's everything I need. You're","client_received_at":1790933634749}
+{"type":"partial","index":18,"speaker":"agent","text":"That's fine, we can leave that for the advisor. Thank you, that's everything I need. You're eligible","client_received_at":1790933635000}
+{"type":"partial","index":18,"speaker":"agent","text":"That's fine, we can leave that for the advisor. Thank you, that's everything I need. You're eligible to","client_received_at":1790933635250}
+{"type":"audio","position_ms":108000,"client_received_at":1790933635500}
+{"type":"partial","index":18,"speaker":"agent","text":"That's fine, we can leave that for the advisor. Thank you, that's everything I need. You're eligible to apply","client_received_at":1790933635748}
+{"type":"partial","index":18,"speaker":"agent","text":"That's fine, we can leave that for the advisor. Thank you, that's everything I need. You're eligible to apply for","client_received_at":1790933635999}
+{"type":"partial","index":18,"speaker":"agent","text":"That's fine, we can leave that for the advisor. Thank you, that's everything I need. You're eligible to apply for Family","client_received_at":1790933636249}
+{"type":"audio","position_ms":109000,"client_received_at":1790933636499}
+{"type":"partial","index":18,"speaker":"agent","text":"That's fine, we can leave that for the advisor. Thank you, that's everything I need. You're eligible to apply for Family Shield.","client_received_at":1790933636749}
+{"type":"partial","index":18,"speaker":"agent","text":"That's fine, we can leave that for the advisor. Thank you, that's everything I need. You're eligible to apply for Family Shield. Please","client_received_at":1790933637000}
+{"type":"partial","index":18,"speaker":"agent","text":"That's fine, we can leave that for the advisor. Thank you, that's everything I need. You're eligible to apply for Family Shield. Please note:","client_received_at":1790933637499}
+{"type":"audio","position_ms":110000,"client_received_at":1790933637499}
+{"type":"partial","index":18,"speaker":"agent","text":"That's fine, we can leave that for the advisor. Thank you, that's everything I need. You're eligible to apply for Family Shield. Please note: illnesses","client_received_at":1790933637748}
+{"type":"partial","index":18,"speaker":"agent","text":"That's fine, we can leave that for the advisor. Thank you, that's everything I need. You're eligible to apply for Family Shield. Please note: illnesses are","client_received_at":1790933637999}
+{"type":"partial","index":18,"speaker":"agent","text":"That's fine, we can leave that for the advisor. Thank you, that's everything I need. You're eligible to apply for Family Shield. Please note: illnesses are covered","client_received_at":1790933638499}
+{"type":"audio","position_ms":111000,"client_received_at":1790933638499}
+{"type":"partial","index":18,"speaker":"agent","text":"That's fine, we can leave that for the advisor. Thank you, that's everything I need. You're eligible to apply for Family Shield. Please note: illnesses are covered after","client_received_at":1790933638748}
+{"type":"partial","index":18,"speaker":"agent","text":"That's fine, we can leave that for the advisor. Thank you, that's everything I need. You're eligible to apply for Family Shield. Please note: illnesses are covered after a","client_received_at":1790933638999}
+{"type":"partial","index":18,"speaker":"agent","text":"That's fine, we can leave that for the advisor. Thank you, that's everything I need. You're eligible to apply for Family Shield. Please note: illnesses are covered after a 30-day","client_received_at":1790933639500}
+{"type":"audio","position_ms":112000,"client_received_at":1790933639500}
+{"type":"partial","index":18,"speaker":"agent","text":"That's fine, we can leave that for the advisor. Thank you, that's everything I need. You're eligible to apply for Family Shield. Please note: illnesses are covered after a 30-day waiting","client_received_at":1790933639750}
+{"type":"partial","index":18,"speaker":"agent","text":"That's fine, we can leave that for the advisor. Thank you, that's everything I need. You're eligible to apply for Family Shield. Please note: illnesses are covered after a 30-day waiting period,","client_received_at":1790933640249}
+{"type":"partial","index":18,"speaker":"agent","text":"That's fine, we can leave that for the advisor. Thank you, that's everything I need. You're eligible to apply for Family Shield. Please note: illnesses are covered after a 30-day waiting period, and","client_received_at":1790933640499}
+{"type":"audio","position_ms":113000,"client_received_at":1790933640499}
+{"type":"partial","index":18,"speaker":"agent","text":"That's fine, we can leave that for the advisor. Thank you, that's everything I need. You're eligible to apply for Family Shield. Please note: illnesses are covered after a 30-day waiting period, and pre-existing","client_received_at":1790933640752}
+{"type":"partial","index":18,"speaker":"agent","text":"That's fine, we can leave that for the advisor. Thank you, that's everything I need. You're eligible to apply for Family Shield. Please note: illnesses are covered after a 30-day waiting period, and pre-existing diseases","client_received_at":1790933641255}
+{"type":"partial","index":18,"speaker":"agent","text":"That's fine, we can leave that for the advisor. Thank you, that's everything I need. You're eligible to apply for Family Shield. Please note: illnesses are covered after a 30-day waiting period, and pre-existing diseases after","client_received_at":1790933641500}
+{"type":"audio","position_ms":114000,"client_received_at":1790933641500}
+{"type":"partial","index":18,"speaker":"agent","text":"That's fine, we can leave that for the advisor. Thank you, that's everything I need. You're eligible to apply for Family Shield. Please note: illnesses are covered after a 30-day waiting period, and pre-existing diseases after 3","client_received_at":1790933641749}
+{"type":"partial","index":18,"speaker":"agent","text":"That's fine, we can leave that for the advisor. Thank you, that's everything I need. You're eligible to apply for Family Shield. Please note: illnesses are covered after a 30-day waiting period, and pre-existing diseases after 3 years.","client_received_at":1790933642248}
+{"type":"partial","index":18,"speaker":"agent","text":"That's fine, we can leave that for the advisor. Thank you, that's everything I need. You're eligible to apply for Family Shield. Please note: illnesses are covered after a 30-day waiting period, and pre-existing diseases after 3 years. I'll","client_received_at":1790933642499}
+{"type":"audio","position_ms":115000,"client_received_at":1790933642499}
+{"type":"partial","index":18,"speaker":"agent","text":"That's fine, we can leave that for the advisor. Thank you, that's everything I need. You're eligible to apply for Family Shield. Please note: illnesses are covered after a 30-day waiting period, and pre-existing diseases after 3 years. I'll send","client_received_at":1790933642998}
+{"type":"partial","index":18,"speaker":"agent","text":"That's fine, we can leave that for the advisor. Thank you, that's everything I need. You're eligible to apply for Family Shield. Please note: illnesses are covered after a 30-day waiting period, and pre-existing diseases after 3 years. I'll send you","client_received_at":1790933643249}
+{"type":"partial","index":18,"speaker":"agent","text":"That's fine, we can leave that for the advisor. Thank you, that's everything I need. You're eligible to apply for Family Shield. Please note: illnesses are covered after a 30-day waiting period, and pre-existing diseases after 3 years. I'll send you a","client_received_at":1790933643498}
+{"type":"audio","position_ms":116000,"client_received_at":1790933643499}
+{"type":"partial","index":18,"speaker":"agent","text":"That's fine, we can leave that for the advisor. Thank you, that's everything I need. You're eligible to apply for Family Shield. Please note: illnesses are covered after a 30-day waiting period, and pre-existing diseases after 3 years. I'll send you a written","client_received_at":1790933643998}
+{"type":"partial","index":18,"speaker":"agent","text":"That's fine, we can leave that for the advisor. Thank you, that's everything I need. You're eligible to apply for Family Shield. Please note: illnesses are covered after a 30-day waiting period, and pre-existing diseases after 3 years. I'll send you a written quote","client_received_at":1790933644248}
+{"type":"partial","index":18,"speaker":"agent","text":"That's fine, we can leave that for the advisor. Thank you, that's everything I need. You're eligible to apply for Family Shield. Please note: illnesses are covered after a 30-day waiting period, and pre-existing diseases after 3 years. I'll send you a written quote by","client_received_at":1790933644499}
+{"type":"audio","position_ms":117000,"client_received_at":1790933644499}
+{"type":"nudge_expired","id":"n2","topic":"objection:employer_cover","client_received_at":1790933644499}
+{"type":"partial","index":18,"speaker":"agent","text":"That's fine, we can leave that for the advisor. Thank you, that's everything I need. You're eligible to apply for Family Shield. Please note: illnesses are covered after a 30-day waiting period, and pre-existing diseases after 3 years. I'll send you a written quote by email","client_received_at":1790933644999}
+{"type":"partial","index":18,"speaker":"agent","text":"That's fine, we can leave that for the advisor. Thank you, that's everything I need. You're eligible to apply for Family Shield. Please note: illnesses are covered after a 30-day waiting period, and pre-existing diseases after 3 years. I'll send you a written quote by email or","client_received_at":1790933645248}
+{"type":"audio","position_ms":118000,"client_received_at":1790933645499}
+{"type":"partial","index":18,"speaker":"agent","text":"That's fine, we can leave that for the advisor. Thank you, that's everything I need. You're eligible to apply for Family Shield. Please note: illnesses are covered after a 30-day waiting period, and pre-existing diseases after 3 years. I'll send you a written quote by email or WhatsApp","client_received_at":1790933645750}
+{"type":"partial","index":18,"speaker":"agent","text":"That's fine, we can leave that for the advisor. Thank you, that's everything I need. You're eligible to apply for Family Shield. Please note: illnesses are covered after a 30-day waiting period, and pre-existing diseases after 3 years. I'll send you a written quote by email or WhatsApp within","client_received_at":1790933646000}
+{"type":"partial","index":18,"speaker":"agent","text":"That's fine, we can leave that for the advisor. Thank you, that's everything I need. You're eligible to apply for Family Shield. Please note: illnesses are covered after a 30-day waiting period, and pre-existing diseases after 3 years. I'll send you a written quote by email or WhatsApp within 15","client_received_at":1790933646250}
+{"type":"audio","position_ms":119000,"client_received_at":1790933646498}
+{"type":"partial","index":18,"speaker":"agent","text":"That's fine, we can leave that for the advisor. Thank you, that's everything I need. You're eligible to apply for Family Shield. Please note: illnesses are covered after a 30-day waiting period, and pre-existing diseases after 3 years. I'll send you a written quote by email or WhatsApp within 15 minutes,","client_received_at":1790933646749}
+{"type":"partial","index":18,"speaker":"agent","text":"That's fine, we can leave that for the advisor. Thank you, that's everything I need. You're eligible to apply for Family Shield. Please note: illnesses are covered after a 30-day waiting period, and pre-existing diseases after 3 years. I'll send you a written quote by email or WhatsApp within 15 minutes, and","client_received_at":1790933647000}
+{"type":"partial","index":18,"speaker":"agent","text":"That's fine, we can leave that for the advisor. Thank you, that's everything I need. You're eligible to apply for Family Shield. Please note: illnesses are covered after a 30-day waiting period, and pre-existing diseases after 3 years. I'll send you a written quote by email or WhatsApp within 15 minutes, and an","client_received_at":1790933647249}
+{"type":"audio","position_ms":120000,"client_received_at":1790933647499}
+{"type":"partial","index":18,"speaker":"agent","text":"That's fine, we can leave that for the advisor. Thank you, that's everything I need. You're eligible to apply for Family Shield. Please note: illnesses are covered after a 30-day waiting period, and pre-existing diseases after 3 years. I'll send you a written quote by email or WhatsApp within 15 minutes, and an advisor","client_received_at":1790933647750}
+{"type":"partial","index":18,"speaker":"agent","text":"That's fine, we can leave that for the advisor. Thank you, that's everything I need. You're eligible to apply for Family Shield. Please note: illnesses are covered after a 30-day waiting period, and pre-existing diseases after 3 years. I'll send you a written quote by email or WhatsApp within 15 minutes, and an advisor will","client_received_at":1790933648000}
+{"type":"partial","index":18,"speaker":"agent","text":"That's fine, we can leave that for the advisor. Thank you, that's everything I need. You're eligible to apply for Family Shield. Please note: illnesses are covered after a 30-day waiting period, and pre-existing diseases after 3 years. I'll send you a written quote by email or WhatsApp within 15 minutes, and an advisor will confirm","client_received_at":1790933648249}
+{"type":"audio","position_ms":121000,"client_received_at":1790933648500}
+{"type":"partial","index":18,"speaker":"agent","text":"That's fine, we can leave that for the advisor. Thank you, that's everything I need. You're eligible to apply for Family Shield. Please note: illnesses are covered after a 30-day waiting period, and pre-existing diseases after 3 years. I'll send you a written quote by email or WhatsApp within 15 minutes, and an advisor will confirm the","client_received_at":1790933648748}
+{"type":"partial","index":18,"speaker":"agent","text":"That's fine, we can leave that for the advisor. Thank you, that's everything I need. You're eligible to apply for Family Shield. Please note: illnesses are covered after a 30-day waiting period, and pre-existing diseases after 3 years. I'll send you a written quote by email or WhatsApp within 15 minutes, and an advisor will confirm the final","client_received_at":1790933648999}
+{"type":"partial","index":18,"speaker":"agent","text":"That's fine, we can leave that for the advisor. Thank you, that's everything I need. You're eligible to apply for Family Shield. Please note: illnesses are covered after a 30-day waiting period, and pre-existing diseases after 3 years. I'll send you a written quote by email or WhatsApp within 15 minutes, and an advisor will confirm the final premium.","client_received_at":1790933649500}
+{"type":"audio","position_ms":122000,"client_received_at":1790933649500}
+{"type":"partial","index":18,"speaker":"agent","text":"That's fine, we can leave that for the advisor. Thank you, that's everything I need. You're eligible to apply for Family Shield. Please note: illnesses are covered after a 30-day waiting period, and pre-existing diseases after 3 years. I'll send you a written quote by email or WhatsApp within 15 minutes, and an advisor will confirm the final premium. Thank","client_received_at":1790933649750}
+{"type":"partial","index":18,"speaker":"agent","text":"That's fine, we can leave that for the advisor. Thank you, that's everything I need. You're eligible to apply for Family Shield. Please note: illnesses are covered after a 30-day waiting period, and pre-existing diseases after 3 years. I'll send you a written quote by email or WhatsApp within 15 minutes, and an advisor will confirm the final premium. Thank you","client_received_at":1790933649999}
+{"type":"partial","index":18,"speaker":"agent","text":"That's fine, we can leave that for the advisor. Thank you, that's everything I need. You're eligible to apply for Family Shield. Please note: illnesses are covered after a 30-day waiting period, and pre-existing diseases after 3 years. I'll send you a written quote by email or WhatsApp within 15 minutes, and an advisor will confirm the final premium. Thank you for","client_received_at":1790933650499}
+{"type":"audio","position_ms":123000,"client_received_at":1790933650499}
+{"type":"partial","index":18,"speaker":"agent","text":"That's fine, we can leave that for the advisor. Thank you, that's everything I need. You're eligible to apply for Family Shield. Please note: illnesses are covered after a 30-day waiting period, and pre-existing diseases after 3 years. I'll send you a written quote by email or WhatsApp within 15 minutes, and an advisor will confirm the final premium. Thank you for your","client_received_at":1790933650749}
+{"type":"partial","index":18,"speaker":"agent","text":"That's fine, we can leave that for the advisor. Thank you, that's everything I need. You're eligible to apply for Family Shield. Please note: illnesses are covered after a 30-day waiting period, and pre-existing diseases after 3 years. I'll send you a written quote by email or WhatsApp within 15 minutes, and an advisor will confirm the final premium. Thank you for your time,","client_received_at":1790933650999}
+{"type":"audio","position_ms":124000,"client_received_at":1790933651499}
+{"type":"transcript","segment":{"index":18,"speaker":"agent","text":"That's fine, we can leave that for the advisor. Thank you, that's everything I need. You're eligible to apply for Family Shield. Please note: illnesses are covered after a 30-day waiting period, and pre-existing diseases after 3 years. I'll send you a written quote by email or WhatsApp within 15 minutes, and an advisor will confirm the final premium. Thank you for your time, goodbye.","confidence":0.92,"start_ms":101531,"end_ms":123836,"interrupted_previous":false,"t_audio_received":1790933651499,"t_transcribed":1790933651499},"client_received_at":1790933651499}
+{"type":"done","summary":{"segments":19,"delivered":2,"suppressed":0,"resolved":0},"client_received_at":1790933651785}

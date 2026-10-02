@@ -1,0 +1,44 @@
+{
+  "name": "darwix-voice-ai",
+  "version": "0.1.0",
+  "description": "Knowledge-grounded voice agents, localized PH/ID bots and live call nudges (Darwix AI Engineer Assessment)",
+  "scripts": {
+    "ingest": "tsx scripts/ingest.ts",
+    "typecheck": "tsc",
+    "test": "vitest run",
+    "search": "tsx scripts/search.ts",
+    "eval:retrieval": "tsx scripts/eval-retrieval.ts",
+    "start": "tsx --env-file-if-exists=.env src/server.ts",
+    "dev": "tsx watch --env-file-if-exists=.env src/server.ts",
+    "scenarios": "tsx scripts/run-scenarios.ts",
+    "report:latency": "tsx scripts/latency-report.ts",
+    "render:audio": "python3 scripts/render_call_audio.py",
+    "ui:smoke": "tsx scripts/ui-smoke.ts",
+    "eval:language": "tsx scripts/eval-language.ts",
+    "q4": "tsx scripts/run-q4.ts",
+    "record:demo": "tsx scripts/record-live-demo.ts",
+    "prestart": "tsx scripts/ingest.ts > /dev/null",
+    "pretest": "tsx scripts/ingest.ts > /dev/null",
+    "eval": "npm run eval:retrieval > /dev/null && npm run eval:language > /dev/null && npm run scenarios && npm run report:latency > /dev/null && echo reports written to evidence/"
+  },
+  "dependencies": {
+    "@fastify/static": "^10.1.5",
+    "@fastify/websocket": "^11.3.1",
+    "cheerio": "^1.2.0",
+    "fastify": "^5.12.5",
+    "unpdf": "^1.8.1",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "playwright-core": "^1.63.0",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.3"
+  },
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  }
+}

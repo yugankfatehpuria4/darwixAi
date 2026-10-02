@@ -1,0 +1,128 @@
+{
+  "call_id": "call_20261002_30f32cd9",
+  "market": "ph_life",
+  "started_at": "2026-10-02T09:00:00.000Z",
+  "today": "2026-10-02",
+  "stage": "ended",
+  "register": "en",
+  "slots": {
+    "policy_last4": {
+      "value": "4821",
+      "heard": "Sorry, 4821",
+      "turn": 5
+    }
+  },
+  "skipped": [],
+  "pending_conflict": null,
+  "unanswered_questions": 0,
+  "consecutive_silence": 0,
+  "consecutive_unclear": 0,
+  "disclosures_given": [
+    "recording"
+  ],
+  "identity_attempts": 1,
+  "outcome": {
+    "status": "escalated_to_human",
+    "next_action": "advisor_transfer_or_callback",
+    "reasons": [
+      "customer asked for a human"
+    ],
+    "rule_sources": [
+      "ph/scripts/premium-reminder-script.md#Escalation"
+    ]
+  },
+  "escalated": true,
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "bot",
+      "text": "Magandang hapon po! Si Lia po ito, virtual assistant ng Kalinga Life, partner ng Bayanihan Bank. Para po sa quality at training purposes, naka-record po ang tawag na ito. Si Ma'am [CUSTOMER_NAME] po ba ang kausap ko?",
+      "at": "2026-10-02T09:00:00.000Z",
+      "register": "taglish",
+      "intent": "greeting"
+    },
+    {
+      "index": 1,
+      "speaker": "customer",
+      "text": "Yes, this is [CUSTOMER_NAME] [CUSTOMER_NAME] speaking",
+      "at": "2026-10-02T09:00:12.000Z",
+      "intent": "consent_yes",
+      "register": "en"
+    },
+    {
+      "index": 2,
+      "speaker": "bot",
+      "text": "Thank you, Ma'am. For security, may I have the last four digits of your policy number?",
+      "at": "2026-10-02T09:45:53.177Z",
+      "register": "en"
+    },
+    {
+      "index": 3,
+      "speaker": "customer",
+      "text": "It's 4812",
+      "at": "2026-10-02T09:00:24.000Z",
+      "intent": "verify_failed:policy_last4",
+      "register": "en"
+    },
+    {
+      "index": 4,
+      "speaker": "bot",
+      "text": "Sorry, that doesn't match our record. Could you say the last four digits again?",
+      "at": "2026-10-02T09:45:53.178Z",
+      "register": "en"
+    },
+    {
+      "index": 5,
+      "speaker": "customer",
+      "text": "Sorry, 4821",
+      "at": "2026-10-02T09:00:36.000Z",
+      "intent": "slot:policy_last4",
+      "register": "en"
+    },
+    {
+      "index": 6,
+      "speaker": "bot",
+      "text": "Thank you, you're verified. I'm calling to remind you that your quarterly premium for Kalinga Protect, 7,350 pesos, is due on Wednesday, October 7. If you need a little more time, there's a 31-day grace period from the due date. When do you think you'll be able to pay?",
+      "at": "2026-10-02T09:45:53.179Z",
+      "register": "en"
+    },
+    {
+      "index": 7,
+      "speaker": "customer",
+      "text": "Actually I have a question about a claim for my husband, can I talk to an advisor?",
+      "at": "2026-10-02T09:00:48.000Z",
+      "intent": "escalation_request",
+      "register": "en"
+    },
+    {
+      "index": 8,
+      "speaker": "bot",
+      "text": "Of course, I'm passing you to a Kalinga Life advisor. One moment please.",
+      "at": "2026-10-02T09:45:53.180Z",
+      "register": "en"
+    }
+  ],
+  "latencies": [
+    {
+      "turn": 1,
+      "understand_ms": 0.1,
+      "server_total_ms": 0.1
+    },
+    {
+      "turn": 3,
+      "understand_ms": 0.2,
+      "server_total_ms": 0.2
+    },
+    {
+      "turn": 5,
+      "understand_ms": 0.1,
+      "server_total_ms": 0.1
+    },
+    {
+      "turn": 7,
+      "understand_ms": 0.3,
+      "server_total_ms": 0.3
+    }
+  ],
+  "known_pii": []
+}

@@ -1,0 +1,76 @@
+{
+  "call": "q3-id-03-javanese-hardship",
+  "market": "id_finance",
+  "synthetic_audio": true,
+  "voices": {
+    "bot": "id+f3",
+    "customer": "id+m3"
+  },
+  "sample_rate": 16000,
+  "duration_ms": 71768,
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "agent",
+      "start_ms": 0,
+      "end_ms": 14569,
+      "text": "Selamat siang, Bapak. Saya Sari, asisten virtual dari Danamaju Finance, terkait pembiayaan sepeda motor Bapak. Untuk menjaga kualitas layanan, panggilan ini direkam. Apakah saya berbicara dengan Bapak Budi Santoso?",
+      "event": null,
+      "asr_confidence": null
+    },
+    {
+      "index": 1,
+      "speaker": "customer",
+      "start_ms": 15019,
+      "end_ms": 16932,
+      "text": "Nggih, leres, kula piyambak",
+      "event": null,
+      "asr_confidence": null
+    },
+    {
+      "index": 2,
+      "speaker": "agent",
+      "start_ms": 17382,
+      "end_ms": 22642,
+      "text": "Terima kasih, Bapak. Untuk verifikasi, mohon sebutkan tanggal lahir Bapak.",
+      "event": null,
+      "asr_confidence": null
+    },
+    {
+      "index": 3,
+      "speaker": "customer",
+      "start_ms": 23092,
+      "end_ms": 26145,
+      "text": "12 Maret 1990",
+      "event": null,
+      "asr_confidence": null
+    },
+    {
+      "index": 4,
+      "speaker": "agent",
+      "start_ms": 26595,
+      "end_ms": 50959,
+      "text": "Terima kasih, data sudah sesuai. Kami ingin mengingatkan bahwa angsuran ke-9 pembiayaan sepeda motor Bapak sebesar satu juta dua ratus lima puluh ribu rupiah akan jatuh tempo pada hari Senin, 5 Oktober 2026. Denda keterlambatan sebesar 0,2 persen per hari berlaku mulai sehari setelah jatuh tempo. Rencananya Bapak akan melakukan pembayaran kapan?",
+      "event": null,
+      "asr_confidence": null
+    },
+    {
+      "index": 5,
+      "speaker": "customer",
+      "start_ms": 51409,
+      "end_ms": 54650,
+      "text": "Ngapunten, kula kena PHK, dereng saged mbayar",
+      "event": null,
+      "asr_confidence": null
+    },
+    {
+      "index": 6,
+      "speaker": "agent",
+      "start_ms": 55100,
+      "end_ms": 71314,
+      "text": "Kami turut prihatin, Bapak. Saya jadwalkan petugas cabang untuk menghubungi Bapak terkait program keringanan. Keputusan restrukturisasi ada di tim kredit, jadi saya belum bisa menjanjikan hasilnya. Semoga dimudahkan, Bapak. Terima kasih.",
+      "event": null,
+      "asr_confidence": null
+    }
+  ]
+}

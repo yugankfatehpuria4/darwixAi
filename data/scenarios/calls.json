@@ -1,0 +1,273 @@
+{
+  "_note": "Scripted test calls. Customer turns are injected as if they were ASR output (text) or as events (silence, low-confidence audio). call_time fixes the clock so greetings, desk hours and due dates are reproducible. 'expect' is checked by scripts/run-scenarios.ts.",
+  "scenarios": [
+    {
+      "id": "q1-01-cooperative",
+      "market": "in_health",
+      "title": "Cooperative customer, single member, asks a policy question mid-call, gets an indicative quote",
+      "covers": ["cooperative customer", "grounded KB answer", "deterministic quote from premium chart", "waiting-period disclosure before price"],
+      "call_time": "2026-10-02T06:30:00Z",
+      "turns": [
+        { "text": "Yes, sure, go ahead" },
+        { "text": "Just me" },
+        { "text": "I am 29" },
+        { "text": "Before that, how does cashless treatment work at the hospital?" },
+        { "text": "Bengaluru" },
+        { "text": "No, nothing like that" },
+        { "text": "No, I don't have any insurance" },
+        { "text": "10 lakh" }
+      ],
+      "expect": { "status": "qualified", "escalated": false, "retrieval_turns_min": 1, "reply_contains": ["Rs 9,600", "30-day waiting period"] }
+    },
+    {
+      "id": "q1-02-objections",
+      "market": "in_health",
+      "title": "Price objection and employer-cover objection, answered from the objection script, then qualified",
+      "covers": ["objection", "grounded objection handling", "optional field skipped"],
+      "call_time": "2026-10-02T07:10:00Z",
+      "turns": [
+        { "text": "Okay, yes" },
+        { "text": "Me and my wife" },
+        { "text": "41" },
+        { "text": "Delhi" },
+        { "text": "Honestly this is too expensive, I can't afford it" },
+        { "text": "No medical conditions" },
+        { "text": "My company already gives me health insurance" },
+        { "text": "Yes, through work" },
+        { "text": "Not sure, you tell me" }
+      ],
+      "expect": { "status": "qualified", "escalated": false, "intents_include": ["objection:price", "objection:employer_cover", "skipped:sum_insured"] }
+    },
+    {
+      "id": "q1-03-conflicting",
+      "market": "in_health",
+      "title": "Conflicting age (58 then 68): bot asks to confirm, keeps 68, applies the entry-age rule in code",
+      "covers": ["conflicting details", "deterministic eligibility rule", "specialist referral"],
+      "call_time": "2026-10-02T08:00:00Z",
+      "turns": [
+        { "text": "Yes please" },
+        { "text": "Me and my father" },
+        { "text": "My father is 58 years old" },
+        { "text": "Mumbai" },
+        { "text": "He is 68 years old" },
+        { "text": "Yes, 68" },
+        { "text": "No conditions" },
+        { "text": "No" },
+        { "text": "15 lakh" }
+      ],
+      "expect": { "status": "not_eligible_refer_specialist", "escalated": false, "intents_include": ["conflict_resolved:eldest_member_age"] }
+    },
+    {
+      "id": "q1-04-incomplete",
+      "market": "in_health",
+      "title": "Customer cannot give the age or medical history: fields skipped, lead marked incomplete with callback",
+      "covers": ["incomplete details", "required-field rule in code"],
+      "call_time": "2026-10-02T09:15:00Z",
+      "turns": [
+        { "text": "Yeah okay" },
+        { "text": "My mother in law" },
+        { "text": "I don't know her exact age, not sure" },
+        { "text": "Chennai" },
+        { "text": "I don't know, I'd have to ask her" },
+        { "text": "No" },
+        { "text": "5 lakh" }
+      ],
+      "expect": { "status": "incomplete", "escalated": false, "intents_include": ["skipped:eldest_member_age", "skipped:pre_existing_disease"] }
+    },
+    {
+      "id": "q1-05-out-of-scope",
+      "market": "in_health",
+      "title": "Two out-of-scope questions: bot says it does not have the information, then transfers per Rule Q6",
+      "covers": ["out-of-scope question", "safe fallback (no invented answer)", "escalation after two unanswerable questions"],
+      "call_time": "2026-10-02T10:00:00Z",
+      "turns": [
+        { "text": "Yes" },
+        { "text": "Just myself" },
+        { "text": "Do you sell travel insurance for my Europe trip?" },
+        { "text": "33" },
+        { "text": "What is the name of your CEO?" }
+      ],
+      "expect": { "status": "escalated_to_human", "escalated": true, "intents_include": ["unanswered"], "unanswered_min": 2 }
+    },
+    {
+      "id": "q1-06-human-request",
+      "market": "in_health",
+      "title": "Customer asks for a human straight away; transferred live inside desk hours",
+      "covers": ["human-assistance request", "escalation webhook"],
+      "call_time": "2026-10-02T11:00:00Z",
+      "turns": [
+        { "text": "Yes" },
+        { "text": "Can I talk to a real person please?" }
+      ],
+      "expect": { "status": "escalated_to_human", "escalated": true, "next_action": "warm_transfer_senior_advisor" }
+    },
+    {
+      "id": "q1-07-pre-existing",
+      "market": "in_health",
+      "title": "Declared diabetes: bot neither approves nor rejects, routes to underwriting review",
+      "covers": ["pre-existing condition rule", "no medical decision by the bot"],
+      "call_time": "2026-10-02T12:00:00Z",
+      "turns": [
+        { "text": "Sure" },
+        { "text": "Myself and my wife" },
+        { "text": "I'm 52" },
+        { "text": "Noida" },
+        { "text": "Yes, my wife has diabetes" },
+        { "text": "Is there a waiting period for that?" },
+        { "text": "No, we don't have any insurance" },
+        { "text": "25 lakh" }
+      ],
+      "expect": { "status": "needs_underwriting_review", "escalated": false, "retrieval_turns_min": 1 }
+    },
+    {
+      "id": "q1-08-silence-noise-dnc",
+      "market": "in_health",
+      "title": "Silence, then unclear audio (low ASR confidence), then a do-not-call request",
+      "covers": ["silence handling", "unclear audio / STT low confidence", "do-not-call"],
+      "call_time": "2026-10-02T12:30:00Z",
+      "turns": [
+        { "text": "Yes" },
+        { "event": "silence" },
+        { "text": "mmh wife ah the", "asr_confidence": 0.31 },
+        { "event": "asr_error" },
+        { "text": "Please don't call me again" }
+      ],
+      "expect": { "status": "do_not_call", "escalated": false, "intents_include": ["silence", "low_confidence", "asr_error"] }
+    },
+    {
+      "id": "q1-09-call-later",
+      "market": "in_health",
+      "title": "Customer wants time to think: objection script wording, callback scheduled, call ends politely",
+      "covers": ["objection that ends the call", "callback scheduling"],
+      "call_time": "2026-10-03T14:45:00Z",
+      "turns": [
+        { "text": "Yes okay" },
+        { "text": "Let me think about it and call me next week" }
+      ],
+      "expect": { "status": "callback_requested", "escalated": false, "intents_include": ["objection:call_later"] }
+    },
+
+    {
+      "id": "q3-ph-01-cooperative-taglish",
+      "market": "ph_life",
+      "title": "Taglish policyholder: verified, asks about late payment in Taglish, promises Friday via e-wallet",
+      "covers": ["cooperative customer", "Taglish code-switching", "grounded Taglish FAQ answer", "grace-period rule in code"],
+      "call_time": "2026-10-02T02:00:00Z",
+      "turns": [
+        { "text": "Opo, ako po si Ana" },
+        { "text": "4821" },
+        { "text": "Ano po mangyayari kapag na-late ako ng bayad?" },
+        { "text": "Sa Biyernes po ako magbabayad, sa GCash po" }
+      ],
+      "expect": { "status": "promise_within_grace", "escalated": false, "retrieval_turns_min": 1, "register_final": "taglish" }
+    },
+    {
+      "id": "q3-ph-02-objection-payday",
+      "market": "ph_life",
+      "title": "\"Sa sweldo pa po\" objection with a date on the 15th, mixed English finance terms",
+      "covers": ["sector-specific objection", "mixed English/finance terms", "colloquial speech"],
+      "call_time": "2026-10-02T05:30:00Z",
+      "turns": [
+        { "text": "Oo, ako nga" },
+        { "text": "Yung last four ko po ay 4821" },
+        { "text": "Wala pa po akong pambayad, sa sweldo pa po sa 15" },
+        { "text": "Over the counter na lang sa branch" }
+      ],
+      "expect": { "status": "promise_within_grace", "escalated": false, "intents_include": ["objection:no_money_yet"] }
+    },
+    {
+      "id": "q3-ph-03-hardship",
+      "market": "ph_life",
+      "title": "Job loss: hardship extension callback, no promise of approval",
+      "covers": ["sector-specific objection (hardship)", "rule: bot cannot approve extension"],
+      "call_time": "2026-10-02T06:00:00Z",
+      "turns": [
+        { "text": "Opo" },
+        { "text": "4821" },
+        { "text": "Nawalan po ako ng trabaho last month, hindi ko po kaya ngayon" }
+      ],
+      "expect": { "status": "hardship_extension_callback", "escalated": false }
+    },
+    {
+      "id": "q3-ph-04-english-escalation",
+      "market": "ph_life",
+      "title": "English-speaking policyholder, wrong last four once, then asks about a claim and is passed to an advisor in English",
+      "covers": ["English support", "identity check retry", "human escalation in the customer's language"],
+      "call_time": "2026-10-02T09:00:00Z",
+      "turns": [
+        { "text": "Yes, this is Ana Reyes speaking" },
+        { "text": "It's 4812" },
+        { "text": "Sorry, 4821" },
+        { "text": "Actually I have a question about a claim for my husband, can I talk to an advisor?" }
+      ],
+      "expect": { "status": "escalated_to_human", "escalated": true, "register_final": "en", "intents_include": ["verify_failed:policy_last4"] }
+    },
+    {
+      "id": "q3-ph-05-wrong-person",
+      "market": "ph_life",
+      "title": "Someone else answers: the bot discloses nothing about the policy",
+      "covers": ["privacy: no disclosure to third parties"],
+      "call_time": "2026-10-02T03:00:00Z",
+      "turns": [
+        { "text": "Hindi po, kapatid niya po ako" }
+      ],
+      "expect": { "status": "wrong_person_no_disclosure", "escalated": false, "reply_not_contains": ["premium", "pesos", "4821"] }
+    },
+
+    {
+      "id": "q3-id-01-cooperative-formal",
+      "market": "id_finance",
+      "title": "Formal Bahasa Indonesia: verified, pays tomorrow by virtual account, before due date",
+      "covers": ["cooperative customer", "formal register", "amounts spoken in words"],
+      "call_time": "2026-10-02T02:00:00Z",
+      "turns": [
+        { "text": "Iya, benar, saya sendiri" },
+        { "text": "Tanggal 12 Maret 1990" },
+        { "text": "Besok saya bayar melalui virtual account" }
+      ],
+      "expect": { "status": "promise_on_time", "escalated": false, "register_final": "formal", "reply_contains": ["satu juta dua ratus lima puluh ribu rupiah"] }
+    },
+    {
+      "id": "q3-id-02-colloquial-late",
+      "market": "id_finance",
+      "title": "Colloquial caller, \"belum gajian\" objection, pays on the 10th: late fee computed in code and spoken in words",
+      "covers": ["sector-specific objection", "colloquial speech", "finance loanwords (DP, tenor)", "deterministic late-fee rule"],
+      "call_time": "2026-10-02T04:00:00Z",
+      "turns": [
+        { "text": "Iya bener, saya Budi" },
+        { "text": "12 3 1990" },
+        { "text": "Kalau telat dendanya berapa sih?" },
+        { "text": "Waduh belum gajian nih, gajiannya tanggal 10" },
+        { "text": "Lewat Alfamart aja" }
+      ],
+      "expect": { "status": "promise_late", "escalated": false, "register_final": "santai", "intents_include": ["objection:not_paid_yet", "question"], "retrieval_turns_min": 2 }
+    },
+    {
+      "id": "q3-id-03-javanese-hardship",
+      "market": "id_finance",
+      "title": "Javanese-influenced polite speech (krama): job loss, restructuring callback, bot stays formal",
+      "covers": ["regional speech (Javanese krama lexicon)", "hardship", "register kept formal"],
+      "call_time": "2026-10-02T07:00:00Z",
+      "turns": [
+        { "text": "Nggih, leres, kula piyambak" },
+        { "text": "12 Maret 1990" },
+        { "text": "Ngapunten, kula kena PHK, dereng saged mbayar" }
+      ],
+      "expect": { "status": "hardship_restructuring_callback", "escalated": false, "register_final": "formal" }
+    },
+    {
+      "id": "q3-id-04-sundanese-escalation",
+      "market": "id_finance",
+      "title": "Sundanese-influenced speech asks about the late fee, then asks for an officer",
+      "covers": ["regional speech (Sundanese lexicon)", "human escalation in Indonesian"],
+      "call_time": "2026-10-02T08:30:00Z",
+      "turns": [
+        { "text": "Muhun, leres" },
+        { "text": "12 Maret 1990" },
+        { "text": "Punten, upami telat mayar dendana sabaraha?" },
+        { "text": "Abdi hoyong ngobrol sareng petugas wae" }
+      ],
+      "expect": { "status": "escalated_to_human", "escalated": true, "retrieval_turns_min": 1, "register_final": "formal" }
+    }
+  ]
+}

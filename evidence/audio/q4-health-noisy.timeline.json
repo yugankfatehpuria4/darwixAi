@@ -1,0 +1,134 @@
+{
+  "call": "q4-health-noisy",
+  "market": "in_health",
+  "synthetic_audio": true,
+  "voices": {
+    "bot": "en+f3",
+    "customer": "en-gb-x-rp+m3"
+  },
+  "noise_snr_db": 3,
+  "sample_rate": 16000,
+  "duration_ms": 48891,
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "agent",
+      "start_ms": 0,
+      "end_ms": 7614,
+      "text": "Hello, this is Meera from Suraksha Health Insurance. This call is recorded for quality and training purposes. Is this a good time?",
+      "event": null,
+      "asr_confidence": 0.82,
+      "interrupted_previous": false
+    },
+    {
+      "index": 1,
+      "speaker": "customer",
+      "start_ms": 8064,
+      "end_ms": 10187,
+      "text": "yes its fine on the road",
+      "event": null,
+      "asr_confidence": 0.58,
+      "interrupted_previous": false
+    },
+    {
+      "index": 2,
+      "speaker": "agent",
+      "start_ms": 10637,
+      "end_ms": 12925,
+      "text": "No problem. Who would you like to cover?",
+      "event": null,
+      "asr_confidence": 0.8,
+      "interrupted_previous": false
+    },
+    {
+      "index": 3,
+      "speaker": "customer",
+      "start_ms": 13375,
+      "end_ms": 16076,
+      "text": "me and may be my parent check",
+      "event": null,
+      "asr_confidence": 0.41,
+      "interrupted_previous": false
+    },
+    {
+      "index": 4,
+      "speaker": "agent",
+      "start_ms": 16526,
+      "end_ms": 18896,
+      "text": "Sure. And how old is the eldest person?",
+      "event": null,
+      "asr_confidence": 0.79,
+      "interrupted_previous": false
+    },
+    {
+      "index": 5,
+      "speaker": "customer",
+      "start_ms": 19346,
+      "end_ms": 22719,
+      "text": "forty to wait expensive earlier",
+      "event": null,
+      "asr_confidence": 0.37,
+      "interrupted_previous": false
+    },
+    {
+      "index": 6,
+      "speaker": "agent",
+      "start_ms": 23169,
+      "end_ms": 31507,
+      "text": "I haven't quoted a price yet. Before any price: illnesses are covered after a 30-day waiting period and pre-existing diseases after 3 years.",
+      "event": null,
+      "asr_confidence": 0.77,
+      "interrupted_previous": false
+    },
+    {
+      "index": 7,
+      "speaker": "customer",
+      "start_ms": 31957,
+      "end_ms": 36331,
+      "text": "my parents already have their own policy actually so its just me",
+      "event": null,
+      "asr_confidence": 0.86,
+      "interrupted_previous": false
+    },
+    {
+      "index": 8,
+      "speaker": "agent",
+      "start_ms": 36781,
+      "end_ms": 39003,
+      "text": "Got it, just you then. Which city?",
+      "event": null,
+      "asr_confidence": 0.81,
+      "interrupted_previous": false
+    },
+    {
+      "index": 9,
+      "speaker": "customer",
+      "start_ms": 39453,
+      "end_ms": 42427,
+      "text": "delhi sorry the claim how does claim work",
+      "event": null,
+      "asr_confidence": 0.52,
+      "interrupted_previous": false
+    },
+    {
+      "index": 10,
+      "speaker": "agent",
+      "start_ms": 42877,
+      "end_ms": 46914,
+      "text": "At network hospitals it's cashless; I'll send you the details on WhatsApp.",
+      "event": null,
+      "asr_confidence": 0.8,
+      "interrupted_previous": false
+    },
+    {
+      "index": 11,
+      "speaker": "customer",
+      "start_ms": 47364,
+      "end_ms": 48441,
+      "text": "okay thanks",
+      "event": null,
+      "asr_confidence": 0.62,
+      "interrupted_previous": false
+    }
+  ]
+}

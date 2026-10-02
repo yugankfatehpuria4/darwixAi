@@ -1,0 +1,7 @@
+{
+  "_note": "Deterministic rules for the Danamaju pre-due installment reminder. Values cite the KB section they come from; tests/rules.test.ts checks them against the KB text. SYNTHETIC.",
+  "late_fee_rate_per_day": { "value": 0.002, "display": "0,2%", "source": "id/kebijakan/denda-keringanan-penagihan.md#Jatuh tempo dan denda keterlambatan" },
+  "due_date_change_fee_idr": { "value": 50000, "display": "Rp50.000", "source": "id/kebijakan/denda-keringanan-penagihan.md#Perubahan tanggal jatuh tempo" },
+  "calling_hours_local": { "start": "08:00", "end": "20:00", "days": "Senin-Sabtu", "source": "id/kebijakan/denda-keringanan-penagihan.md#Etika penagihan" },
+  "max_unanswered_questions": { "value": 2, "source": "id/scripts/skrip-pengingat-angsuran.md#Eskalasi" }
+}

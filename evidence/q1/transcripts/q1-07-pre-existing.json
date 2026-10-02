@@ -1,0 +1,254 @@
+{
+  "call_id": "call_20261002_432fe5b4",
+  "market": "in_health",
+  "started_at": "2026-10-02T12:00:00.000Z",
+  "today": "2026-10-02",
+  "stage": "ended",
+  "register": "en",
+  "slots": {
+    "members_to_cover": {
+      "value": [
+        "self",
+        "spouse"
+      ],
+      "heard": "Myself and my wife",
+      "turn": 3
+    },
+    "eldest_member_age": {
+      "value": 52,
+      "heard": "I'm 52",
+      "turn": 5
+    },
+    "city": {
+      "value": "Noida",
+      "heard": "Noida",
+      "turn": 7
+    },
+    "pre_existing_disease": {
+      "value": true,
+      "heard": "Yes, my wife has diabetes",
+      "turn": 9
+    },
+    "existing_cover": {
+      "value": false,
+      "heard": "No, we don't have any insurance",
+      "turn": 13
+    },
+    "sum_insured": {
+      "value": 25,
+      "heard": "25 lakh",
+      "turn": 15
+    }
+  },
+  "skipped": [],
+  "pending_conflict": null,
+  "unanswered_questions": 0,
+  "consecutive_silence": 0,
+  "consecutive_unclear": 0,
+  "disclosures_given": [
+    "recording"
+  ],
+  "identity_attempts": 0,
+  "outcome": {
+    "status": "needs_underwriting_review",
+    "next_action": "underwriter_callback",
+    "reasons": [
+      "pre-existing condition declared; the bot does not accept or reject on medical grounds"
+    ],
+    "rule_sources": [
+      "health/policies/qualification-rules.md#Rule Q1: Entry age",
+      "health/policies/qualification-rules.md#Rule Q5: Required fields for a qualified lead",
+      "health/policies/qualification-rules.md#Rule Q3: Pre-existing conditions"
+    ]
+  },
+  "escalated": false,
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "bot",
+      "text": "Hello, this is Asha, a virtual assistant from Suraksha Health Insurance, calling about the health insurance enquiry you submitted. This call is recorded for quality and training purposes. Is this a good time to talk for about five minutes?",
+      "at": "2026-10-02T12:00:00.000Z",
+      "register": "en",
+      "intent": "greeting"
+    },
+    {
+      "index": 1,
+      "speaker": "customer",
+      "text": "Sure",
+      "at": "2026-10-02T12:00:12.000Z",
+      "intent": "consent_yes",
+      "register": "en"
+    },
+    {
+      "index": 2,
+      "speaker": "bot",
+      "text": "First, who would you like to cover: just yourself, or also your spouse, children or parents?",
+      "at": "2026-10-02T09:45:53.093Z",
+      "register": "en"
+    },
+    {
+      "index": 3,
+      "speaker": "customer",
+      "text": "Myself and my wife",
+      "at": "2026-10-02T12:00:24.000Z",
+      "intent": "slot:members_to_cover",
+      "register": "en"
+    },
+    {
+      "index": 4,
+      "speaker": "bot",
+      "text": "What is the age of the eldest person to be covered?",
+      "at": "2026-10-02T09:45:53.094Z",
+      "register": "en"
+    },
+    {
+      "index": 5,
+      "speaker": "customer",
+      "text": "I'm 52",
+      "at": "2026-10-02T12:00:36.000Z",
+      "intent": "slot:eldest_member_age",
+      "register": "en"
+    },
+    {
+      "index": 6,
+      "speaker": "bot",
+      "text": "Which city do you live in?",
+      "at": "2026-10-02T09:45:53.095Z",
+      "register": "en"
+    },
+    {
+      "index": 7,
+      "speaker": "customer",
+      "text": "Noida",
+      "at": "2026-10-02T12:00:48.000Z",
+      "intent": "slot:city",
+      "register": "en"
+    },
+    {
+      "index": 8,
+      "speaker": "bot",
+      "text": "Does anyone to be covered have an existing medical condition, such as diabetes, blood pressure, thyroid or asthma?",
+      "at": "2026-10-02T09:45:53.096Z",
+      "register": "en"
+    },
+    {
+      "index": 9,
+      "speaker": "customer",
+      "text": "Yes, my wife has diabetes",
+      "at": "2026-10-02T12:01:00.000Z",
+      "intent": "slot:pre_existing_disease",
+      "register": "en"
+    },
+    {
+      "index": 10,
+      "speaker": "bot",
+      "text": "Do you have any existing health insurance, including cover from your employer?",
+      "at": "2026-10-02T09:45:53.097Z",
+      "register": "en"
+    },
+    {
+      "index": 11,
+      "speaker": "customer",
+      "text": "Is there a waiting period for that?",
+      "at": "2026-10-02T12:01:12.000Z",
+      "intent": "question",
+      "register": "en"
+    },
+    {
+      "index": 12,
+      "speaker": "bot",
+      "text": "Hospitalisation due to any illness is covered after an initial waiting period of 30 days from the policy start date. Pre-existing diseases are covered after a waiting period of 3 years of continuous coverage. Do you have any existing health insurance, including cover from your employer?",
+      "at": "2026-10-02T09:45:53.099Z",
+      "register": "en",
+      "retrieval": {
+        "query": "Is there a waiting period for that?",
+        "answerable": true,
+        "reason": "ok",
+        "confidence": 0.363,
+        "chunk_ids": [
+          "kb_in_health_waiting_period_65a836"
+        ],
+        "citations": [
+          "Family Shield Health Plan > Waiting periods [kb_in_health_waiting_period_65a836] (https://suraksha-example.in/plans/family-shield, v1.0, effective 2026-04-01)",
+          "Family Shield Policy Wordings > Waiting Periods [kb_in_health_waiting_period_eff976] (https://suraksha-example.in/docs/family-shield-policy-wordings.pdf, v1.0, effective 2026-04-01)",
+          "Frequently Asked Questions > What happens if I miss my renewal date? [kb_in_health_faq_5f7bec] (https://suraksha-example.in/faq, v1.0, effective 2026-04-01)"
+        ],
+        "answer_mode": "extractive"
+      }
+    },
+    {
+      "index": 13,
+      "speaker": "customer",
+      "text": "No, we don't have any insurance",
+      "at": "2026-10-02T12:01:24.000Z",
+      "intent": "slot:existing_cover",
+      "register": "en"
+    },
+    {
+      "index": 14,
+      "speaker": "bot",
+      "text": "Last one: which cover amount are you looking at, 5, 10, 15 or 25 lakh rupees? You can also say not sure.",
+      "at": "2026-10-02T09:45:53.101Z",
+      "register": "en"
+    },
+    {
+      "index": 15,
+      "speaker": "customer",
+      "text": "25 lakh",
+      "at": "2026-10-02T12:01:36.000Z",
+      "intent": "slot:sum_insured",
+      "register": "en"
+    },
+    {
+      "index": 16,
+      "speaker": "bot",
+      "text": "Thank you for telling me. Because a medical condition was declared, an underwriter needs to review this before we can quote. This is not a rejection. I've scheduled an underwriter to call you back within 2 working days. Thank you, goodbye.",
+      "at": "2026-10-02T09:45:53.102Z",
+      "register": "en"
+    }
+  ],
+  "latencies": [
+    {
+      "turn": 1,
+      "understand_ms": 0,
+      "server_total_ms": 0
+    },
+    {
+      "turn": 3,
+      "understand_ms": 0.1,
+      "server_total_ms": 0.1
+    },
+    {
+      "turn": 5,
+      "understand_ms": 0.1,
+      "server_total_ms": 0.1
+    },
+    {
+      "turn": 7,
+      "understand_ms": 0.1,
+      "server_total_ms": 0.1
+    },
+    {
+      "turn": 9,
+      "understand_ms": 0.2,
+      "server_total_ms": 0.2
+    },
+    {
+      "turn": 11,
+      "understand_ms": 0.3,
+      "retrieval_ms": 0.8,
+      "server_total_ms": 1.1
+    },
+    {
+      "turn": 13,
+      "understand_ms": 0.1,
+      "server_total_ms": 0.1
+    },
+    {
+      "turn": 15,
+      "understand_ms": 0.2,
+      "server_total_ms": 0.2
+    }
+  ],
+  "known_pii": []
+}

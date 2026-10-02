@@ -1,0 +1,256 @@
+{
+  "call_id": "call_20261002_05a1a4c4",
+  "market": "in_health",
+  "started_at": "2026-10-02T08:00:00.000Z",
+  "today": "2026-10-02",
+  "stage": "ended",
+  "register": "en",
+  "slots": {
+    "members_to_cover": {
+      "value": [
+        "self",
+        "parents"
+      ],
+      "heard": "Me and my father",
+      "turn": 3
+    },
+    "eldest_member_age": {
+      "value": 68,
+      "heard": "Yes, 68",
+      "turn": 11
+    },
+    "city": {
+      "value": "Mumbai",
+      "heard": "Mumbai",
+      "turn": 7
+    },
+    "pre_existing_disease": {
+      "value": false,
+      "heard": "No conditions",
+      "turn": 13
+    },
+    "existing_cover": {
+      "value": false,
+      "heard": "No",
+      "turn": 15
+    },
+    "sum_insured": {
+      "value": 15,
+      "heard": "15 lakh",
+      "turn": 17
+    }
+  },
+  "skipped": [],
+  "pending_conflict": null,
+  "unanswered_questions": 0,
+  "consecutive_silence": 0,
+  "consecutive_unclear": 0,
+  "disclosures_given": [
+    "recording"
+  ],
+  "identity_attempts": 0,
+  "outcome": {
+    "status": "not_eligible_refer_specialist",
+    "next_action": "specialist_callback_senior_plan",
+    "reasons": [
+      "eldest member aged 68 is above the Family Shield maximum entry age of 65"
+    ],
+    "rule_sources": [
+      "health/policies/qualification-rules.md#Rule Q1: Entry age"
+    ]
+  },
+  "escalated": false,
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "bot",
+      "text": "Hello, this is Asha, a virtual assistant from Suraksha Health Insurance, calling about the health insurance enquiry you submitted. This call is recorded for quality and training purposes. Is this a good time to talk for about five minutes?",
+      "at": "2026-10-02T08:00:00.000Z",
+      "register": "en",
+      "intent": "greeting"
+    },
+    {
+      "index": 1,
+      "speaker": "customer",
+      "text": "Yes please",
+      "at": "2026-10-02T08:00:12.000Z",
+      "intent": "consent_yes",
+      "register": "en"
+    },
+    {
+      "index": 2,
+      "speaker": "bot",
+      "text": "First, who would you like to cover: just yourself, or also your spouse, children or parents?",
+      "at": "2026-10-02T09:45:53.052Z",
+      "register": "en"
+    },
+    {
+      "index": 3,
+      "speaker": "customer",
+      "text": "Me and my father",
+      "at": "2026-10-02T08:00:24.000Z",
+      "intent": "slot:members_to_cover",
+      "register": "en"
+    },
+    {
+      "index": 4,
+      "speaker": "bot",
+      "text": "What is the age of the eldest person to be covered?",
+      "at": "2026-10-02T09:45:53.052Z",
+      "register": "en"
+    },
+    {
+      "index": 5,
+      "speaker": "customer",
+      "text": "My father is 58 years old",
+      "at": "2026-10-02T08:00:36.000Z",
+      "intent": "slot:eldest_member_age",
+      "register": "en"
+    },
+    {
+      "index": 6,
+      "speaker": "bot",
+      "text": "Which city do you live in?",
+      "at": "2026-10-02T09:45:53.053Z",
+      "register": "en"
+    },
+    {
+      "index": 7,
+      "speaker": "customer",
+      "text": "Mumbai",
+      "at": "2026-10-02T08:00:48.000Z",
+      "intent": "slot:city",
+      "register": "en"
+    },
+    {
+      "index": 8,
+      "speaker": "bot",
+      "text": "Does anyone to be covered have an existing medical condition, such as diabetes, blood pressure, thyroid or asthma?",
+      "at": "2026-10-02T09:45:53.054Z",
+      "register": "en"
+    },
+    {
+      "index": 9,
+      "speaker": "customer",
+      "text": "He is 68 years old",
+      "at": "2026-10-02T08:01:00.000Z",
+      "intent": "slot:eldest_member_age",
+      "register": "en"
+    },
+    {
+      "index": 10,
+      "speaker": "bot",
+      "text": "Just to check: earlier you said 58 years, and now 68 years. Is 68 years correct?",
+      "at": "2026-10-02T09:45:53.055Z",
+      "register": "en"
+    },
+    {
+      "index": 11,
+      "speaker": "customer",
+      "text": "Yes, 68",
+      "at": "2026-10-02T08:01:12.000Z",
+      "intent": "conflict_resolved:eldest_member_age",
+      "register": "en"
+    },
+    {
+      "index": 12,
+      "speaker": "bot",
+      "text": "Okay, I'll keep 68 years. Does anyone to be covered have an existing medical condition, such as diabetes, blood pressure, thyroid or asthma?",
+      "at": "2026-10-02T09:45:53.057Z",
+      "register": "en"
+    },
+    {
+      "index": 13,
+      "speaker": "customer",
+      "text": "No conditions",
+      "at": "2026-10-02T08:01:24.000Z",
+      "intent": "slot:pre_existing_disease",
+      "register": "en"
+    },
+    {
+      "index": 14,
+      "speaker": "bot",
+      "text": "Do you have any existing health insurance, including cover from your employer?",
+      "at": "2026-10-02T09:45:53.058Z",
+      "register": "en"
+    },
+    {
+      "index": 15,
+      "speaker": "customer",
+      "text": "No",
+      "at": "2026-10-02T08:01:36.000Z",
+      "intent": "slot:existing_cover",
+      "register": "en"
+    },
+    {
+      "index": 16,
+      "speaker": "bot",
+      "text": "Last one: which cover amount are you looking at, 5, 10, 15 or 25 lakh rupees? You can also say not sure.",
+      "at": "2026-10-02T09:45:53.059Z",
+      "register": "en"
+    },
+    {
+      "index": 17,
+      "speaker": "customer",
+      "text": "15 lakh",
+      "at": "2026-10-02T08:01:48.000Z",
+      "intent": "slot:sum_insured",
+      "register": "en"
+    },
+    {
+      "index": 18,
+      "speaker": "bot",
+      "text": "Thank you. Family Shield covers adults up to 65 years at entry, so for someone aged 68 there is a separate senior citizen plan handled by a specialist advisor. I've asked a specialist to call you back. Thank you, goodbye.",
+      "at": "2026-10-02T09:45:53.060Z",
+      "register": "en"
+    }
+  ],
+  "latencies": [
+    {
+      "turn": 1,
+      "understand_ms": 0,
+      "server_total_ms": 0
+    },
+    {
+      "turn": 3,
+      "understand_ms": 0.2,
+      "server_total_ms": 0.2
+    },
+    {
+      "turn": 5,
+      "understand_ms": 0.1,
+      "server_total_ms": 0.1
+    },
+    {
+      "turn": 7,
+      "understand_ms": 0.1,
+      "server_total_ms": 0.1
+    },
+    {
+      "turn": 9,
+      "understand_ms": 0.4,
+      "server_total_ms": 0.4
+    },
+    {
+      "turn": 11,
+      "understand_ms": 0.2,
+      "server_total_ms": 0.2
+    },
+    {
+      "turn": 13,
+      "understand_ms": 0.1,
+      "server_total_ms": 0.1
+    },
+    {
+      "turn": 15,
+      "understand_ms": 0.1,
+      "server_total_ms": 0.1
+    },
+    {
+      "turn": 17,
+      "understand_ms": 0.1,
+      "server_total_ms": 0.1
+    }
+  ],
+  "known_pii": []
+}

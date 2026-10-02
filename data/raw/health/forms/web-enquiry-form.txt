@@ -1,0 +1,20 @@
+SYNTHETIC SAMPLE CONTENT. Fictional company, written for the Darwix assessment.
+
+SURAKSHA HEALTH INSURANCE
+HEALTH INSURANCE ENQUIRY FORM (WEBSITE LEAD)
+Form ID: LEAD-WEB-07   Effective: 01/04/2026
+
+Name of Proposer: ____________________
+Mobile No.: ____________________
+E-mail Address: ____________________
+City / Town: ____________________
+Pin Code: ____________________
+Date of Birth (DD/MM/YYYY): ____________________
+Members to be Insured (Self / Spouse / Children / Parents): ____________________
+Age of Eldest Member: ____________________
+Any Pre-Existing Disease? (Y/N): ____________________
+Existing Health Insurance incl. Employer Cover? (Y/N): ____________________
+Cover Amount Required: ____________________
+Preferred Time for Call Back: ____________________
+
+Declaration: I authorise Suraksha Health and its representatives to contact me on the number provided, even if registered under DND.

@@ -1,0 +1,94 @@
+{
+  "call": "q3-ph-04-english-escalation",
+  "market": "ph_life",
+  "synthetic_audio": true,
+  "voices": {
+    "bot": "id+f3",
+    "customer": "id+m3"
+  },
+  "sample_rate": 16000,
+  "duration_ms": 59432,
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "agent",
+      "start_ms": 0,
+      "end_ms": 13871,
+      "text": "Magandang hapon po! Si Lia po ito, virtual assistant ng Kalinga Life, partner ng Bayanihan Bank. Para po sa quality at training purposes, naka-record po ang tawag na ito. Si Ma'am Reyes po ba ang kausap ko?",
+      "event": null,
+      "asr_confidence": null
+    },
+    {
+      "index": 1,
+      "speaker": "customer",
+      "start_ms": 14321,
+      "end_ms": 16059,
+      "text": "Yes, this is Ana Reyes speaking",
+      "event": null,
+      "asr_confidence": null
+    },
+    {
+      "index": 2,
+      "speaker": "agent",
+      "start_ms": 16509,
+      "end_ms": 21537,
+      "text": "Thank you, Ma'am. For security, may I have the last four digits of your policy number?",
+      "event": null,
+      "asr_confidence": null
+    },
+    {
+      "index": 3,
+      "speaker": "customer",
+      "start_ms": 21987,
+      "end_ms": 23990,
+      "text": "It's 4812",
+      "event": null,
+      "asr_confidence": null
+    },
+    {
+      "index": 4,
+      "speaker": "agent",
+      "start_ms": 24440,
+      "end_ms": 28795,
+      "text": "Sorry, that doesn't match our record. Could you say the last four digits again?",
+      "event": null,
+      "asr_confidence": null
+    },
+    {
+      "index": 5,
+      "speaker": "customer",
+      "start_ms": 29245,
+      "end_ms": 31745,
+      "text": "Sorry, 4821",
+      "event": null,
+      "asr_confidence": null
+    },
+    {
+      "index": 6,
+      "speaker": "agent",
+      "start_ms": 32195,
+      "end_ms": 49286,
+      "text": "Thank you, you're verified. I'm calling to remind you that your quarterly premium for Kalinga Protect, 7,350 pesos, is due on Wednesday, October 7. If you need a little more time, there's a 31-day grace period from the due date. When do you think you'll be able to pay?",
+      "event": null,
+      "asr_confidence": null
+    },
+    {
+      "index": 7,
+      "speaker": "customer",
+      "start_ms": 49736,
+      "end_ms": 54152,
+      "text": "Actually I have a question about a claim for my husband, can I talk to an advisor?",
+      "event": null,
+      "asr_confidence": null
+    },
+    {
+      "index": 8,
+      "speaker": "agent",
+      "start_ms": 54602,
+      "end_ms": 58977,
+      "text": "Of course, I'm passing you to a Kalinga Life advisor. One moment please.",
+      "event": null,
+      "asr_confidence": null
+    }
+  ]
+}
